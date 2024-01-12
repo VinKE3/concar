@@ -1,4 +1,3 @@
-import Container from "@/components/Container";
 import { Navbar } from "./_components/navbar";
 
 interface ProtectedLayoutProps {
@@ -8,7 +7,12 @@ interface ProtectedLayoutProps {
 const ProtectedLayout = ({ children }: ProtectedLayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow">
+        {/* <div className="flex justify-center">
+          <Navbar />
+        </div> */}
+        {children}
+      </main>
     </div>
   );
 };

@@ -28,7 +28,7 @@ export const LoginForm = () => {
   const callbackUrl = searchParams.get("callbackUrl");
   const urlError =
     searchParams.get("error") === "OAuthAccountNotLinked"
-      ? "Email already in use with different provider!"
+      ? "Email ya en uso con otra cuenta de Google"
       : "";
 
   const [showTwoFactor, setShowTwoFactor] = useState(false);
@@ -65,16 +65,15 @@ export const LoginForm = () => {
             setShowTwoFactor(true);
           }
         })
-        .catch(() => setError("Something went wrong"));
+        .catch(() => setError("Algo salió mal, inténtalo de nuevo"));
     });
   };
 
   return (
     <CardWrapper
-      headerLabel="Welcome back"
-      backButtonLabel="Don't have an account?"
+      headerLabel="Bienvenido"
+      backButtonLabel="No tienes una cuenta? Regístrate"
       backButtonHref="/auth/register"
-      showSocial
     >
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
@@ -123,7 +122,7 @@ export const LoginForm = () => {
                   name="password"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Password</FormLabel>
+                      <FormLabel>Contraseña</FormLabel>
                       <FormControl>
                         <Input
                           {...field}
@@ -138,7 +137,7 @@ export const LoginForm = () => {
                         asChild
                         className="px-0 font-normal"
                       >
-                        <Link href="/auth/reset">Forgot password?</Link>
+                        <Link href="/auth/reset">Olvidaste la contraseña?</Link>
                       </Button>
                       <FormMessage />
                     </FormItem>
@@ -150,7 +149,7 @@ export const LoginForm = () => {
           <FormError message={error || urlError} />
           <FormSuccess message={success} />
           <Button disabled={isPending} type="submit" className="w-full ">
-            {showTwoFactor ? "Confirm" : "Login"}
+            {showTwoFactor ? "Confirmar" : "Login"}
           </Button>
         </form>
       </Form>
