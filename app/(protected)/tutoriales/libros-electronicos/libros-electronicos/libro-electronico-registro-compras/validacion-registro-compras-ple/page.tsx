@@ -7,6 +7,7 @@ const ValidacionRegistroComprasPle = () => {
   return (
     <div>
       <Layout
+        on
         siguiente
         anterior
         siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/registro-compras-ple"

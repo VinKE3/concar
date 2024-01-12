@@ -3,13 +3,13 @@ import Heading from "@/components/Heading";
 import Table from "@/components/Table";
 import React from "react";
 
-const NumeroBlancoCero = () => {
+const page = () => {
   const data = [
     {
       id: 1,
       title:
-        "Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero",
-      href: "https://miconcar.com/uploads/documentos/858_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_numero_de_documento_debe_ser_numerico_mayor_a_cero.pdf",
+        "Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
+      href: "879_CONCAR_CB_Errores_detectados_en_el_ple_sunat_al_validar_el]_libro_electronico_de_compras.pdf",
     },
   ];
   return (
@@ -21,13 +21,18 @@ const NumeroBlancoCero = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero"
+        title="Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
+      <p>
+        El reporte de información inconsistente brinda un detalle de todos los
+        errores detectados por el PLE-SUNAT durante la validación del libro
+        electrónico, señalando la ubicación del error. Por ejemplo:
+      </p>
       <Table items={data} />
     </Layout>
   );
 };
 
-export default NumeroBlancoCero;
+export default page;

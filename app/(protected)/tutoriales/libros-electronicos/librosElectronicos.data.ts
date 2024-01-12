@@ -147,7 +147,7 @@ export const dataSubLibros = [
               "Validación de Libro Electrónico de Compras - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
             description:
               "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
-            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento55-transporte-ferroviario",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-tipo55-transporte-ferroviario",
           },
         ],
       },
@@ -156,21 +156,21 @@ export const dataSubLibros = [
         title: "Carga del Libro Electrónico de Compras al PLE-SUNAT",
         description:
           "Este tutorial contiene todo lo relacionado a la validación y envío del libro electrónico de compras en el PLE-SUNAT.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple",
         subtitle3: [
           {
             id: "1.1.3.1",
             title: "Cómo Cargar el Libro Electrónico de Compras al PLE-SUNAT",
             description:
               "Procedimiento para cargar el libro electrónico de compras al programa de libros electrónicos PLE-SUNAT.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-cargar-libro-compras",
           },
           {
             id: "1.1.3.2",
             title: "Cómo subsanar inconsistencias en el PLE-SUNAT",
             description:
               "Cómo subsanar las inconsistencias que el PLE detecta en el proceso de validación de los libros electrónicos.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-subsanar-inconsistencias",
           },
         ],
       },
@@ -180,7 +180,7 @@ export const dataSubLibros = [
           "Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
         description:
           "El programa de libros electrónicos (PLE-SUNAT) emite una constancia con los errores detectados al validar el libro electrónico de compras. Se detallan los errores más comunes y como subsanarlos.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras",
         subtitle3: [
           {
             id: "1.1.4.1",
@@ -188,14 +188,14 @@ export const dataSubLibros = [
               "Validación en PLE-SUNAT: El número de documento de identidad es incorrecto",
             description:
               "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque el número de documento de identidad es incorrecto.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras/documento-identidad-incorrecto",
           },
           {
             id: "1.1.4.2",
             title: "Validación en PLE-SUNAT: El valor es incorrecto",
             description:
               "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque en el número de comprobante de pago o documento hay caracteres que no son válidos para el campo.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras/valor-incorrecto",
           },
         ],
       },

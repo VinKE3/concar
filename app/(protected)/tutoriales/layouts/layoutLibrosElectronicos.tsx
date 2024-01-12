@@ -8,6 +8,7 @@ interface LayoutProps {
   anteriorHref?: string;
   siguiente?: boolean;
   siguienteHref?: string;
+  on?: boolean;
 }
 
 export default function Layout({
@@ -16,23 +17,30 @@ export default function Layout({
   anteriorHref,
   siguiente,
   siguienteHref,
+  on,
 }: LayoutProps) {
   return (
-    <Container>
-      <Header
-        title="Libros electrónicos"
-        href="/tutoriales/libros-electronicos"
-        subtitle="Categoría: CONCAR® SIRE SQL"
-        text="ILibros electrónicos Compras, Ventas, Diario y Mayor."
-      />
-      <TriButtons
-        indice="/tutoriales/libros-electronicos"
-        anterior={anterior}
-        anteriorHref={anteriorHref}
-        siguiente={siguiente}
-        siguienteHref={siguienteHref}
-      />
-      {children}
-    </Container>
+    <>
+      {on ? (
+        <Container>
+          <Header
+            title="Libros electrónicos"
+            href="/tutoriales/libros-electronicos"
+            subtitle="Categoría: CONCAR® SIRE SQL"
+            text="ILibros electrónicos Compras, Ventas, Diario y Mayor."
+          />
+          <TriButtons
+            indice="/tutoriales/libros-electronicos"
+            anterior={anterior}
+            anteriorHref={anteriorHref}
+            siguiente={siguiente}
+            siguienteHref={siguienteHref}
+          />
+          {children}
+        </Container>
+      ) : (
+        <Container> {children} </Container>
+      )}
+    </>
   );
 }

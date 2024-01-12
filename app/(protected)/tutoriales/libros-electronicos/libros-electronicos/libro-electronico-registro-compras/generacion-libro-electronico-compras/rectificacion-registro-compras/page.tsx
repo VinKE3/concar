@@ -19,6 +19,7 @@ const RectificacionRegistroCompras = () => {
   ];
   return (
     <Layout
+      on
       anterior={true}
       anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
       siguiente={true}

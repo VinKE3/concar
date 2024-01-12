@@ -3,7 +3,7 @@ import Heading from "@/components/Heading";
 import Table from "@/components/Table";
 import React from "react";
 
-const NumeroBlancoCero = () => {
+const page = () => {
   const data = [
     {
       id: 1,
@@ -21,7 +21,7 @@ const NumeroBlancoCero = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero"
+        title="Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
@@ -30,4 +30,4 @@ const NumeroBlancoCero = () => {
   );
 };
 
-export default NumeroBlancoCero;
+export default page;

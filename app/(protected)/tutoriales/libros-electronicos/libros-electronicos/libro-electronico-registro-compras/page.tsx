@@ -7,6 +7,7 @@ import Layout from "../../../layouts/layoutLibrosElectronicos";
 const LibroElectronicoRegistroCompraPage = () => {
   return (
     <Layout
+      on
       anterior={true}
       anteriorHref="/tutoriales/libros-electronicos/libros-electronicos"
       siguiente={true}

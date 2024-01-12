@@ -8,6 +8,7 @@ const GeneracionLibroCompras = () => {
   const datos = data[0].links;
   return (
     <Layout
+      on
       anterior={true}
       anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
       siguiente={true}

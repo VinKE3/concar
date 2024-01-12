@@ -4,6 +4,7 @@ import Layout from "../../layouts/layoutLibrosElectronicos";
 const LibrosElectronicosPage = () => {
   return (
     <Layout
+      on
       anterior={false}
       siguiente={true}
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
