@@ -3,11 +3,7 @@ import Heading from "@/components/Heading";
 import Table from "@/components/Table";
 import React from "react";
 
-interface Props {
-  on: boolean;
-}
-
-const page = ({ on = true }: Props) => {
+const page = () => {
   const data = [
     {
       id: 1,
@@ -18,7 +14,7 @@ const page = ({ on = true }: Props) => {
   ];
   return (
     <Layout
-      on={on}
+      on
       anterior
       siguiente
       anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
