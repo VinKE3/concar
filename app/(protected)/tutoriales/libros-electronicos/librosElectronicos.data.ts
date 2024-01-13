@@ -204,7 +204,7 @@ export const dataSubLibros = [
         title: "Consultas Libro Electrónico de Compras",
         description:
           "Este tutorial contiene consultas que se pueden presentar en el proceso de la generación del libro electrónico de compras en el sistema CONCAR® y que requieren asistencia para ser superadas.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/consulta-libro-compras",
         subtitle3: [
           {
             id: "1.1.5.1",
@@ -212,7 +212,7 @@ export const dataSubLibros = [
               "Cómo generar el libro electrónico de compras de un mes sin movimiento",
             description:
               "Procedimiento para la generación del archivo TXT del libro electrónico de compras de un mes sin movimiento.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/consulta-libro-compras/como-generar-mes-movimiento",
           },
         ],
       },

@@ -8,8 +8,8 @@ const page = () => {
     {
       id: 1,
       title:
-        "Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
-      href: "https://miconcar.com/uploads/documentos/879_CONCAR_CB_Errores_detectados_en_el_ple_sunat_al_validar_el]_libro_electronico_de_compras.pdf",
+        "Procedimiento para la generación del archivo TXT del libro electrónico de compras de un mes sin movimiento.",
+      href: "https://miconcar.com/uploads/documentos/899_CONCAR_SQL_Como_generar_el_libro_electronico_de_compras_de_un_mes_sin_movimiento.pdf",
     },
   ];
   return (
@@ -21,14 +21,13 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras"
+        title="Cómo generar el libro electrónico de compras de un mes sin movimiento"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
       <p>
-        El reporte de información inconsistente brinda un detalle de todos los
-        errores detectados por el PLE-SUNAT durante la validación del libro
-        electrónico, señalando la ubicación del error. Por ejemplo:
+        Procedimiento para la generación del archivo TXT del libro electrónico
+        de compras de un mes sin movimiento.
       </p>
       <Table items={data} />
     </Layout>
