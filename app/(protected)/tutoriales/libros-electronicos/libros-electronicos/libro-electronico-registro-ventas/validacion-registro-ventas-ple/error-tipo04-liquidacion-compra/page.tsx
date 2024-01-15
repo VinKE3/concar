@@ -4,6 +4,14 @@ import Table from "@/components/Table";
 import React from "react";
 
 const page = () => {
+  const data = [
+    {
+      id: 1,
+      title:
+        "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 04 Liquidación de Compra",
+      href: "https://miconcar.com/uploads/documentos/865_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_error_en_el_numero_de_serie_para_el_documento_de_tipo_04_liquidacion_de_compra.pdf",
+    },
+  ];
   return (
     <Layout
       on
@@ -13,10 +21,11 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Consultas Libro Electrónico de Ventas"
+        title="Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 04 Liquidación de Compra"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
+      <Table items={data} />
     </Layout>
   );
 };

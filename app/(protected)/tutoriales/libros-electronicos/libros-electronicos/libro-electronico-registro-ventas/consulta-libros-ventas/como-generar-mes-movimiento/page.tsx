@@ -8,8 +8,8 @@ const page = () => {
     {
       id: 1,
       title:
-        "Procedimiento para la generación del archivo TXT del libro electrónico de compras de un mes sin movimiento.",
-      href: "https://miconcar.com/uploads/documentos/899_CONCAR_SQL_Como_generar_el_libro_electronico_de_compras_de_un_mes_sin_movimiento.pdf",
+        "Cómo generar el libro electrónico de ventas de un mes sin movimiento",
+      href: "https://miconcar.com/uploads/documentos/907_CONCAR_SQL_Como_generar_el_libro_electronico_de_ventas_de_un_mes_sin_movimiento.pdf",
     },
   ];
   return (
@@ -21,14 +21,11 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Cómo generar el libro electrónico de compras de un mes sin movimiento"
+        title="Cómo generar el libro electrónico de Ventas de un mes sin movimiento"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
-      <p>
-        Procedimiento para la generación del archivo TXT del libro electrónico
-        de compras de un mes sin movimiento.
-      </p>
+
       <Table items={data} />
     </Layout>
   );

@@ -170,7 +170,7 @@ export const dataSubLibros = [
             title: "Cómo subsanar inconsistencias en el PLE-SUNAT",
             description:
               "Cómo subsanar las inconsistencias que el PLE detecta en el proceso de validación de los libros electrónicos.",
-            href: "tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-subsanar-inconsistencias",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-subsanar-inconsistencias",
           },
         ],
       },
@@ -223,21 +223,21 @@ export const dataSubLibros = [
     title: "Libro Electrónico Registro de Ventas",
     description:
       "En este tutorial se detalla el proceso para la generación, validación y carga óptima del libro electrónico de ventas en el Programa de Libros Electrónicos (PLE-SUNAT).",
-    href: "/tutoriales/libros-electronicos",
+    href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas",
     subtitle2: [
       {
         id: "1.2.1",
         title: "Generación del Libro Electrónico de Ventas",
         description:
           "Este tutorial contiene todo lo relacionado a la creación del libro electrónico de ventas en el sistema CONCAR®.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas",
         subtitle3: [
           {
             id: "1.2.1.1",
             title: "Cómo Generar el Libro Electrónico de Ventas",
             description:
               "El presente documento detalla el procedimiento a realizar en el CONCAR para generar el libro electrónico de compras.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/como-generar-libro-ventas",
           },
           {
             id: "1.2.1.2",
@@ -245,7 +245,7 @@ export const dataSubLibros = [
               "Estado o Indicador de la Operación en el Libro Electrónico de Ventas",
             description:
               "Procedimiento para registrar operaciones de ventas según el estado a informar.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/estado-indicador-libro-ventas",
           },
           {
             id: "1.2.1.3",
@@ -253,7 +253,7 @@ export const dataSubLibros = [
               "Rectificación - Registros Adicionales en Registro de ventas Electrónico",
             description:
               "En esta opción solo se registrarán las rectificaciones de los comprobantes de ventas que se informarán en la declaración del libro electrónico de compras.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/rectificacion-registro-ventas",
           },
         ],
       },
@@ -261,72 +261,72 @@ export const dataSubLibros = [
         id: "1.2.2",
         title: "Validación de Registro de Ventas - PLE",
         description:
-          "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de compras, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
-        href: "/tutoriales/libros-electronicos/",
+          "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de ventas, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple",
         subtitle3: [
           {
             id: "1.2.2.1",
             title:
-              "Validación de Libro Electrónico de Ventas - Número de documento no debe estar en blanco o en cero",
+              "Validación de Libro Electrónico de Ventas - Número de documento debe ser numérico mayor a cero",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de documento en el registro, el campo no debe estar en blanco ni ser cero.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de documento en el registro, el campo debe ser numérico mayor a cero.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/numero-numerico-mayor-cero",
           },
           {
             id: "1.2.2.2",
             title:
-              "Validación de Libro Electrónico de Ventas - Número de documento no debe estar en blanco o en cero",
+              "Validación de Libro Electrónico de Ventas - Error en el número de serie para el documento de tipo 01 Factura",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de serie del documento registrado.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie del documento tipo 01 factura.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo01-factura",
           },
           {
             id: "1.1.2.3",
             title:
-              "Validación de Libro Electrónico de Ventas - Error en número de serie para el documento de tipo 01 Factura",
+              "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 03 Boleta de Venta",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 01 Factura",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-documento03-boleta-venta",
           },
           {
             id: "1.2.2.4",
             title:
-              "Validación de Libro Electrónico de Ventas - Para código de documento SUNAT 01 Factura, documento de proveedor debe ser código 6 RUC",
+              "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 04 Liquidación de Compra",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no seleccionar un tipo de documento correcto para un proveedor del exterior.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 04 Liquidación de Compra.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo04-liquidacion-compra",
           },
           {
             id: "1.2.2.5",
             title:
-              "Validación de Libro Electrónico de Ventas - Error en número de serie para tipo de documento 02 Recibo por Honorarios",
+              "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 05 Boleto Aéreo",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie del tipo de documento recibo por honorarios.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 05 Boleto Aéreo.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo05-boleto-aereo",
           },
           {
             id: "1.2.2.6",
             title:
-              "Validación de Libro Electrónico de Ventas - Error en número de serie para el documento de tipo 10 Recibo por Arrendamiento",
+              "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 06 Carta de Porte aéreo",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación porque el número de serie del documento tipo 10 Recibo por arrendamiento está incompleto y falta registrar el código por el aporte de renta de primero categoría.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 06 Carta de porte aéreo.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-documento06-carta-porte",
           },
           {
             id: "1.2.2.7",
             title:
-              "Validación de Libro Electrónico de Ventas - Error en número de serie para el documento de tipo 03 Boleta de Venta",
+              "Validación de Libro Electrónico de Ventas - Falta documento de referencia para el documento tipo 08 Nota de Débito",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar los datos del documento de referencia para el documento tipo 08 Nota de Débito.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo08-nota-debito",
           },
           {
             id: "1.2.2.8",
             title:
-              "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 06 Carta de Porte Aéreo",
+              "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 06 Carta de Porte Aéreo.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo55-transporte-ferroviario",
           },
         ],
       },
@@ -335,21 +335,21 @@ export const dataSubLibros = [
         title: "Carga del Libro Electrónico de Ventas al PLE-SUNAT",
         description:
           "Este tutorial contiene todo lo relacionado a la validación y envío del libro electrónico de compras en el PLE-SUNAT.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple",
         subtitle3: [
           {
             id: "1.2.3.1",
             title: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT",
             description:
               "Procedimiento para cargar el libro electrónico de Ventas al programa de libros electrónicos PLE-SUNAT.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple/como-cargar-libro-ventas",
           },
           {
             id: "1.2.3.2",
             title: "Cómo subsanar inconsistencias en el PLE-SUNAT",
             description:
               "Cómo subsanar las inconsistencias que el PLE detecta en el proceso de validación de los libros electrónicos.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple/subsanar-inconsistencias",
           },
         ],
       },
@@ -359,7 +359,7 @@ export const dataSubLibros = [
           "Errores detectados en el PLE-SUNAT al validar el libro electrónico de Ventas",
         description:
           "El programa de libros electrónicos (PLE-SUNAT) emite una constancia con los errores detectados al validar el libro electrónico de compras. Se detallan los errores más comunes y como subsanarlos.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validar-libro-electronico-ventas",
         subtitle3: [
           {
             id: "1.2.4.1",
@@ -367,14 +367,14 @@ export const dataSubLibros = [
               "Validación en PLE-SUNAT: El número de documento de identidad es incorrecto",
             description:
               "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque el número de documento de identidad es incorrecto.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validar-libro-electronico-ventas/documento-identidad-incorrecto",
           },
           {
             id: "1.2.4.2",
             title: "Validación en PLE-SUNAT: El valor es incorrecto",
             description:
               "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque en el número de comprobante de pago o documento hay caracteres que no son válidos para el campo.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validar-libro-electronico-ventas/valor-incorrecto",
           },
         ],
       },
@@ -383,7 +383,7 @@ export const dataSubLibros = [
         title: "Consultas Libro Electrónico de Ventas",
         description:
           "Este tutorial contiene consultas que se pueden presentar en el proceso de la generación del libro electrónico de Ventas en el sistema CONCAR® y que requieren asistencia para ser superadas.",
-        href: "/tutoriales/libros-electronicos/",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/consulta-libros-ventas",
         subtitle3: [
           {
             id: "1.2.5.1",
@@ -391,7 +391,7 @@ export const dataSubLibros = [
               "Cómo generar el libro electrónico de Ventas de un mes sin movimiento",
             description:
               "Procedimiento para la generación del archivo TXT del libro electrónico de compras de un mes sin movimiento.",
-            href: "/tutoriales/libros-electronicos/",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/consulta-libros-ventas/como-generar-mes-movimiento",
           },
         ],
       },
@@ -402,70 +402,74 @@ export const dataSubLibros = [
     title: "Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima de los libros electrónicos Diario, Diario Simplificado y Mayor en el Programa de Libros Electrónicos (PLE-SUNAT).",
-    href: "/tutoriales/libros-electronicos",
+    href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado",
     subtitle2: [
       {
         id: "1.3.1",
-        title: "Generación del Libro Electrónico de Ventas",
+        title:
+          "Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor",
         description:
-          "Este tutorial contiene todo lo relacionado a la creación del libro electrónico de ventas en el sistema CONCAR®.",
-        href: "/tutoriales/libros-electronicos/",
+          "Este tutorial contiene todo lo relacionado a la creación de los libros electrónicos Diario, Diario Simplificado y Mayor en el sistema CONCAR®.",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado",
         subtitle3: [
           {
             id: "1.3.1.1",
-            title: "Cómo Generar el Libro Electrónico de Ventas",
+            title:
+              "Cómo Generar los Libros Electrónicos Diario, Diario Simplificado y Mayor",
             description:
-              "El presente documento detalla el procedimiento a realizar en el CONCAR para generar el libro electrónico de compras.",
-            href: "/tutoriales/libros-electronicos/",
+              "El presente documento detalla el procedimiento a realizar en el CONCAR SQL para generar los libros electrónicos Diario y Mayor.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado/como-generar-libro-diario-simplificado",
           },
           {
             id: "1.3.1.2",
             title:
-              "Estado o Indicador de la Operación en el Libro Electrónico de Ventas",
+              "Registro de Omisiones en los Libros Electrónicos Diario, Diario Simplificado y Mayor",
             description:
-              "Procedimiento para registrar operaciones de ventas según el estado a informar.",
-            href: "/tutoriales/libros-electronicos/",
+              "Esta opción permite incluir asientos omitidos en meses anteriores en los libros electrónicos Diario y Mayor. Para poder incluir asientos en esta opción es necesario que el comprobante contable omitido se registre en el mes en que se va a regularizar su omisión.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado/registro-omisiones-libro-diario-simplificado",
           },
         ],
       },
       {
         id: "1.3.2",
-        title: "Validación de Registro de Ventas - PLE",
+        title:
+          "Carga de los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT",
         description:
-          "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de compras, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
-        href: "/tutoriales/libros-electronicos/",
+          "Este tutorial contiene todo lo relacionado a la validación y envío de los libros electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT.",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/carga-libro-diario-simplificado",
         subtitle3: [
           {
             id: "1.3.2.1",
             title:
-              "Validación de Libro Electrónico de Ventas - Número de documento no debe estar en blanco o en cero",
+              "Cómo Cargar los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de documento en el registro, el campo no debe estar en blanco ni ser cero.",
-            href: "/tutoriales/libros-electronicos/",
+              "Procedimiento para cargar los libros electrónicos Diario, Diario Simplificado y Mayor al programa de libros electrónicos PLE-SUNAT.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/carga-libro-diario-simplificado/como-cargar-libro-diario",
           },
           {
             id: "1.3.2.2",
-            title:
-              "Validación de Libro Electrónico de Ventas - Número de documento no debe estar en blanco o en cero",
+            title: "Cómo subsanar inconsistencias en el PLE-SUNAT",
             description:
-              "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de serie del documento registrado.",
-            href: "/tutoriales/libros-electronicos/",
+              "Cómo subsanar las inconsistencias que el PLE detecta en el proceso de validación de los libros electrónicos.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/carga-libro-diario-simplificado/como-subsanar-inconsistencias",
           },
         ],
       },
       {
         id: "1.3.3",
-        title: "Carga del Libro Electrónico de Ventas al PLE-SUNAT",
+        title:
+          "Validación en PLE-SUNAT de los libros electrónicos Diario, Diario Simplificado y Mayor",
         description:
-          "Este tutorial contiene todo lo relacionado a la validación y envío del libro electrónico de compras en el PLE-SUNAT.",
-        href: "/tutoriales/libros-electronicos/",
+          "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico diario, diario simplificado y mayor, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
+        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/validacion-libro-diario-simplificado",
         subtitle3: [
           {
             id: "1.3.3.1",
-            title: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT",
+            title:
+              "Validación en PLE-SUNAT: Campo obligatorio / La llave única es incorrecta",
             description:
-              "Procedimiento para cargar el libro electrónico de Ventas al programa de libros electrónicos PLE-SUNAT.",
-            href: "/tutoriales/libros-electronicos/",
+              "Al intentar validar el libro electrónico diario en el PLE - SUNAT aparece una observación porque no se ha creado correctamente la compañía en el sistema, debido a que se dejó vacío el campo Tipo de Plan de Cuentas.",
+            href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/validacion-libro-diario-simplificado/campo-obligatorio-llave-incorrecta",
           },
         ],
       },

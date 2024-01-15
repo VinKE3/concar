@@ -7,7 +7,7 @@ const page = () => {
   const data = [
     {
       id: 1,
-      title: "Cómo Cargar el Libro Electrónico de Compras al PLE-SUNAT.",
+      title: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT.",
       href: "https://miconcar.com/uploads/documentos/858_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_numero_de_documento_debe_ser_numerico_mayor_a_cero.pdf",
     },
     {
@@ -18,7 +18,7 @@ const page = () => {
     {
       id: 3,
       title:
-        "Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras.",
+        "Errores detectados en el PLE-SUNAT al validar el libro electrónico de ventas.",
       href: "https://miconcar.com/uploads/documentos/858_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_numero_de_documento_debe_ser_numerico_mayor_a_cero.pdf",
     },
   ];
@@ -31,7 +31,7 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Carga del Libro Electrónico de Compras al PLE-SUNAT"
+        title="Carga del Libro Electrónico de Ventas al PLE-SUNAT"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />

@@ -17,7 +17,7 @@ const InstalacionConcarPage = () => {
         id="1"
         title="¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video"
         description="Procedimiento para la Actualización del CONCAR SQL"
-        href="/tutoriales/instalacion-concar/instalacion-concar"
+        href="/tutoriales/instalacion-concar/proceso-actualizacion-concar-sql"
       />
     </Container>
   );

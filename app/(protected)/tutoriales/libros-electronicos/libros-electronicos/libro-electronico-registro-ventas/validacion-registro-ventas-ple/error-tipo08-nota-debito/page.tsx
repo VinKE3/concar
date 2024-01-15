@@ -4,6 +4,14 @@ import Table from "@/components/Table";
 import React from "react";
 
 const page = () => {
+  const data = [
+    {
+      id: 1,
+      title:
+        "Falta documento de referencia para tipo de documento 08 - Nota de débito",
+      href: "https://miconcar.com/uploads/documentos/862_FALTA_DOCUMENTO_DE_REFERENCIA_PARA_DOCUMENTO_TIPO_08.pdf",
+    },
+  ];
   return (
     <Layout
       on
@@ -13,10 +21,11 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Consultas Libro Electrónico de Ventas"
+        title="Validación de Libro Electrónico de Ventas - Falta documento de referencia para el documento tipo 08 Nota de Débito"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
+      <Table items={data} />
     </Layout>
   );
 };

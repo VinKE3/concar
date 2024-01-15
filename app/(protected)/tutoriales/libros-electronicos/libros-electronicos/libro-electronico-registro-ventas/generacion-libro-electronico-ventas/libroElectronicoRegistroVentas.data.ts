@@ -1,32 +1,32 @@
 export const data = [
   {
     id: 1,
-    title: "I. Generación del Libro Electrónico de Compras",
-    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras",
+    title: "I. Generación del Libro Electrónico de Ventas",
+    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas",
     links: [
       {
         id: 1,
-        title: "Cómo Generar el Libro Electrónico de Compras.",
-        href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras/generacion-libro-electronico-compras",
+        title: "Cómo Generar el Libro Electrónico de Ventas.",
+        href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/generacion-libro-electronico-ventas",
       },
       {
         id: 2,
         title:
-          "Estado o Indicador de la Operación en el Libro Electrónico de Compras.",
-        href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras/generacion-libro-electronico-compras",
+          "Estado o Indicador de la Operación en el Libro Electrónico de Ventas.",
+        href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/generacion-libro-electronico-ventas",
       },
       {
         id: 3,
         title:
-          "Rectificación - Registros Adicionales en Registro de Compras Electrónico.",
-        href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras/generacion-libro-electronico-compras",
+          "Rectificación - Registros Adicionales en Registro de Ventas Electrónico.",
+        href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/generacion-libro-electronico-ventas",
       },
     ],
   },
   {
     id: 2,
-    title: "II. Validación de Registro de Compras - PLE",
-    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/validacion-registro-compras-ple",
+    title: "II. Validación de Registro de Ventas - PLE",
+    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/validacion-registro-ventas-ple",
     links: [
       {
         id: 1,
@@ -107,12 +107,12 @@ export const data = [
   },
   {
     id: 3,
-    title: "III. Carga del Libro Electrónico de Compras al PLE-SUNAT",
-    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras",
+    title: "III. Carga del Libro Electrónico de Ventas al PLE-SUNAT",
+    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas",
     links: [
       {
         id: 1,
-        title: "Cómo Cargar el Libro Electrónico de Compras al PLE-SUNAT.",
+        title: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT.",
         href: "/tutoriales/libros-electronicos",
       },
       {
@@ -125,8 +125,8 @@ export const data = [
   {
     id: 4,
     title:
-      "IV. Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
-    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras",
+      "IV. Errores detectados en el PLE-SUNAT al validar el libro electrónico de ventas",
+    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas",
     links: [
       {
         id: 1,
@@ -143,8 +143,8 @@ export const data = [
   },
   {
     id: 5,
-    title: "V. Consultas Libro Electrónico de Compras",
-    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-compras/generacion-libro-electronico-compras",
+    title: "V. Consultas Libro Electrónico de Ventas",
+    href: "/tutoriales/libros-electronicos/layout/libro-electronico-registro-ventas/generacion-libro-electronico-ventas",
     links: [
       {
         id: 1,
@@ -154,7 +154,7 @@ export const data = [
       {
         id: 2,
         title:
-          "Cómo generar el libro electrónico de compras de un mes sin movimiento.",
+          "Cómo generar el libro electrónico de Ventas de un mes sin movimiento.",
         href: "/tutoriales/libros-electronicos",
       },
     ],

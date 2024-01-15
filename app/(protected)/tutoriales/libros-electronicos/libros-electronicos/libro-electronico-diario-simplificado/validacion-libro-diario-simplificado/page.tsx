@@ -1,11 +1,16 @@
 import Heading from "@/components/Heading";
+import Table from "@/components/Table";
 import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import React from "react";
-import { data } from "../../libro-electronico-registro-ventas/generacion-libro-electronico-ventas/libroElectronicoRegistroVentas.data";
-import List from "@/components/List";
 
-const GeneracionLibroCompras = () => {
-  const datos = data[0].links;
+const page = () => {
+  const data = [
+    {
+      id: 1,
+      title: "Cómo Generar el Libro Electrónico de Compras",
+      href: "https://miconcar.com/uploads/documentos/841_CONCAR_SQL_Como_generar_el_libro_electronico_de_compras.pdf",
+    },
+  ];
   return (
     <Layout
       on
@@ -15,14 +20,12 @@ const GeneracionLibroCompras = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
     >
       <Heading
-        title="Generación del Libro Electrónico de Compras"
+        title="Validación en PLE-SUNAT de los libros electrónicos Diario, Diario Simplificado y Mayor"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
-      <h1>Este tutorial contiene:</h1>
-      <List items={datos} />
     </Layout>
   );
 };
 
-export default GeneracionLibroCompras;
+export default page;

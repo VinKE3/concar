@@ -1,10 +1,10 @@
 "use client";
 import Heading from "@/components/Heading";
-import { data } from "../../libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/libroElectronicoRegistroVentas.data";
+import { data } from "../../libros-electronicos/libro-electronico-diario-simplificado/libroElectronicoDiarioSimplificado.data";
 import List from "@/components/List";
 import Layout from "../../../layouts/layoutLibrosElectronicos";
 
-const LibroElectronicoRegistroVentasPage = () => {
+const LibroElectronicoRegistroCompraPage = () => {
   return (
     <Layout
       on
@@ -14,7 +14,7 @@ const LibroElectronicoRegistroVentasPage = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
     >
       <Heading
-        title="Libro Electrónico Registro de Ventas"
+        title="Libros Electrónicos Diario, Diario Simplificado y Mayor"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
@@ -30,4 +30,4 @@ const LibroElectronicoRegistroVentasPage = () => {
   );
 };
 
-export default LibroElectronicoRegistroVentasPage;
+export default LibroElectronicoRegistroCompraPage;

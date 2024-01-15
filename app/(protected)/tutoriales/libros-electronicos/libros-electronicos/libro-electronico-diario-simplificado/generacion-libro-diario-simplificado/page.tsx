@@ -1,21 +1,22 @@
+"use client";
 import Heading from "@/components/Heading";
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
-import React from "react";
-import { data } from "../../libro-electronico-registro-ventas/generacion-libro-electronico-ventas/libroElectronicoRegistroVentas.data";
+import { data } from "../../libro-electronico-diario-simplificado/libroElectronicoDiarioSimplificado.data";
 import List from "@/components/List";
+import Layout from "../../../../layouts/layoutLibrosElectronicos";
 
-const GeneracionLibroCompras = () => {
+const LibroElectronicoRegistroCompraPage = () => {
   const datos = data[0].links;
+  console.log(datos);
   return (
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos"
       siguiente={true}
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
     >
       <Heading
-        title="Generación del Libro Electrónico de Compras"
+        title="Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
@@ -25,4 +26,4 @@ const GeneracionLibroCompras = () => {
   );
 };
 
-export default GeneracionLibroCompras;
+export default LibroElectronicoRegistroCompraPage;

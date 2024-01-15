@@ -4,6 +4,13 @@ import Table from "@/components/Table";
 import React from "react";
 
 const page = () => {
+  const data = [
+    {
+      id: 1,
+      title: "Error en serie para el documento de tipo 05 Boleto Aéreo.",
+      href: "https://miconcar.com/uploads/documentos/863_concar_cb_sql_c1_1_error_serie_boleta_aereo_v1_2.pdf",
+    },
+  ];
   return (
     <Layout
       on
@@ -13,10 +20,11 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-cero"
     >
       <Heading
-        title="Consultas Libro Electrónico de Ventas"
+        title="Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 05 Boleto Aéreo"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
+      <Table items={data} />
     </Layout>
   );
 };
