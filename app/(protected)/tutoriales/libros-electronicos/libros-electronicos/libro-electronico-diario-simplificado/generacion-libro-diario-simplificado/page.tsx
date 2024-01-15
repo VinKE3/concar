@@ -6,7 +6,6 @@ import Layout from "../../../../layouts/layoutLibrosElectronicos";
 
 const LibroElectronicoRegistroCompraPage = () => {
   const datos = data[0].links;
-  console.log(datos);
   return (
     <Layout
       on

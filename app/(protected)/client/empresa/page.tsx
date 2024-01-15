@@ -3,15 +3,10 @@
 import { UserInfo } from "@/components/user-info";
 import { useCurrentUser } from "@/hooks/use-current-user";
 
-const ClientPage = () => {
+const EmpresaPage = () => {
   const user = useCurrentUser();
 
-  return ( 
-    <UserInfo
-      label="📱 Client component"
-      user={user}
-    />
-   );
-}
- 
-export default ClientPage;
+  return <UserInfo label="Mi Empresa" user={user} />;
+};
+
+export default EmpresaPage;

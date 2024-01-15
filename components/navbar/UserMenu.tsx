@@ -1,16 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { use, useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import MenuItem from "./MenuItem";
 import Avatar from "./Avatar";
 import BackDrop from "../BackDrop";
 import { signOut } from "next-auth/react";
-import { SafeUser } from "@/types";
 import { useRouter } from "next/navigation";
 import { User } from "next-auth";
 import { UserRole } from "@prisma/client";
+import { LogOut, User2 } from "lucide-react";
 
 interface UserMenuProps {
   currentUser:
@@ -27,9 +27,9 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
     setIsOpen((prev) => !prev);
   }, []);
 
-  useEffect(() => {
-    if (!currentUser) router.push("/");
-  }, [currentUser]);
+  // useEffect(() => {
+  //   if (!currentUser) router.push("/");
+  // }, [currentUser]);
 
   return (
     <>
@@ -75,18 +75,20 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
           >
             {currentUser ? (
               <div>
-                {/* {currentUser.role === "ADMIN" && (
-                  <Link href="/admin">
-                    <MenuItem onClick={toggleOpen}>Admin Dashboard</MenuItem>
-                  </Link>
-                )} */}
                 <hr />
+                <Link href="/client/datos">
+                  <MenuItem onClick={toggleOpen}>
+                    <User2 className="" />
+                    Mi perfil
+                  </MenuItem>
+                </Link>
                 <MenuItem
                   onClick={async () => {
                     toggleOpen();
                     await signOut();
                   }}
                 >
+                  <LogOut className="" />
                   Salir
                 </MenuItem>
               </div>

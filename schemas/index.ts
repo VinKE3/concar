@@ -1,65 +1,96 @@
 import * as z from "zod";
 import { UserRole } from "@prisma/client";
 
-export const SettingsSchema = z.object({
-  name: z.optional(z.string()),
-  isTwoFactorEnabled: z.optional(z.boolean()),
-  role: z.enum([UserRole.ADMIN, UserRole.USER]),
-  email: z.optional(z.string().email()),
-  password: z.optional(z.string().min(6)),
-  newPassword: z.optional(z.string().min(6)),
-})
-  .refine((data) => {
-    if (data.password && !data.newPassword) {
-      return false;
-    }
-
-    return true;
-  }, {
-    message: "New password is required!",
-    path: ["newPassword"]
+export const SettingsSchema = z
+  .object({
+    id: z.string().uuid(),
+    name: z.optional(z.string()),
+    isTwoFactorEnabled: z.optional(z.boolean()),
+    role: z.enum([UserRole.ADMIN, UserRole.USER]),
+    email: z.optional(z.string().email()),
+    password: z.optional(z.string().min(6)),
+    newPassword: z.optional(z.string().min(6)),
   })
-  .refine((data) => {
-    if (data.newPassword && !data.password) {
-      return false;
-    }
+  .refine(
+    (data) => {
+      if (data.password && !data.newPassword) {
+        return false;
+      }
 
-    return true;
-  }, {
-    message: "Password is required!",
-    path: ["password"]
+      return true;
+    },
+    {
+      message: "Nueva contraseña es requerida!",
+      path: ["newPassword"],
+    }
+  )
+  .refine(
+    (data) => {
+      if (data.newPassword && !data.password) {
+        return false;
+      }
+
+      return true;
+    },
+    {
+      message: "Contraseña actual es requerida!",
+      path: ["password"],
+    }
+  );
+
+export const ChangePasswordSchema = z
+  .object({
+    password: z.string().min(6, {
+      message: "Minimo 6 caracteres requeridos",
+    }),
+    newPassword: z.string().min(6, {
+      message: "Minimo 6 caracteres requeridos",
+    }),
   })
+  .refine(
+    (data) => {
+      if (data.password && !data.newPassword) {
+        return false;
+      }
+
+      return true;
+    },
+    {
+      message: "Nueva contraseña es requerida!",
+      path: ["newPassword"],
+    }
+  );
 
 export const NewPasswordSchema = z.object({
   password: z.string().min(6, {
-    message: "Minimum of 6 characters required",
+    message: "Minimo 6 caracteres requeridos",
   }),
 });
 
 export const ResetSchema = z.object({
   email: z.string().email({
-    message: "Email is required",
+    message: "Email es requerido",
   }),
 });
 
 export const LoginSchema = z.object({
   email: z.string().email({
-    message: "Email is required",
+    message: "Email es requerido",
   }),
   password: z.string().min(1, {
-    message: "Password is required",
+    message: "Contraseña es requerida",
   }),
   code: z.optional(z.string()),
 });
 
 export const RegisterSchema = z.object({
   email: z.string().email({
-    message: "Email is required",
+    message: "Email es requerido",
   }),
   password: z.string().min(6, {
-    message: "Minimum 6 characters required",
+    message: "Minimo 6 caracteres requeridos",
   }),
   name: z.string().min(1, {
-    message: "Name is required",
+    message: "Nombre es requerido",
   }),
 });

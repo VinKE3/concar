@@ -1,5 +1,3 @@
-import { Navbar } from "./_components/navbar";
-
 interface ProtectedLayoutProps {
   children: React.ReactNode;
 }
@@ -7,12 +5,7 @@ interface ProtectedLayoutProps {
 const ProtectedLayout = ({ children }: ProtectedLayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
-        {/* <div className="flex justify-center">
-          <Navbar />
-        </div> */}
-        {children}
-      </main>
+      <main className="flex-grow">{children}</main>
     </div>
   );
 };

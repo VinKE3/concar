@@ -13,9 +13,9 @@ import {
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,  
+  FormMessage,
 } from "@/components/ui/form";
-import { CardWrapper } from "@/components/auth/card-wrapper"
+import { CardWrapper } from "@/components/auth/card-wrapper";
 import { Button } from "@/components/ui/button";
 import { FormError } from "@/components/form-error";
 import { FormSuccess } from "@/components/form-success";
@@ -38,25 +38,21 @@ export const ResetForm = () => {
     setSuccess("");
 
     startTransition(() => {
-      reset(values)
-        .then((data) => {
-          setError(data?.error);
-          setSuccess(data?.success);
-        });
+      reset(values).then((data) => {
+        setError(data?.error);
+        setSuccess(data?.success);
+      });
     });
   };
 
   return (
     <CardWrapper
-      headerLabel="Forgot your password?"
-      backButtonLabel="Back to login"
+      headerLabel="olvidaste tu contraseña?"
+      backButtonLabel="Volver al inicio de sesión"
       backButtonHref="/auth/login"
     >
       <Form {...form}>
-        <form 
-          onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-6"
-        >
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
           <div className="space-y-4">
             <FormField
               control={form.control}
@@ -79,12 +75,8 @@ export const ResetForm = () => {
           </div>
           <FormError message={error} />
           <FormSuccess message={success} />
-          <Button
-            disabled={isPending}
-            type="submit"
-            className="w-full"
-          >
-            Send reset email
+          <Button disabled={isPending} type="submit" className="w-full">
+            Enviar correo de restablecimiento
           </Button>
         </form>
       </Form>

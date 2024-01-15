@@ -19,11 +19,11 @@ interface NavBarProps {
 const redressed = Redressed({ subsets: ["latin"], weight: ["400"] });
 
 const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
-  useEffect(() => {
-    if (window.location.pathname === "/" && currentUser) {
-      signOut();
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.location.pathname === "/" && currentUser) {
+  //     signOut();
+  //   }
+  // }, []);
   return (
     <div
       className="

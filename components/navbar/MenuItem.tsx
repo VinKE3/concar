@@ -12,6 +12,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ children, onClick }) => {
     py-3
     hover:bg-neutral-100
     transition
+    flex gap-2 items-center
     "
     >
       {children}
