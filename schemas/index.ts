@@ -1,13 +1,13 @@
 import * as z from "zod";
-import { UserRole } from "@prisma/client";
+import { UserRole, ambiente, estado, tipo } from "@prisma/client";
 
 export const SettingsSchema = z
   .object({
-    id: z.string().uuid(),
     name: z.optional(z.string()),
     isTwoFactorEnabled: z.optional(z.boolean()),
     role: z.enum([UserRole.ADMIN, UserRole.USER]),
     email: z.optional(z.string().email()),
+    cargo: z.optional(z.string().min(1)),
     password: z.optional(z.string().min(6)),
     newPassword: z.optional(z.string().min(6)),
   })
@@ -84,13 +84,21 @@ export const LoginSchema = z.object({
 });
 
 export const RegisterSchema = z.object({
+  name: z.string().min(1, {
+    message: "Nombre es requerido",
+  }),
   email: z.string().email({
     message: "Email es requerido",
   }),
   password: z.string().min(6, {
     message: "Minimo 6 caracteres requeridos",
   }),
-  name: z.string().min(1, {
-    message: "Nombre es requerido",
+  cargo: z.string().min(1, {
+    message: "Cargo es requerido",
   }),
+  ambiente: z.enum([ambiente.Administrador, ambiente.Cliente]),
+  tipo: z.enum([tipo.Master, tipo.Plata]),
+  estado: z.enum([estado.Vigente, estado.Inactivo]),
+
+  telefono: z.string().optional(),
 });

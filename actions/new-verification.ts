@@ -8,32 +8,32 @@ export const newVerification = async (token: string) => {
   const existingToken = await getVerificationTokenByToken(token);
 
   if (!existingToken) {
-    return { error: "Token does not exist!" };
+    return { error: "Token no existe!" };
   }
 
   const hasExpired = new Date(existingToken.expires) < new Date();
 
   if (hasExpired) {
-    return { error: "Token has expired!" };
+    return { error: "El token expiro!" };
   }
 
   const existingUser = await getUserByEmail(existingToken.email);
 
   if (!existingUser) {
-    return { error: "Email does not exist!" };
+    return { error: "Email no existe!" };
   }
 
   await db.user.update({
     where: { id: existingUser.id },
-    data: { 
+    data: {
       emailVerified: new Date(),
       email: existingToken.email,
-    }
+    },
   });
 
   await db.verificationToken.delete({
-    where: { id: existingToken.id }
+    where: { id: existingToken.id },
   });
 
-  return { success: "Email verified!" };
+  return { success: "Email Verificado!" };
 };

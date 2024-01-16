@@ -11,6 +11,10 @@ export type SafeUser =
       role: UserRole;
       isTwoFactorEnabled: boolean;
       isOAuth: boolean;
+      name: string;
+      email: string;
+      cargo: string;
+      telefono: string;
     })
   | null
   | undefined;

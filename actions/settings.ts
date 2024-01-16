@@ -13,12 +13,12 @@ import { sendVerificationEmail } from "@/lib/mail";
 
 export const settings = async (values: z.infer<typeof SettingsSchema>) => {
   const user = await currentUser();
-
   if (!user) {
     return { error: "No Autorizado" };
   }
 
   const dbUser = await getUserById(user.id);
+  console.log(dbUser, "dbUser");
 
   if (!dbUser) {
     return { error: "No Autorizado" };
@@ -68,7 +68,6 @@ export const settings = async (values: z.infer<typeof SettingsSchema>) => {
       ...values,
     },
   });
-  console.log(updatedUser);
 
   update({
     user: {

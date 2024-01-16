@@ -21,6 +21,7 @@ export default async function RootLayout({
 }) {
   const session = await auth();
   const currentUser = session?.user;
+
   return (
     <SessionProvider session={session}>
       <html lang="en">

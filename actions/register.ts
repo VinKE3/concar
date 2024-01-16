@@ -11,18 +11,18 @@ import { generateVerificationToken } from "@/lib/tokens";
 
 export const register = async (values: z.infer<typeof RegisterSchema>) => {
   const validatedFields = RegisterSchema.safeParse(values);
-
   if (!validatedFields.success) {
-    return { error: "Invalid fields!" };
+    return { error: "Campos Invalidos!" };
   }
 
-  const { email, password, name } = validatedFields.data;
+  const { email, password, name, cargo, ambiente, tipo, estado, telefono } =
+    validatedFields.data;
   const hashedPassword = await bcrypt.hash(password, 10);
 
   const existingUser = await getUserByEmail(email);
 
   if (existingUser) {
-    return { error: "Email already in use!" };
+    return { error: "Email en uso!" };
   }
 
   await db.user.create({
@@ -30,11 +30,16 @@ export const register = async (values: z.infer<typeof RegisterSchema>) => {
       name,
       email,
       password: hashedPassword,
+      cargo,
+      ambiente,
+      tipo,
+      estado,
+      telefono,
     },
   });
 
   const verificationToken = await generateVerificationToken(email);
   await sendVerificationEmail(verificationToken.email, verificationToken.token);
 
-  return { success: "Confirmation email sent!" };
+  return { success: "Email de Confirmación Enviado!" };
 };

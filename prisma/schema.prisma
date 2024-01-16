@@ -13,12 +13,28 @@ enum UserRole {
   ADMIN
   USER
 }
-
+enum estado {
+  Vigente
+  Inactivo
+}
+enum ambiente {
+  Cliente
+  Administrador
+}
+enum tipo {
+  Master
+  Plata
+}
 model User {
   id            String    @id @default(cuid())
   name          String?
   email         String?   @unique
   emailVerified DateTime?
+  cargo         String?
+  ambiente      ambiente?  @default(Cliente)
+  tipo          tipo?      @default(Master)
+  estado        estado? @default(Vigente)
+  telefono      String? 
   image         String?
   password      String?
   role          UserRole @default(USER)

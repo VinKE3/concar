@@ -14,7 +14,12 @@ import { LogOut, User2 } from "lucide-react";
 
 interface UserMenuProps {
   currentUser:
-    | (User & { role: UserRole; isTwoFactorEnabled: boolean; isOAuth: boolean })
+    | (User & {
+        role: UserRole;
+        isTwoFactorEnabled: boolean;
+        isOAuth: boolean;
+        cargo?: string;
+      })
     | null
     | undefined;
 }

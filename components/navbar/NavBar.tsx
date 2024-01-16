@@ -2,7 +2,6 @@
 import { Redressed } from "next/font/google";
 import Container from "../Container";
 import UserMenu from "./UserMenu";
-import { SafeUser } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
@@ -19,6 +18,7 @@ interface NavBarProps {
 const redressed = Redressed({ subsets: ["latin"], weight: ["400"] });
 
 const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
+  console.log(currentUser);
   // useEffect(() => {
   //   if (window.location.pathname === "/" && currentUser) {
   //     signOut();

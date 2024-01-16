@@ -33,6 +33,7 @@ export const {
       if (account?.provider !== "credentials") return true;
 
       const existingUser = await getUserById(user.id);
+      console.log(existingUser);
 
       // Prevent sign in without email verification
       if (!existingUser?.emailVerified) return false;
@@ -69,6 +70,11 @@ export const {
         session.user.name = token.name;
         session.user.email = token.email;
         session.user.isOAuth = token.isOAuth as boolean;
+        session.user.cargo = token.cargo as string;
+        session.user.telefono = token.telefono as string;
+        session.user.ambiente = token.ambiente as string;
+        session.user.tipo = token.tipo as string;
+        session.user.estado = token.estado as string;
       }
 
       return session;
@@ -87,6 +93,11 @@ export const {
       token.email = existingUser.email;
       token.role = existingUser.role;
       token.isTwoFactorEnabled = existingUser.isTwoFactorEnabled;
+      token.cargo = existingUser.cargo;
+      token.telefono = existingUser.telefono;
+      token.ambiente = existingUser.ambiente;
+      token.tipo = existingUser.tipo;
+      token.estado = existingUser.estado;
 
       return token;
     },
