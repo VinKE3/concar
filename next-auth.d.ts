@@ -10,6 +10,8 @@ export type ExtendedUser = DefaultSession["user"] & {
   ambiente: string;
   tipo: string;
   estado: string;
+  vencimiento: Date;
+  fechaNacimiento: Date;
 };
 
 declare module "next-auth" {

@@ -2,7 +2,7 @@
 
 import * as z from "zod";
 import { useState, useTransition } from "react";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { RegisterSchema } from "@/schemas";
 import { Input } from "@/components/ui/input";
@@ -27,6 +27,9 @@ import { FormError } from "@/components/form-error";
 import { FormSuccess } from "@/components/form-success";
 import { register } from "@/actions/register";
 import { ambiente, tipo, estado } from "@prisma/client";
+import moment from "moment";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export const RegisterForm = () => {
   const [error, setError] = useState<string | undefined>("");
@@ -44,9 +47,11 @@ export const RegisterForm = () => {
       tipo: "Master",
       estado: "Vigente",
       telefono: "",
+      vencimiento: new Date(moment().format("YYYY-MM-DD")),
+      fechaNacimiento: new Date(moment().format("YYYY-MM-DD")),
     },
   });
-
+  const { control } = form;
   const onSubmit = (values: z.infer<typeof RegisterSchema>) => {
     setError("");
     setSuccess("");
@@ -237,6 +242,48 @@ export const RegisterForm = () => {
                         {...field}
                         disabled={isPending}
                         placeholder="111222333"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+            <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
+              <Controller
+                control={control}
+                name="vencimiento"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel className="text-md">Vencimiento:</FormLabel>
+                    <FormControl className="cursor-pointer ">
+                      <DatePicker
+                        onChange={(date) => field.onChange(date)}
+                        selected={field.value}
+                        peekNextMonth
+                        showMonthDropdown
+                        showYearDropdown
+                        dropdownMode="select"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <Controller
+                control={control}
+                name="fechaNacimiento"
+                render={({ field }) => (
+                  <FormItem className="text-md">
+                    <FormLabel>Fecha Nacimiento:</FormLabel>
+                    <FormControl className="cursor-pointer ">
+                      <DatePicker
+                        onChange={(date) => field.onChange(date)}
+                        selected={field.value}
+                        peekNextMonth
+                        showMonthDropdown
+                        showYearDropdown
+                        dropdownMode="select"
                       />
                     </FormControl>
                     <FormMessage />

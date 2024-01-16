@@ -75,6 +75,8 @@ export const {
         session.user.ambiente = token.ambiente as string;
         session.user.tipo = token.tipo as string;
         session.user.estado = token.estado as string;
+        session.user.vencimiento = token.vencimiento as Date;
+        session.user.fechaNacimiento = token.fechaNacimiento as Date;
       }
 
       return session;
@@ -98,6 +100,8 @@ export const {
       token.ambiente = existingUser.ambiente;
       token.tipo = existingUser.tipo;
       token.estado = existingUser.estado;
+      token.vencimiento = existingUser.vencimiento;
+      token.fechaNacimiento = existingUser.fechaNacimiento;
 
       return token;
     },

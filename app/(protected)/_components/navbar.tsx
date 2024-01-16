@@ -15,19 +15,19 @@ export const Navbar = () => {
           asChild
           variant={pathname === "/client/datos" ? "default" : "outline"}
         >
-          <Link href="/client/datos">Mis Datos</Link>
+          <Link href="/client/datos">Modificar</Link>
+        </Button>
+        <Button
+          asChild
+          variant={pathname === "/client/mis-datos" ? "default" : "outline"}
+        >
+          <Link href="/client/mis-datos">Mis Datos</Link>
         </Button>
         <Button
           asChild
           variant={pathname === "/client/empresa" ? "default" : "outline"}
         >
           <Link href="/client/empresa">Mi Empresa</Link>
-        </Button>
-        <Button
-          asChild
-          variant={pathname === "/client/password" ? "default" : "outline"}
-        >
-          <Link href="/client/password">Cambiar Password</Link>
         </Button>
       </div>
     </nav>

@@ -72,7 +72,7 @@ const SettingsPage = () => {
   return (
     <Card className="w-[600px]">
       <CardHeader>
-        <p className="text-2xl font-semibold text-center">Mis Datos</p>
+        <p className="text-2xl font-semibold text-center">Modificar Datos</p>
       </CardHeader>
       <CardContent>
         <Form {...form}>

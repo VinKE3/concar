@@ -18,17 +18,9 @@ export const settings = async (values: z.infer<typeof SettingsSchema>) => {
   }
 
   const dbUser = await getUserById(user.id);
-  console.log(dbUser, "dbUser");
 
   if (!dbUser) {
     return { error: "No Autorizado" };
-  }
-
-  if (user.isOAuth) {
-    values.email = undefined;
-    values.password = undefined;
-    values.newPassword = undefined;
-    values.isTwoFactorEnabled = undefined;
   }
 
   if (values.email && values.email !== user.email) {
@@ -75,6 +67,8 @@ export const settings = async (values: z.infer<typeof SettingsSchema>) => {
       email: updatedUser.email,
       isTwoFactorEnabled: updatedUser.isTwoFactorEnabled,
       role: updatedUser.role,
+      cargo: updatedUser.cargo ? updatedUser.cargo : undefined,
+      telefono: updatedUser.telefono ? updatedUser.telefono : undefined,
     },
   });
 

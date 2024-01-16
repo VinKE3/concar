@@ -8,6 +8,7 @@ export const SettingsSchema = z
     role: z.enum([UserRole.ADMIN, UserRole.USER]),
     email: z.optional(z.string().email()),
     cargo: z.optional(z.string().min(1)),
+    telefono: z.optional(z.string().min(1)),
     password: z.optional(z.string().min(6)),
     newPassword: z.optional(z.string().min(6)),
   })
@@ -99,6 +100,7 @@ export const RegisterSchema = z.object({
   ambiente: z.enum([ambiente.Administrador, ambiente.Cliente]),
   tipo: z.enum([tipo.Master, tipo.Plata]),
   estado: z.enum([estado.Vigente, estado.Inactivo]),
-
+  vencimiento: z.date().optional(),
+  fechaNacimiento: z.date().optional(),
   telefono: z.string().optional(),
 });
