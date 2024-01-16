@@ -86,7 +86,6 @@ export const {
       if (!token.sub) return token;
 
       const existingUser = await getUserById(token.sub);
-      console.log("existingUser", existingUser);
 
       if (!existingUser) return token;
 

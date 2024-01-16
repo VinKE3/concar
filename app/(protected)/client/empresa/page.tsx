@@ -28,6 +28,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const SettingsPage = () => {
   const user = useCurrentUser();
+  const EmpresaExiste = user?.empresa?.nombre;
 
   const [error, setError] = useState<string | undefined>();
   const [success, setSuccess] = useState<string | undefined>();
@@ -85,7 +86,7 @@ const SettingsPage = () => {
                       <Input
                         {...field}
                         placeholder="Empresa S.A.C"
-                        disabled={isPending}
+                        disabled={EmpresaExiste ? true : isPending}
                       />
                     </FormControl>
                     <FormMessage />
@@ -102,7 +103,7 @@ const SettingsPage = () => {
                       <Input
                         {...field}
                         placeholder="12345678901"
-                        disabled={isPending}
+                        disabled={EmpresaExiste ? true : isPending}
                       />
                     </FormControl>
                     <FormMessage />
@@ -119,7 +120,7 @@ const SettingsPage = () => {
                       <Input
                         {...field}
                         placeholder="John Doe"
-                        disabled={isPending}
+                        disabled={EmpresaExiste ? true : isPending}
                       />
                     </FormControl>
                     <FormMessage />
@@ -136,7 +137,7 @@ const SettingsPage = () => {
                       <Input
                         {...field}
                         placeholder="12345678"
-                        disabled={isPending}
+                        disabled={EmpresaExiste ? true : isPending}
                       />
                     </FormControl>
                     <FormMessage />
@@ -153,7 +154,7 @@ const SettingsPage = () => {
                       <Input
                         {...field}
                         placeholder="987654321"
-                        disabled={isPending}
+                        disabled={EmpresaExiste ? true : isPending}
                       />
                     </FormControl>
                     <FormMessage />
@@ -170,7 +171,7 @@ const SettingsPage = () => {
                       <Input
                         {...field}
                         placeholder="email@email.com"
-                        disabled={isPending}
+                        disabled={EmpresaExiste ? true : isPending}
                       />
                     </FormControl>
                     <FormMessage />
@@ -189,6 +190,7 @@ const SettingsPage = () => {
                   name="fechaAniversario"
                   render={({ field }) => (
                     <DatePicker
+                      disabled={EmpresaExiste ? true : false}
                       onChange={(date) => field.onChange(date)}
                       selected={
                         field.value && !isNaN(new Date(field.value).getTime())
@@ -207,7 +209,7 @@ const SettingsPage = () => {
             </div>
             <FormError message={error} />
             <FormSuccess message={success} />
-            <Button disabled={isPending} type="submit">
+            <Button disabled={EmpresaExiste ? true : isPending} type="submit">
               Guardar
             </Button>
           </form>
