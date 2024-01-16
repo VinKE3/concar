@@ -26,7 +26,7 @@ import { Button } from "@/components/ui/button";
 import { FormError } from "@/components/form-error";
 import { FormSuccess } from "@/components/form-success";
 import { register } from "@/actions/register";
-import { ambiente, tipo, estado } from "@prisma/client";
+import { ambiente, tipo, estado, UserRole } from "@prisma/client";
 import moment from "moment";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -47,6 +47,7 @@ export const RegisterForm = () => {
       tipo: "Master",
       estado: "Vigente",
       telefono: "",
+      role: "USER",
       vencimiento: new Date(moment().format("YYYY-MM-DD")),
       fechaNacimiento: new Date(moment().format("YYYY-MM-DD")),
     },
@@ -297,6 +298,31 @@ export const RegisterForm = () => {
                 />
               </div>
             </div>
+            <FormField
+              control={form.control}
+              name="role"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Role</FormLabel>
+                  <Select
+                    disabled={isPending}
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                  >
+                    <FormControl>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Select a role" />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      <SelectItem value={UserRole.ADMIN}>Admin</SelectItem>
+                      <SelectItem value={UserRole.USER}>User</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
           </div>
           <FormError message={error} />
           <FormSuccess message={success} />

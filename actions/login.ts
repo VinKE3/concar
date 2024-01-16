@@ -30,7 +30,6 @@ export const login = async (
 
   const existingUser = await getUserByEmail(email);
   const usuarioInactivo = existingUser?.estado;
-  console.log(usuarioInactivo);
 
   if (!existingUser || !existingUser.email || !existingUser.password) {
     return { error: "Email no existe!" };

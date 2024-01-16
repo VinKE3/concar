@@ -81,6 +81,7 @@ export const RegisterSchema = z.object({
   cargo: z.string().min(1, {
     message: "Cargo es requerido",
   }),
+  role: z.enum([UserRole.ADMIN, UserRole.USER]),
   ambiente: z.enum([ambiente.Administrador, ambiente.Cliente]),
   tipo: z.enum([tipo.Master, tipo.Plata]),
   estado: z.enum([estado.Vigente, estado.Inactivo]),
