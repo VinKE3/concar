@@ -250,46 +250,52 @@ export const RegisterForm = () => {
               />
             </div>
             <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
-              <Controller
-                control={control}
-                name="vencimiento"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel className="text-md">Vencimiento:</FormLabel>
-                    <FormControl className="cursor-pointer ">
-                      <DatePicker
-                        onChange={(date) => field.onChange(date)}
-                        selected={field.value}
-                        peekNextMonth
-                        showMonthDropdown
-                        showYearDropdown
-                        dropdownMode="select"
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <Controller
-                control={control}
-                name="fechaNacimiento"
-                render={({ field }) => (
-                  <FormItem className="text-md">
-                    <FormLabel>Fecha Nacimiento:</FormLabel>
-                    <FormControl className="cursor-pointer ">
-                      <DatePicker
-                        onChange={(date) => field.onChange(date)}
-                        selected={field.value}
-                        peekNextMonth
-                        showMonthDropdown
-                        showYearDropdown
-                        dropdownMode="select"
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+              <div className="mb-4">
+                <label
+                  className="block text-gray-600 font-semibold text-sm mb-2"
+                  htmlFor="vencimiento"
+                >
+                  Vencimiento
+                </label>
+                <Controller
+                  control={control}
+                  name="vencimiento"
+                  render={({ field }) => (
+                    <DatePicker
+                      onChange={(date) => field.onChange(date)}
+                      selected={field.value}
+                      peekNextMonth
+                      showMonthDropdown
+                      showYearDropdown
+                      dropdownMode="select"
+                      className="cursor-pointer border border-gray-300 p-2 rounded-md w-full"
+                    />
+                  )}
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-600 font-semibold text-sm mb-2"
+                  htmlFor="fechaNacimiento"
+                >
+                  Fecha Nacimiento
+                </label>
+                <Controller
+                  control={control}
+                  name="fechaNacimiento"
+                  render={({ field }) => (
+                    <DatePicker
+                      onChange={(date) => field.onChange(date)}
+                      selected={field.value}
+                      peekNextMonth
+                      showMonthDropdown
+                      showYearDropdown
+                      dropdownMode="select"
+                      className="cursor-pointer border border-gray-300 p-2 rounded-md w-full"
+                    />
+                  )}
+                />
+              </div>
             </div>
           </div>
           <FormError message={error} />
