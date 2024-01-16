@@ -29,9 +29,14 @@ export const login = async (
   const { email, password, code } = validatedFields.data;
 
   const existingUser = await getUserByEmail(email);
+  const usuarioInactivo = existingUser?.estado;
+  console.log(usuarioInactivo);
 
   if (!existingUser || !existingUser.email || !existingUser.password) {
     return { error: "Email no existe!" };
+  }
+  if (usuarioInactivo == "Inactivo") {
+    return { error: "Usuario Inactivo!" };
   }
 
   if (!existingUser.emailVerified) {
