@@ -23,22 +23,6 @@ export const settings = async (values: z.infer<typeof SettingsSchema>) => {
     return { error: "No Autorizado" };
   }
 
-  if (values.email && values.email !== user.email) {
-    const existingUser = await getUserByEmail(values.email);
-
-    if (existingUser && existingUser.id !== user.id) {
-      return { error: "Email ya en uso!" };
-    }
-
-    const verificationToken = await generateVerificationToken(values.email);
-    await sendVerificationEmail(
-      verificationToken.email,
-      verificationToken.token
-    );
-
-    return { success: "Email de Verificación Enviado" };
-  }
-
   if (values.password && values.newPassword && dbUser.password) {
     const passwordsMatch = await bcrypt.compare(
       values.password,

@@ -46,7 +46,8 @@ const SettingsPage = () => {
       password: "",
       newPassword: "",
       name: user?.name || "",
-      email: user?.email || "",
+      cargo: user?.cargo || "",
+      telefono: user?.telefono || "",
       role: user?.role || undefined,
       isTwoFactorEnabled: user?.isTwoFactorEnabled || false,
     },
@@ -97,22 +98,39 @@ const SettingsPage = () => {
               />
               <FormField
                 control={form.control}
-                name="email"
+                name="cargo"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Email</FormLabel>
+                    <FormLabel>Cargo</FormLabel>
                     <FormControl>
                       <Input
                         {...field}
-                        placeholder="john.doe@example.com"
-                        type="email"
-                        disabled={true}
+                        placeholder="JContador"
+                        disabled={isPending}
                       />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
                 )}
               />
+              <FormField
+                control={form.control}
+                name="telefono"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Nombre y Apellido</FormLabel>
+                    <FormControl>
+                      <Input
+                        {...field}
+                        placeholder="987654321"
+                        disabled={isPending}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
               <FormField
                 control={form.control}
                 name="password"
@@ -149,7 +167,7 @@ const SettingsPage = () => {
                   </FormItem>
                 )}
               />
-              <FormField
+              {/* <FormField
                 control={form.control}
                 name="role"
                 render={({ field }) => (
@@ -173,7 +191,7 @@ const SettingsPage = () => {
                     <FormMessage />
                   </FormItem>
                 )}
-              />
+              /> */}
             </div>
             <FormError message={error} />
             <FormSuccess message={success} />

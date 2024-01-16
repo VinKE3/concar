@@ -6,7 +6,6 @@ export const SettingsSchema = z
     name: z.optional(z.string()),
     isTwoFactorEnabled: z.optional(z.boolean()),
     role: z.enum([UserRole.ADMIN, UserRole.USER]),
-    email: z.optional(z.string().email()),
     cargo: z.optional(z.string().min(1)),
     telefono: z.optional(z.string().min(1)),
     password: z.optional(z.string().min(6)),
@@ -36,29 +35,6 @@ export const SettingsSchema = z
     {
       message: "Contraseña actual es requerida!",
       path: ["password"],
-    }
-  );
-
-export const ChangePasswordSchema = z
-  .object({
-    password: z.string().min(6, {
-      message: "Minimo 6 caracteres requeridos",
-    }),
-    newPassword: z.string().min(6, {
-      message: "Minimo 6 caracteres requeridos",
-    }),
-  })
-  .refine(
-    (data) => {
-      if (data.password && !data.newPassword) {
-        return false;
-      }
-
-      return true;
-    },
-    {
-      message: "Nueva contraseña es requerida!",
-      path: ["newPassword"],
     }
   );
 
