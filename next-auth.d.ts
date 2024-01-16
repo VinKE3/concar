@@ -12,6 +12,17 @@ export type ExtendedUser = DefaultSession["user"] & {
   estado: string;
   vencimiento: Date;
   fechaNacimiento: Date;
+  empresa: Empresa;
+};
+// Define el tipo Empresa
+export type Empresa = {
+  ruc: string | null;
+  nombre: string | null;
+  documento: string | null;
+  telefono: string | null;
+  empresa: string | null;
+  email: string | null;
+  fechaAniversario: Date | null;
 };
 
 declare module "next-auth" {

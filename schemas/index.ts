@@ -37,7 +37,15 @@ export const SettingsSchema = z
       path: ["password"],
     }
   );
-
+export const EmpresaSchema = z.object({
+  empresa: z.string().min(1),
+  ruc: z.optional(z.string()),
+  nombre: z.optional(z.string()),
+  documento: z.optional(z.string()),
+  telefono: z.optional(z.string()),
+  email: z.optional(z.string()),
+  fechaAniversario: z.optional(z.date()),
+});
 export const NewPasswordSchema = z.object({
   password: z.string().min(6, {
     message: "Minimo 6 caracteres requeridos",

@@ -7,6 +7,7 @@ import authConfig from "@/auth.config";
 import { getUserById } from "@/data/user";
 import { getTwoFactorConfirmationByUserId } from "@/data/two-factor-confirmation";
 import { getAccountByUserId } from "./data/account";
+import { Empresa } from "./next-auth";
 
 export const {
   handlers: { GET, POST },
@@ -33,7 +34,6 @@ export const {
       if (account?.provider !== "credentials") return true;
 
       const existingUser = await getUserById(user.id);
-      console.log(existingUser);
 
       // Prevent sign in without email verification
       if (!existingUser?.emailVerified) return false;
@@ -54,7 +54,6 @@ export const {
       return true;
     },
     async session({ token, session }) {
-      console.log(token);
       if (token.sub && session.user) {
         session.user.id = token.sub;
       }
@@ -78,6 +77,7 @@ export const {
         session.user.estado = token.estado as string;
         session.user.vencimiento = token.vencimiento as Date;
         session.user.fechaNacimiento = token.fechaNacimiento as Date;
+        session.user.empresa = token.empresa as Empresa;
       }
 
       return session;
@@ -86,6 +86,7 @@ export const {
       if (!token.sub) return token;
 
       const existingUser = await getUserById(token.sub);
+      console.log("existingUser", existingUser);
 
       if (!existingUser) return token;
 
@@ -103,7 +104,7 @@ export const {
       token.estado = existingUser.estado;
       token.vencimiento = existingUser.vencimiento;
       token.fechaNacimiento = existingUser.fechaNacimiento;
-
+      token.empresa = existingUser.empresa;
       return token;
     },
   },
