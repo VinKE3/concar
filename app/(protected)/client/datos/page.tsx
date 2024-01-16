@@ -6,13 +6,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useTransition, useState } from "react";
 import { useSession } from "next-auth/react";
 
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { SettingsSchema } from "@/schemas";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -23,14 +16,12 @@ import {
   FormControl,
   FormItem,
   FormLabel,
-  FormDescription,
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { useCurrentUser } from "@/hooks/use-current-user";
 import { FormError } from "@/components/form-error";
 import { FormSuccess } from "@/components/form-success";
-import { UserRole } from "@prisma/client";
 
 const SettingsPage = () => {
   const user = useCurrentUser();
@@ -71,7 +62,7 @@ const SettingsPage = () => {
   };
 
   return (
-    <Card className="w-[600px]">
+    <Card className="md:w-[600px] w-[400px]">
       <CardHeader>
         <p className="text-2xl font-semibold text-center">Modificar Datos</p>
       </CardHeader>
@@ -118,7 +109,7 @@ const SettingsPage = () => {
                 name="telefono"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Nombre y Apellido</FormLabel>
+                    <FormLabel>Teléfono</FormLabel>
                     <FormControl>
                       <Input
                         {...field}
@@ -167,31 +158,6 @@ const SettingsPage = () => {
                   </FormItem>
                 )}
               />
-              {/* <FormField
-                control={form.control}
-                name="role"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Role</FormLabel>
-                    <Select
-                      disabled={isPending}
-                      onValueChange={field.onChange}
-                      defaultValue={field.value}
-                    >
-                      <FormControl>
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select a role" />
-                        </SelectTrigger>
-                      </FormControl>
-                      <SelectContent>
-                        <SelectItem value={UserRole.ADMIN}>Admin</SelectItem>
-                        <SelectItem value={UserRole.USER}>User</SelectItem>
-                      </SelectContent>
-                    </Select>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              /> */}
             </div>
             <FormError message={error} />
             <FormSuccess message={success} />

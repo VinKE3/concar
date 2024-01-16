@@ -5,7 +5,7 @@ interface ProtectedLayoutProps {
 }
 export default function ClienteLayout({ children }: ProtectedLayoutProps) {
   return (
-    <div className="h-full w-full flex flex-col gap-y-10 items-center justify-center">
+    <div className="flex flex-col gap-y-10 items-center justify-center mt-20">
       <Navbar />
       {children}
     </div>
