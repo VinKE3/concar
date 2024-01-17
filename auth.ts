@@ -69,7 +69,6 @@ export const {
       if (session.user) {
         session.user.name = token.name;
         session.user.email = token.email;
-        session.user.isOAuth = token.isOAuth as boolean;
         session.user.cargo = token.cargo as string;
         session.user.telefono = token.telefono as string;
         session.user.ambiente = token.ambiente as string;
@@ -89,9 +88,6 @@ export const {
 
       if (!existingUser) return token;
 
-      const existingAccount = await getAccountByUserId(existingUser.id);
-
-      token.isOAuth = !!existingAccount;
       token.name = existingUser.name;
       token.email = existingUser.email;
       token.role = existingUser.role;

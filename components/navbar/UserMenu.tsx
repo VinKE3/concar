@@ -17,7 +17,6 @@ interface UserMenuProps {
     | (User & {
         role: UserRole;
         isTwoFactorEnabled: boolean;
-        isOAuth: boolean;
         cargo?: string;
       })
     | null

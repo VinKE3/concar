@@ -11,7 +11,7 @@ import { UserRole } from "@prisma/client";
 
 interface NavBarProps {
   currentUser:
-    | (User & { role: UserRole; isTwoFactorEnabled: boolean; isOAuth: boolean })
+    | (User & { role: UserRole; isTwoFactorEnabled: boolean })
     | null
     | undefined;
 }

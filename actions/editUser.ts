@@ -1,7 +1,6 @@
 "use server";
 
 import * as z from "zod";
-import bcrypt from "bcryptjs";
 import { update } from "@/auth";
 import { db } from "@/lib/db";
 import { UpdateUser } from "@/schemas";
@@ -15,21 +14,6 @@ export const editUser = async (
 
   if (!dbUser) {
     return { error: "Usuario no encontrado" };
-  }
-
-  if (userValues.password && userValues.newPassword && dbUser.password) {
-    const passwordsMatch = await bcrypt.compare(
-      userValues.password,
-      dbUser.password
-    );
-
-    if (!passwordsMatch) {
-      return { error: "Contraseña Incorrecta!" };
-    }
-
-    const hashedPassword = await bcrypt.hash(userValues.newPassword, 10);
-    userValues.password = hashedPassword;
-    userValues.newPassword = undefined;
   }
 
   const updatedUser = await db.user.update({
