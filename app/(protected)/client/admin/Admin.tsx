@@ -10,10 +10,14 @@ import {
   MdDone,
   MdRemoveRedEye,
 } from "react-icons/md";
+import { RiAdminFill } from "react-icons/ri";
 import Status from "@/components/Status";
 import ActionBtn from "@/components/ActionBtn";
 import Heading from "@/components/Heading";
-import { db } from "@/lib/db";
+import { deleteUser } from "@/actions/deleteUser";
+import { toast } from "sonner";
+import { changeRole } from "@/actions/changeRole";
+import { changeEstado } from "@/actions/changeEstado";
 interface AdminProps {
   users: User[];
 }
@@ -100,7 +104,14 @@ const Admin = ({ users }: AdminProps) => {
             <ActionBtn
               icon={MdCached}
               onClick={() => {
-                console.log("edit");
+                console.log(params.id);
+                handleUserRole(params.id as string);
+              }}
+            />
+            <ActionBtn
+              icon={RiAdminFill}
+              onClick={() => {
+                handleUserEstado(params.id as string);
               }}
             />
             <ActionBtn
@@ -109,20 +120,32 @@ const Admin = ({ users }: AdminProps) => {
                 handleDelete(params.id as string);
               }}
             />
-            <ActionBtn
-              icon={MdRemoveRedEye}
-              onClick={() => {
-                console.log("view");
-              }}
-            />
           </div>
         );
       },
     },
   ];
+
   const handleDelete = useCallback(async (id: string) => {
-    db.user.delete({ where: { id } });
+    deleteUser(id);
+    toast.success("Usuario eliminado correctamente");
+    router.refresh();
   }, []);
+
+  const handleUserRole = useCallback(async (id: string) => {
+    console.log(id);
+    changeRole(id);
+    toast.success("Role cambiado correctamente");
+    router.refresh();
+  }, []);
+
+  const handleUserEstado = useCallback(async (id: string) => {
+    console.log(id);
+    changeEstado(id);
+    toast.success("Estado cambiado correctamente");
+    router.refresh();
+  }, []);
+
   return (
     <div className="md:max-w-[1150px] m-auto text-xl">
       <div className="mb-4 mt-8">
