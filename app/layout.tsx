@@ -26,7 +26,7 @@ export default async function RootLayout({
     <SessionProvider session={session}>
       <html lang="en">
         <body className={inter.className}>
-          <Toaster />
+          <Toaster richColors />
           <NavBar currentUser={currentUser} />
           {children}
           <Footer />

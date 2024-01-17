@@ -1,19 +1,12 @@
 "use server";
 import { db } from "@/lib/db";
-import { getUserById } from "@/data/user";
-import { currentUser } from "@/lib/auth";
 import { estado } from "@prisma/client";
 
 export const changeEstado = async (id: string) => {
-  const user = await currentUser();
-  if (!user) {
-    return { error: "No Autorizado" };
-  }
-
-  const dbUser = await getUserById(user.id);
+  const dbUser = await db.user.findUnique({ where: { id } });
 
   if (!dbUser) {
-    return { error: "No Autorizado" };
+    return { error: "Usuario no encontrado" };
   }
 
   let newEstado: estado;
@@ -24,17 +17,20 @@ export const changeEstado = async (id: string) => {
   } else {
     return { error: "Estado no reconocido" };
   }
+  try {
+    const updatedUser = await db.user.update({
+      where: { id: id },
+      data: {
+        estado: newEstado,
+      },
+    });
 
-  const updatedUser = await db.user.update({
-    where: { id: id },
-    data: {
-      estado: newEstado,
-    },
-  });
+    if (!updatedUser) {
+      return { error: "Error al actualizar el estado" };
+    }
 
-  if (!updatedUser) {
+    return { success: "Estado Actualizado!" };
+  } catch (error) {
     return { error: "Error al actualizar el estado" };
   }
-
-  return { success: "Estado Actualizado!" };
 };

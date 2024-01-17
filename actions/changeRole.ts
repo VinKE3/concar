@@ -1,19 +1,12 @@
 "use server";
 import { db } from "@/lib/db";
-import { getUserById } from "@/data/user";
-import { currentUser } from "@/lib/auth";
 import { UserRole } from "@prisma/client";
 
 export const changeRole = async (id: string) => {
-  const user = await currentUser();
-  if (!user) {
-    return { error: "No Autorizado" };
-  }
-
-  const dbUser = await getUserById(user.id);
+  const dbUser = await db.user.findUnique({ where: { id } });
 
   if (!dbUser) {
-    return { error: "No Autorizado" };
+    return { error: "Usuario no encontrado" };
   }
 
   let newRole: UserRole;
@@ -25,16 +18,20 @@ export const changeRole = async (id: string) => {
     return { error: "Rol no reconocido" };
   }
 
-  const updatedUser = await db.user.update({
-    where: { id: id },
-    data: {
-      role: newRole,
-    },
-  });
+  try {
+    const updatedUser = await db.user.update({
+      where: { id: id },
+      data: {
+        role: newRole,
+      },
+    });
 
-  if (!updatedUser) {
+    if (!updatedUser) {
+      return { error: "Error al actualizar el rol" };
+    }
+
+    return { success: "Rol Actualizado!" };
+  } catch (error) {
     return { error: "Error al actualizar el rol" };
   }
-
-  return { success: "Rol Actualizado!" };
 };

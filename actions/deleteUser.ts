@@ -1,6 +1,5 @@
 "use server";
 import { db } from "@/lib/db";
-import { getUserById } from "@/data/user";
 import { currentUser } from "@/lib/auth";
 
 export const deleteUser = async (id: string) => {
@@ -9,17 +8,26 @@ export const deleteUser = async (id: string) => {
     return { error: "No Autorizado" };
   }
 
-  const dbUser = await getUserById(user.id);
-
-  if (!dbUser) {
-    return { error: "No Autorizado" };
+  if (user.id === id) {
+    return { error: "No puedes eliminarte a ti mismo" };
   }
 
-  const updatedUser = await db.user.delete({
-    where: { id: id },
-  });
+  try {
+    const existingUser = await db.user.findUnique({ where: { id: id } });
 
-  console.log(updatedUser);
+    if (!existingUser) {
+      return { error: "Usuario no encontrado" };
+    }
 
-  return { success: "Usuario Eliminado!" };
+    const deletedUser = await db.user.delete({ where: { id: id } });
+
+    if (!deletedUser) {
+      return { error: "Error al eliminar el usuario" };
+    }
+
+    return { success: "Usuario Eliminado!" };
+  } catch (error) {
+    console.error("Error al eliminar el usuario:", error);
+    return { error: "Error al eliminar el usuario" };
+  }
 };

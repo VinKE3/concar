@@ -18,6 +18,7 @@ import { deleteUser } from "@/actions/deleteUser";
 import { toast } from "sonner";
 import { changeRole } from "@/actions/changeRole";
 import { changeEstado } from "@/actions/changeEstado";
+
 interface AdminProps {
   users: User[];
 }
@@ -39,13 +40,12 @@ const Admin = ({ users }: AdminProps) => {
     });
   }
   const columns: GridColDef[] = [
-    { field: "id", headerName: "ID", width: 220 },
-    { field: "name", headerName: "Nombre", width: 220 },
-    { field: "email", headerName: "Email", width: 100 },
+    { field: "name", headerName: "Nombre", width: 250 },
+    { field: "email", headerName: "Email", width: 250 },
     {
       field: "estado",
       headerName: "Estado",
-      width: 100,
+      width: 120,
       renderCell: (params) => {
         return (
           <div>
@@ -104,20 +104,25 @@ const Admin = ({ users }: AdminProps) => {
             <ActionBtn
               icon={MdCached}
               onClick={() => {
-                console.log(params.id);
-                handleUserRole(params.id as string);
+                handleUserEstado(params.id as string);
               }}
             />
             <ActionBtn
               icon={RiAdminFill}
               onClick={() => {
-                handleUserEstado(params.id as string);
+                handleUserRole(params.id as string);
               }}
             />
             <ActionBtn
               icon={MdDelete}
               onClick={() => {
                 handleDelete(params.id as string);
+              }}
+            />
+            <ActionBtn
+              icon={MdRemoveRedEye}
+              onClick={() => {
+                console.log("Ver usuario", params.id);
               }}
             />
           </div>
@@ -127,22 +132,56 @@ const Admin = ({ users }: AdminProps) => {
   ];
 
   const handleDelete = useCallback(async (id: string) => {
-    deleteUser(id);
-    toast.success("Usuario eliminado correctamente");
-    router.refresh();
+    const userId = users.find((user) => user.id === id)?.id;
+    if (userId === id) {
+      toast.error("No puedes eliminar tu propio usuario");
+      return;
+    }
+
+    try {
+      const result = await deleteUser(id);
+
+      toast.promise(
+        Promise.resolve(result), // Resolvemos la promesa con el resultado
+        {
+          loading: "Eliminando...",
+          success: (data) => {
+            if (data && data.success) {
+              return data.success; // Mensaje de éxito específico
+            } else {
+              return "Usuario eliminado correctamente";
+            }
+          },
+          error: (err) => {
+            if (err && err.error) {
+              return err.error; // Mensaje de error específico
+            } else {
+              return "Error al eliminar usuario";
+            }
+          },
+        }
+      );
+    } catch (error) {
+      console.error("Error en handleDelete:", error);
+      toast.error("Error inesperado al eliminar usuario");
+    }
   }, []);
 
   const handleUserRole = useCallback(async (id: string) => {
-    console.log(id);
-    changeRole(id);
-    toast.success("Role cambiado correctamente");
+    toast.promise(changeRole(id), {
+      loading: "Cambiando...",
+      success: (data) => data.success,
+      error: (err) => err.error || "Error al cambiar role",
+    });
     router.refresh();
   }, []);
 
   const handleUserEstado = useCallback(async (id: string) => {
-    console.log(id);
-    changeEstado(id);
-    toast.success("Estado cambiado correctamente");
+    toast.promise(changeEstado(id), {
+      loading: "Cambiando...",
+      success: (data) => data.success,
+      error: (err) => err.error || "Error al cambiar estado",
+    });
     router.refresh();
   }, []);
 
