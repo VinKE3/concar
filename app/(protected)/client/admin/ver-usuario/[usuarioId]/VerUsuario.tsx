@@ -9,6 +9,7 @@ interface UserInfoProps {
 
 export const VerUsuario = ({ user, label }: UserInfoProps) => {
   const empresa = user?.empresa;
+
   return (
     <>
       <Card className="w-[400px] md:w-[1000px] shadow-md">

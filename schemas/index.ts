@@ -89,3 +89,15 @@ export const RegisterSchema = z.object({
   fechaNacimiento: z.date().optional(),
   telefono: z.string().optional(),
 });
+export const UpdateUser = z.object({
+  name: z.optional(z.string()),
+  email: z.optional(z.string().email()),
+  cargo: z.optional(z.string().min(1)),
+  ambiente: z.optional(z.enum([ambiente.Administrador, ambiente.Cliente])),
+  tipo: z.optional(z.enum([tipo.Master, tipo.Plata])),
+  estado: z.optional(z.enum([estado.Vigente, estado.Inactivo])),
+  vencimiento: z.optional(z.date()),
+  fechaNacimiento: z.optional(z.date()),
+  telefono: z.optional(z.string().min(1)),
+  role: z.enum([UserRole.ADMIN, UserRole.USER]),
+});

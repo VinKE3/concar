@@ -9,6 +9,7 @@ import {
   MdDelete,
   MdDone,
   MdRemoveRedEye,
+  MdEdit,
 } from "react-icons/md";
 import { RiAdminFill } from "react-icons/ri";
 import Status from "@/components/Status";
@@ -97,7 +98,7 @@ const Admin = ({ users }: AdminProps) => {
     {
       field: "action",
       headerName: "Acciones",
-      width: 200,
+      width: 300,
       renderCell: (params) => {
         return (
           <div className="flex justify-between gap-4 w-full">
@@ -117,6 +118,12 @@ const Admin = ({ users }: AdminProps) => {
               icon={MdDelete}
               onClick={() => {
                 handleDelete(params.id as string);
+              }}
+            />
+            <ActionBtn
+              icon={MdEdit}
+              onClick={() => {
+                router.push(`/client/admin/editar-usuario/${params.id}`);
               }}
             />
             <ActionBtn
