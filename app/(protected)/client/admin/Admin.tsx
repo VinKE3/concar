@@ -122,7 +122,7 @@ const Admin = ({ users }: AdminProps) => {
             <ActionBtn
               icon={MdRemoveRedEye}
               onClick={() => {
-                console.log("Ver usuario", params.id);
+                router.push(`/client/admin/ver-usuario/${params.id}`);
               }}
             />
           </div>

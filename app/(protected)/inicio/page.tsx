@@ -6,7 +6,7 @@ const InicioPage = () => {
   return (
     <>
       <div className="w-full flex flex-col items-center justify-center">
-        <h1 className="text-gray-600 uppercase font-bold mt-5">
+        <h1 className="text-gray-600 uppercase font-bold mt-5 text-xl md:text-3xl">
           Soporte y Asistencia
         </h1>
         {dataInicio.map(({ id, href, icon: Icon, title, description }) => {
@@ -18,13 +18,13 @@ const InicioPage = () => {
                 </div>
                 <div className="w-full sm:w-auto flex flex-col items-center sm:items-start">
                   <p
-                    className="font-display mb-2 text-2xl font-semibold dark:text-gray-600"
+                    className="font-display mb-2 text-lg md:text-2xl font-semibold dark:text-gray-600"
                     itemProp="author"
                   >
                     {title}
                   </p>
 
-                  <div className="mb-4 md:text-lg text-gray-400">
+                  <div className="mb-4 text-sm md:text-lg text-gray-400">
                     <p>{description}</p>
                   </div>
                 </div>
