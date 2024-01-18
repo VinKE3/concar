@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { UserRole } from "@prisma/client";
 import Admin from "./Admin";
 import getUsers from "@/actions/getUsers";
+import Button from "@/components/Button";
 
 const AdminPage = async () => {
   const users = await getUsers();

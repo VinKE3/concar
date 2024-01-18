@@ -19,6 +19,7 @@ import { deleteUser } from "@/actions/deleteUser";
 import { toast } from "sonner";
 import { changeRole } from "@/actions/changeRole";
 import { changeEstado } from "@/actions/changeEstado";
+import { Button } from "@/components/ui/button";
 
 interface AdminProps {
   users: User[];
@@ -196,6 +197,16 @@ const Admin = ({ users }: AdminProps) => {
     <div className="md:max-w-[1150px] m-auto text-xl">
       <div className="mb-4 mt-8">
         <Heading title="Administrar Usuarios" center />
+        <div className="w-48">
+          <Button
+            type="button"
+            onClick={() => {
+              router.push("/client/admin/crear-usuario");
+            }}
+          >
+            Crear Usuario
+          </Button>
+        </div>
       </div>
       <div style={{ height: 600, width: "100%" }}>
         <DataGrid

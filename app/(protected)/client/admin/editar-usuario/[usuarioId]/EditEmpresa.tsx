@@ -54,23 +54,25 @@ const EditEmpresa = ({ user }: UserInfoProps) => {
 
   const { control: controlEmpresa } = form;
   const onSubmitEmpresa = (values: z.infer<typeof EmpresaSchema>) => {
-    if (user?.id) {
-      editEmpresa(user?.id, values)
-        .then((data) => {
-          if (data.error) {
-            setError(data.error);
-          }
+    startTransition(() => {
+      if (user?.id) {
+        editEmpresa(user?.id, values)
+          .then((data) => {
+            if (data.error) {
+              setError(data.error);
+            }
 
-          if (data.success) {
-            update();
-            setSuccess(data.success);
-            router.refresh();
-          }
-        })
-        .catch((error) => {
-          setError("Algo salio mal!");
-        });
-    }
+            if (data.success) {
+              update();
+              setSuccess(data.success);
+              router.refresh();
+            }
+          })
+          .catch((error) => {
+            setError("Algo salio mal!");
+          });
+      }
+    });
   };
   return (
     <Card className="md:w-[1000px] w-[400px] mb-10">
