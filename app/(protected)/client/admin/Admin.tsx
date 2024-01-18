@@ -28,7 +28,6 @@ interface AdminProps {
 const Admin = ({ users }: AdminProps) => {
   const router = useRouter();
   const currentUser = useCurrentUser();
-  console.log(currentUser?.id);
   const currentUserID = currentUser?.id;
   useEffect(() => {
     router.refresh();

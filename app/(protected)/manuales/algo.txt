@@ -1,0 +1,196 @@
+1Finalidad de este documento
+El presente Manual tiene por finalidad servir como guía en la administración y operación del Sistema de Contabilidad Contable-Financiero CONCAR SQL.
+2Finalidad y descripción general del sistema
+El Sistema Contable y Financiero CONCAR® SQL ha sido desarrollado para ser utilizado por el área de Contabilidad, en la elaboración de los Libros contables, Balances y Estados Financieros, posibilitando de esta manera mejorar la oportunidad y confiabilidad de los resultados para la toma de decisiones por la Alta Dirección.
+3Características del sistema
+Se detallan principales características del sistema CONCAR SQL.
+4Archivos
+El módulo de Archivos permite efectuar el mantenimiento y consulta de las bases de datos del sistema.
+5Plan de Cuenta
+En este archivo o base de datos se registrarán, modificarán o visualizarán las cuentas contables que se definan para llevar la contabilidad de la empresa.
+6Códigos de Anexos
+En esta base de datos se registran los anexos, que son datos complementarios a las cuentas, los mismos que sirven para identificar diferentes tipos de entidades o datos que son necesarios para hacer un análisis más detallado de las cuentas.
+7Tabla General
+En esta opción están registradas todas las tablas creadas para el funcionamiento del sistema. El usuario no podrá crear nuevas tablas; salvo lo indicado en este manual o por un consultor.
+8Tipo de Cambio
+La tabla de Tipo de Cambio es aquella donde se definen las monedas con su equivalencia en moneda nacional de cada día. Esta tabla será usada por el sistema para convertir cada asiento contable a soles y dólares. Para registrar el tipo de cambio dólar, se debe usar el código US.
+9Tabla de Transferencia
+Esta tabla es usada cuando el Plan de cuentas está estructurado para trabajar los costos y gastos con las cuentas del elemento 6 y su uso es opcional.
+10Numeración de Comprobantes
+En esta tabla se muestra el último número de comprobante generado en forma automática por cada subdiario y mes.
+11CIERRE - Tabla de Cierre
+En esta tabla ya viene configurada con los asientos automáticos de cierre del ejercicio, son 17 asientos de cierre.
+12Mantenimiento Cuentas Bancos
+En este archivo o base de datos se deberán registrar todas las cuentas bancarias que tenga la empresa.
+13Mantenimiento Movimientos Bancos
+En esta opción se configuran los movimientos para el registro de Comprobante Bancos.
+14Mantenimiento Parámetros Honorarios
+Este módulo del sistema permite registrar los parámetros que usará el programa de registro de comprobantes honorarios.
+15Mantenimiento Tipo pago por programa
+Se debe configurar los tipos de medio de pago que pueden ser utilizados para cada una de las opciones de generación de comprobantes contables.
+16Mantenimiento Documentos de Referencia
+En esta opción se configuran los documentos que requieren que se active el campo de documento de referencia en el registro de compras y ventas.
+17Mantenimiento de Cuentas Regularización Diferencia de Cambio
+En esta opción se configuran las cuentas que van a participar en el proceso de Regularización Diferencia de Cambio además del subdiario y las cuentas de pérdida y ganancia por diferencia de cambio.
+18Mantenimiento de Cuentas Ajuste Diferencia de Cambio FASB52
+En esta opción se configuran las cuentas que van a participar en el proceso de Ajuste Diferencia Cambio FASB 52 además del subdiario, las cuentas de pérdida y ganancia por diferencia de cambio y el código de moneda para ajuste.
+19Mantenimiento de Tipos de Medio de Pago
+En esta opción se podrá ingresar todos los medios de pago utilizados para registrar las transacciones financieras.
+20Comprobantes
+El módulo de comprobantes permite ingresar las operaciones del día a día en el sistema para lo cual deberá tener configuradas las bases de datos indicadas en el menú Archivos.
+21Control de Registro Mensual
+Esta opción del sistema sirve para habilitar o bloquear los meses en los que se ingresan los comprobantes.
+22Comprobante Estándar con Conversión
+Mediante esta opción se puede registrar en el sistema cualquier asiento de diario como son: Bancos, cajas, planillas, costos, canjes, cancelaciones de clientes y otros; exceptuando los registros por compras, ventas, honorarios y cheques.
+23Comprobante Estándar sin Conversión
+Mediante esta opción se pueden registrar los asientos de apertura, cierre, diferencia de cambio y otros asientos en los cuales se requiere un tipo de cambio por cada cuenta o ingresar manualmente los importes en moneda nacional y/o dólares o una combinación de ambas opciones.
+24Comprobante Compras
+Permite registrar los documentos de las operaciones de compras (sólo las provisiones).
+25Comprobante Ventas
+Esta opción permite registrar los comprobantes de ventas en forma simplificada y automatizada.
+26Comprobante Cheques
+Esta opción permite registrar los cheques girados en forma simplificada y automatizada.
+27Comprobante de Honorarios
+Esta opción permite registrar los comprobantes de honorarios en forma simplificada y automatizada.
+28Comprobante Bancos
+Esta opción permite registrar los comprobantes de bancos en forma simplificada y automatizada.
+29Consulta situación comprobantes
+Esta opción sirve para consultar los comprobantes ingresados y verificar que todos se encuentren finalizados.
+30¿Cómo eliminar Comprobantes en el CONCAR SQL? - Incluye Video
+Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F), individual o masivamente.
+31Log eliminación comprobantes
+Muestra los comprobantes contables eliminados, indicando usuario y fecha de eliminación.
+32Reportes Comprobantes
+Esta opción mostrará reportes de los comprobantes ingresados, así se encuentren en situación P (Pendiente) o F (Finalizado).
+33Asientos Automáticos
+En este menú, se generan automáticamente los asientos de: Apertura, diferencia de cambio, FASB52, cierre y ajuste por inflación; estando este último en desuso por la coyuntura actual.
+34Exporta Comprobantes a Excel
+Utilizando esta opción se puede exportar por subdiarios, los comprobantes registrados en CONCAR® SQL al Excel; asimismo, se puede incluir cuentas automáticas.
+35Reportes
+Este módulo permite emitir los reportes de resultado en base a los datos ya ingresados en los asientos contables.
+36Balances
+Incluye reportes generales y analíticos de Balance General y Balance de Comprobación.
+37Ganancias y Pérdidas
+El sistema tiene diferentes presentaciones del Estado de Ganancias y Pérdidas.
+38Costos
+Contiene reportes de costos y gastos por centro de costo y/o cuenta contable.
+39Diarios
+Incluye reportes de Libros Diarios anteriores y no oficiales.
+40Mayores
+Incluye reportes de Libros Mayores anteriores y no oficiales.
+41Libro de Caja y Bancos
+Incluye reportes de Libros Caja y Bancos anteriores y no oficiales.
+42Estado de Flujo de Efectivo
+El Estado de Flujo de Efectivo muestra el efecto de los cambios de efectivo y equivalentes de efectivo, en un tiempo determinado.
+43Áreas
+Imprime reporte que muestra los totales de ingresos y egresos por cada área, así como también los totales generales.
+44Bancos
+Este reporte muestra los ingresos, egresos y saldos de las cuentas corrientes.
+45Reportes de Ingresos y Gastos
+Incluye los reportes de ingresos y gastos adicionales a los de Ganancias y Pérdidas (Resultados)
+46Estado Cambio Patrimonio Neto
+El Estado de Cambios en el Patrimonio Neto muestra los cambios en el patrimonio de la empresa en un período de tiempo.
+47Libro de Inventarios y Balances PCGR
+Incluye el formato de Libro de Inventarios y Balances antiguo.
+48Ratios
+Son factores de análisis financieros que permiten establecer la posición financiera de la empresa por medio de fórmulas. Estas fórmulas se aplican a una serie de datos por los cuales se puede calcular la posición real de la empresa.
+49Libros y Registros Oficiales - Parte 1
+Incluye los formatos oficiales SUNAT de Libro Contables desde el Libro de Caja y Bancos hasta el Libro Mayor.
+50Libros y Registros Oficiales-Parte 2
+Incluye los formatos oficiales SUNAT de Libros Contables desde el Registro de Compras hasta Registro de Ventas (Genera Archivo Mensual Ventas)
+51Libros y Registros Oficiales-Parte 3
+Incluye los formatos oficiales SUNAT de Libros Contables desde Mantenimiento Archivo Ventas hasta Otros Reportes de Ventas.
+52Análisis cuenta
+Este módulo permite consultar y emitir reportes de saldos por cuenta y anexos, documentos pendientes en forma selectiva a cualquier fecha de saldo y estados de cuentas en línea y sin efectuar ningún proceso previo.
+53Consultas
+Permite realizar consultas de saldos de balance, balance de comprobación y análisis de cuenta.
+54Documentos Pendientes
+Permite emitir reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.
+55Reporte Estados de Cuenta
+Esta opción contiene reportes en los que se podrán apreciar los cargos, abonos y saldos de todas las cuentas contables a nivel analítico, sin importar el nivel de saldo que tenga la cuenta.
+56Reportes Anuales
+Incluye reportes con análisis de cuentas anuales con detalle mensual.
+57Análisis Gráfico Estados Financieros
+El sistema permite realizar análisis gráficos del Balance General y del Estado de Ganancias y Pérdidas por Función o Naturaleza.
+58Presupuesto
+Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable.
+59Mantenimiento Presupuesto
+Proceso que registra en forma masiva los importes de la configuración de presupuesto para el ejercicio actual.
+60Reporte de Presupuesto
+Imprime el reporte de lo presupuestado en el Mantenimiento de Presupuesto, pudiéndose generar en moneda nacional o extranjera.
+61Reporte Ejecución Presupuesto
+Este reporte se utiliza para comparar lo presupuestado por centro de costo/cuenta contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.
+62Ejecución Presupuestal por Función o Naturaleza
+Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.
+63Presupuesto Ordinario
+Emite un reporte de flujo de caja ejecutado, teniendo la posibilidad compararse 2 ejercicios.
+64Ejecución Presupuestal x Centro Costo
+Este reporte nos permite comparar lo presupuestado por centro de costo contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.
+65Conciliación bancaria
+El módulo de Conciliación Bancaria permite realizar la conciliación de movimientos comparando lo registrado en los comprobantes contables de bancos y lo que reporta el banco vía el estado de cuenta bancario, a una fecha determinada.
+66Registro Estados Cuenta
+Esta opción permite registrar y visualizar los movimientos bancarios reportados por el banco.
+67Proceso de Conciliación
+Esta opción permite realizar el proceso de conciliación bancaria.
+68Reportes Conciliación
+Esta opción permite imprimir los resultados del proceso de conciliación bancaria.
+69Movimiento Contable por Banco
+Muestra los movimientos contables registrados por banco.
+70Consulta de Estados por Banco
+Muestra los movimientos bancarios registrados en los estados cuenta.
+71Transfiere Pendientes Año Anterior
+Esta opción permite transferir documentos no conciliados de años anteriores. Se requiere haber realizado la conciliación bancaria definitiva de todos los meses del ejercicio anterior.
+72SUNAT
+Este módulo contiene las opciones para generar los archivos planos (archivos de texto) que se declaran en los programas de SUNAT.
+73PDT Honorarios
+Para presentar información a la SUNAT de los Honorarios se debe registrar primero todos los recibos de Honorarios “Comprobante de Registro de Honorarios”.
+74PDT IGV Renta Mensual-Retención de Clientes
+El sistema genera el archivo PDT del mes seleccionado con las retenciones (6%, realizadas por los clientes que son Agentes de Retención).
+75DAOT-Compras
+El sistema muestra todas las operaciones afectas e inafectas al IGV con proveedores, es decir todos los documentos de compras emitidos en el ejercicio y registrados en el Registro de Compras.
+76DAOT- Ventas
+El sistema muestra todas las operaciones afectas e inafectas al IGV con clientes, es decir todos documentos de venta emitidos en el ejercicio y registrados en el Registro de Ventas
+77PDT 3550 – Resumen Ventas
+Muestra los totales vendidos a todos los clientes en el año y genera el archivo de venta anual para la carga al PDT 3550
+78PDT 621 – Percepciones
+En esta opción se genera el archivo plano de Percepciones para exportarlo al PDT 621.
+79PDT 658 – Casilla Estados Financieros
+Permite generar un archivo con la información detallada, de acuerdo al formato establecido por SUNAT
+80¿Cómo se genera el PDT Renta Anual para el Concar SQL? - Incluye Video
+El sistema permite generar un archivo con el Balance de Comprobación, de acuerdo al formato establecido por SUNAT, para que pueda ser importado desde el PDT Renta Anual de cualquier ejercicio
+81PDB Mensual Exportadores
+Este menú contiene las opciones para generar los archivos a cargar en el PDB SUNAT
+82Administración Sistema
+El módulo de Administración del Sistema permite realizar procesos vinculados a la administración de usuarios y compañías.
+83Mantenimiento de Usuarios
+Esta opción permite la creación, modificación o eliminación de los usuarios del sistema, asignándoles un código, un password (clave secreta) y facultades de acceso
+84Mantenimiento Usuarios-Compañía
+Esta opción permite la asignación de una o más compañías a los usuarios creados en el Mantenimiento de Usuarios
+85Mantenimiento Usuarios-Programa
+Esta opción permite la asignación o restricción de las opciones de menú a los usuarios que fueron creados como Operadores en el Mantenimiento de Usuarios
+86Mantenimiento de Compañías
+Esta opción permite administrar las compañías que se van a trabajar en el sistema dada su característica de ser multiempresa.
+87Mantenimiento de Empresas
+Esta opción permite completar datos adicionales al mantenimiento de compañías necesarios para emitir el certificado de honorarios.
+88Mantenimiento de Ejecutivos
+Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa
+89Utilitarios
+El módulo de Utilitarios permite realizar procesos auxiliares como movimiento de datos, verificar comprobantes que generen descuadres naturaleza/destino.
+90Movimiento Datos
+Esta opción permite adicionar comprobantes contables al sistema originados ya sea por la opción de Transfiere Comprobantes del CONCAR® SQL, por archivos externos generados por una interfaz o desde Excel,
+91Histórico reportes discos
+Esta opción permite consultar e imprimir cualquier reporte que se haya guardado en disco.
+92Verifica Comprobantes
+Permite visualizar a los comprobantes que probablemente estén generando un descuadre en los Estados Financieros
+93Parámetros Generales
+Esta opción permite configurar los parámetros del sistema
+94Acerca de
+Incluye términos de licencia y opciones relacionadas con la llave Real Key.
+95Actualizar Real Key
+Mediante esta opción actualizará la licencia de su Real Key una vez vencido el plazo de contrato.
+96Información Real Key
+El sistema le mostrará las características (Número de serie, número de licencias y los días en los que se vence el convenio de soporte) de la Real Key (Llave electrónica) conectada al equipo.
+97Anexo I: Configurar favoritos
+Permite configurar atajos o accesos directos a las opciones que elija el usuario.
+98Anexos II, III y IV: Carga de asientos desde otros sistemas
+Al momento de ingresar a esta opción el sistema verifica la existencia de las tablas de interface (Comprobantes y anexos). Estas tablas deben ser creadas en la base de datos del CONCAR® SQL
