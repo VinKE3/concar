@@ -2,6 +2,7 @@
 
 import { ArrowLeft, ArrowRight, List } from "lucide-react";
 import Link from "next/link";
+import { dataSubLibros } from "@/app/(protected)/tutoriales/libros-electronicos/librosElectronicos.data";
 
 interface TriButtonsProps {
   indice?: string;
@@ -18,6 +19,31 @@ const TriButtons: React.FC<TriButtonsProps> = ({
   siguiente,
   siguienteHref,
 }) => {
+  // const flattenData = dataSubLibros.reduce<{ id: number; href: string }[]>(
+  //   (acc, subLibro) => {
+  //     acc.push({ id: subLibro.id, href: subLibro.href });
+
+  //     if (subLibro.subtitle2) {
+  //       subLibro.subtitle2.forEach((item) => {
+  //         acc.push({ id: item.id, href: item.href });
+
+  //         if (item.subtitle3) {
+  //           item.subtitle3.forEach((subItem) => {
+  //             acc.push({ id: subItem.id, href: subItem.href });
+  //           });
+  //         }
+  //       });
+  //     }
+
+  //     return acc;
+  //   },
+  //   []
+  // );
+
+  // const sortedData = flattenData.sort((a, b) => a.id - b.id);
+
+  // console.log(sortedData);
+
   return (
     <div className="">
       <div className="flex py-4 gap-2 justify-center md:justify-start">

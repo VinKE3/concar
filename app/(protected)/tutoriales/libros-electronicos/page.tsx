@@ -16,7 +16,7 @@ const LibrosElectronicosPage = () => {
         buttonHref="/tutoriales"
       />
       <Indice
-        id="1."
+        id={1}
         title="Libros electrónicos"
         description="Introducción Libros Electrónicos."
         href="/tutoriales/libros-electronicos/libros-electronicos"

@@ -9,9 +9,9 @@ const LibroElectronicoRegistroVentasPage = () => {
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/consulta-libro-compras/como-generar-mes-movimiento"
       siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas"
     >
       <Heading
         title="Libro Electrónico Registro de Ventas"

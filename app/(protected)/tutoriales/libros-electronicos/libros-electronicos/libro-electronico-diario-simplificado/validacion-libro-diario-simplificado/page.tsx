@@ -15,9 +15,9 @@ const page = () => {
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/carga-libro-diario-simplificado/como-subsanar-inconsistencias"
       siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/validacion-libro-diario-simplificado/campo-obligatorio-llave-incorrecta"
     >
       <Heading
         title="Validación en PLE-SUNAT de los libros electrónicos Diario, Diario Simplificado y Mayor"

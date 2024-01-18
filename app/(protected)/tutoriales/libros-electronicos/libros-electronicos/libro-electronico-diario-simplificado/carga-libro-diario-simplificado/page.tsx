@@ -10,9 +10,9 @@ const page = () => {
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado/registro-omisiones-libro-diario-simplificado"
       siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/carga-libro-diario-simplificado/como-cargar-libro-diario"
     >
       <Heading
         title="Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor"

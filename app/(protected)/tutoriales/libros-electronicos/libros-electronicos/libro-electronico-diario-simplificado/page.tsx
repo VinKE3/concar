@@ -9,9 +9,9 @@ const LibroElectronicoRegistroCompraPage = () => {
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/consulta-libros-ventas/como-generar-mes-movimiento"
       siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado"
     >
       <Heading
         title="Libros Electrónicos Diario, Diario Simplificado y Mayor"

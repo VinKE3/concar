@@ -20,12 +20,16 @@ import { toast } from "sonner";
 import { changeRole } from "@/actions/changeRole";
 import { changeEstado } from "@/actions/changeEstado";
 import { Button } from "@/components/ui/button";
+import { useCurrentUser } from "@/hooks/use-current-user";
 
 interface AdminProps {
   users: User[];
 }
 const Admin = ({ users }: AdminProps) => {
   const router = useRouter();
+  const currentUser = useCurrentUser();
+  console.log(currentUser?.id);
+  const currentUserID = currentUser?.id;
   useEffect(() => {
     router.refresh();
   }, [router]);
@@ -141,41 +145,24 @@ const Admin = ({ users }: AdminProps) => {
 
   const handleDelete = useCallback(
     async (id: string) => {
-      const userId = users.find((user) => user.id === id)?.id;
+      const userId = currentUserID;
       if (userId === id) {
         toast.error("No puedes eliminar tu propio usuario");
         return;
       }
-
       try {
-        const result = await deleteUser(id);
-
-        toast.promise(
-          Promise.resolve(result), // Resolvemos la promesa con el resultado
-          {
-            loading: "Eliminando...",
-            success: (data) => {
-              if (data && data.success) {
-                return data.success; // Mensaje de éxito específico
-              } else {
-                return "Usuario eliminado correctamente";
-              }
-            },
-            error: (err) => {
-              if (err && err.error) {
-                return err.error; // Mensaje de error específico
-              } else {
-                return "Error al eliminar usuario";
-              }
-            },
-          }
-        );
+        toast.promise(deleteUser(id), {
+          loading: "Eliminando...",
+          success: (data) => data.success,
+          error: (err) => err.error || "Error al eliminar usuario",
+        });
+        router.refresh();
       } catch (error) {
         console.error("Error en handleDelete:", error);
         toast.error("Error inesperado al eliminar usuario");
       }
     },
-    [users]
+    [currentUserID, router]
   );
 
   const handleUserRole = useCallback(

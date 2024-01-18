@@ -21,9 +21,9 @@ const RectificacionRegistroCompras = () => {
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/generacion-libro-electronico-compras/estado-indicador-libro-compras"
       siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple"
     >
       <Heading
         title="Rectificación - Registros Adicionales en Registro de Compras Electrónico"

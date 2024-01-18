@@ -15,9 +15,7 @@ const page = () => {
     <Layout
       on
       anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
-      siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-ventas"
+      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/validacion-libro-diario-simplificado"
     >
       <Heading
         title="Validación en PLE-SUNAT: Campo obligatorio / La llave única es incorrecta"

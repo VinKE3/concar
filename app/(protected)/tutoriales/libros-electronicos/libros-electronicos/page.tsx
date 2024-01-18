@@ -7,7 +7,7 @@ const LibrosElectronicosPage = () => {
       on
       anterior={false}
       siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras"
     >
       <Heading
         title="Libros electrónicos"

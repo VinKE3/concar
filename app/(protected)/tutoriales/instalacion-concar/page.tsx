@@ -11,10 +11,13 @@ const InstalacionConcarPage = () => {
         <Heading
           title="Instalación y Actualización del Concar"
           subtitle="Proceso de Instalación y Actualización del Concar SQL"
+          button
+          buttonTitle="Volver a Tutoriales"
+          buttonHref="/tutoriales"
         />
       </div>
       <Indice
-        id="1"
+        id={1}
         title="¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video"
         description="Procedimiento para la Actualización del CONCAR SQL"
         href="/tutoriales/instalacion-concar/proceso-actualizacion-concar-sql"

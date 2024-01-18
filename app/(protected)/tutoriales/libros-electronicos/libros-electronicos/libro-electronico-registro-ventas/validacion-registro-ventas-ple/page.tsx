@@ -10,8 +10,8 @@ const ValidacionRegistroVentasPle = () => {
         on
         siguiente
         anterior
-        siguienteHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/registro-compras-ple"
-        anteriorHref="/tutoriales/libros-electronicos/libro-electronico-registro-compras/registro-compras-ple"
+        siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/numero-numerico-mayor-cero"
+        anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/rectificacion-registro-ventas"
       >
         <Heading
           title="Validación de Registro de Ventas - PLE"

@@ -3,22 +3,22 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 interface IndiceProps {
-  id: string;
+  id: number;
   title: string;
   description: string;
   href: string;
   subtittle?: {
-    id: string;
+    id: number;
     title: string;
     description: string;
     href: string;
     subtitle2?: {
-      id: string;
+      id: number;
       title: string;
       description: string;
       href: string;
       subtitle3?: {
-        id: string;
+        id: number;
         title: string;
         description: string;
         href: string;
