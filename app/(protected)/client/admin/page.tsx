@@ -15,7 +15,7 @@ const AdminPage = async () => {
       </CardHeader>
       <CardContent className="space-y-4">
         <RoleGate allowedRole={UserRole.ADMIN}>
-          <FormSuccess message="Tienes permiso para ver este contenido" />
+          <FormSuccess message="Tenes permiso para ver este contenido" />
           <Admin users={users} />
         </RoleGate>
       </CardContent>

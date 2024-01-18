@@ -17,11 +17,34 @@ export const editEmpresa = async (
     return { error: "No Autorizado" };
   }
 
-  const updatedEmpresa = await db.empresa.upsert({
+  let updatedEmpresa;
+
+  const existingEmpresa = await db.empresa.findUnique({
     where: { id: dbUser.id },
-    update: { ...values },
-    create: { ...values, userId: dbUser.id },
   });
+
+  if (existingEmpresa) {
+    updatedEmpresa = await db.empresa.update({
+      where: { id: dbUser.id },
+      data: { ...values },
+    });
+  } else {
+    const existingEmpresaWithSameUserId = await db.empresa.findUnique({
+      where: { userId: dbUser.id },
+    });
+
+    if (existingEmpresaWithSameUserId) {
+      updatedEmpresa = await db.empresa.update({
+        where: { userId: dbUser.id },
+        data: { ...values },
+      });
+    } else {
+      updatedEmpresa = await db.empresa.create({
+        data: { ...values, userId: dbUser.id },
+      });
+    }
+  }
+
   const updatedUser = await db.user.update({
     where: { id: dbUser.id },
     data: {

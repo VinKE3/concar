@@ -35,7 +35,10 @@ export const login = async (
     return { error: "Email no existe!" };
   }
   if (usuarioInactivo == "Inactivo") {
-    return { error: "Usuario Inactivo!" };
+    return {
+      error:
+        "Usuario Inactivo, porfavor contactarse con servicio tecnico, gracias.",
+    };
   }
 
   if (!existingUser.emailVerified) {
@@ -45,7 +48,8 @@ export const login = async (
 
     await sendVerificationEmail(
       verificationToken.email,
-      verificationToken.token
+      verificationToken.token,
+      existingUser.name as string
     );
 
     return { success: "Email de Confirmación Enviado!" };

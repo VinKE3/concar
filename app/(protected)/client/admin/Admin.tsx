@@ -195,7 +195,7 @@ const Admin = ({ users }: AdminProps) => {
   return (
     <div className="md:max-w-[1150px] m-auto text-xl">
       <div className="mb-4 mt-8">
-        <Heading title="Manejar Usuarios" center />
+        <Heading title="Administrar Usuarios" center />
       </div>
       <div style={{ height: 600, width: "100%" }}>
         <DataGrid

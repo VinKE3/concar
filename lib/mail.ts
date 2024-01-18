@@ -9,28 +9,39 @@ export const sendTwoFactorTokenEmail = async (email: string, token: string) => {
     from: "Contact Form <onboarding@resend.dev>",
     to: "harquin09@gmail.com",
     subject: "2FA Code",
+    reply_to: email,
     html: `<p>Your 2FA code: ${token}</p>`,
   });
 };
 
-export const sendPasswordResetEmail = async (email: string, token: string) => {
+export const sendPasswordResetEmail = async (
+  email: string,
+  token: string,
+  name: string
+) => {
   const resetLink = `${domain}/auth/new-password?token=${token}`;
 
   await resend.emails.send({
     from: "Contact Form <onboarding@resend.dev>",
     to: "harquin09@gmail.com",
     subject: "Reset your password",
-    html: `<p>Click <a href="${resetLink}">here</a> to reset password.</p>`,
+    reply_to: email,
+    html: `<p>Hola ${name}, Click <a href="${resetLink}">AQUI</a> para reiniciar tu contraseña.</p>`,
   });
 };
 
-export const sendVerificationEmail = async (email: string, token: string) => {
+export const sendVerificationEmail = async (
+  email: string,
+  token: string,
+  name: string
+) => {
   const confirmLink = `${domain}/auth/new-verification?token=${token}`;
 
   await resend.emails.send({
     from: "Contact Form <onboarding@resend.dev>",
     to: "harquin09@gmail.com",
     subject: "Confirm your email",
-    html: `<p>Click <a href="${confirmLink}">here</a> to confirm email.</p>`,
+    reply_to: email,
+    html: `<p>Hola ${name}, Click <a href="${confirmLink}">AQUI</a> para confirmar mail.</p>`,
   });
 };
