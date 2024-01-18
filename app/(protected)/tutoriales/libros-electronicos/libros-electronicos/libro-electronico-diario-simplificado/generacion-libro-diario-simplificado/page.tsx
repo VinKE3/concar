@@ -12,7 +12,7 @@ const LibroElectronicoRegistroCompraPage = () => {
       anterior={true}
       anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado"
       siguiente={true}
-      siguienteHref="/utoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado/como-generar-libro-diario-simplificado"
+      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/generacion-libro-diario-simplificado/como-generar-libro-diario-simplificado"
     >
       <Heading
         title="Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor"

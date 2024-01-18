@@ -15,7 +15,7 @@ const page = () => {
       siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado/carga-libro-diario-simplificado/como-cargar-libro-diario"
     >
       <Heading
-        title="Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor"
+        title="Carga de los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />

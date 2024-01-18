@@ -20,7 +20,7 @@ const EstadoIndicadorLibroCompras = () => {
       siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/generacion-libro-electronico-compras/rectificacion-registro-compras"
     >
       <Heading
-        title="Estado Indicador Libro Compras"
+        title="Estado o Indicador de la Operación en el Libro Electrónico de Compras"
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />

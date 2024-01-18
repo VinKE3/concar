@@ -8,18 +8,18 @@ const page = () => {
     {
       id: 1,
       title: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT.",
-      href: "https://miconcar.com/uploads/documentos/858_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_numero_de_documento_debe_ser_numerico_mayor_a_cero.pdf",
+      href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple/como-cargar-libro-ventas",
     },
     {
       id: 2,
       title: "Cómo subsanar inconsistencias en el PLE-SUNAT",
-      href: "https://miconcar.com/uploads/documentos/858_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_numero_de_documento_debe_ser_numerico_mayor_a_cero.pdf",
+      href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple/subsanar-inconsistencias",
     },
     {
       id: 3,
       title:
         "Errores detectados en el PLE-SUNAT al validar el libro electrónico de ventas.",
-      href: "https://miconcar.com/uploads/documentos/858_CONCAR_CB_Validacion_de_libro_electronico_de_ventas_numero_de_documento_debe_ser_numerico_mayor_a_cero.pdf",
+      href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple/errores-detectados-libro-ventas",
     },
   ];
   return (

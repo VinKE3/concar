@@ -19,7 +19,7 @@ const GeneracionLibroCompras = () => {
         subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
         className="py-6"
       />
-      <h1>Este tutorial contiene22:</h1>
+      <h1>Este tutorial contiene:</h1>
       <List items={datos} />
     </Layout>
   );
