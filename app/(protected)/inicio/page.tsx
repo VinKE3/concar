@@ -1,39 +1,60 @@
 import React from "react";
 import Link from "next/link";
-import { dataInicio } from "./incio.data";
+import { dataSoporte, dataEmpresa } from "./incio.data";
+import Container from "@/components/Container";
 
 const InicioPage = () => {
   return (
-    <>
-      <div className="w-full flex flex-col items-center justify-center">
-        <h1 className="text-gray-600 uppercase font-bold mt-5 text-xl md:text-3xl">
-          Soporte y Asistencia
-        </h1>
-        {dataInicio.map(({ id, href, icon: Icon, title, description }) => {
-          return (
-            <Link key={id} href={href}>
-              <div className="w-full max-w-2xl my-8 flex flex-col items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6 px-4 py-2 md:py-6 border-2 border-dashed border-gray-400 dark:border-gray-400 shadow-lg rounded-lg bg-slate-100 hover:bg-slate-300 cursor-pointer">
-                <div className="w-full flex justify-center sm:justify-start sm:w-auto">
-                  <Icon className="w-24 h-24 rounded-lg" />
-                </div>
-                <div className="w-full sm:w-auto flex flex-col items-center sm:items-start">
-                  <p
-                    className="font-display mb-2 text-lg md:text-2xl font-semibold dark:text-gray-600"
-                    itemProp="author"
-                  >
-                    {title}
-                  </p>
-
-                  <div className="mb-4 text-sm md:text-lg text-gray-400">
+    <Container>
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5">
+        <div className="py-14 px-11 rounded-lg w-full bg-gray-100">
+          <h3 className="mb-4 text-black text-[22px] sm:text-[40px] font-extrabold leading-none">
+            <span>Soporte y Asistencia</span>
+          </h3>
+          <ul className="mt-6 sm:mt-10">
+            {dataSoporte.map(({ id, href, icon: Icon, title, description }) => {
+              return (
+                <li
+                  key={id}
+                  className="pt-2 pb-4 mb-2 last:mb-0 border-b border-black border-solid hover:bg-gray-200"
+                >
+                  <Link href={href}>
+                    <div className="flex items-center justify-between text-black hover:text-black text-lg sm:text-xl font-medium">
+                      <h1>{title}</h1>
+                      <Icon size={48} />
+                    </div>
                     <p>{description}</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          );
-        })}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="py-14 px-11 rounded-lg w-full bg-gray-100 mb-10">
+          <h3 className="mb-4 text-black text-[22px] sm:text-[40px] font-extrabold leading-none">
+            <span>Mi empresa</span>
+          </h3>
+          <ul className="mt-6 sm:mt-10">
+            {dataEmpresa.map(({ id, href, icon: Icon, title, description }) => {
+              return (
+                <li
+                  key={id}
+                  className="pt-2 pb-4 mb-2 last:mb-0 border-b border-black border-solid hover:bg-gray-200"
+                >
+                  <Link href={href}>
+                    <div className="flex items-center justify-between text-black hover:text-black text-lg sm:text-xl font-medium">
+                      <h1>{title}</h1>
+                      <Icon size={48} />
+                    </div>
+                    <p>{description}</p>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-    </>
+    </Container>
   );
 };
 
