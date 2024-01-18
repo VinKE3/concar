@@ -36,7 +36,7 @@ const EditEmpresa = ({ user }: UserInfoProps) => {
   const router = useRouter();
   useEffect(() => {
     router.refresh();
-  }, []);
+  }, [router]);
   const form = useForm<z.infer<typeof EmpresaSchema>>({
     resolver: zodResolver(EmpresaSchema),
     defaultValues: {

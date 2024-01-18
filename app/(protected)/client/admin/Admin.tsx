@@ -28,7 +28,7 @@ const Admin = ({ users }: AdminProps) => {
   const router = useRouter();
   useEffect(() => {
     router.refresh();
-  }, []);
+  }, [router]);
   let rows: any = [];
   if (users) {
     rows = users.map((user) => {
@@ -139,59 +139,68 @@ const Admin = ({ users }: AdminProps) => {
     },
   ];
 
-  const handleDelete = useCallback(async (id: string) => {
-    const userId = users.find((user) => user.id === id)?.id;
-    if (userId === id) {
-      toast.error("No puedes eliminar tu propio usuario");
-      return;
-    }
+  const handleDelete = useCallback(
+    async (id: string) => {
+      const userId = users.find((user) => user.id === id)?.id;
+      if (userId === id) {
+        toast.error("No puedes eliminar tu propio usuario");
+        return;
+      }
 
-    try {
-      const result = await deleteUser(id);
+      try {
+        const result = await deleteUser(id);
 
-      toast.promise(
-        Promise.resolve(result), // Resolvemos la promesa con el resultado
-        {
-          loading: "Eliminando...",
-          success: (data) => {
-            if (data && data.success) {
-              return data.success; // Mensaje de éxito específico
-            } else {
-              return "Usuario eliminado correctamente";
-            }
-          },
-          error: (err) => {
-            if (err && err.error) {
-              return err.error; // Mensaje de error específico
-            } else {
-              return "Error al eliminar usuario";
-            }
-          },
-        }
-      );
-    } catch (error) {
-      console.error("Error en handleDelete:", error);
-      toast.error("Error inesperado al eliminar usuario");
-    }
-  }, []);
+        toast.promise(
+          Promise.resolve(result), // Resolvemos la promesa con el resultado
+          {
+            loading: "Eliminando...",
+            success: (data) => {
+              if (data && data.success) {
+                return data.success; // Mensaje de éxito específico
+              } else {
+                return "Usuario eliminado correctamente";
+              }
+            },
+            error: (err) => {
+              if (err && err.error) {
+                return err.error; // Mensaje de error específico
+              } else {
+                return "Error al eliminar usuario";
+              }
+            },
+          }
+        );
+      } catch (error) {
+        console.error("Error en handleDelete:", error);
+        toast.error("Error inesperado al eliminar usuario");
+      }
+    },
+    [users]
+  );
 
-  const handleUserRole = useCallback(async (id: string) => {
-    toast.promise(changeRole(id), {
-      loading: "Cambiando...",
-      success: (data) => data.success,
-      error: (err) => err.error || "Error al cambiar role",
-    });
-    router.refresh();
-  }, []);
+  const handleUserRole = useCallback(
+    async (id: string) => {
+      toast.promise(changeRole(id), {
+        loading: "Cambiando...",
+        success: (data) => data.success,
+        error: (err) => err.error || "Error al cambiar role",
+      });
+      router.refresh();
+    },
+    [router]
+  );
 
-  const handleUserEstado = useCallback(async (id: string) => {
-    toast.promise(changeEstado(id), {
-      loading: "Cambiando...",
-      success: (data) => data.success,
-      error: (err) => err.error || "Error al cambiar estado",
-    });
-    router.refresh();
-  }, []);
+  const handleUserEstado = useCallback(
+    async (id: string) => {
+      toast.promise(changeEstado(id), {
+        loading: "Cambiando...",
+        success: (data) => data.success,
+        error: (err) => err.error || "Error al cambiar estado",
+      });
+      router.refresh();
+    },
+    [router]
+  );
 
   return (
     <div className="md:max-w-[1150px] m-auto text-xl">

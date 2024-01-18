@@ -45,7 +45,7 @@ export const EditUser = ({ user }: UserInfoProps) => {
   const router = useRouter();
   useEffect(() => {
     router.refresh();
-  }, []);
+  }, [router]);
   const formUser = useForm<z.infer<typeof UpdateUser>>({
     resolver: zodResolver(UpdateUser),
     defaultValues: {
