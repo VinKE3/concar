@@ -390,278 +390,316 @@ export const dataManualUsuario = [
   },
   {
     id: 54,
-    title: "",
-    description: "",
+    title: "Documentos Pendientes",
+    description:
+      "Permite emitir reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.",
     href: "/manuales/",
   },
   {
     id: 55,
-    title: "",
-    description: "",
+    title: "Reporte Estados de Cuenta",
+    description:
+      "Esta opción contiene reportes en los que se podrán apreciar los cargos, abonos y saldos de todas las cuentas contables a nivel analítico, sin importar el nivel de saldo que tenga la cuenta.",
     href: "/manuales/",
   },
   {
     id: 56,
-    title: "",
-    description: "",
+    title: "Reportes Anuales",
+    description:
+      "Incluye reportes con análisis de cuentas anuales con detalle mensual.",
     href: "/manuales/",
   },
   {
     id: 57,
-    title: "",
-    description: "",
+    title: "Análisis Gráfico Estados Financieros",
+    description:
+      "El sistema permite realizar análisis gráficos del Balance General y del Estado de Ganancias y Pérdidas por Función o Naturaleza.",
     href: "/manuales/",
   },
   {
     id: 58,
-    title: "",
-    description: "",
+    title: "Presupuesto",
+    description:
+      "Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable.",
     href: "/manuales/",
   },
   {
     id: 59,
-    title: "",
-    description: "",
+    title: "Mantenimiento Presupuesto",
+    description:
+      "Proceso que registra en forma masiva los importes de la configuración de presupuesto para el ejercicio actual.",
     href: "/manuales/",
   },
   {
     id: 60,
-    title: "",
-    description: "",
+    title: "Reporte de Presupuesto",
+    description:
+      "Imprime el reporte de lo presupuestado en el Mantenimiento de Presupuesto, pudiéndose generar en moneda nacional o extranjera.",
     href: "/manuales/",
   },
   {
     id: 61,
-    title: "",
-    description: "",
+    title: "Reporte Ejecución Presupuesto",
+    description:
+      "Este reporte se utiliza para comparar lo presupuestado por centro de costo/cuenta contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
     href: "/manuales/",
   },
   {
     id: 62,
-    title: "",
-    description: "",
+    title: "Ejecución Presupuestal por Función o Naturaleza",
+    description:
+      "Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.",
     href: "/manuales/",
   },
   {
     id: 63,
-    title: "",
-    description: "",
+    title: "Presupuesto Ordinario",
+    description:
+      "Emite un reporte de flujo de caja ejecutado, teniendo la posibilidad compararse 2 ejercicios.",
     href: "/manuales/",
   },
   {
     id: 64,
-    title: "",
-    description: "",
+    title: "Ejecución Presupuestal x Centro Costo",
+    description:
+      "Este reporte nos permite comparar lo presupuestado por centro de costo contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
     href: "/manuales/",
   },
   {
     id: 65,
-    title: "",
-    description: "",
+    title: "Conciliación bancaria",
+    description:
+      "El módulo de Conciliación Bancaria permite realizar la conciliación de movimientos comparando lo registrado en los comprobantes contables de bancos y lo que reporta el banco vía el estado de cuenta bancario, a una fecha determinada.",
     href: "/manuales/",
   },
   {
     id: 66,
-    title: "",
-    description: "",
+    title: "Registro Estados Cuenta",
+    description:
+      "Esta opción permite registrar y visualizar los movimientos bancarios reportados por el banco.",
     href: "/manuales/",
   },
   {
     id: 67,
-    title: "",
-    description: "",
+    title: "Proceso de Conciliación",
+    description:
+      "Esta opción permite realizar el proceso de conciliación bancaria.",
     href: "/manuales/",
   },
   {
     id: 68,
-    title: "",
-    description: "",
+    title: "Reportes Conciliación",
+    description:
+      "Esta opción permite imprimir los resultados del proceso de conciliación bancaria.",
     href: "/manuales/",
   },
   {
     id: 69,
-    title: "",
-    description: "",
+    title: "Movimiento Contable por Banco",
+    description: "Muestra los movimientos contables registrados por banco.",
     href: "/manuales/",
   },
   {
     id: 70,
-    title: "",
-    description: "",
+    title: "Consulta de Estados por Banco",
+    description:
+      "Muestra los movimientos bancarios registrados en los estados cuenta.",
     href: "/manuales/",
   },
   {
     id: 71,
-    title: "",
-    description: "",
+    title: "Transfiere Pendientes Año Anterior",
+    description:
+      "Esta opción permite transferir documentos no conciliados de años anteriores. Se requiere haber realizado la conciliación bancaria definitiva de todos los meses del ejercicio anterior.",
     href: "/manuales/",
   },
   {
     id: 72,
-    title: "",
-    description: "",
+    title: "SUNAT",
+    description:
+      "Este módulo contiene las opciones para generar los archivos planos (archivos de texto) que se declaran en los programas de SUNAT.",
     href: "/manuales/",
   },
   {
     id: 73,
-    title: "",
-    description: "",
+    title: "PDT Honorarios",
+    description:
+      "Para presentar información a la SUNAT de los Honorarios se debe registrar primero todos los recibos de Honorarios “Comprobante de Registro de Honorarios”.",
     href: "/manuales/",
   },
   {
     id: 74,
-    title: "",
-    description: "",
+    title: "PDT IGV Renta Mensual-Retención de Clientes",
+    description:
+      "El sistema genera el archivo PDT del mes seleccionado con las retenciones (6%, realizadas por los clientes que son Agentes de Retención).",
     href: "/manuales/",
   },
   {
     id: 75,
-    title: "",
-    description: "",
+    title: "DAOT-Compras",
+    description:
+      "El sistema muestra todas las operaciones afectas e inafectas al IGV con proveedores, es decir todos los documentos de compras emitidos en el ejercicio y registrados en el Registro de Compras.",
     href: "/manuales/",
   },
   {
     id: 76,
-    title: "",
-    description: "",
+    title: "DAOT- Ventas",
+    description:
+      "El sistema muestra todas las operaciones afectas e inafectas al IGV con clientes, es decir todos documentos de venta emitidos en el ejercicio y registrados en el Registro de Ventas.",
     href: "/manuales/",
   },
   {
     id: 77,
-    title: "",
-    description: "",
+    title: "PDT 3550 – Resumen Ventas",
+    description:
+      "Muestra los totales vendidos a todos los clientes en el año y genera el archivo de venta anual para la carga al PDT 3550",
     href: "/manuales/",
   },
   {
     id: 78,
-    title: "",
-    description: "",
+    title: "PDT 621 – Percepciones",
+    description:
+      "En esta opción se genera el archivo plano de Percepciones para exportarlo al PDT 621.",
     href: "/manuales/",
   },
   {
     id: 79,
-    title: "",
-    description: "",
+    title: "PDT 658 – Casilla Estados Financieros",
+    description:
+      "Permite generar un archivo con la información detallada, de acuerdo al formato establecido por SUNAT",
     href: "/manuales/",
   },
   {
     id: 80,
-    title: "",
-    description: "",
+    title:
+      "¿Cómo se genera el PDT Renta Anual para el Concar SQL? - Incluye Video",
+    description:
+      "El sistema permite generar un archivo con el Balance de Comprobación, de acuerdo al formato establecido por SUNAT, para que pueda ser importado desde el PDT Renta Anual de cualquier ejercicio.",
     href: "/manuales/",
   },
   {
     id: 81,
-    title: "",
-    description: "",
+    title: "PDB Mensual Exportadores",
+    description:
+      "Este menú contiene las opciones para generar los archivos a cargar en el PDB SUNAT",
     href: "/manuales/",
   },
   {
     id: 82,
-    title: "",
-    description: "",
+    title: "Administración Sistema",
+    description:
+      "El módulo de Administración del Sistema permite realizar procesos vinculados a la administración de usuarios y compañías.",
     href: "/manuales/",
   },
   {
     id: 83,
-    title: "",
-    description: "",
+    title: "Mantenimiento de Usuarios",
+    description:
+      "Esta opción permite la creación, modificación o eliminación de los usuarios del sistema, asignándoles un código, un password (clave secreta) y facultades de acceso",
     href: "/manuales/",
   },
   {
     id: 84,
-    title: "",
-    description: "",
+    title: "Mantenimiento Usuarios-Compañía",
+    description:
+      "Esta opción permite la asignación de una o más compañías a los usuarios creados en el Mantenimiento de Usuarios",
     href: "/manuales/",
   },
   {
     id: 85,
-    title: "",
-    description: "",
+    title: "Mantenimiento Usuarios-Programa",
+    description:
+      "Esta opción permite la asignación o restricción de las opciones de menú a los usuarios que fueron creados como Operadores en el Mantenimiento de Usuarios",
     href: "/manuales/",
   },
   {
     id: 86,
-    title: "",
-    description: "",
+    title: "Mantenimiento de Compañías",
+    description:
+      "Esta opción permite administrar las compañías que se van a trabajar en el sistema dada su característica de ser multiempresa.",
     href: "/manuales/",
   },
   {
     id: 87,
-    title: "",
-    description: "",
+    title: "Mantenimiento de Empresas",
+    description:
+      "Esta opción permite completar datos adicionales al mantenimiento de compañías necesarios para emitir el certificado de honorarios.",
     href: "/manuales/",
   },
   {
     id: 88,
-    title: "",
-    description: "",
+    title: "Mantenimiento de Ejecutivos",
+    description:
+      "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa",
     href: "/manuales/",
   },
   {
     id: 89,
-    title: "",
-    description: "",
+    title: "Utilitarios",
+    description:
+      "El módulo de Utilitarios permite realizar procesos auxiliares como movimiento de datos, verificar comprobantes que generen descuadres naturaleza/destino.",
     href: "/manuales/",
   },
   {
     id: 90,
-    title: "",
-    description: "",
+    title: "Movimiento Datos",
+    description:
+      "Esta opción permite adicionar comprobantes contables al sistema originados ya sea por la opción de Transfiere Comprobantes del CONCAR® SQL, por archivos externos generados por una interfaz o desde Excel.",
     href: "/manuales/",
   },
   {
     id: 91,
-    title: "",
-    description: "",
+    title: "Histórico reportes discos",
+    description:
+      "Esta opción permite consultar e imprimir cualquier reporte que se haya guardado en disco.",
     href: "/manuales/",
   },
   {
     id: 92,
-    title: "",
-    description: "",
+    title: "Verifica Comprobantes",
+    description:
+      "Permite visualizar a los comprobantes que probablemente estén generando un descuadre en los Estados Financieros.",
     href: "/manuales/",
   },
   {
     id: 93,
-    title: "",
-    description: "",
+    title: "Parámetros Generales",
+    description: "Esta opción permite configurar los parámetros del sistema.",
     href: "/manuales/",
   },
   {
     id: 94,
-    title: "",
-    description: "",
+    title: "Acerca de",
+    description:
+      "Incluye términos de licencia y opciones relacionadas con la llave Real Key.",
     href: "/manuales/",
   },
   {
     id: 95,
-    title: "",
-    description: "",
+    title: "Actualizar Real Key",
+    description:
+      "Mediante esta opción actualizará la licencia de su Real Key una vez vencido el plazo de contrato.",
     href: "/manuales/",
   },
   {
     id: 96,
-    title: "",
-    description: "",
+    title: "Información Real Key",
+    description:
+      "El sistema le mostrará las características (Número de serie, número de licencias y los días en los que se vence el convenio de soporte) de la Real Key (Llave electrónica) conectada al equipo.",
     href: "/manuales/",
   },
   {
     id: 97,
-    title: "",
-    description: "",
+    title: "Anexo I: Configurar favoritos",
+    description:
+      "Permite configurar atajos o accesos directos a las opciones que elija el usuario.",
     href: "/manuales/",
   },
   {
     id: 98,
-    title: "",
-    description: "",
-    href: "/manuales/",
-  },
-  {
-    id: 99,
-    title: "",
-    description: "",
+    title: "Anexos II, III y IV: Carga de asientos desde otros sistemas",
+    description:
+      "Al momento de ingresar a esta opción el sistema verifica la existencia de las tablas de interface (Comprobantes y anexos). Estas tablas deben ser creadas en la base de datos del CONCAR® SQL.",
     href: "/manuales/",
   },
 ];
