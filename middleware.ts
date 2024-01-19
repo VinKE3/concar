@@ -31,14 +31,6 @@ export default auth(async (req) => {
     }
     return null;
   }
-  if (isLoggedIn) {
-    const user = await currentUser();
-    const userExists = user?.id;
-    const userVigente = user?.estado === "Vigente";
-    if (!userExists || !userVigente) {
-      return await signOut({ callbackUrl: "/" });
-    }
-  }
 
   if (!isLoggedIn && !isPublicRoute) {
     let callbackUrl = nextUrl.pathname;
