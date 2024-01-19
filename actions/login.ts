@@ -19,7 +19,7 @@ export const login = async (
     return { error: "Campos Invalidos!" };
   }
 
-  const { email, password, code } = validatedFields.data;
+  const { email, password } = validatedFields.data;
 
   const existingUser = await getUserByEmail(email);
   const usuarioInactivo = existingUser?.estado;

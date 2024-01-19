@@ -1,22 +1,7 @@
-import Heading from "@/components/Heading";
-import Table from "@/components/Table";
 import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
-import React from "react";
+import RectificacionRegistroCompras from "@/components/librosElectronicos/libroElectronicoRegistroCompras/generacion-libro-electronico-compras/rectificacion-registro-compras/RectificacionRegistroCompras";
 
-const RectificacionRegistroCompras = () => {
-  const data = [
-    {
-      id: 1,
-      title:
-        "Rectificación - Registros Adicionales en Registro de Compras Electrónico",
-      href: "https://miconcar.com/uploads/documentos/868_CONCAR_CB_Rectificacion_registros_adicionales_en_registro_de_compras_electronico.pdf",
-    },
-    {
-      id: 2,
-      title: "Registros Adicionales en Registro de Compras.",
-      href: "https://miconcar.com/uploads/documentos/868_concar_cb_sql_registros_adicionales_registro_de_compras_v13.pdf",
-    },
-  ];
+const page = () => {
   return (
     <Layout
       on
@@ -25,14 +10,9 @@ const RectificacionRegistroCompras = () => {
       siguiente={true}
       siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple"
     >
-      <Heading
-        title="Rectificación - Registros Adicionales en Registro de Compras Electrónico"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-      <Table items={data} />
+      <RectificacionRegistroCompras />
     </Layout>
   );
 };
 
-export default RectificacionRegistroCompras;
+export default page;

@@ -1,17 +1,7 @@
 import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
-import Heading from "@/components/Heading";
-import Table from "@/components/Table";
-import React from "react";
+import FechaDocumentoMayorDocumento07 from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/fecha-documento-mayor-documento07/FechaDocumentoMayorDocumento07";
 
 const page = () => {
-  const data = [
-    {
-      id: 1,
-      title:
-        "Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero",
-      href: "https://miconcar.com/uploads/documentos/867_concar_cb_sql_c1_1_fecha_de_documento_referencia_no_debe_ser_mayor_a_fecha_de_documento_v1_.pdf",
-    },
-  ];
   return (
     <Layout
       on
@@ -20,12 +10,7 @@ const page = () => {
       anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento06-carta-porte"
       siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/falta-documento07-nota-credito"
     >
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Fecha de documento de referencia no debe ser mayor a fecha de documento para el tipo de documento 07 Nota de crédito"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-      <Table items={data} />
+      <FechaDocumentoMayorDocumento07 />
     </Layout>
   );
 };

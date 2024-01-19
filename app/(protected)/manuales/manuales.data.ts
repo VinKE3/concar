@@ -703,3 +703,219 @@ export const dataManualUsuario = [
     href: "/manuales/",
   },
 ];
+
+export const dataPreguntasFrecuentes = [
+  {
+    id: 1,
+    title: "Presentación",
+    description:
+      "El presente manual ha sido desarrollado para asistir a los usuarios del sistema Contable y Financiero CONCAR® en SQL en las situaciones problemáticas que con más frecuencia hemos visto que se presentan y requieren una ayuda especial para ser superadas.",
+    href: "/manuales/finalidad-documento",
+  },
+  {
+    id: 2,
+    title: "Preguntas Frecuentes CONCAR SQL",
+    description:
+      "A continuación se detallan las preguntas frecuentes con sus soluciones.",
+    href: "/manuales/finalidad-descripcion-sistema",
+  },
+  {
+    id: 3,
+    title: "Descarga Versión desde miCONCAR®",
+    description: "Forma de descargar Versión desde miCONCAR®.",
+    href: "/manuales/caracteristicas-sistema",
+  },
+  {
+    id: 4,
+    title:
+      "Cómo separar Gastos No Gravados (inafectos o exonerados) en el Registro de Compras",
+    description:
+      "Procedimiento para que los Gastos No Gravados (inafectos o exonerados) incluidos en documentos que tienen parte Gravada salgan en la columna de Adquisiciones No Gravadas en el Registro de Compras del sistema CONCAR®.",
+    href: "/manuales/",
+  },
+  {
+    id: 5,
+    title: "Como superar mensaje: “CC010.fecha fuera de rango”",
+    description:
+      "Procedimiento para superar mensaje al registrar comprobantes: “CC010.FECHA FUERA DE RANGO” en el sistema CONCAR®.",
+    href: "/manuales/",
+  },
+  {
+    id: 6,
+    title: "CIERRE - Proceso de Cierre",
+    description:
+      "Procedimiento para poder realizar el proceso de Cierre Contable en el sistema CONCAR®.",
+    href: "/manuales/",
+  },
+  {
+    id: 7,
+    title:
+      "Cómo generar los libros electrónicos de Compras,Ventas, Diario y Mayor",
+    description:
+      "Procedimiento para poder realizar el proceso de generación de los libros electrónicos de Compras, Ventas, Diario, Diario de Formato Simplificado y Mayor para SUNAT en el sistema CONCAR®.",
+    href: "/manuales/",
+  },
+  {
+    id: 8,
+    title: "Error Apertura de tabla al ingresar al CONCAR",
+    description: "Error Apertura de tabla impide ingresar al CONCAR.",
+    href: "/manuales/",
+  },
+  {
+    id: 9,
+    title:
+      "No se encontró el elemento que corresponde al elemento u ordinal solicitado",
+    description:
+      "Error que indica que no se encontró el elemento que corresponde al elemento u ordinal solicitado.",
+    href: "/manuales/",
+  },
+  {
+    id: 10,
+    title: "Como obtener el RSFINA",
+    description:
+      "Se necesita saber la forma de obtener el utilitario RSFINA11 para consolidar los meses contables.",
+    href: "/manuales/",
+  },
+  {
+    id: 11,
+    title:
+      "Fecha de Vencimiento en Recibos de Servicios Públicos en el Registro de Compras Electrónico",
+    description:
+      "Al intentar generar el archivo electrónico de Registro de Compras sale error por no tener configurada y/o ingresada la fecha de vencimiento en los recibos de servicios públicos código de documento SUNAT 14.",
+    href: "/manuales/",
+  },
+  {
+    id: 12,
+    title: "Ingreso de Ventas Anuladas",
+    description:
+      "Forma de ingresar al sistema comprobantes de ventas anuladas.",
+    href: "/manuales/",
+  },
+  {
+    id: 13,
+    title: "Error No Coinciden los Tipos en Libro Electrónico de Ventas",
+    description: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
+    href: "/manuales/",
+  },
+  {
+    id: 14,
+    title: "Ventas a No Domiciliados en Libro Electrónico de Ventas",
+    description:
+      "Configuración para que salgan en forma correcta las ventas a no domiciliados en el archivo para el PLE de Ventas.",
+    href: "/manuales/",
+  },
+  {
+    id: 15,
+    title:
+      "Registro y visualización de Ventas a Inafectas y Exoneradas del IGV en el Registro de Ventas",
+    description:
+      "Configuración para que salgan en forma separada ventas inafectas y exoneradas del IGV en el Registro de Ventas.",
+    href: "/manuales/",
+  },
+  {
+    id: 16,
+    title: "¿Bloqueo o cierre de periodos mensuales?",
+    description:
+      "Se desea cerrar (bloquear) periodos mensuales para que no se puedan registrar, modificar ni eliminar comprobantes.",
+    href: "/manuales/",
+  },
+  {
+    id: 17,
+    title:
+      "DETRACCION ¿Cómo habilitar los datos de “Detracción” en comprobantes de compras? - Concar SQL",
+    description:
+      "A continuación detallamos, como habilitar los campos de detracción en los comprobantes de compras.",
+    href: "/manuales/",
+  },
+  {
+    id: 18,
+    title: "INTERFAZ - Carga de Asientos desde otros sistemas",
+    description: "Como cargar asientos desde otros sistemas.",
+    href: "/manuales/",
+  },
+  {
+    id: 19,
+    title:
+      "Falta Doc. Referencia para Documento Tipo 07 y/o 08 en Libro Electrónico de Compras",
+    description:
+      "Falta Doc. Referencia para Documento Tipo 07 y/o 08 en Libro Electrónico de Compras.",
+    href: "/manuales/",
+  },
+  {
+    id: 20,
+    title: "Mostrar los Recibos por Honorarios en el Registro de Compras",
+    description:
+      "Forma de mostrar los recibos por honorarios en el Registro de Compras.",
+    href: "/manuales/",
+  },
+  {
+    id: 21,
+    title: "Generación del Asiento de Apertura Automático",
+    description: "Cómo generar el Asiento de Apertura en forma automática.",
+    href: "/manuales/",
+  },
+  {
+    id: 22,
+    title: "CONCAR no responde (se cuelga)",
+    description:
+      "Al darle doble clic al acceso del CONCAR no carga el sistema.",
+    href: "/manuales/",
+  },
+  {
+    id: 23,
+    title: "No realiza impresión en red",
+    description: "No se logra imprimir en una impresora conectada a la red.",
+    href: "/manuales/",
+  },
+  {
+    id: 24,
+    title: "¿Cómo crear un nuevo ejercicio en el CONCAR SQL ? - Incluye Video",
+    description: "Explicamos como crear un nuevo ejercicio en el Concar SQL.",
+    href: "/manuales/",
+  },
+  {
+    id: 25,
+    title: "Cómo cargar los rubros del Estado de Flujo de Efectivo",
+    description: "Cómo cargar los rubros del Estado de Flujo de Efectivo",
+    href: "/manuales/",
+  },
+  {
+    id: 26,
+    title: "Error 3265 al generar archivo mensual de compras",
+    description: "Error ‘3265’ en tiempo de ejecución.",
+    href: "/manuales/",
+  },
+  {
+    id: 27,
+    title: "Asiento de Apertura Automático se genera descuadrado",
+    description: "Asiento de Apertura automático se genera descuadrado.",
+    href: "/manuales/",
+  },
+  {
+    id: 28,
+    title: "Mensaje de licencia Real Key (RK)",
+    description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
+    href: "/manuales/",
+  },
+  {
+    id: 29,
+    title: "Llave Real Key no detectada",
+    description: "Solución al mensaje Llave Real Key (RK) no detectada",
+    href: "/manuales/",
+  },
+  {
+    id: 30,
+    title:
+      "Se duplican el total Ventas Netas y/o Total Costo de Ventas en Estado de Ganancias y Pérdidas por Función",
+    description:
+      "Se duplican el total Ventas Netas y/o el Total Costo de Ventas en el Estado de Ganancias y Pérdidas por Función.",
+    href: "/manuales/",
+  },
+  {
+    id: 31,
+    title: "Compatibilidad del CONCAR - Incluye Video",
+    description:
+      "Se detallan los siguientes temas de Compatibilidad para las plataformas CODEBASE y SQL - Requisitos Técnicos Equipos, Versiones de Windows, Office y Servidores - Configuración Antivirus - Configuración Regional - Configuración Sistema Operativo /IPV6, UAC, FRAMEWORK.",
+    href: "/manuales/",
+  },
+];

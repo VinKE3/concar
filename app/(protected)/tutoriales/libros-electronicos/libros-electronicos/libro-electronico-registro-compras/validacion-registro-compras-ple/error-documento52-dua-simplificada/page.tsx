@@ -1,17 +1,7 @@
 import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
-import Heading from "@/components/Heading";
-import Table from "@/components/Table";
-import React from "react";
+import ErrorDocumento52DuaSimplificada from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/error-documento52-dua-simplificada/ErrorDocumento52DuaSimplificada";
 
 const page = () => {
-  const data = [
-    {
-      id: 1,
-      title:
-        "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 52 DUA Simplificada",
-      href: "https://miconcar.com/uploads/documentos/856_CONCAR_CB_Validacion_de_libro_electronico_de_compras_error_en_numero_de_serie_para_el_documento_de_tipo_52_dua_simplificada.pdf",
-    },
-  ];
   return (
     <Layout
       on
@@ -20,12 +10,7 @@ const page = () => {
       anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/fecha-vencimiento-documento14"
       siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-tipo55-transporte-ferroviario"
     >
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 52 DUA Simplificada"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-      <Table items={data} />
+      <ErrorDocumento52DuaSimplificada />
     </Layout>
   );
 };

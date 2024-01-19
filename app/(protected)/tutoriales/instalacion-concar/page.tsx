@@ -3,11 +3,19 @@ import Heading from "@/components/Heading";
 import Indice from "@/components/Indice";
 import React from "react";
 
-const InstalacionConcarPage = () => {
+const page = () => {
+  const items = [
+    {
+      id: 1,
+      title:
+        "¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video",
+      description: "Procedimiento para la Actualización del CONCAR SQL",
+      href: "/tutoriales/instalacion-concar/proceso-actualizacion-concar-sql",
+    },
+  ];
   return (
     <Container>
       <div className="py-4">
-        {" "}
         <Heading
           title="Instalación y Actualización del Concar"
           subtitle="Proceso de Instalación y Actualización del Concar SQL"
@@ -16,14 +24,9 @@ const InstalacionConcarPage = () => {
           buttonHref="/tutoriales"
         />
       </div>
-      <Indice
-        id={1}
-        title="¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video"
-        description="Procedimiento para la Actualización del CONCAR SQL"
-        href="/tutoriales/instalacion-concar/proceso-actualizacion-concar-sql"
-      />
+      <Indice items={items} />
     </Container>
   );
 };
 
-export default InstalacionConcarPage;
+export default page;

@@ -1,17 +1,7 @@
 import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
-import Heading from "@/components/Heading";
-import Table from "@/components/Table";
-import React from "react";
+import ComoGenerarMesMovimiento from "@/components/librosElectronicos/libroElectronicoRegistroCompras/consulta-libro-compras/como-generar-mes-movimiento/ComoGenerarMesMovimiento";
 
 const page = () => {
-  const data = [
-    {
-      id: 1,
-      title:
-        "Procedimiento para la generación del archivo TXT del libro electrónico de compras de un mes sin movimiento.",
-      href: "https://miconcar.com/uploads/documentos/899_CONCAR_SQL_Como_generar_el_libro_electronico_de_compras_de_un_mes_sin_movimiento.pdf",
-    },
-  ];
   return (
     <Layout
       on
@@ -20,16 +10,7 @@ const page = () => {
       anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/consulta-libro-compras"
       siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas"
     >
-      <Heading
-        title="Cómo generar el libro electrónico de compras de un mes sin movimiento"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-      <p>
-        Procedimiento para la generación del archivo TXT del libro electrónico
-        de compras de un mes sin movimiento.
-      </p>
-      <Table items={data} />
+      <ComoGenerarMesMovimiento />
     </Layout>
   );
 };
