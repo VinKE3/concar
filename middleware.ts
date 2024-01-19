@@ -8,6 +8,8 @@ import {
 } from "@/routes";
 import { db } from "./lib/db";
 import { currentUser } from "@/lib/auth";
+import { signOut } from "next-auth/react";
+import { useCallback } from "react";
 
 const { auth } = NextAuth(authConfig);
 
@@ -33,11 +35,8 @@ export default auth(async (req) => {
     const user = await currentUser();
     const userExists = user?.id;
     const userVigente = user?.estado === "Vigente";
-    console.log("user", user);
-    console.log("userExists", userExists);
-    console.log("userVigente", userVigente);
     if (!userExists || !userVigente) {
-      return Response.redirect("/auth/login");
+      return await signOut({ callbackUrl: "/" });
     }
   }
 
