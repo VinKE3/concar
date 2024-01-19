@@ -6,20 +6,14 @@ import {
   authRoutes,
   publicRoutes,
 } from "@/routes";
-import { currentUser } from "@/lib/auth";
-import { signOut } from "next-auth/react";
-import { Session } from "next-auth";
-interface ExtendedSession extends Session {
-  estado: string;
-}
+
 const { auth } = NextAuth(authConfig);
 
 export default auth(async (req) => {
+  console.log("auth middleware");
+  console.log(req.auth, "reqqqq");
   const { nextUrl } = req;
   const isLoggedIn = !!req.auth;
-  // Añade una verificación para obtener el estado del usuario
-  const userStatus = (req.auth as ExtendedSession)?.estado;
-  console.log("userStatus", userStatus);
   const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);
   const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
   const isAuthRoute = authRoutes.includes(nextUrl.pathname);
@@ -35,7 +29,7 @@ export default auth(async (req) => {
     return null;
   }
 
-  if ((!isLoggedIn || userStatus === "Inactivo") && !isPublicRoute) {
+  if (!isLoggedIn && !isPublicRoute) {
     let callbackUrl = nextUrl.pathname;
     if (nextUrl.search) {
       callbackUrl += nextUrl.search;
