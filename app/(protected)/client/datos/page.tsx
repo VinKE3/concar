@@ -40,7 +40,6 @@ const SettingsPage = () => {
       cargo: user?.cargo || "",
       telefono: user?.telefono || "",
       role: user?.role || undefined,
-      isTwoFactorEnabled: user?.isTwoFactorEnabled || false,
     },
   });
 

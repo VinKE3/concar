@@ -4,7 +4,6 @@ import { UserRole, ambiente, estado, tipo } from "@prisma/client";
 export const SettingsSchema = z
   .object({
     name: z.optional(z.string()),
-    isTwoFactorEnabled: z.optional(z.boolean()),
     role: z.enum([UserRole.ADMIN, UserRole.USER]),
     cargo: z.optional(z.string().min(1)),
     telefono: z.optional(z.string().min(1)),

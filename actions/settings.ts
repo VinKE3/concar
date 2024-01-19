@@ -47,7 +47,6 @@ export const settings = async (values: z.infer<typeof SettingsSchema>) => {
     user: {
       name: updatedUser.name,
       email: updatedUser.email,
-      isTwoFactorEnabled: updatedUser.isTwoFactorEnabled,
       role: updatedUser.role,
       cargo: updatedUser.cargo ? updatedUser.cargo : undefined,
       telefono: updatedUser.telefono ? updatedUser.telefono : undefined,

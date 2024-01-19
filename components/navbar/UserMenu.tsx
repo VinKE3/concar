@@ -16,7 +16,6 @@ interface UserMenuProps {
   currentUser:
     | (User & {
         role: UserRole;
-        isTwoFactorEnabled: boolean;
         cargo?: string;
       })
     | null
