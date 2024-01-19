@@ -5,14 +5,14 @@ export const dataManuales = [
     title: "Manual de Usuario CONCAR SQL",
     description:
       "Este es una guía que te ayudará a entender el funcionamiento del sistema de forma ordenada y concisa.",
-    href: "/tutoriales/libros-electronicos",
+    href: "/manuales/manual-usuario-concar",
   },
   {
     id: 2,
     codigo: "M00006",
     title: "Manual de Preguntas Frecuentes CONCAR SQL",
     description: "Preguntas Frecuentes",
-    href: "/tutoriales/instalacion-concar",
+    href: "/manuales/manual-preguntas-frecuentes",
   },
 ];
 
