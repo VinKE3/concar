@@ -6,6 +6,7 @@ import {
   authRoutes,
   publicRoutes,
 } from "@/routes";
+import { signOut } from "next-auth/react";
 
 const { auth } = NextAuth(authConfig);
 
@@ -29,6 +30,7 @@ export default auth(async (req) => {
   }
 
   if ((!isLoggedIn || userStatus === "Inactivo") && !isPublicRoute) {
+    await signOut();
     let callbackUrl = nextUrl.pathname;
     if (nextUrl.search) {
       callbackUrl += nextUrl.search;
