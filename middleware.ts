@@ -10,14 +10,13 @@ import {
 const { auth } = NextAuth(authConfig);
 
 export default auth(async (req) => {
-  console.log("auth middleware");
-  console.log(req.auth, "reqqqq");
+  console.log(req.auth?.user?.estado, "reqqqq");
   const { nextUrl } = req;
   const isLoggedIn = !!req.auth;
   const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);
   const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
   const isAuthRoute = authRoutes.includes(nextUrl.pathname);
-
+  const userStatus = req.auth?.user?.estado;
   if (isApiAuthRoute) {
     return null;
   }
@@ -29,7 +28,7 @@ export default auth(async (req) => {
     return null;
   }
 
-  if (!isLoggedIn && !isPublicRoute) {
+  if ((!isLoggedIn || userStatus === "Inactivo") && !isPublicRoute) {
     let callbackUrl = nextUrl.pathname;
     if (nextUrl.search) {
       callbackUrl += nextUrl.search;
