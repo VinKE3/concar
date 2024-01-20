@@ -18,6 +18,9 @@ export default auth(async (req) => {
   const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
   const isAuthRoute = authRoutes.includes(nextUrl.pathname);
   const userStatus = req.auth?.user?.estado;
+  const isInactive = userStatus === "Inactivo";
+  const userId = req.auth?.user?.id;
+  const userNoExiste = userId === undefined;
   if (isApiAuthRoute) {
     return null;
   }
@@ -29,8 +32,11 @@ export default auth(async (req) => {
     return null;
   }
 
-  if ((!isLoggedIn || userStatus === "Inactivo") && !isPublicRoute) {
-    if (userStatus === "Inactivo") {
+  if (
+    (!isLoggedIn || userStatus === "Inactivo" || userNoExiste) &&
+    !isPublicRoute
+  ) {
+    if (userStatus === "Inactivo" || userNoExiste) {
       await signOut();
     }
     let callbackUrl = nextUrl.pathname;
