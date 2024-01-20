@@ -11,7 +11,6 @@ import { signOut } from "next-auth/react";
 const { auth } = NextAuth(authConfig);
 
 export default auth(async (req) => {
-  console.log(req.auth?.user?.estado, "reqqqq");
   const { nextUrl } = req;
   const isLoggedIn = !!req.auth;
   const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);
@@ -29,7 +28,7 @@ export default auth(async (req) => {
     return null;
   }
 
-  if ((!isLoggedIn || userStatus === "Inactivo") && !isPublicRoute) {
+  if (!isLoggedIn && !isPublicRoute) {
     await signOut();
     let callbackUrl = nextUrl.pathname;
     if (nextUrl.search) {
@@ -38,7 +37,23 @@ export default auth(async (req) => {
 
     const encodedCallbackUrl = encodeURIComponent(callbackUrl);
 
-    return Response.redirect(new URL(`/auth/login`, nextUrl));
+    return Response.redirect(
+      new URL(`/auth/login?callbackUrl=${encodedCallbackUrl}`, nextUrl)
+    );
+  }
+
+  if (isLoggedIn && userStatus === "Inactivo") {
+    await signOut();
+    let callbackUrl = nextUrl.pathname;
+    if (nextUrl.search) {
+      callbackUrl += nextUrl.search;
+    }
+
+    const encodedCallbackUrl = encodeURIComponent(callbackUrl);
+
+    return Response.redirect(
+      new URL(`/auth/login?callbackUrl=${encodedCallbackUrl}`, nextUrl)
+    );
   }
 
   return null;
