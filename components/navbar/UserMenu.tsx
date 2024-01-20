@@ -7,7 +7,7 @@ import MenuItem from "./MenuItem";
 import Avatar from "./Avatar";
 import BackDrop from "../BackDrop";
 import { signOut } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
 import { User } from "next-auth";
 import { UserRole } from "@prisma/client";
 import { LogOut, User2 } from "lucide-react";
