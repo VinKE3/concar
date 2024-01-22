@@ -1,7 +1,8 @@
 import React from "react";
+import ManualPreguntasFrecuentes from "../../_components/manuales/manual-preguntas-frecuentes/ManualPreguntasFrecuentes";
 
 const page = () => {
-  return <div></div>;
+  return <ManualPreguntasFrecuentes />;
 };
 
 export default page;

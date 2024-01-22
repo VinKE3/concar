@@ -28,7 +28,6 @@ export default function Layout({
         text="Proceso de Cierre y Apertura contable."
       />
       <TriButtons
-        indiceOn
         indice={indice}
         anterior={anterior}
         anteriorHref={anteriorHref}

@@ -7,11 +7,6 @@ import { usePathname } from "next/navigation";
 
 interface LayoutProps {
   children: React.ReactNode;
-  indice?: string;
-  anterior?: boolean;
-  anteriorHref?: string;
-  siguiente?: boolean;
-  siguienteHref?: string;
 }
 
 export default function Layout({ children }: LayoutProps) {

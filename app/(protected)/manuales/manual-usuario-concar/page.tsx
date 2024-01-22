@@ -1,21 +1,7 @@
-import Heading from "@/components/Heading";
-import { dataManualUsuario } from "@/data/manuales.data";
-import Indice from "@/components/Indice";
+import ManualUsuarioConcar from "../../_components/manuales/manual-usuario-concar/ManualUsuarioConcar";
 
 const page = () => {
-  return (
-    <>
-      <Heading
-        title=""
-        button
-        buttonTitle="Volver a Manuales"
-        buttonHref="/manuales"
-        className="mb-5"
-      />
-      <Heading title="índice" className="bg-gray-200 px-2" />
-      <Indice items={dataManualUsuario} />
-    </>
-  );
+  return <ManualUsuarioConcar />;
 };
 
 export default page;

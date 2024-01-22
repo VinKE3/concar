@@ -30,7 +30,6 @@ export default function Layout({
             text="ILibros electrónicos Compras, Ventas, Diario y Mayor."
           />
           <TriButtons
-            indiceOn
             indice="/tutoriales/libros-electronicos"
             anterior={anterior}
             anteriorHref={anteriorHref}
