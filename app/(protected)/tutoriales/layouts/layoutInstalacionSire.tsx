@@ -28,6 +28,7 @@ export default function Layout({
         text="Instalación y Actualización"
       />
       <TriButtons
+        indiceOn
         indice={indice}
         anterior={anterior}
         anteriorHref={anteriorHref}

@@ -16,7 +16,7 @@ const CierreAperturaPage = () => {
           buttonHref="/tutoriales"
         />
       </div>
-      <Heading title="Indice" />
+      <Heading title="índice" className="bg-gray-200 px-2" />
       <Indice items={dataCierreAperturaContable} />
       <Indice items={dataProcesoApertura} />
     </Container>

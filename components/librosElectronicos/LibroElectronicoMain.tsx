@@ -15,6 +15,7 @@ const LibrosElectronicosMain = () => {
         buttonTitle="Volver a Tutoriales"
         buttonHref="/tutoriales"
       />
+      <Heading title="índice" className="bg-gray-200 px-2" />
       <Indice items={dataSubLibros} />
     </Container>
   );

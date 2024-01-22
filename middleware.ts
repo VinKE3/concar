@@ -11,7 +11,6 @@ import { signOut } from "next-auth/react";
 const { auth } = NextAuth(authConfig);
 
 export default auth(async (req) => {
-  console.log(req.auth?.user?.id, "reqqqq");
   const { nextUrl } = req;
   const isLoggedIn = !!req.auth;
   const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);

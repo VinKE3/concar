@@ -24,6 +24,7 @@ const page = () => {
           buttonHref="/tutoriales"
         />
       </div>
+      <Heading title="índice" className="bg-gray-200 px-2" />
       <Indice items={items} />
     </Container>
   );
