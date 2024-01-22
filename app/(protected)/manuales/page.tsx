@@ -1,5 +1,5 @@
 import React from "react";
-import { dataManuales } from "./manuales.data";
+import { dataManuales } from "@/data/manuales.data";
 import Table2 from "@/components/Table2";
 
 const ManualesPage = () => {
