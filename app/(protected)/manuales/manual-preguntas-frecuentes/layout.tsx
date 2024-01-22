@@ -1,6 +1,7 @@
 "use client";
 import Container from "@/components/Container";
 import Header from "@/components/Header";
+import Heading from "@/components/Heading";
 import TriButtons from "@/components/TriButtons";
 import { dataPreguntasFrecuentes } from "@/data/manuales.data";
 import { usePathname } from "next/navigation";
@@ -15,8 +16,7 @@ export default function Layout({ children }: LayoutProps) {
   const currentIndex = dataPreguntasFrecuentes.findIndex(
     (item) => item.href === pathname
   );
-
-  // Define anteriorHref y siguienteHref basándote en currentIndex
+  // Define anteriorHref y siguienteHref basandose en currentIndex
   let anteriorHref =
     currentIndex > 0
       ? dataPreguntasFrecuentes[currentIndex - 1].href
@@ -25,25 +25,31 @@ export default function Layout({ children }: LayoutProps) {
     currentIndex < dataPreguntasFrecuentes.length - 1
       ? dataPreguntasFrecuentes[currentIndex + 1].href
       : undefined;
-  // Define anterior y siguiente basándote en si anteriorHref y siguienteHref están definidos
+  // Define anterior y siguiente basandose en si anteriorHref y siguienteHref están definidos
   let anterior = anteriorHref !== undefined;
   let siguiente = siguienteHref !== undefined;
+  // define el titulo de la página
+  let titulo = dataPreguntasFrecuentes[currentIndex].title;
   return (
     <Container>
       <Header
         title="Manual de Preguntas Frecuentes CONCAR SQL"
-        href="/tutoriales/manual-preguntas-frecuentes"
+        href="/tutoriales/main-manual-preguntas-frecuentes"
         subtitle="Categoría: CONCAR® SQL"
         text="Preguntas Frecuentes."
       />
       <TriButtons
-        indice="/manuales/manual-preguntas-frecuentes"
+        indice="/manuales/main-manual-preguntas-frecuentes"
         anterior={anterior}
         anteriorHref={anteriorHref}
         siguiente={siguiente}
         siguienteHref={siguienteHref}
       />
-      {children}
+      <Heading
+        title={titulo}
+        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
+      />
+      <div className="py-8">{children}</div>
     </Container>
   );
 }

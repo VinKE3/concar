@@ -30,12 +30,12 @@ export default function Layout({ children }: LayoutProps) {
     <Container>
       <Header
         title="Manual de Usuario CONCAR SQL"
-        href="/tutoriales/manual-usuario-concar"
+        href="/tutoriales/main-manual-usuario-concar"
         subtitle="Categoría: CONCAR® SQL"
         text="Este es una guía que te ayudará a entender el funcionamiento del sistema de forma ordenada y concisa."
       />
       <TriButtons
-        indice="/manuales/manual-usuario-concar"
+        indice="/manuales/main-manual-usuario-concar"
         anterior={anterior}
         anteriorHref={anteriorHref}
         siguiente={siguiente}

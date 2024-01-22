@@ -5,14 +5,14 @@ export const dataManuales = [
     title: "Manual de Usuario CONCAR SQL",
     description:
       "Este es una guía que te ayudará a entender el funcionamiento del sistema de forma ordenada y concisa.",
-    href: "/manuales/manual-usuario-concar",
+    href: "/manuales/main-manual-usuario-concar",
   },
   {
     id: 2,
     codigo: "M00006",
     title: "Manual de Preguntas Frecuentes CONCAR SQL",
     description: "Preguntas Frecuentes",
-    href: "/manuales/manual-preguntas-frecuentes",
+    href: "/manuales/main-manual-preguntas-frecuentes",
   },
 ];
 
@@ -802,7 +802,7 @@ export const dataPreguntasFrecuentes = [
     title: "Ventas a No Domiciliados en Libro Electrónico de Ventas",
     description:
       "Configuración para que salgan en forma correcta las ventas a no domiciliados en el archivo para el PLE de Ventas.",
-    href: "/manuales/manual-preguntas-frecuentes/vendas-no-domiciliados",
+    href: "/manuales/manual-preguntas-frecuentes/ventas-no-domiciliados",
   },
   {
     id: 15,
