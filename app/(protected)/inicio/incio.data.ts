@@ -22,22 +22,22 @@ export const dataSoporte: SoporteData = [
     icon: BookOpenCheck,
     description: "Acceda a toda la información del CONCAR® y sus módulos.",
   },
-  {
-    id: 3,
-    title: "Temas",
-    href: "/temas",
-    icon: List,
-    description:
-      "Navegue por los distintos temas de interes de nuestra biblioteca digital.",
-  },
-  {
-    id: 4,
-    title: "Palabras claves",
-    href: "/palabras-claves",
-    icon: Search,
-    description:
-      "Agilice la búsqueda de su documento, utilizando nuestro índice de palabras claves.",
-  },
+  // {
+  //   id: 3,
+  //   title: "Temas",
+  //   href: "/temas",
+  //   icon: List,
+  //   description:
+  //     "Navegue por los distintos temas de interes de nuestra biblioteca digital.",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Palabras claves",
+  //   href: "/palabras-claves",
+  //   icon: Search,
+  //   description:
+  //     "Agilice la búsqueda de su documento, utilizando nuestro índice de palabras claves.",
+  // },
 ];
 
 export const dataEmpresa: EmpresaData = [
