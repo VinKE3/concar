@@ -379,14 +379,14 @@ export const dataManualUsuario = [
     title: "Análisis cuenta",
     description:
       "Este módulo permite consultar y emitir reportes de saldos por cuenta y anexos, documentos pendientes en forma selectiva a cualquier fecha de saldo y estados de cuentas en línea y sin efectuar ningún proceso previo.",
-    href: "/manuales/manual-usuario-concar/análisis-cuenta",
+    href: "/manuales/manual-usuario-concar/analisis-cuenta",
   },
   {
     id: 53,
     title: "Consultas",
     description:
       "Permite realizar consultas de saldos de balance, balance de comprobación y análisis de cuenta.",
-    href: "/manuales/manual-usuario-concar/cosultas",
+    href: "/manuales/manual-usuario-concar/consultas",
   },
   {
     id: 54,
@@ -414,7 +414,7 @@ export const dataManualUsuario = [
     title: "Análisis Gráfico Estados Financieros",
     description:
       "El sistema permite realizar análisis gráficos del Balance General y del Estado de Ganancias y Pérdidas por Función o Naturaleza.",
-    href: "/manuales/manual-usuario-concar/análisis-gráfico",
+    href: "/manuales/manual-usuario-concar/analisis-grafico",
   },
   {
     id: 58,
