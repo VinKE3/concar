@@ -901,7 +901,7 @@ export const dataPreguntasFrecuentes = [
     id: 29,
     title: "Llave Real Key no detectada",
     description: "Solución al mensaje Llave Real Key (RK) no detectada",
-    href: "/manuales/manual-preguntas-frecuentes/realk-key-no-detectada",
+    href: "/manuales/manual-preguntas-frecuentes/real-key-no-detectada",
   },
   {
     id: 30,

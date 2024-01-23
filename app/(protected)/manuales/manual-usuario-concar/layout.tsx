@@ -1,6 +1,7 @@
 "use client";
 import Container from "@/components/Container";
 import Header from "@/components/Header";
+import Heading from "@/components/Heading";
 import TriButtons from "@/components/TriButtons";
 import { dataManualUsuario } from "@/data/manuales.data";
 import { usePathname } from "next/navigation";
@@ -26,6 +27,8 @@ export default function Layout({ children }: LayoutProps) {
   // Define anterior y siguiente basándote en si anteriorHref y siguienteHref están definidos
   let anterior = anteriorHref !== undefined;
   let siguiente = siguienteHref !== undefined;
+  // define el titulo de la página
+  let titulo = dataManualUsuario[currentIndex].title;
   return (
     <Container>
       <Header
@@ -41,7 +44,11 @@ export default function Layout({ children }: LayoutProps) {
         siguiente={siguiente}
         siguienteHref={siguienteHref}
       />
-      {children}
+      <Heading
+        title={titulo}
+        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
+      />
+      <div className="py-8">{children}</div>
     </Container>
   );
 }

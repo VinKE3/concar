@@ -1,7 +1,8 @@
+import ConcarNoResponde from "@/app/(protected)/_components/manuales/manual-preguntas-frecuentes/concar-no-responde/ConcarNoResponde";
 import React from "react";
 
 const page = () => {
-  return <div></div>;
+  return <ConcarNoResponde />;
 };
 
 export default page;
