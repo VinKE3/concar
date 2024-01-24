@@ -1,7 +1,7 @@
-import React from "react";
+import Sunat from "@/app/(protected)/_components/manuales/manual-usuario-concar/sunat/Sunat";
 
 const page = () => {
-  return <div>Archivos</div>;
+  return <Sunat />;
 };
 
 export default page;
