@@ -32,7 +32,7 @@ const InicioPage = () => {
         </div>
         <div className="py-14 px-11 rounded-lg w-full bg-gray-100 mb-10">
           <h3 className="mb-4 text-black text-[22px] sm:text-[40px] font-extrabold leading-none">
-            <span>Mi empresa</span>
+            <span>Descargas</span>
           </h3>
           <ul className="mt-6 sm:mt-10">
             {dataEmpresa.map(({ id, href, icon: Icon, title, description }) => {

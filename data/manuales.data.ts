@@ -58,6 +58,9 @@ export const dataManualUsuario = [
     description:
       "En esta base de datos se registran los anexos, que son datos complementarios a las cuentas, los mismos que sirven para identificar diferentes tipos de entidades o datos que son necesarios para hacer un análisis más detallado de las cuentas.",
     href: "/manuales/manual-usuario-concar/codigos-anexos",
+    tema: "Anexos",
+    tipo: "Articulo",
+    palabrasClave: ["anexos"],
   },
   {
     id: 7,
@@ -611,6 +614,9 @@ export const dataManualUsuario = [
     description:
       "Esta opción permite la asignación o restricción de las opciones de menú a los usuarios que fueron creados como Operadores en el Mantenimiento de Usuarios",
     href: "/manuales/manual-usuario-concar/mantenimiento-usuarios-programa",
+    tema: "Sin-Definir",
+    tipo: "Articulo",
+    palabrasClave: ["usuarios"],
   },
   {
     id: 86,
