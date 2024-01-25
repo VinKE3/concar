@@ -25,7 +25,7 @@ export default async function RootLayout({
   return (
     <SessionProvider session={session}>
       <html lang="en">
-        <body className={`${poppins.className} text-slate-700`}>
+        <body className={`${poppins.className} bg-slate-50 text-slate-700`}>
           <Toaster richColors />
           <NavBar currentUser={currentUser} />
           {children}

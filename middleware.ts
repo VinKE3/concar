@@ -31,10 +31,10 @@ export default auth(async (req) => {
     return null;
   }
 
-  if ((!isLoggedIn || isInactive || userNoExiste) && !isPublicRoute) {
-    if (isInactive || userNoExiste) {
-      await signOut();
-    }
+  if (!isLoggedIn && !isPublicRoute) {
+    // if (isInactive || userNoExiste) {
+    //   await signOut();
+    // }
     let callbackUrl = nextUrl.pathname;
     if (nextUrl.search) {
       callbackUrl += nextUrl.search;

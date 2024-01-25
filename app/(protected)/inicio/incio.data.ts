@@ -41,13 +41,13 @@ export const dataSoporte: SoporteData = [
 ];
 
 export const dataEmpresa: EmpresaData = [
-  {
-    id: 1,
-    title: "Mis Usuarios",
-    href: "/mis-usuarios",
-    icon: UserRound,
-    description: "Detalle de usuarios, roles y permisos de su empresa.",
-  },
+  // {
+  //   id: 1,
+  //   title: "Mis Usuarios",
+  //   href: "/mis-usuarios",
+  //   icon: UserRound,
+  //   description: "Detalle de usuarios, roles y permisos de su empresa.",
+  // },
   {
     id: 2,
     title: "Mis Productos",
