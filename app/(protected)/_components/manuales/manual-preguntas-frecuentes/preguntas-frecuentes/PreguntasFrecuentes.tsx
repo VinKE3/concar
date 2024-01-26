@@ -4,7 +4,7 @@ import List from "@/components/List";
 
 const PreguntasFrecuentes = () => {
   const newData = dataPreguntasFrecuentes.slice(2);
-  console.log(newData);
+
   return (
     <div>
       <p>

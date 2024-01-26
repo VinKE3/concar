@@ -1,4 +1,4 @@
-export const global = [
+export const dataGlobal = [
   //?Inicio Libros Electrónicos
   {
     id: 1,
@@ -708,7 +708,7 @@ export const global = [
     tema: "Libros Electrónicos",
   },
   //?Fin Libros Electrónicos
-  //*Inico Sin Definir
+  //*Inico Sin Definir -26
   {
     id: 72,
     name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE",
@@ -811,16 +811,6 @@ export const global = [
   },
   {
     id: 82,
-    name: "¿Cómo se Configura una Factura con Percepción en el Concar SQL? - Incluye Video",
-    description:
-      "A continuación de indicara los pasos previos para registrar Facturas con Percepción en el sistema Concar SQL",
-    href: "/global/",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARSQL", "CONCARSIRESQL"],
-    tema: "Sin Definir",
-  },
-  {
-    id: 83,
     name: "¿Cómo se Configura una Factura con Percepción en el Concar SQL? - Incluye Video",
     description:
       "A continuación de indicara los pasos previos para registrar Facturas con Percepción en el sistema Concar SQL",
@@ -977,7 +967,7 @@ export const global = [
     tema: "Sin Definir",
   },
   //*Fin Sin Definir
-  //?Inicio CAJA Y BANCOS
+  //?Inicio CAJA Y BANCOS-16
   {
     id: 99,
     name: "Cheque Anulado",
@@ -1135,7 +1125,7 @@ export const global = [
     tema: "Caja y Bancos",
   },
   //?Fin CAJA Y BANCOS
-  //*Inicio VENTAS
+  //*Inicio VENTAS -15
   {
     id: 115,
     name: "¿Cómo registro Comisiones por Venta de Servicios realizadas? - Incluye Video",
@@ -1147,27 +1137,7 @@ export const global = [
     tema: "Ventas",
   },
   {
-    id: 116,
-    name: "¿Cómo registro Comisiones por Venta de Servicios realizadas? - Incluye Video",
-    description:
-      "Se indicara como realizar el registro de comisiones por venta de servicio realizada.",
-    href: "/global/",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARSQL"],
-    tema: "Ventas",
-  },
-  {
     id: 117,
-    name: "¿Genera, compara y carga el Registro de Ventas e Ingresos Electrónicos (RVIE) con CONCAR SIRE? - Incluye Video",
-    description:
-      "Aquí podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al Registro de Ventas e Ingresos Electrónicos (RVIE) integrado con CONCAR CB y SQL.",
-    href: "/global/",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARSQL", "CONCARSIRESQL"],
-    tema: "Ventas",
-  },
-  {
-    id: 118,
     name: "¿Genera, compara y carga el Registro de Ventas e Ingresos Electrónicos (RVIE) con CONCAR SIRE? - Incluye Video",
     description:
       "Aquí podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al Registro de Ventas e Ingresos Electrónicos (RVIE) integrado con CONCAR CB y SQL.",
@@ -1193,16 +1163,6 @@ export const global = [
     href: "/global/",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Ventas",
-  },
-  {
-    id: 121,
-    name: "Como registrar una venta con Impuesto Selectivo al Consumo (ISC) - Incluye Video",
-    description:
-      "Como registrar una venta con Impuesto Selectivo al Consumo (ISC)",
-    href: "/global/",
-    tipo: "Caso práctico",
-    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
   },
   {
@@ -1312,7 +1272,7 @@ export const global = [
     tema: "Ventas",
   },
   //*Fin VENTAS
-  //?Inicio LIBROS OFICIALES
+  //?Inicio LIBROS OFICIALES-13
   {
     id: 134,
     name: "Ganancias y Pérdidas Del Mes y Acumulado",
@@ -1356,16 +1316,6 @@ export const global = [
     name: "Balances",
     description:
       "cluye reportes generales y analíticos de Balance General y Balance de Comprobación.",
-    href: "/global/",
-    tipo: "Artículo",
-    categorias: ["CONCARSQL"],
-    tema: "Libros Oficiales",
-  },
-  {
-    id: 139,
-    name: "Balances",
-    description:
-      "Incluye reportes generales y analíticos de Balance General y Balance de Comprobación.",
     href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
@@ -1422,16 +1372,6 @@ export const global = [
     tema: "Libros Oficiales",
   },
   {
-    id: 145,
-    name: "Libro de Inventarios y Balances PCGR",
-    description:
-      "Incluye el formato de Libro de Inventarios y Balances antiguo.",
-    href: "/global/",
-    tipo: "Artículo",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Libros Oficiales",
-  },
-  {
     id: 146,
     name: "Libros y Registros Oficiales - Parte 1",
     description:
@@ -1461,8 +1401,8 @@ export const global = [
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
   },
-  //?Fin LIBROS OFICIALES
-  //*Inicio ESTADOS FINANCIEROS
+  //?Fin LIBROS OFICIALES -13
+  //*Inicio ESTADOS FINANCIEROS - 7
   {
     id: 149,
     name: "¿Qué debemos revisar cuando nuestra cuenta 6 no cuadra con la cuenta 9? - Incluye Video",
@@ -1532,8 +1472,8 @@ export const global = [
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
   },
-  //*Fin ESTADOS FINANCIEROS
-  //?Inicio FACTURACIÓN ELECTRÓNICA
+  //*Fin ESTADOS FINANCIEROS -7
+  //?Inicio FACTURACIÓN ELECTRÓNICA - 5
   {
     id: 156,
     name: "¿Cómo crear la serie de una Guía Electrónica? - Incluye Video",
@@ -1584,8 +1524,8 @@ export const global = [
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Facturación Electrónica",
   },
-  //?Fin FACTURACIÓN ELECTRÓNICA
-  //*Inicio HONORARIOS
+  //?Fin FACTURACIÓN ELECTRÓNICA -5
+  //*Inicio HONORARIOS -3
   {
     id: 161,
     name: "¿Cómo se contabiliza las Notas de Crédito por Honorarios en el Sistema?",
@@ -1616,8 +1556,8 @@ export const global = [
     categorias: ["CONCARSQL"],
     tema: "Honorarios",
   },
-  //*Fin HONORARIOS
-  //?Inicio INTERFAZ
+  //*Fin HONORARIOS -3
+  //?Inicio INTERFAZ -2
   {
     id: 164,
     name: "Anexos II, III y IV: Carga de asientos desde otros sistemas",
@@ -1637,7 +1577,7 @@ export const global = [
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Interfaz",
   },
-  //?Fin INTERFAZ
+  //?Fin INTERFAZ -2
   //?*Inicio COMPRAS
   {
     id: 166,
@@ -1661,7 +1601,7 @@ export const global = [
   },
   {
     id: 168,
-    name: "¿Cómo superar el mensaje Error 09 - No coinciden los tipos al generar archivo mensual compras y/o ventas en Concar SQL? - Incluye Video",
+    name: "¿Cómo superar mensaje Error 06 en Tiempo de Ejecución – Desbordamiento en el Concar? - Incluye Video",
     description:
       "A continuación detallamos como superar el mensaje de error 06 - desbordamiento en el concar",
     href: "/global/",
@@ -1978,16 +1918,6 @@ export const global = [
     tema: "Compras",
   },
   {
-    id: 201,
-    name: "Registro de compras no domiciliado",
-    description:
-      "En ésta opción se registran los parámetros que definirán el registro y control de los comprobantes de compras a no domiciliados. Entre otros datos se definirán los tipos de documentos, sub diario de compra, cuentas de gasto, moneda de referencia, otros impuestos y parámetros de cuentas.",
-    href: "/global/",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARSQL"],
-    tema: "Compras",
-  },
-  {
     id: 202,
     name: "Actualización de Tasas de Detracción",
     description: "Cómo actualizar las tasas de detracción.",
@@ -2105,7 +2035,7 @@ export const global = [
     tema: "Compras",
   },
   //?*Fin COMPRAS
-  //?Iniio REGISTR0 DE COMPROBANTES
+  //?Iniio REGISTR0 DE COMPROBANTES -19
   {
     id: 214,
     name: "¿Cómo superar el mensaje comprobante ya fue registrado? - Incluye Video",
@@ -2189,16 +2119,6 @@ export const global = [
     name: "Comprobante Estándar con Conversión",
     description:
       "Mediante esta opción se puede registrar en el sistema cualquier asiento de diario como son: Bancos, cajas, planillas, costos, canjes, cancelaciones de clientes y otros; exceptuando los registros por compras, ventas, honorarios y cheques.",
-    href: "/global/",
-    tipo: "Artículo",
-    categorias: ["CONCARSQL"],
-    tema: "Registro de Comprobantes",
-  },
-  {
-    id: 223,
-    name: "Comprobante Estándar sin Conversión",
-    description:
-      "Mediante esta opción se pueden registrar los asientos de apertura, cierre, diferencia de cambio y otros asientos en los cuales se requiere un tipo de cambio por cada cuenta o ingresar manualmente los importes en moneda nacional y/o dólares o una combinación de ambas opciones.",
     href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
@@ -2443,4 +2363,1354 @@ export const global = [
     tema: "Cierre y Apertura",
   },
   //*Fin CIERRE Y APERTURA
+  //?Inicio INSTALACION/ACTUALIZACION
+  {
+    id: 248,
+    name: "¿Funcionamiento de la llave o licencia virtual? - RKV",
+    description:
+      "A continuación detallamos las principales características y recomendaciones cuando usen nuestra llave virtual - RKV",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSIRESQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 249,
+    name: "¿Instalar y/o Actualizar CONCAR SIRE CB? - Incluye Video",
+    description:
+      "A continuación detallamos como realiza la instalación y/o Actualización del módulo CONCAR SIRE CB, para ambos casos es el mismo proceso.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSIRESQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 250,
+    name: "¿Conectar a la Base Datos CONCAR SIRE CB o SQL?",
+    description:
+      "Proceso de como conectar a la base de datos de CONCAR SIRE CB o SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 251,
+    name: "Actualizar Real Key",
+    description:
+      "Mediante esta opción actualizará la licencia de su Real Key una vez vencido el plazo de contrato.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 252,
+    name: "CONTABILIDAD CONCAR DEJO DE FUNCIONAR",
+    description:
+      "Mensaje que impide acceder al sistema después de actualizar de versión.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 253,
+    name: "¿Cómo superar el mensaje - Su servicio post venta ha expirado - Renueve su servicio y Actualice la Llave Electrónica? - Incluye Video",
+    description:
+      "Mediante esta opción actualizará la licencia de su Real Key tanto para Concar CB y SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 254,
+    name: "¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video",
+    description: "Procedimiento para la Actualización del CONCAR SQL",
+    href: "/global/",
+    tipo: "Tutorial",
+    categorias: ["CONCARSQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 255,
+    name: "Proceso de Instalación y/o Actualización de CONCAR SQL? - Incluye Video",
+    description:
+      "A continuación el proceso para actualizar la Versión CONCAR SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 256,
+    name: "¿Instalar y/o Actualizar CONCAR SIRE SQL? - Incluye Video",
+    description:
+      "A continuación detallamos como realiza la instalación y/o Actualización del módulo CONCAR SIRE SQL, para ambos casos es el mismo proceso.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 257,
+    name: "CONCAR no responde (se cuelga)",
+    description:
+      "Al darle doble clic al acceso del CONCAR no carga el sistema.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 258,
+    name: "Descarga Versión desde miCONCAR®",
+    description: "Forma de descargar Versión desde miCONCAR®.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 259,
+    name: "Cómo realizar el Proceso de Actualización del e-Softcom SQL y del e-Softcom NET",
+    description:
+      "A continuación detallamos como realizar la actualización del e-Softcom SQL y del e-Softcom NET",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Instalación/Actualización",
+  },
+  {
+    id: 260,
+    name: "Cómo realizar el Proceso de Actualización del Archivo DLL",
+    description:
+      "A continuación detallamos como realizar una correcta actualización del archivo dll",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Instalación/Actualización",
+  },
+  //?Fin INSTALACION/ACTUALIZACION
+  //*Inicio SUNAT
+  {
+    id: 261,
+    name: "Carga de información en el DAOT - PDT 3500 Operaciones con Terceros",
+    description:
+      "Como cargar DAOT Compras y Ventas al PDT 3500 Operaciones con Terceros",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 262,
+    name: "PDT Honorarios",
+    description:
+      "Para presentar información a la SUNAT de los Honorarios se debe registrar primero todos los recibos de Honorarios “Comprobante de Registro de Honorarios”.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 263,
+    name: "¿Cómo actualizar el plan de cuentas SUNAT para el PDT 0710 Renta Anual ejercicio 2023?",
+    description:
+      "A continuación detallamos los pasos para actualizar el plan de cuentas SUNAT para el PDT 0710 Renta Anual ejercicio 2023",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 264,
+    name: "¿Cómo generar por primera vez el archivo para el PDT 0710 Renta Anual ejercicio 2023?",
+    description:
+      "A continuación detallamos como generar por primera vez el archivo para el PDT 0710 Renta Anual ejercicio 2023 para CONCAR SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 266,
+    name: "¿Cómo se genera el PDT Renta Anual para el Concar SQL? - Incluye Video",
+    description:
+      "El sistema permite generar un archivo con el Balance de Comprobación, de acuerdo al formato establecido por SUNAT, para que pueda ser importado desde el PDT Renta Anual de cualquier ejercicio",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 267,
+    name: "PDB Mensual Exportadores",
+    description:
+      "Este menú contiene las opciones para generar los archivos a cargar en el PDB SUNAT",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 269,
+    name: "PDT 621 – Percepciones",
+    description:
+      "En esta opción se genera el archivo plano de Percepciones para exportarlo al PDT 621.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 270,
+    name: "PDT 658 – Casilla Estados Financieros",
+    description:
+      "Permite generar un archivo con la información detallada, de acuerdo al formato establecido por SUNAT",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 271,
+    name: "PDT IGV Renta Mensual-Retención de Clientes",
+    description:
+      "El sistema genera el archivo PDT del mes seleccionado con las retenciones (6%, realizadas por los clientes que son Agentes de Retención).",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  {
+    id: 272,
+    name: "SUNAT",
+    description:
+      "Este módulo contiene las opciones para generar los archivos planos (archivos de texto) que se declaran en los programas de SUNAT.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Sunat",
+  },
+  //*Fin SUNAT
+  //?Inicio CONEXION
+  {
+    id: 273,
+    name: "¿Cómo proceder al mensaje Llave No Reconocida - Llave No Corresponde - Llave No está Conectada? – Llave Virtual RKV",
+    description:
+      "Si al momento de ingresar al Concar le aparece mensaje similares a Llave No Reconocida - Llave no Corresponde - Llave No esta Conectada",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Conexión",
+  },
+  {
+    id: 274,
+    name: "No realiza impresión en red",
+    description: "No se logra imprimir en una impresora conectada a la red.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Conexión",
+  },
+  {
+    id: 275,
+    name: "¿Cómo restaurar una Copia de Seguridad en Concar SQL?",
+    description:
+      "A continuacion se detalla el proceso para restaurar una Copia de Seguridad en Concar SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Conexión",
+  },
+  {
+    id: 276,
+    name: "¿Cómo se soluciona el mensaje - Error en Tiempo de Ejecución – Error 2147217900 en el Sistema Concar SQL?",
+    description:
+      "A continuación se detalla como solucionara el mensaje - Error en Tiempo de Ejecución 2147217900",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Conexión",
+  },
+  {
+    id: 277,
+    name: "¿Cómo solucionar procesos de lentitud en el Sistema Concar SQL? - Baja Log",
+    description:
+      "A continuación detallamos como ejecutar el baja log y agilizar el proceso en el concar sql",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Conexión",
+  },
+  //?Fin CONEXION
+  //*Inicio PLAN DE CUENTAS
+  {
+    id: 278,
+    name: "¿Cómo debo Configurar el Plan de Cuentas? - Incluye Video",
+    description:
+      "A continuación detallaremos como realizar la configuración al Plan de Cuentas",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Plan de Cuentas",
+  },
+  {
+    id: 279,
+    name: "Plan contable 2020 - Creación de Compañía con el Nuevo PCGE 2020",
+    description:
+      "Creación de un Nuevo Ejercicio con Nuevo Plan Contable Empresarial PCGE 2020",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Plan de Cuentas",
+  },
+  {
+    id: 280,
+    name: "Plan contable 2020 – Creación de un Nuevo Ejercicio 2020 - Incluye Videos",
+    description:
+      "Creación de Ejercicio con el Nuevo Plan Contable Empresarial PCGE 2020",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Plan de Cuentas",
+  },
+  {
+    id: 281,
+    name: "Plan de Cuenta",
+    description:
+      "En este archivo o base de datos se registrarán, modificarán o visualizarán las cuentas contables que se definan para llevar la contabilidad de la empresa.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Plan de Cuentas",
+  },
+  //*Fin PLAN DE CUENTAS
+  //?Inicio SEGURIDAD
+  {
+    id: 282,
+    name: "¿Bloqueo o cierre de periodos mensuales?",
+    description:
+      "Se desea cerrar (bloquear) periodos mensuales para que no se puedan registrar, modificar ni eliminar comprobantes.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Seguridad",
+  },
+  {
+    id: 283,
+    name: "Como realizar una Copia de Seguridad o Backup",
+    description:
+      "Procedimiento para generar copia de seguridad en SQL Server versión 2008 y 2012.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Seguridad",
+  },
+  {
+    id: 284,
+    name: "Generación Backup (Copia de Seguridad) Automático en SQL versión 2008 R2",
+    description:
+      "Cómo ingresar un plan de mantenimiento para generar backup (copia de seguridad) de forma automática.",
+    href: "/global/",
+    tipo: "Tutorial",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Seguridad",
+  },
+  //?Fin SEGURIDAD
+  //*ANEXOS
+  {
+    id: 285,
+    name: "Códigos de Anexos",
+    description:
+      "En esta base de datos se registran los anexos, que son datos complementarios a las cuentas, los mismos que sirven para identificar diferentes tipos de entidades o datos que son necesarios para hacer un análisis más detallado de las cuentas.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Anexos",
+  },
+  //*Fin ANEXOS
+  //?Inicio GENERALIDADES
+  {
+    id: 286,
+    name: "¿Cómo registrar y aplicar las Notas de Crédito o (Nota de Abono)? - Incluye Video",
+    description:
+      "A continuación se realizara el ciclo completo para el registro y aplicación de una Nota de Crédito",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 287,
+    name: "¿Cómo superar el mensaje Error 09 en tiempo de ejecución – El Sub Índice esta fuera del intervalo al generar registro de compra? - Incluye Video",
+    description:
+      "A continuación se detalla como superar el error 91 el sub índice fuera del intervalo",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 288,
+    name: "Video de Conceptos Básicos del CONCAR",
+    description: "Este vídeo contiene conceptos básicos del CONCAR.",
+    href: "/global/",
+    tipo: "Video",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 289,
+    name: "Ventajas de contar con el Real Key",
+    description:
+      "La llave REAL KEY® es un dispositivo USB de seguridad y protección de software que permitirá el acceso a los productos de Real Systems. La llave de protección se utilizará en algunos de los productos a partir de la versión 2013",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 290,
+    name: "¿Cómo modificar comprobantes o asientos contables en el Concar SQL? - Incluye Video",
+    description:
+      "A continuación se detalla como se puede modificar comprobantes o asientos contables",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 291,
+    name: "Acerca de",
+    description:
+      "Incluye términos de licencia y opciones relacionadas con la llave Real Key.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 292,
+    name: "Control de Registro Mensual",
+    description:
+      "Esta opción del sistema sirve para habilitar o bloquear los meses en los que se ingresan los comprobantes.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 293,
+    name: "Eliminación Masiva de Comprobantes",
+    description:
+      "Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F). Puede eliminar comprobantes específicos o masivamente",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 294,
+    name: "En el Ejercicio 2020 - ¿Como Habilito las Opciones del CONCAR SQL - Proceso de Homologacion? - Equivalencia",
+    description:
+      "Al ingresar al ambiente contable CONCAR SQL visualiza deshabilitado las principales opciones del Menú Principal",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 295,
+    name: "Mantenimiento de Ejecutivos",
+    description:
+      "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa. Previamente se debe ingresar los datos en el Mantenimiento de Empresas.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 296,
+    name: "Mantenimiento de Tipos de Medio de Pago",
+    description:
+      "En esta opción se podrá ingresar todos los medios de pago utilizados para registrar las transacciones financieras.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 297,
+    name: "Manual de Preguntas Frecuentes CONCAR SQL",
+    description: "Preguntas Frecuentes",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 298,
+    name: "Manual de Usuario CONCAR SQL",
+    description:
+      "Manual 2013 incluye las nuevas funcionalidades de los libros electrónicos PLE.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 299,
+    name: "Tabla de Transferencia",
+    description:
+      "Esta tabla es usada cuando el Plan de cuentas está estructurado para trabajar los costos y gastos con las cuentas del elemento 6 y su uso es opcional.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 300,
+    name: "Tabla General",
+    description:
+      "En esta opción están registradas todas las tablas creadas para el funcionamiento del sistema. El usuario no podrá crear nuevas tablas; salvo lo indicado en este manual o por un consultor.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 301,
+    name: "Tipo de Cambio",
+    description:
+      "La tabla de Tipo de Cambio es aquella donde se definen las monedas con su equivalencia en moneda nacional de cada día. Esta tabla será usada por el sistema para convertir cada asiento contable a soles y dólares. Para registrar el tipo de cambio dólar, se debe usar el código US.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Generalidades",
+  },
+  {
+    id: 302,
+    name: "Activa Consulta en línea de SUNAT",
+    description: "Guía para activar Consulta en línea de SUNAT",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 303,
+    name: "Administración Sistema",
+    description:
+      "El módulo de Administración del Sistema permite realizar procesos vinculados a la administración de usuarios y compañías.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 304,
+    name: "Anexo I: Configurar favoritos",
+    description:
+      "Permite configurar atajos o accesos directos a las opciones que elija el usuario.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 305,
+    name: "Archivos",
+    description:
+      "El módulo de Archivos permite efectuar el mantenimiento y consulta de las bases de datos del sistema.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 306,
+    name: "Características del sistema",
+    description:
+      "Se detallan principales características del sistema CONCAR SQL.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 307,
+    name: "Como obtener el RSFINA",
+    description:
+      "Se necesita saber la forma de obtener el utilitario RSFINA11 para consolidar los meses contables.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 308,
+    name: "Finalidad y descripción general del sistema",
+    description:
+      "El Sistema Contable y Financiero CONCAR® SQL ha sido desarrollado para ser utilizado por el área de Contabilidad, en la elaboración de los Libros contables, Balances y Estados Financieros, posibilitando de esta manera mejorar la oportunidad y confiabilidad de los resultados para la toma de decisiones por la Alta Dirección.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 309,
+    name: "Información Real Key",
+    description:
+      "El sistema le mostrará las características (Número de serie, número de licencias y los días en los que se vence el convenio de soporte) de la Real Key (Llave electrónica) conectada al equipo.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 310,
+    name: "Mantenimiento de Compañías",
+    description:
+      "Esta opción permite administrar las compañías que se van a trabajar en el sistema dada su característica de ser multiempresa.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 311,
+    name: "Mantenimiento de Ejecutivos",
+    description:
+      "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 312,
+    name: "Mantenimiento de Empresas",
+    description:
+      "Esta opción permite completar datos adicionales al mantenimiento de compañías necesarios para emitir el certificado de honorarios.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 313,
+    name: "Mantenimiento de Usuarios",
+    description:
+      "Esta opción permite la creación, modificación o eliminación de los usuarios del sistema, asignándoles un código, un password (clave secreta) y facultades de acceso",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 314,
+    name: "Mantenimiento Usuarios-Compañía",
+    description:
+      "Esta opción permite la asignación de una o más compañías a los usuarios creados en el Mantenimiento de Usuarios",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 315,
+    name: "Mantenimiento Usuarios-Programa",
+    description:
+      "Esta opción permite la asignación o restricción de las opciones de menú a los usuarios que fueron creados como Operadores en el Mantenimiento de Usuarios",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 316,
+    name: "Parámetros Generales",
+    description: "Esta opción permite configurar los parámetros del sistema",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 317,
+    name: "Preguntas Frecuentes CONCAR SQL",
+    description:
+      "A continuación se detallan las preguntas frecuentes con sus soluciones.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 318,
+    name: "Presentación",
+    description:
+      "El presente manual ha sido desarrollado para asistir a los usuarios del sistema Contable y Financiero CONCAR® en SQL en las situaciones problemáticas que con más frecuencia hemos visto que se presentan y requieren una ayuda especial para ser superadas.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 319,
+    name: "Utilitarios",
+    description:
+      "El módulo de Utilitarios permite realizar procesos auxiliares como movimiento de datos, verificar comprobantes que generen descuadres naturaleza/destino.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 320,
+    name: "¿Cómo se carga las Tablas de Flujo de Efectivo en el Concar SQL?",
+    description:
+      "A continuación se detalla el proceso a realizar para cargar las Tablas de Flujo de Efectivo",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 322,
+    name: "¿Cómo se realiza el proceso de Mayusculizar en el Sistema Concar SQL?",
+    description:
+      "A continuación detallamos en que ocasiones y como realizar la mayusculizacion en el concar sql",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  {
+    id: 323,
+    name: "¿Cuál es el Procedimiento para la generación del Backup Automático en el Sistema Concar SQL?",
+    description:
+      "A continuación detallamos los pasos para generar el Backup Automático en el Concar SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Generalidades",
+  },
+  //?Fin GENERALIDADES
+  //*Inicio OTROS REPORTES
+  {
+    id: 324,
+    name: "GASTOS REPARABLES",
+    description: "EMISIÓN DE REPORTE CON GASTOS REPARABLES O CON TOPES",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 325,
+    name: "Ratios",
+    description:
+      "Esta opción sirve para emitir ratios definidos por el usuario. Las fórmulas de los ratios se ingresan en el Mantenimiento de Ratios",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["EXPOSICIONES"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 326,
+    name: "¿Cómo proceder cuando se presenta mensaje de inconsistencia al generar un reporte en Excel en el ambiente del Concar SQL?",
+    description:
+      "Si durante la generación de algún reporte en excel se presenta algún mensaje de inconsistencia deberá REVISAR y EJECUTAR los siguientes pasos:",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 327,
+    name: "Reportes Comprobantes",
+    description:
+      "Esta opción mostrará reportes de los comprobantes ingresados, así se encuentren en situación P (Pendiente) o F (Finalizado).",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 328,
+    name: "Análisis cuenta",
+    description:
+      "Este módulo permite consultar y emitir reportes de saldos por cuenta y anexos, documentos pendientes en forma selectiva a cualquier fecha de saldo y estados de cuentas en línea y sin efectuar ningún proceso previo.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 329,
+    name: "Áreas",
+    description:
+      "Imprime reporte que muestra los totales de ingresos y egresos por cada área, así como también los totales generales.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 330,
+    name: "Consultas",
+    description:
+      "Permite realizar consultas de saldos de balance, balance de comprobación y análisis de cuenta.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 331,
+    name: "Documentos Pendientes",
+    description:
+      "Permite emitir reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 332,
+    name: "Histórico reportes discos",
+    description:
+      "Esta opción permite consultar e imprimir cualquier reporte que se haya guardado en disco.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 333,
+    name: "Mayores",
+    description:
+      "Incluye reportes de Libros Mayores anteriores y no oficiales.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 334,
+    name: "Reportes",
+    description:
+      "Este módulo permite emitir los reportes de resultado en base a los datos ya ingresados en los asientos contables.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 335,
+    name: "Reportes Anuales",
+    description:
+      "Incluye reportes con análisis de cuentas anuales con detalle mensual.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 336,
+    name: "Reportes de Ingresos y Gastos",
+    description:
+      "Incluye los reportes de ingresos y gastos adicionales a los de Ganancias y Pérdidas (Resultados)",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 337,
+    name: "Verifica Comprobantes",
+    description:
+      "Esta opción nos permite visualizar aquellos comprobantes que probablemente estén generando un descuadre del resultado en los estados financieros.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 338,
+    name: "Ratios",
+    description:
+      "Son factores de análisis financieros que permiten establecer la posición financiera de la empresa por medio de fórmulas. Estas fórmulas se aplican a una serie de datos por los cuales se puede calcular la posición real de la empresa.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "EXPOSICIONES"],
+    tema: "Otros Reportes",
+  },
+  {
+    id: 339,
+    name: "¿Cómo superar el mensaje “Error de Ejecución - Valor Null” al procesar la Conciliación Bancaria?",
+    description:
+      "Si al momento de realizar la Conciliacion Bancaria se genera el mensaje error de ejecucion - valor null seguir las siguientes indicaciones",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Otros Reportes",
+  },
+  //*Fin OTROS REPORTES
+  //?Inicio COMPATIBILIDAD
+  {
+    id: 340,
+    name: "¿Cómo proceder si se presenta el mensaje “Error-50003” al momento de ingresar al Concar CB - Virtual?",
+    description:
+      "Al momento de actualizar a la versión Real Key - Virtual se le presenta un mensaje de inconsistencia similar",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 341,
+    name: "¿Cómo realizar la Excepción a los sistemas de Real Systems en el Antivirus AVG?",
+    description:
+      "Se indica el proceso para excluir tanto la carpeta y nuestro ejecutable del antivirus",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 342,
+    name: "¿Cómo realizar la Excepción a los sistemas de Real Systems en el Antivirus AVIRA FREE?",
+    description:
+      "A continuación se indica los procesos a realizar para permitir que el sistema trabaje con normalidad",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 343,
+    name: "¿Cómo se realiza la eliminación del Avast Free y Bytefence?",
+    description:
+      "En algunos equipos se presentan antivirus gratuitos los cuales no permiten la ejecución del sistema, por lo cual se desinstala o elimina. Asimismo puede crear archivos TEMP - temporales",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 344,
+    name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Kaspersky?",
+    description:
+      "A continuación se indica los pasos para colocar en exclusión a nuestros ejecutables",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "CONCARSIRESQL"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 345,
+    name: "¿Cómo proceder si se presenta el mensaje Error.vbs en el Concar?",
+    description:
+      "Si durante el funcionamiento del sistema Concar CB se presenta el mensaje Error.vbs se deberá verificar en configuración regional",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 346,
+    name: "¿Cómo superar el mensaje Error 13 en Tiempo de Ejecución - en el Concar?",
+    description:
+      "A continuación se detalla como superar el mensaje Error 13 en Tiempo de Ejecución",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 347,
+    name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus 360 Total Security?",
+    description:
+      "Ocasionalmente algunos antivirus bloquean el correcto funcionamiento del sistema, se deberá excluir los sistemas de RS",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 348,
+    name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Kaspersky Endpoint?",
+    description:
+      "A continuación detallaremos los pasos a realizar para excluir los sistema de RS del Antivirus Kaspersky Endpoint",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 349,
+    name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus McAfee?",
+    description:
+      "A continuación se indicara los pasos a realizar para excluir el sistema del antivirus",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 350,
+    name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Norton Security?",
+    description:
+      "A continuación se detallara los procesos a realizar para excluir a los componentes del sistema del antivirus",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 351,
+    name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Panda?",
+    description:
+      "Algunos antivirus llevan a cuarentena los sistemas de RS para ello se debe realizar el proceso de exclusión",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 352,
+    name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de Windows Defender?",
+    description:
+      "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus del defender",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 353,
+    name: "¿Cómo realizar la Exclusión de los módulos de Real Systems en el Antivirus AVAST?",
+    description: "El proceso para excluir nuestro sistema del antivirus AVAST",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  {
+    id: 354,
+    name: "Compatibilidad del CONCAR - Incluye Video",
+    description:
+      "Se detallan los siguientes temas de Compatibilidad para las plataformas CODEBASE y SQL - Requisitos Técnicos Equipos, Versiones de Windows, Office y Servidores - Configuración Antivirus - Configuración Regional - Configuración Sistema Operativo /IPV6, UAC, FRAMEWORK",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Compatibilidad",
+  },
+  //?Fin COMPATIBILIDAD
+  //*Inicio ACCESO
+  {
+    id: 355,
+    name: "¿Activación del Real Key Virtual- RKV o Llave? - Incluye Video",
+    description:
+      "A continuación detallamos como proceder para activar su Real Key - Virtual",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Acceso",
+  },
+  {
+    id: 356,
+    name: "¿Desactivar o Anular su Real Key Virtual- RKV?",
+    description:
+      "A continuación detallamos como Desactivar - Anular su Real Key Virtual",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Acceso",
+  },
+  {
+    id: 357,
+    name: "¿Nuevo Canal de Atención - SALA VIRTUAL? - Incluye Video",
+    description:
+      "Que permite realizar la Sala Virtual?; Como ingresar? a continuación indicaremos los Lineamientos de uso de nuestra Sala Virtual",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Acceso",
+  },
+  {
+    id: 358,
+    name: "Llave Real Key no detectada",
+    description: "Solución al mensaje Llave Real Key (RK) no detectada",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 359,
+    name: "¿Como superar el mensaje: Error 339 en tiempo de ejecución? - Archivos OCX - Incluye Video",
+    description:
+      "Al momento de ingresar o trabajar en el sistema se genera Error 339 en tiempo de ejecución - Archivos OCX",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 360,
+    name: "¿Cómo descargar la herramienta del FTP?",
+    description:
+      "Esta herramienta FTP permitirá realizar sus descargas de forma mas ágil y directa, para todos nuestros usuarios.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL"],
+    tema: "Acceso",
+  },
+  {
+    id: 361,
+    name: "¿Cómo generar nueva contraseña y accesos para el Portal miCONCAR? - Incluye Video",
+    description:
+      "Si necesita crear nueva contraseña o gestionar nuevos accesos para el portal miCONCAR",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 362,
+    name: "Mensaje de licencia Real Key (RK)",
+    description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["REALKEY"],
+    tema: "Acceso",
+  },
+  {
+    id: 363,
+    name: "Separata Curso Básico Concar SQL",
+    description: "Separatas usadas en el cursos básico de CONCAR SQL",
+    href: "/global/",
+    tipo: "Descarga de Archivo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 364,
+    name: "¿Cómo crear el Ejercicio 2024 en el Concar SQL? - Incluye Video",
+    description:
+      "A continuación detallamos como crear el ejercicio 2024 en el sistema Concar SQL",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 365,
+    name: "Como superar mensaje: CC010.fecha fuera de rango",
+    description:
+      "Procedimiento para superar mensaje al registrar comprobantes: “CC010.FECHA FUERA DE RANGO” en el sistema CONCAR®",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 366,
+    name: "Error Apertura de tabla al ingresar al CONCAR",
+    description: "Error Apertura de tabla impide ingresar al CONCAR.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Acceso",
+  },
+  {
+    id: 367,
+    name: "Mensaje de licencia Real Key (RK)",
+    description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "REALKEY"],
+    tema: "Acceso",
+  },
+  //*Fin ACCESO
+  //?Inicio PRESUPUESTO
+  {
+    id: 368,
+    name: "Presupuesto",
+    description:
+      "Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable. El presupuesto se puede llevar por centro de costo y/o por cuenta de Ganancias y Pérdidas por Función o Naturaleza.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["EXPOSICIONES"],
+    tema: "Presupuesto",
+  },
+  {
+    id: 369,
+    name: "Ejecución Presupuestal por Función o Naturaleza",
+    description:
+      "Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Presupuesto",
+  },
+  {
+    id: 370,
+    name: "Ejecución Presupuestal x Centro Costo",
+    description:
+      "Este reporte nos permite comparar lo presupuestado por centro de costo contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Presupuesto",
+  },
+  {
+    id: 371,
+    name: "Mantenimiento Presupuesto",
+    description:
+      "Proceso que registra en forma masiva los importes de la configuración de presupuesto para el ejercicio actual.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Presupuesto",
+  },
+  {
+    id: 372,
+    name: "Presupuesto Ordinario",
+    description:
+      "Emite un reporte de flujo de caja ejecutado, teniendo la posibilidad compararse 2 ejercicios.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Presupuesto",
+  },
+  {
+    id: 373,
+    name: "Reporte de Presupuesto",
+    description:
+      "Imprime el reporte de lo presupuestado en el Mantenimiento de Presupuesto, pudiéndose generar en moneda nacional o extranjera.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Presupuesto",
+  },
+  {
+    id: 374,
+    name: "Reporte Ejecución Presupuesto",
+    description:
+      "Este reporte se utiliza para comparar lo presupuestado por centro de costo/cuenta contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Presupuesto",
+  },
+  //?Fin PRESUPUESTO
+  //*Inicio DIFERENCIA DE CAMBIO
+  {
+    id: 375,
+    name: "¿Cómo realizar el Proceso de Regularización y Ajuste por Diferencia de Cambio? - Incluye Video",
+    description:
+      "A continuación detallamos los pasos a realizar para la Regularización y Ajuste por Diferencia de Cambio en el Concar CB",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Diferencia de Cambio",
+  },
+  {
+    id: 376,
+    name: "¿Por qué no me regulariza el tipo de cambio cierre en mi cuenta contable al realizar el proceso de ajuste FASB 52? - Incluye Video",
+    description:
+      "A continuacion detallamos las recomendaciones para realizar el proceso de ajuste FASB52",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Diferencia de Cambio",
+  },
+  {
+    id: 377,
+    name: "¿Por qué sigue figurando saldos en el análisis de cuentas, al realizar mi proceso de regularización por diferencia de cambio? - Incluye Video",
+    description:
+      "A continuacion brindamos los tips, recomendaciones sobre el proceso de diferencia de cambio",
+    href: "/global/",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Diferencia de Cambio",
+  },
+  {
+    id: 378,
+    name: "Mantenimiento de Cuentas Ajuste Diferencia de Cambio FASB52",
+    description:
+      "En esta opción se configuran las cuentas que van a participar en el proceso de Ajuste Diferencia Cambio FASB 52 además del subdiario, las cuentas de pérdida y ganancia por diferencia de cambio y el código de moneda para ajuste.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Diferencia de Cambio",
+  },
+  {
+    id: 379,
+    name: "Mantenimiento de Cuentas Regularización Diferencia de Cambio",
+    description:
+      "En esta opción se configuran las cuentas que van a participar en el proceso de Regularización Diferencia de Cambio además del subdiario y las cuentas de pérdida y ganancia por diferencia de cambio.",
+    href: "/global/",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Diferencia de Cambio",
+  },
+  //*Fin DIFERENCIA DE CAMBIO
+  //?Inicio COBRANZAS
+  {
+    id: 380,
+    name: "Cancelación de Facturas por Cobrar con Documentos por Pagar",
+    description:
+      "Aplicación de un documento por pagar a una factura por cobrar.",
+    href: "/global/",
+    tipo: "Caso Práctico",
+    categorias: ["CONCARSQL"],
+    tema: "Cobranzas",
+  },
+  {
+    id: 381,
+    name: "Canje de Facturas por Letras",
+    description: "Cómo canjear facturas por letras.",
+    href: "/global/",
+    tipo: "Caso Práctico",
+    categorias: ["CONCARSQL"],
+    tema: "Cobranzas",
+  },
+  {
+    id: 382,
+    name: "Cobranzas Registro de Planilla de Cobranza",
+    description: "Cómo contabilizar una planilla de cobranza.",
+    href: "/global/",
+    tipo: "Caso Práctico",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Cobranzas",
+  },
+  //?Fin COBRANZAS
+  //*Inicio CREARCION DE COMPAÑIAS
+  {
+    id: 383,
+    name: "Modificación de la Razón social",
+    description: "Cómo cambiar el nombre o razón social de una compañía.",
+    href: "/global/",
+    tipo: "Caso Práctico",
+    categorias: ["CONCARSQL"],
+    tema: "Creación de Compañías",
+  },
+  {
+    id: 384,
+    name: "¿Cómo crear un nuevo ejercicio en el CONCAR SQL ? - Incluye Video",
+    description: "Explicamos como crear un nuevo ejercicio en el Concar SQL.",
+    href: "/global/",
+    tipo: "Caso Práctico",
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
+    tema: "Creación de Compañías",
+  },
+  //*Fin CREARCION DE COMPAÑIAS
 ];
