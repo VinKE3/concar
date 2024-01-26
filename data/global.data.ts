@@ -7,8 +7,9 @@ export const dataGlobal = [
       "A continuación indicamos como configurar el ICBPER para Compras y Ventas en el Sistema CONCAR",
     href: "/global/",
     tipo: "Pregunta Frecuente",
-    categorias: ["CONCAR"],
+    categorias: ["CONCARSQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["configurar icbper", "icbper"],
   },
   {
     id: 2,
@@ -17,8 +18,15 @@ export const dataGlobal = [
       "El proceso para generar los Libros Electrónicos para Compras y Ventas se detallan a continuación",
     href: "/global/",
     tipo: "Pregunta Frecuente",
-    categorias: ["CONCAR"],
+    categorias: ["CONCARSQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libros electronicos",
+      "registro de compras",
+      "registro de ventas",
+      "ventas",
+    ],
   },
   {
     id: 3,
@@ -27,8 +35,13 @@ export const dataGlobal = [
       "A continuación podrá observar los principales cambios del PLE 5.2 al sistema CONCAR",
     href: "/global/",
     tipo: "Pregunta Frecuente",
-    categorias: ["CONCAR"],
+    categorias: ["CONCARSQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "cambios del ple",
+      "ple 5.2",
+      "principales cambios ple 5.2",
+    ],
   },
   {
     id: 4,
@@ -39,6 +52,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["cierre libros", "modulo rvie", "rvie", "sire"],
   },
   {
     id: 5,
@@ -49,6 +63,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["rce", "sire"],
   },
   {
     id: 6,
@@ -68,16 +83,18 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["sunat", "sire"],
   },
   {
     id: 8,
     name: "Carga del Libro Electrónico de Compras al PLE-SUNAT - COMPONENTE",
     description:
       "Este tutorial contiene todo lo relacionado a la validación y envío del libro electrónico de compras en el PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/como-cargar-libro-diario",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 9,
@@ -88,6 +105,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 10,
@@ -98,6 +116,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ple sunat", "compras", "libro electronico"],
   },
   {
     id: 11,
@@ -108,6 +127,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ple sunat", "ventas", "libro electronico"],
   },
   {
     id: 12,
@@ -118,6 +138,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["carga", "libro electronico"],
   },
   {
     id: 13,
@@ -128,6 +149,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 14,
@@ -138,6 +160,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 15,
@@ -148,6 +171,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 16,
@@ -158,6 +182,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ple sunat", "libro electronico"],
   },
   {
     id: 17,
@@ -168,6 +193,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "consultas"],
   },
   {
     id: 18,
@@ -178,6 +204,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "consultas"],
   },
   {
     id: 19,
@@ -188,6 +215,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "ple sunat", "errores"],
   },
   {
     id: 20,
@@ -198,6 +226,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "ple sunat", "errores"],
   },
   {
     id: 21,
@@ -208,6 +237,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "estado"],
   },
   {
     id: 22,
@@ -218,6 +248,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "estado"],
   },
   {
     id: 23,
@@ -228,7 +259,9 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "generacion"],
   },
+
   {
     id: 24,
     name: "Generación del Libro Electrónico de Ventas - COMPONENTE",
@@ -238,6 +271,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "generacion"],
   },
   {
     id: 25,
@@ -248,6 +282,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "registro"],
   },
   {
     id: 26,
@@ -258,6 +293,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "registro"],
   },
   {
     id: 27,
@@ -267,6 +303,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico"],
   },
   {
     id: 28,
@@ -277,6 +314,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "rectificacion"],
   },
   {
     id: 29,
@@ -287,6 +325,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "rectificacion"],
   },
   {
     id: 30,
@@ -297,6 +336,13 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "rectificacion",
+      "omision",
+      "registro",
+    ],
   },
   {
     id: 31,
@@ -307,6 +353,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
     id: 32,
@@ -317,6 +364,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
     id: 33,
@@ -327,6 +375,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
     id: 34,
@@ -337,6 +386,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
     id: 35,
@@ -347,6 +397,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
     id: 36,
@@ -357,6 +408,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
     id: 37,
@@ -367,6 +419,13 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "numero de serie",
+      "bvme",
+      "transporte ferroviario",
+    ],
   },
   {
     id: 38,
@@ -377,6 +436,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "documento de referencia",
+      "nota de credito",
+    ],
   },
   {
     id: 39,
@@ -387,6 +452,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "documento de referencia",
+      "nota de credito",
+    ],
   },
   {
     id: 40,
@@ -397,6 +468,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "fecha de vencimiento",
+      "recibo de servicios publicos",
+    ],
   },
   {
     id: 41,
@@ -407,6 +484,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "numero de documento",
+      "cero",
+    ],
   },
   {
     id: 42,
@@ -417,6 +500,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "numero de serie",
+      "obligatoria",
+    ],
   },
   {
     id: 43,
@@ -427,6 +516,13 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "compras",
+      "libro electronico",
+      "codigo de documento",
+      "ruc",
+      "proveedor",
+    ],
   },
   {
     id: 44,
@@ -437,6 +533,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "numero de serie",
+      "factura",
+    ],
   },
   {
     id: 45,
@@ -447,6 +549,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "numero de serie",
+      "boleta de venta",
+    ],
   },
   {
     id: 46,
@@ -457,6 +565,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "numero de serie",
+      "liquidacion de compra",
+    ],
   },
   {
     id: 47,
@@ -467,6 +581,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "numero de serie",
+      "boleto aereo",
+    ],
   },
   {
     id: 48,
@@ -477,6 +597,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "numero de serie",
+      "carta de porte aereo",
+    ],
   },
   {
     id: 49,
@@ -487,6 +613,13 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "ventas",
+      "libro electronico",
+      "numero de serie",
+      "bvme",
+      "transporte ferroviario",
+    ],
   },
   {
     id: 50,
@@ -497,6 +630,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "documento de referencia"],
   },
   {
     id: 51,
@@ -507,6 +641,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "numero de documento"],
   },
   {
     id: 52,
@@ -517,6 +652,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["compras", "libro electronico", "ple sunat"],
   },
   {
     id: 53,
@@ -527,6 +663,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["ventas", "libro electronico", "ple sunat"],
   },
   {
     id: 54,
@@ -537,6 +674,13 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "ple sunat",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
   },
   {
     id: 55,
@@ -547,6 +691,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "ple sunat", "campo obligatorio"],
   },
   {
     id: 56,
@@ -557,6 +702,11 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "ple sunat",
+      "numero de documento de identidad",
+    ],
   },
   {
     id: 57,
@@ -567,6 +717,11 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "ple sunat",
+      "numero de comprobante de pago",
+    ],
   },
   {
     id: 58,
@@ -577,6 +732,12 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
   },
   {
     id: 59,
@@ -587,6 +748,12 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
   },
   {
     id: 60,
@@ -597,6 +764,12 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "ventas",
+      "mes sin movimiento",
+      "archivo txt",
+    ],
   },
   {
     id: 61,
@@ -607,6 +780,12 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "compras",
+      "no domiciliados",
+      "ple 5.0",
+    ],
   },
   {
     id: 62,
@@ -617,6 +796,13 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "compras",
+      "ventas",
+      "diario",
+      "mayor",
+    ],
   },
   {
     id: 63,
@@ -627,6 +813,12 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
   },
   {
     id: 64,
@@ -636,6 +828,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "ventas", "tipos"],
   },
   {
     id: 65,
@@ -646,6 +839,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "compras", "documento de referencia"],
   },
   {
     id: 66,
@@ -656,6 +850,12 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "compras",
+      "recibos de servicios publicos",
+      "fecha de vencimiento",
+    ],
   },
   {
     id: 67,
@@ -666,6 +866,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "inventarios", "balances", "ple 5.0"],
   },
   {
     id: 68,
@@ -676,6 +877,12 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
   },
   {
     id: 69,
@@ -686,6 +893,12 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
   },
   {
     id: 70,
@@ -696,6 +909,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "diario", "diario simplificado"],
   },
   {
     id: 71,
@@ -706,6 +920,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "ventas", "no domiciliados"],
   },
   //?Fin Libros Electrónicos
   //*Inico Sin Definir -26
@@ -718,6 +933,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["sire", "libros electronicos", "facultad discrecional"],
   },
   {
     id: 73,
@@ -728,6 +944,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["sire", "libros electronicos", "sunat"],
   },
   {
     id: 74,
@@ -738,6 +955,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["mantenimiento", "compañias"],
   },
   {
     id: 75,
@@ -748,6 +966,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["mantenimiento", "usuario", "programa"],
   },
   {
     id: 76,
@@ -758,6 +977,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["estado de cambios", "patrimonio neto"],
   },
   {
     id: 77,
@@ -768,6 +988,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["reloj marcador"],
   },
   {
     id: 78,
@@ -778,6 +999,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["mantenimiento", "usuarios"],
   },
   {
     id: 79,
@@ -788,6 +1010,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["mantenimiento", "usuario", "compañia"],
   },
   {
     id: 80,
@@ -798,6 +1021,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["exclusion", "antivirus", "eset nod antivirus"],
   },
   {
     id: 81,
@@ -808,6 +1032,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["licencia", "rkv0000", "rkv0002"],
   },
   {
     id: 82,
@@ -818,6 +1043,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    plabrasClave: ["factura", "percepcion", "concar sql"],
   },
   {
     id: 84,
@@ -828,6 +1054,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["percepcion", "concar sql"],
   },
   {
     id: 85,
@@ -838,6 +1065,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["retencion", "concar sql"],
   },
   {
     id: 86,
@@ -848,6 +1076,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["tabla general", "concar sql"],
   },
   {
     id: 87,
@@ -858,6 +1087,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["consulta", "plan de cuentas"],
   },
   {
     id: 88,
@@ -868,6 +1098,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["contabilizacion", "documentos", "igv"],
   },
   {
     id: 89,
@@ -878,6 +1109,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["contabilizacion", "documentos", "retencion"],
   },
   {
     id: 90,
@@ -888,6 +1120,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["migracion", "tablas", "cb", "sql"],
   },
   {
     id: 91,
@@ -898,6 +1131,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["codigo unspc", "sistema comercial"],
   },
   {
     id: 92,
@@ -908,6 +1142,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["carga inicial", "documentos"],
   },
   {
     id: 93,
@@ -918,6 +1153,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
+    palabrasClave: ["actualizar", "articulos", "peso", "softcom net"],
   },
   {
     id: 94,
@@ -928,6 +1164,7 @@ export const dataGlobal = [
     tipo: "Video",
     categorias: ["EXPOSICIONES"],
     tema: "Sin Definir",
+    palabrasClave: ["propiedad", "planta", "equipo", "nic 16", "activos fijos"],
   },
   {
     id: 95,
@@ -937,6 +1174,7 @@ export const dataGlobal = [
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
+    palabrasClave: ["actualizar", "llave", "real key"],
   },
   {
     id: 96,
@@ -946,6 +1184,7 @@ export const dataGlobal = [
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
+    palabrasClave: ["llave", "real key"],
   },
   {
     id: 97,
@@ -955,6 +1194,7 @@ export const dataGlobal = [
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
+    palabrasClave: ["perdida", "robo", "llave", "real key"],
   },
   {
     id: 98,
@@ -965,6 +1205,7 @@ export const dataGlobal = [
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
+    palabrasClave: ["llave", "real key"],
   },
   //*Fin Sin Definir
   //?Inicio CAJA Y BANCOS-16
@@ -976,6 +1217,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Caja y Bancos",
+    palabrasClave: ["cheque", "anulado"],
   },
   {
     id: 100,
@@ -986,6 +1228,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Caja y Bancos",
+    palabrasClave: ["comprobante", "bancos"],
   },
   {
     id: 101,
@@ -996,6 +1239,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Caja y Bancos",
+    palabrasClave: ["comprobante", "cheques"],
   },
   {
     id: 102,
@@ -1006,6 +1250,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Caja y Bancos",
+    palabrasClave: ["mantenimiento", "cuentas", "bancos"],
   },
   {
     id: 103,
@@ -1016,6 +1261,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Caja y Bancos",
+    palabrasClave: ["mantenimiento", "movimientos", "bancos"],
   },
   {
     id: 104,
@@ -1026,6 +1272,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["bancos"],
   },
   {
     id: 105,
@@ -1036,6 +1283,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["conciliacion", "bancaria"],
   },
   {
     id: 106,
@@ -1046,6 +1294,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["consulta", "estados", "banco"],
   },
   {
     id: 107,
@@ -1055,6 +1304,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["movimiento", "contable", "banco"],
   },
   {
     id: 108,
@@ -1064,6 +1314,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["pago", "detraccion"],
   },
   {
     id: 109,
@@ -1074,6 +1325,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["proceso", "conciliacion"],
   },
   {
     id: 110,
@@ -1083,6 +1335,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["registro", "gastos", "caja chica", "fondo fijo"],
   },
   {
     id: 111,
@@ -1093,6 +1346,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["registro", "estados", "cuenta"],
   },
   {
     id: 112,
@@ -1103,6 +1357,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["reporte", "estados", "cuenta"],
   },
   {
     id: 113,
@@ -1113,6 +1368,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["reportes", "conciliacion"],
   },
   {
     id: 114,
@@ -1123,6 +1379,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
+    palabrasClave: ["transfiere", "pendientes", "año", "anterior"],
   },
   //?Fin CAJA Y BANCOS
   //*Inicio VENTAS -15
@@ -1135,6 +1392,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Ventas",
+    palabrasClave: ["registro", "comisiones", "venta", "servicios"],
   },
   {
     id: 117,
@@ -1145,6 +1403,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Ventas",
+    palabrasClave: ["registro", "ventas", "ingresos", "electronicos", "rvie"],
   },
   {
     id: 119,
@@ -1154,6 +1413,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Ventas",
+    palabrasClave: ["licencia", "temporal", "llave", "virtual"],
   },
   {
     id: 120,
@@ -1164,6 +1424,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["registro", "venta", "impuesto", "selectivo", "consumo"],
   },
   {
     id: 122,
@@ -1173,6 +1434,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["primera", "venta", "inmueble"],
   },
   {
     id: 123,
@@ -1182,6 +1444,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["registro", "ticket", "venta"],
   },
   {
     id: 124,
@@ -1192,6 +1455,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["duplican", "ventas", "netas", "costo"],
   },
   {
     id: 125,
@@ -1202,6 +1466,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Ventas",
+    palabrasClave: ["comprobante", "ventas"],
   },
   {
     id: 126,
@@ -1212,6 +1477,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["ley", "31556", "factura", "venta", "igv", "10%"],
   },
   {
     id: 128,
@@ -1222,6 +1488,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["daot", "ventas"],
   },
   {
     id: 129,
@@ -1231,6 +1498,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["ingreso", "ventas", "anuladas"],
   },
   {
     id: 130,
@@ -1241,6 +1509,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["pdt", "3550", "resumen", "ventas"],
   },
   {
     id: 131,
@@ -1251,6 +1520,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: ["registro", "ventas", "comision", "servicio"],
   },
   {
     id: 132,
@@ -1261,6 +1531,14 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Ventas",
+    palabrasClave: [
+      "registro",
+      "visualizacion",
+      "ventas",
+      "inafectas",
+      "exoneradas",
+      "igv",
+    ],
   },
   {
     id: 133,
@@ -1270,6 +1548,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Ventas",
+    palabrasClave: ["configuracion", "ivap"],
   },
   //*Fin VENTAS
   //?Inicio LIBROS OFICIALES-13
@@ -1282,6 +1561,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Libros Oficiales",
+    palabrasClave: ["ganancias", "perdidas", "mes", "acumulado"],
   },
   {
     id: 135,
@@ -1291,6 +1571,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Libros Oficiales",
+    palabrasClave: ["impresion", "libros", "oficiales"],
   },
   {
     id: 136,
@@ -1300,6 +1581,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["impresion", "registro", "ventas"],
   },
   {
     id: 137,
@@ -1310,6 +1592,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["libros", "oficiales", "inventarios"],
   },
   {
     id: 138,
@@ -1320,6 +1603,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Libros Oficiales",
+    palabrasClave: ["balances"],
   },
   {
     id: 140,
@@ -1330,6 +1614,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Libros Oficiales",
+    palabrasClave: ["ganancias", "perdidas"],
   },
   {
     id: 141,
@@ -1340,6 +1625,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["costos"],
   },
   {
     id: 142,
@@ -1350,6 +1636,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["diarios"],
   },
   {
     id: 143,
@@ -1360,6 +1647,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["libro", "caja", "bancos"],
   },
   {
     id: 144,
@@ -1370,6 +1658,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["libro", "inventarios", "balances", "pcgr"],
   },
   {
     id: 146,
@@ -1380,6 +1669,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["libros", "registros", "oficiales"],
   },
   {
     id: 147,
@@ -1390,6 +1680,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["libros", "registros", "oficiales"],
   },
   {
     id: 148,
@@ -1400,6 +1691,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
+    palabrasClave: ["libros", "registros", "oficiales"],
   },
   //?Fin LIBROS OFICIALES -13
   //*Inicio ESTADOS FINANCIEROS - 7
@@ -1412,6 +1704,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["cuenta"],
   },
   {
     id: 150,
@@ -1422,6 +1715,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["descuadre", "estados", "financieros"],
   },
   {
     id: 151,
@@ -1432,6 +1726,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["resultado", "ejercicio", "estado"],
   },
   {
     id: 152,
@@ -1442,6 +1737,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["analisis", "grafico", "estados", "financieros"],
   },
   {
     id: 153,
@@ -1451,6 +1747,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["cargar", "rubros", "estado", "flujo", "efectivo"],
   },
   {
     id: 154,
@@ -1461,6 +1758,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["estado", "cambio", "patrimonio", "neto"],
   },
   {
     id: 155,
@@ -1471,6 +1769,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
+    palabrasClave: ["estado", "flujo", "efectivo"],
   },
   //*Fin ESTADOS FINANCIEROS -7
   //?Inicio FACTURACIÓN ELECTRÓNICA - 5
@@ -1483,6 +1782,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Facturación Electrónica",
+    palabrasClave: ["crear", "serie", "guia", "electronica"],
   },
   {
     id: 157,
@@ -1493,6 +1793,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Facturación Electrónica",
+    palabrasClave: ["baja", "guia", "electronica"],
   },
   {
     id: 158,
@@ -1503,6 +1804,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Facturación Electrónica",
+    palabrasClave: ["configurar", "modulo", "comercial", "electronico"],
   },
   {
     id: 159,
@@ -1513,6 +1815,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Facturación Electrónica",
+    palabrasClave: ["nuevos", "cambios", "sistemas", "electronicos"],
   },
   {
     id: 160,
@@ -1523,6 +1826,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Facturación Electrónica",
+    palabrasClave: ["configura", "codigos", "establecimientos"],
   },
   //?Fin FACTURACIÓN ELECTRÓNICA -5
   //*Inicio HONORARIOS -3
@@ -1535,6 +1839,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Honorarios",
+    palabrasClave: ["contabiliza", "notas", "credito"],
   },
   {
     id: 162,
@@ -1545,6 +1850,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Honorarios",
+    palabrasClave: ["comprobante", "honorarios"],
   },
   {
     id: 163,
@@ -1555,6 +1861,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Honorarios",
+    palabrasClave: ["mantenimiento", "parametros", "honorarios"],
   },
   //*Fin HONORARIOS -3
   //?Inicio INTERFAZ -2
@@ -1567,6 +1874,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Interfaz",
+    palabrasClave: ["anexos", "carga", "asientos"],
   },
   {
     id: 165,
@@ -1576,6 +1884,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Interfaz",
+    palabrasClave: ["interfaz", "carga", "asientos"],
   },
   //?Fin INTERFAZ -2
   //?*Inicio COMPRAS
@@ -1588,6 +1897,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["solucionar", "mensaje", "inconsistencia"],
   },
   {
     id: 167,
@@ -1598,6 +1908,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["superar", "mensaje", "error"],
   },
   {
     id: 168,
@@ -1608,6 +1919,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["superar", "mensaje", "error"],
   },
   {
     id: 169,
@@ -1618,6 +1930,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["importacion", "contabilizar", "compras"],
   },
   {
     id: 170,
@@ -1628,6 +1941,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["ingreso", "compras", "ejercicio", "año", "anterior"],
   },
   {
     id: 171,
@@ -1638,6 +1952,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["configurar", "parametros", "compras"],
   },
   {
     id: 172,
@@ -1648,6 +1963,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["realiza", "registro", "compras", "ventas"],
   },
   {
     id: 173,
@@ -1658,6 +1974,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registra", "comprobante", "compras", "contado"],
   },
   {
     id: 174,
@@ -1668,6 +1985,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["superar", "mensaje", "error"],
   },
   {
     id: 175,
@@ -1678,6 +1996,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registrar", "facturas", "compras", "igv"],
   },
   {
     id: 176,
@@ -1687,6 +2006,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["contabilizacion", "leasing"],
   },
   {
     id: 177,
@@ -1697,6 +2017,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registra", "declaracion", "aduanas", "dua"],
   },
   {
     id: 178,
@@ -1706,6 +2027,7 @@ export const dataGlobal = [
     tipo: "Tip",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "circuito", "registro"],
   },
   {
     id: 179,
@@ -1716,6 +2038,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "constancia", "pago", "igv"],
   },
   {
     id: 180,
@@ -1725,6 +2048,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "ingreso", "factura", "agente", "aduana"],
   },
   {
     id: 181,
@@ -1734,6 +2058,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "provision", "igv"],
   },
   {
     id: 182,
@@ -1743,6 +2068,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "registro", "factura"],
   },
   {
     id: 183,
@@ -1753,6 +2079,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "contabilizar", "compras"],
   },
   {
     id: 184,
@@ -1763,6 +2090,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["importacion", "realizar", "tratamiento"],
   },
   {
     id: 185,
@@ -1772,6 +2100,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["impresion", "registro", "compras"],
   },
   {
     id: 186,
@@ -1781,6 +2110,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["pago", "igv", "registro", "compras"],
   },
   {
     id: 187,
@@ -1791,6 +2121,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["proveedor", "incompleto", "registro", "compras"],
   },
   {
     id: 188,
@@ -1800,6 +2131,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compra", "retencion", "igv"],
   },
   {
     id: 189,
@@ -1809,6 +2141,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compras", "detraccion"],
   },
   {
     id: 190,
@@ -1818,6 +2151,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compras", "inafectas"],
   },
   {
     id: 191,
@@ -1827,6 +2161,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compras", "tickets"],
   },
   {
     id: 192,
@@ -1837,6 +2172,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compra", "afecta"],
   },
   {
     id: 193,
@@ -1847,6 +2183,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["registro", "operaciones", "ejercicio"],
   },
   {
     id: 194,
@@ -1857,6 +2194,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["solucionar", "mensaje", "error"],
   },
   {
     id: 195,
@@ -1867,6 +2205,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["comprobante", "compras"],
   },
   {
     id: 196,
@@ -1877,6 +2216,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["diferencia", "cambio", "cuenta"],
   },
   {
     id: 197,
@@ -1887,6 +2227,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["honorarios", "profesionales", "registro"],
   },
   {
     id: 198,
@@ -1897,6 +2238,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["mensaje", "habilitar", "columna"],
   },
   {
     id: 199,
@@ -1906,6 +2248,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["nota", "credito", "especial"],
   },
   {
     id: 200,
@@ -1916,6 +2259,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["registro", "compras", "domiciliado"],
   },
   {
     id: 202,
@@ -1925,6 +2269,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["actualizacion", "tasas", "detraccion"],
   },
   {
     id: 203,
@@ -1934,6 +2279,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["aplicacion", "ley 31556"],
   },
   {
     id: 204,
@@ -1944,6 +2290,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["separar", "gastos", "gravados"],
   },
   {
     id: 205,
@@ -1954,6 +2301,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["daot", "compras"],
   },
   {
     id: 206,
@@ -1964,6 +2312,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["detraccion", "habilitar", "datos"],
   },
   {
     id: 207,
@@ -1973,6 +2322,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["error", "3265", "archivo", "mensual", "compras"],
   },
   {
     id: 208,
@@ -1983,6 +2333,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["mostrar", "recibos", "honorarios", "registro", "compras"],
   },
   {
     id: 209,
@@ -1993,6 +2344,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["elemento", "ordinal", "solicitado"],
   },
   {
     id: 210,
@@ -2003,6 +2355,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["parametros", "compras"],
   },
   {
     id: 211,
@@ -2013,6 +2366,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compras", "detraccion"],
   },
   {
     id: 212,
@@ -2023,6 +2377,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
+    palabrasClave: ["registro", "compras", "percepcion", "comprobante"],
   },
   {
     id: 213,
@@ -2033,6 +2388,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Compras",
+    palabrasClave: ["realizar", "registro", "comprobantes", "compras"],
   },
   //?*Fin COMPRAS
   //?Iniio REGISTR0 DE COMPROBANTES -19
@@ -2045,6 +2401,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["superar", "mensaje", "comprobante"],
   },
   {
     id: 215,
@@ -2055,6 +2412,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["superar", "mensaje", "error"],
   },
   {
     id: 216,
@@ -2064,6 +2422,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["registro", "contabilizacion", "nota", "credito"],
   },
   {
     id: 217,
@@ -2074,6 +2433,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["realiza", "carga", "comprobantes", "excel"],
   },
   {
     id: 218,
@@ -2084,6 +2444,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["comprobante", "automatico", "existe"],
   },
   {
     id: 219,
@@ -2094,6 +2455,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["error", "fecha", "moneda", "comprobante"],
   },
   {
     id: 220,
@@ -2103,6 +2465,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["modificar", "tipo", "cambio", "comprobante"],
   },
   {
     id: 221,
@@ -2113,6 +2476,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["configurar", "mensaje", "flag", "debe", "haber"],
   },
   {
     id: 222,
@@ -2123,6 +2487,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["comprobante", "estandar", "conversion"],
   },
   {
     id: 224,
@@ -2133,6 +2498,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["consulta", "situacion", "comprobantes"],
   },
   {
     id: 225,
@@ -2143,6 +2509,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["exporta", "comprobantes", "excel"],
   },
   {
     id: 226,
@@ -2153,6 +2520,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["log", "eliminacion", "comprobantes"],
   },
   {
     id: 227,
@@ -2163,6 +2531,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["mantenimiento", "documentos", "referencia"],
   },
   {
     id: 228,
@@ -2173,6 +2542,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["mantenimiento", "tipo", "pago", "programa"],
   },
   {
     id: 229,
@@ -2183,6 +2553,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["numeracion", "comprobantes"],
   },
   {
     id: 230,
@@ -2193,6 +2564,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["eliminar", "comprobantes"],
   },
   {
     id: 231,
@@ -2203,6 +2575,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["comprobantes"],
   },
   {
     id: 232,
@@ -2213,6 +2586,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
+    palabrasClave: ["movimiento", "datos"],
   },
   //?Fin REGISTR0 DE COMPROBANTES
   //*Inicio CIERRE Y APERTURA
@@ -2225,6 +2599,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["carga", "estado", "cuenta"],
   },
   {
     id: 234,
@@ -2235,6 +2610,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["cierre", "tips", "recomendaciones"],
   },
   {
     id: 235,
@@ -2245,6 +2621,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["contabilidad", "asiento", "apertura"],
   },
   {
     id: 236,
@@ -2255,6 +2632,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["asiento", "apertura", "descuadrado"],
   },
   {
     id: 237,
@@ -2265,6 +2643,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["asiento", "apertura", "mes"],
   },
   {
     id: 238,
@@ -2274,6 +2653,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["cancelacion", "compras", "cheque"],
   },
   {
     id: 239,
@@ -2284,6 +2664,13 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: [
+      "cargar",
+      "informacion",
+      "mantenimiento",
+      "tabla",
+      "cierre",
+    ],
   },
   {
     id: 240,
@@ -2294,6 +2681,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["asientos", "automaticos"],
   },
   {
     id: 241,
@@ -2304,6 +2692,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["cierre", "apertura"],
   },
   {
     id: 242,
@@ -2314,6 +2703,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["cierre", "tabla"],
   },
   {
     id: 243,
@@ -2324,6 +2714,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["cierre", "apertura"],
   },
   {
     id: 244,
@@ -2333,6 +2724,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["asiento", "apertura"],
   },
   {
     id: 245,
@@ -2342,6 +2734,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["asiento", "apertura", "automatico", "descuadrado"],
   },
   {
     id: 246,
@@ -2352,6 +2745,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["cierre", "proceso"],
   },
   {
     id: 247,
@@ -2361,6 +2755,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
+    palabrasClave: ["generacion", "asiento", "apertura", "automatico"],
   },
   //*Fin CIERRE Y APERTURA
   //?Inicio INSTALACION/ACTUALIZACION
@@ -2373,6 +2768,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRESQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["funcionamiento", "llave", "licencia", "virtual"],
   },
   {
     id: 249,
@@ -2383,6 +2779,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRESQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["instalar", "actualizar", "concar", "sire", "cb"],
   },
   {
     id: 250,
@@ -2393,6 +2790,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["conectar", "base", "datos"],
   },
   {
     id: 251,
@@ -2403,6 +2801,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["actualizar", "real", "key"],
   },
   {
     id: 252,
@@ -2413,6 +2812,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["contabilidad", "concar", "funcionar"],
   },
   {
     id: 253,
@@ -2423,6 +2823,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["superar", "mensaje", "servicio", "post", "venta"],
   },
   {
     id: 254,
@@ -2432,6 +2833,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["realizar", "proceso", "actualizacion", "version"],
   },
   {
     id: 255,
@@ -2442,6 +2844,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["proceso", "instalacion", "actualizacion", "concar"],
   },
   {
     id: 256,
@@ -2452,6 +2855,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["instalar", "actualizar", "concar", "sire", "sql"],
   },
   {
     id: 257,
@@ -2462,6 +2866,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["concar", "no responde"],
   },
   {
     id: 258,
@@ -2471,6 +2876,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["descarga", "version", "miconcar"],
   },
   {
     id: 259,
@@ -2481,6 +2887,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["realizar", "proceso", "actualizacion", "softcom"],
   },
   {
     id: 260,
@@ -2491,6 +2898,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
+    palabrasClave: ["realizar", "proceso", "actualizacion", "archivo dll"],
   },
   //?Fin INSTALACION/ACTUALIZACION
   //*Inicio SUNAT
@@ -2503,6 +2911,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["carga", "informacion", "daot", "pdt", "3500"],
   },
   {
     id: 262,
@@ -2513,6 +2922,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["pdt", "honorarios"],
   },
   {
     id: 263,
@@ -2523,6 +2933,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["actualizar", "plan", "cuentas", "sunat", "pdt"],
   },
   {
     id: 264,
@@ -2533,6 +2944,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["generar", "archivo", "pdt", "renta", "anual"],
   },
   {
     id: 266,
@@ -2543,6 +2955,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["genera", "pdt", "renta", "anual"],
   },
   {
     id: 267,
@@ -2553,6 +2966,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["pdb", "mensual", "exportadores"],
   },
   {
     id: 269,
@@ -2563,6 +2977,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["pdt 621", "percepciones"],
   },
   {
     id: 270,
@@ -2573,6 +2988,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["pdt 658", "casilla", "estados", "financieros"],
   },
   {
     id: 271,
@@ -2583,6 +2999,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["pdt", "igv", "renta", "mensual", "retencion", "clientes"],
   },
   {
     id: 272,
@@ -2593,6 +3010,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
+    palabrasClave: ["sunat"],
   },
   //*Fin SUNAT
   //?Inicio CONEXION
@@ -2605,6 +3023,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
+    palabrasClave: ["proceder", "mensaje", "llave", "no", "reconocida"],
   },
   {
     id: 274,
@@ -2614,6 +3033,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
+    palabrasClave: ["no", "realiza", "impresion", "red"],
   },
   {
     id: 275,
@@ -2624,6 +3044,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Conexión",
+    palabrasClave: ["restaurar", "copia", "seguridad", "concar"],
   },
   {
     id: 276,
@@ -2634,6 +3055,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
+    palabrasClave: ["soluciona", "mensaje", "error", "ejecucion"],
   },
   {
     id: 277,
@@ -2644,6 +3066,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
+    palabrasClave: ["solucionar", "procesos", "lentitud", "sistema"],
   },
   //?Fin CONEXION
   //*Inicio PLAN DE CUENTAS
@@ -2656,6 +3079,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
+    palabrasClave: ["configurar", "plan", "cuentas"],
   },
   {
     id: 279,
@@ -2666,6 +3090,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
+    palabrasClave: ["plan", "contable", "2020", "creacion", "compania"],
   },
   {
     id: 280,
@@ -2676,6 +3101,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
+    palabrasClave: ["plan", "contable", "2020", "creacion", "ejercicio"],
   },
   {
     id: 281,
@@ -2686,6 +3112,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
+    palabrasClave: ["plan", "cuenta"],
   },
   //*Fin PLAN DE CUENTAS
   //?Inicio SEGURIDAD
@@ -2698,6 +3125,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Seguridad",
+    palabrasClave: ["bloqueo", "cierre", "periodos", "mensuales"],
   },
   {
     id: 283,
@@ -2708,6 +3136,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Seguridad",
+    palabrasClave: ["realizar", "copia", "seguridad", "backup"],
   },
   {
     id: 284,
@@ -2718,6 +3147,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Seguridad",
+    palabrasClave: ["generacion", "backup", "copia", "seguridad", "automatico"],
   },
   //?Fin SEGURIDAD
   //*ANEXOS
@@ -2730,6 +3160,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Anexos",
+    palabrasClave: ["codigos", "anexos"],
   },
   //*Fin ANEXOS
   //?Inicio GENERALIDADES
@@ -2742,6 +3173,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["registrar", "aplicar", "notas", "credito", "abono"],
   },
   {
     id: 287,
@@ -2752,6 +3184,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["superar", "mensaje", "error", "ejecucion"],
   },
   {
     id: 288,
@@ -2761,6 +3194,7 @@ export const dataGlobal = [
     tipo: "Video",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["video", "conceptos", "basicos", "concar"],
   },
   {
     id: 289,
@@ -2771,6 +3205,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["ventajas", "real", "key"],
   },
   {
     id: 290,
@@ -2781,6 +3216,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["modificar", "comprobantes", "asientos", "contables"],
   },
   {
     id: 291,
@@ -2791,6 +3227,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["acerca"],
   },
   {
     id: 292,
@@ -2801,6 +3238,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["control", "registro", "mensual"],
   },
   {
     id: 293,
@@ -2811,6 +3249,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["eliminacion", "masiva", "comprobantes"],
   },
   {
     id: 294,
@@ -2821,6 +3260,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["ejercicio", "habilito", "opciones", "homologacion"],
   },
   {
     id: 295,
@@ -2831,6 +3271,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "ejecutivos"],
   },
   {
     id: 296,
@@ -2841,6 +3282,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "tipos", "medio", "pago"],
   },
   {
     id: 297,
@@ -2850,6 +3292,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["manual", "preguntas", "frecuentes"],
   },
   {
     id: 298,
@@ -2860,6 +3303,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["manual", "usuario"],
   },
   {
     id: 299,
@@ -2870,6 +3314,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["tabla", "transferencia"],
   },
   {
     id: 300,
@@ -2880,6 +3325,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["tabla", "general"],
   },
   {
     id: 301,
@@ -2890,6 +3336,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
+    palabrasClave: ["tipo", "cambio"],
   },
   {
     id: 302,
@@ -2899,6 +3346,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["activa", "consulta", "linea", "sunat"],
   },
   {
     id: 303,
@@ -2909,6 +3357,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["administracion", "sistema"],
   },
   {
     id: 304,
@@ -2919,6 +3368,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["anexo", "configurar", "favoritos"],
   },
   {
     id: 305,
@@ -2929,6 +3379,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["archivos"],
   },
   {
     id: 306,
@@ -2939,6 +3390,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["caracteristicas", "sistema"],
   },
   {
     id: 307,
@@ -2949,6 +3401,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["obtener", "rsfina"],
   },
   {
     id: 308,
@@ -2959,6 +3412,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["finalidad", "descripcion", "general", "sistema", "concar"],
   },
   {
     id: 309,
@@ -2969,6 +3423,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["informacion", "real", "key"],
   },
   {
     id: 310,
@@ -2979,6 +3434,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "companias"],
   },
   {
     id: 311,
@@ -2989,6 +3445,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "ejecutivos"],
   },
   {
     id: 312,
@@ -2999,6 +3456,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "empresas"],
   },
   {
     id: 313,
@@ -3009,6 +3467,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "usuarios"],
   },
   {
     id: 314,
@@ -3019,6 +3478,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "usuarios", "compania"],
   },
   {
     id: 315,
@@ -3029,6 +3489,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["mantenimiento", "usuarios", "programa"],
   },
   {
     id: 316,
@@ -3038,6 +3499,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["parametros", "generales"],
   },
   {
     id: 317,
@@ -3048,6 +3510,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["preguntas", "frecuentes"],
   },
   {
     id: 318,
@@ -3058,6 +3521,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["presentacion"],
   },
   {
     id: 319,
@@ -3068,6 +3532,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["utilitarios"],
   },
   {
     id: 320,
@@ -3078,6 +3543,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["carga", "tablas", "flujo", "efectivo"],
   },
   {
     id: 322,
@@ -3088,6 +3554,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["realiza", "proceso", "mayusculizar"],
   },
   {
     id: 323,
@@ -3098,6 +3565,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
+    palabrasClave: ["procedimiento", "generacion", "backup", "automatico"],
   },
   //?Fin GENERALIDADES
   //*Inicio OTROS REPORTES
@@ -3109,6 +3577,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["gastos", "reparables"],
   },
   {
     id: 325,
@@ -3119,6 +3588,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["EXPOSICIONES"],
     tema: "Otros Reportes",
+    palabrasClave: ["ratios"],
   },
   {
     id: 326,
@@ -3129,6 +3599,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Otros Reportes",
+    palabrasClave: ["proceder", "mensaje", "inconsistencia", "reporte"],
   },
   {
     id: 327,
@@ -3139,6 +3610,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Otros Reportes",
+    palabrasClave: ["reportes", "comprobantes"],
   },
   {
     id: 328,
@@ -3149,6 +3621,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["analisis", "cuenta"],
   },
   {
     id: 329,
@@ -3159,6 +3632,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["areas"],
   },
   {
     id: 330,
@@ -3169,6 +3643,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["consultas"],
   },
   {
     id: 331,
@@ -3179,6 +3654,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["documentos", "pendientes"],
   },
   {
     id: 332,
@@ -3189,6 +3665,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["historico", "reportes", "discos"],
   },
   {
     id: 333,
@@ -3199,6 +3676,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["mayores"],
   },
   {
     id: 334,
@@ -3209,6 +3687,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["reportes"],
   },
   {
     id: 335,
@@ -3219,6 +3698,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["reportes", "anuales"],
   },
   {
     id: 336,
@@ -3229,6 +3709,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["reportes", "ingresos", "gastos"],
   },
   {
     id: 337,
@@ -3239,6 +3720,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["verifica", "comprobantes"],
   },
   {
     id: 338,
@@ -3249,6 +3731,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "EXPOSICIONES"],
     tema: "Otros Reportes",
+    palabrasClave: ["ratios"],
   },
   {
     id: 339,
@@ -3259,6 +3742,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
+    palabrasClave: ["superar", "mensaje", "ejecucion"],
   },
   //*Fin OTROS REPORTES
   //?Inicio COMPATIBILIDAD
@@ -3321,6 +3805,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compatibilidad",
+    palabrasClave: ["proceder", "mensaje", "error", "vbs"],
   },
   {
     id: 346,
@@ -3331,6 +3816,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compatibilidad",
+    palabrasClave: ["superar", "mensaje", "error", "ejecucion"],
   },
   {
     id: 347,
@@ -3341,6 +3827,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 348,
@@ -3351,6 +3838,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 349,
@@ -3361,6 +3849,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 350,
@@ -3371,6 +3860,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 351,
@@ -3381,6 +3871,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 352,
@@ -3391,6 +3882,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 353,
@@ -3400,6 +3892,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 354,
@@ -3410,6 +3903,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["compatibilidad", "concar"],
   },
   //?Fin COMPATIBILIDAD
   //*Inicio ACCESO
@@ -3422,6 +3916,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
+    palabrasClave: ["activacion", "real", "key", "virtual"],
   },
   {
     id: 356,
@@ -3432,6 +3927,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
+    palabrasClave: ["desactivar", "anular", "real", "key", "virtual"],
   },
   {
     id: 357,
@@ -3442,6 +3938,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
+    palabrasClave: ["nuevo", "canal", "atencion", "sala", "virtual"],
   },
   {
     id: 358,
@@ -3451,7 +3948,9 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["llave", "real", "key", "detectada"],
   },
+
   {
     id: 359,
     name: "¿Como superar el mensaje: Error 339 en tiempo de ejecución? - Archivos OCX - Incluye Video",
@@ -3461,6 +3960,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["superar", "mensaje", "error", "ejecucion"],
   },
   {
     id: 360,
@@ -3471,6 +3971,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
+    palabrasClave: ["descargar", "herramienta", "ftp"],
   },
   {
     id: 361,
@@ -3481,6 +3982,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["generar", "nueva", "contraseña", "accesos", "portal"],
   },
   {
     id: 362,
@@ -3490,6 +3992,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["REALKEY"],
     tema: "Acceso",
+    palabrasClave: ["mensaje", "licencia", "real", "key", "rk"],
   },
   {
     id: 363,
@@ -3499,6 +4002,7 @@ export const dataGlobal = [
     tipo: "Descarga de Archivo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["separata", "curso", "basico", "concar", "sql"],
   },
   {
     id: 364,
@@ -3509,6 +4013,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["crear", "ejercicio", "2024", "concar", "sql"],
   },
   {
     id: 365,
@@ -3519,6 +4024,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["superar", "mensaje", "cc010", "fecha", "rango"],
   },
   {
     id: 366,
@@ -3528,6 +4034,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
+    palabrasClave: ["error", "apertura", "tabla", "ingresar", "concar"],
   },
   {
     id: 367,
@@ -3537,6 +4044,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "REALKEY"],
     tema: "Acceso",
+    palabrasClave: ["mensaje", "licencia", "real", "key", "rk"],
   },
   //*Fin ACCESO
   //?Inicio PRESUPUESTO
@@ -3549,6 +4057,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["EXPOSICIONES"],
     tema: "Presupuesto",
+    palabrasClave: ["presupuesto"],
   },
   {
     id: 369,
@@ -3559,6 +4068,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
+    palabrasClave: ["ejecucion", "presupuestal", "funcion", "naturaleza"],
   },
   {
     id: 370,
@@ -3569,6 +4079,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
+    palabrasClave: ["ejecucion", "presupuestal", "centro", "costo"],
   },
   {
     id: 371,
@@ -3579,6 +4090,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
+    palabrasClave: ["mantenimiento", "presupuesto"],
   },
   {
     id: 372,
@@ -3589,6 +4101,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
+    palabrasClave: ["presupuesto", "ordinario"],
   },
   {
     id: 373,
@@ -3599,6 +4112,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
+    palabrasClave: ["reporte", "presupuesto"],
   },
   {
     id: 374,
@@ -3609,6 +4123,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
+    palabrasClave: ["reporte", "ejecucion", "presupuesto"],
   },
   //?Fin PRESUPUESTO
   //*Inicio DIFERENCIA DE CAMBIO
@@ -3621,6 +4136,14 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Diferencia de Cambio",
+    palabrasClave: [
+      "realizar",
+      "proceso",
+      "regularizacion",
+      "ajuste",
+      "diferencia",
+      "cambio",
+    ],
   },
   {
     id: 376,
@@ -3631,6 +4154,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Diferencia de Cambio",
+    palabrasClave: ["regulariza", "tipo", "cambio"],
   },
   {
     id: 377,
@@ -3641,6 +4165,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Diferencia de Cambio",
+    palabrasClave: ["figurando", "saldos", "analisis", "cuentas"],
   },
   {
     id: 378,
@@ -3651,6 +4176,14 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Diferencia de Cambio",
+    palabrasClave: [
+      "mantenimiento",
+      "cuentas",
+      "ajuste",
+      "diferencia",
+      "cambio",
+      "fasb52",
+    ],
   },
   {
     id: 379,
@@ -3661,6 +4194,13 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Diferencia de Cambio",
+    palabrasClave: [
+      "mantenimiento",
+      "cuentas",
+      "regularizacion",
+      "diferencia",
+      "cambio",
+    ],
   },
   //*Fin DIFERENCIA DE CAMBIO
   //?Inicio COBRANZAS
@@ -3673,6 +4213,7 @@ export const dataGlobal = [
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL"],
     tema: "Cobranzas",
+    palabrasClave: ["cancelacion", "facturas", "cobrar", "documentos", "pagar"],
   },
   {
     id: 381,
@@ -3682,6 +4223,7 @@ export const dataGlobal = [
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL"],
     tema: "Cobranzas",
+    palabrasClave: ["canje", "facturas", "letras"],
   },
   {
     id: 382,
@@ -3691,6 +4233,7 @@ export const dataGlobal = [
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cobranzas",
+    palabrasClave: ["cobranzas", "registro", "planilla", "cobranza"],
   },
   //?Fin COBRANZAS
   //*Inicio CREARCION DE COMPAÑIAS
@@ -3702,6 +4245,7 @@ export const dataGlobal = [
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL"],
     tema: "Creación de Compañías",
+    palabrasClave: ["modificacion", "razon", "social"],
   },
   {
     id: 384,
@@ -3711,6 +4255,7 @@ export const dataGlobal = [
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Creación de Compañías",
+    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
   },
   //*Fin CREARCION DE COMPAÑIAS
 ];
