@@ -2,7 +2,7 @@ export const dataGlobal = [
   //?Inicio Libros Electrónicos
   {
     id: 1,
-    name: "¿Cómo configurar el ICBPER para Compras y Ventas en el Sistema CONCAR? - Incluye Video",
+    name: "¿Cómo configurar el ICBPER para Compras y Ventas en el Sistema CONCAR? - Incluye Video - FALTA",
     description:
       "A continuación indicamos como configurar el ICBPER para Compras y Ventas en el Sistema CONCAR",
     href: "/global/",
@@ -13,7 +13,7 @@ export const dataGlobal = [
   },
   {
     id: 2,
-    name: "¿Cómo generar los Libros Electrónicos del Registro de Compras y Ventas? - Incluye Video",
+    name: "¿Cómo generar los Libros Electrónicos del Registro de Compras y Ventas? - Incluye Video - FALTA",
     description:
       "El proceso para generar los Libros Electrónicos para Compras y Ventas se detallan a continuación",
     href: "/global/",
@@ -30,7 +30,7 @@ export const dataGlobal = [
   },
   {
     id: 3,
-    name: "¿Cuáles son los Principales cambios del PLE 5.2 en el Sistema CONCAR para el 2021?",
+    name: "¿Cuáles son los Principales cambios del PLE 5.2 en el Sistema CONCAR para el 2021? - FALTA",
     description:
       "A continuación podrá observar los principales cambios del PLE 5.2 al sistema CONCAR",
     href: "/global/",
@@ -45,7 +45,7 @@ export const dataGlobal = [
   },
   {
     id: 4,
-    name: "¿Cómo cerrar mis Libros Electrónicos - SIRE SUNAT?",
+    name: "¿Cómo cerrar mis Libros Electrónicos - SIRE SUNAT? - FALTA",
     description:
       "Explicación y ejemplos de como cerrar los libros electrónicos Compras y Ventas periodo Setiembre 2023 SIRE SUNAT",
     href: "/global/",
@@ -56,7 +56,7 @@ export const dataGlobal = [
   },
   {
     id: 5,
-    name: "¿Genera, compara y carga el registro de Compras Electrónicos (RCE) con CONCAR SIRE? - Incluye Video",
+    name: "¿Genera, compara y carga el registro de Compras Electrónicos (RCE) con CONCAR SIRE? - Incluye Video - FALTA",
     description:
       "Aquí podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al Registro de Compras Electrónicas (RCE) integrado con CONCAR CB y SQL.",
     href: "/global/",
@@ -67,7 +67,7 @@ export const dataGlobal = [
   },
   {
     id: 6,
-    name: "Declaración RVIE + RCE en SIRE SUNAT",
+    name: "Declaración RVIE + RCE en SIRE SUNAT - FALTA",
     description:
       "Con esta guía podrá cumplir con su declaración de Compras y Ventasen el SIRE SUNAT, generando loa archivos desde el distema CONCAR.",
     href: "/global/",
@@ -77,7 +77,7 @@ export const dataGlobal = [
   },
   {
     id: 7,
-    name: "Fuente: SUNAT - Guía para aceptar propuesta RCE y RVIE",
+    name: "Fuente: SUNAT - Guía para aceptar propuesta RCE y RVIE - FALTA",
     description: "",
     href: "/global/",
     tipo: "Tutorial",
@@ -87,10 +87,10 @@ export const dataGlobal = [
   },
   {
     id: 8,
-    name: "Carga del Libro Electrónico de Compras al PLE-SUNAT - COMPONENTE",
+    name: "Carga del Libro Electrónico de Compras al PLE-SUNAT",
     description:
       "Este tutorial contiene todo lo relacionado a la validación y envío del libro electrónico de compras en el PLE-SUNAT.",
-    href: "/global/como-cargar-libro-diario",
+    href: "/global/carga-libro-compras-ple",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -98,10 +98,10 @@ export const dataGlobal = [
   },
   {
     id: 9,
-    name: "Carga del Libro Electrónico de Ventas al PLE-SUNAT - COMPONENTE",
+    name: "Carga del Libro Electrónico de Ventas al PLE-SUNAT",
     description:
       "Explicación y ejemplos de como cerrar los libros electrónicos Compras y Ventas periodo Setiembre 2023 SIRE SUNAT",
-    href: "/global/",
+    href: "/global/carga-libro-ventas-ple",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -109,10 +109,10 @@ export const dataGlobal = [
   },
   {
     id: 10,
-    name: "Cómo Cargar el Libro Electrónico de Compras al PLE-SUNAT - COMPONENTE",
+    name: "Cómo Cargar el Libro Electrónico de Compras al PLE-SUNAT",
     description:
       "Procedimiento para cargar el libro electrónico de compras al programa de libros electrónicos PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/como-cargar-libro-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -120,10 +120,10 @@ export const dataGlobal = [
   },
   {
     id: 11,
-    name: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT - COMPONENTE",
+    name: "Cómo Cargar el Libro Electrónico de Ventas al PLE-SUNAT",
     description:
       "Procedimiento para cargar el libro electrónico de ventas al programa de libros electrónicos PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/como-cargar-libro-ventas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -131,10 +131,10 @@ export const dataGlobal = [
   },
   {
     id: 12,
-    name: "Cómo Cargar los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT - COMPONENTE",
+    name: "Cómo Cargar los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT",
     description:
       "Procedimiento para cargar los libros electrónicos Diario, Diario Simplificado y Mayor al programa de libros electrónicos PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/como-cargar-libro-diario",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -142,10 +142,10 @@ export const dataGlobal = [
   },
   {
     id: 13,
-    name: "Cómo Generar el Libro Electrónico de Compras - COMPONENTE",
+    name: "Cómo Generar el Libro Electrónico de Compras",
     description:
       "Procedimiento para cargar los libros electrónicos Diario, Diario Simplificado y Mayor al programa de libros electrónicos PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/como-generar-libro-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -153,10 +153,10 @@ export const dataGlobal = [
   },
   {
     id: 14,
-    name: "Cómo generar el libro electrónico de compras de un mes sin movimiento - COMPONENTE",
+    name: "Cómo generar el libro electrónico de compras de un mes sin movimiento",
     description:
       "Procedimiento para cargar los libros electrónicos Diario, Diario Simplificado y Mayor al programa de libros electrónicos PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/como-generar-mes-movimiento",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -164,10 +164,10 @@ export const dataGlobal = [
   },
   {
     id: 15,
-    name: "Cómo Generar el Libro Electrónico de Ventas - COMPONENTE",
+    name: "Cómo Generar el Libro Electrónico de Ventas",
     description:
       "El presente documento detalla el procedimiento a realizar en el CONCAR para generar el libro electrónico de ventas.",
-    href: "/global/",
+    href: "/global/como-generar-libro-ventas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -175,10 +175,10 @@ export const dataGlobal = [
   },
   {
     id: 16,
-    name: "Cómo subsanar inconsistencias en el PLE-SUNAT - COMPONENTE",
+    name: "Cómo subsanar inconsistencias en el PLE-SUNAT",
     description:
       "Cómo subsanar las inconsistencias que el PLE detecta en el proceso de validación de los libros electrónicos.",
-    href: "/global/",
+    href: "/global/como-subsanar-inconsistencias",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -186,10 +186,10 @@ export const dataGlobal = [
   },
   {
     id: 17,
-    name: "Consultas Libro Electrónico de Compras - COMPONENTE",
+    name: "Consultas Libro Electrónico de Compras",
     description:
       "Este tutorial contiene consultas que se pueden presentar en el proceso de la generación del libro electrónico de compras en el sistema CONCAR® y que requieren asistencia para ser superadas.",
-    href: "/global/",
+    href: "/global/consulta-libro-compras",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -197,10 +197,10 @@ export const dataGlobal = [
   },
   {
     id: 18,
-    name: "Consultas Libro Electrónico de Ventas - COMPONENTE",
+    name: "Consultas Libro Electrónico de Ventas",
     description:
       "Este tutorial contiene consultas que se pueden presentar en el proceso de la generación del libro electrónico de ventas en el sistema CONCAR® y que requieren asistencia para ser superadas.",
-    href: "/global/",
+    href: "/global/consulta-libros-ventas",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -208,10 +208,10 @@ export const dataGlobal = [
   },
   {
     id: 19,
-    name: "Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras - COMPONENTE",
+    name: "Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
     description:
       "El programa de libros electrónicos (PLE-SUNAT) emite una constancia con los errores detectados al validar el libro electrónico de compras. Se detallan los errores más comunes y como subsanarlos.",
-    href: "/global/",
+    href: "/global/errores-detectados-libro-compras",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -219,10 +219,10 @@ export const dataGlobal = [
   },
   {
     id: 20,
-    name: "Errores detectados en el PLE-SUNAT al validar el libro electrónico de ventas - COMPONENTE",
+    name: "Errores detectados en el PLE-SUNAT al validar el libro electrónico de ventas",
     description:
       "El programa de libros electrónicos (PLE-SUNAT) emite una constancia con los errores detectados al validar el libro electrónico de ventas. Se detallan los errores más comunes y como subsanarlos.",
-    href: "/global/",
+    href: "/global/errores-detectados-libro-ventas",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -230,10 +230,10 @@ export const dataGlobal = [
   },
   {
     id: 21,
-    name: "Estado o Indicador de la Operación en el Libro Electrónico de Compras - COMPONENTE",
+    name: "Estado o Indicador de la Operación en el Libro Electrónico de Compras",
     description:
       "Procedimiento para registrar operaciones de compras según el estado a informar.",
-    href: "/global/",
+    href: "/global/estado-indicador-libro-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -241,10 +241,10 @@ export const dataGlobal = [
   },
   {
     id: 22,
-    name: "Estado o Indicador de la Operación en el Libro Electrónico de Ventas - COMPONENTE",
+    name: "Estado o Indicador de la Operación en el Libro Electrónico de Ventas",
     description:
       "Procedimiento para registrar operaciones de ventas según el estado a informar.",
-    href: "/global/",
+    href: "/global/estado-indicador-libro-ventas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -252,10 +252,10 @@ export const dataGlobal = [
   },
   {
     id: 23,
-    name: "Generación del Libro Electrónico de Compras - COMPONENTE",
+    name: "Generación del Libro Electrónico de Compras",
     description:
       "Este tutorial contiene todo lo relacionado a la creación del libro electrónico de compras en el sistema CONCAR®.",
-    href: "/global/",
+    href: "/global/generacion-libro-electronico-compras",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -264,10 +264,10 @@ export const dataGlobal = [
 
   {
     id: 24,
-    name: "Generación del Libro Electrónico de Ventas - COMPONENTE",
+    name: "Generación del Libro Electrónico de Ventas",
     description:
       "Este tutorial contiene todo lo relacionado a la creación del libro electrónico de ventas en el sistema CONCAR®.",
-    href: "/global/",
+    href: "/global/generacion-libro-electronico-ventas",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -275,10 +275,10 @@ export const dataGlobal = [
   },
   {
     id: 25,
-    name: "Libro Electrónico Registro de Compras - COMPONENTE",
+    name: "Libro Electrónico Registro de Compras",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima del libro electrónico de compras en el Programa de Libros Electrónicos (PLE-SUNAT).",
-    href: "/global/",
+    href: "/global/libro-electronico-registro-compras",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -286,10 +286,10 @@ export const dataGlobal = [
   },
   {
     id: 26,
-    name: "Libro Electrónico Registro de Ventas - COMPONENTE",
+    name: "Libro Electrónico Registro de Ventas",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima del libro electrónico de compras en el Programa de Libros Electrónicos (PLE-SUNAT).",
-    href: "/global/",
+    href: "/global/libro-electronico-registro-ventas",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -297,9 +297,9 @@ export const dataGlobal = [
   },
   {
     id: 27,
-    name: "Libros electrónicos - COMPONENTE",
+    name: "Libros electrónicos",
     description: "Introducción Libros Electrónicos.",
-    href: "/global/",
+    href: "/global/libros-electronicos",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -310,7 +310,7 @@ export const dataGlobal = [
     name: "Rectificación - Registros Adicionales en Registro de Compras Electrónico",
     description:
       "En esta opción solo se registrarán las rectificaciones de los comprobantes de compras que se informarán en la declaración del libro electrónico de compras.",
-    href: "/global/",
+    href: "/global/rectificacion-registro-compras",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -321,35 +321,18 @@ export const dataGlobal = [
     name: "Rectificación u Omisión: Registros Adicionales en Registro de Ventas Electrónico",
     description:
       "En esta opción se registrarán los comprobantes de ventas que hayan sido omitidos y/o registrados equivocadamente en periodos anteriores y que se desean regularizar en el mes en curso para la declaración del libro electrónico de ventas.",
-    href: "/global/",
+    href: "/global/rectificacion-registro-ventas",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
     palabrasClave: ["ventas", "libro electronico", "rectificacion"],
   },
   {
-    id: 30,
-    name: "Rectificación u Omisión: Registros Adicionales en Registro de Ventas Electrónico",
-    description:
-      "En esta opción se registrarán los comprobantes de ventas que hayan sido omitidos y/o registrados equivocadamente en periodos anteriores y que se desean regularizar en el mes en curso para la declaración del libro electrónico de ventas.",
-    href: "/global/",
-    tipo: "Caso práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Libros Electrónicos",
-    palabrasClave: [
-      "ventas",
-      "libro electronico",
-      "rectificacion",
-      "omision",
-      "registro",
-    ],
-  },
-  {
     id: 31,
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 01 Factura",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 01 Factura",
-    href: "/global/",
+    href: "/global/error-tipo01-factura",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -360,7 +343,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 03 Boleta de Venta",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
-    href: "/global/",
+    href: "/global/error-documento03-boleta-venta",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -371,7 +354,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 10 Recibo por Arrendamiento",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación porque el número de serie del documento tipo 10 Recibo por arrendamiento está incompleto y falta registrar el código por el aporte de renta de primero categoría.",
-    href: "/global/",
+    href: "/global/error-documento10-recibo-arrendamiento",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -382,7 +365,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 52 DUA Simplificada",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación porque en la serie del número de documento los datos están mal ingresados o éstos contienen caracteres no válidos.",
-    href: "/global/",
+    href: "/global/error-documento52-dua-simplificada",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -393,7 +376,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para tipo de documento 02 Recibo por Honorarios",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie del tipo de documento recibo por honorarios.",
-    href: "/global/",
+    href: "/global/error-documento02-recibo-honorarios",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -404,7 +387,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Error número de serie para el documento de tipo 06 Carta de Porte Aéreo",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 06 Carta de Porte Aéreo.",
-    href: "/global/",
+    href: "/global/error-documento06-carta-porte",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -415,7 +398,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
-    href: "/global/",
+    href: "/global/error-tipo55-transporte-ferroviario",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -432,7 +415,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Falta documento de referencia para el documento tipo 07 Nota de Crédito",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar los datos del documento de referencia para el documento tipo 07 Nota de Crédito.",
-    href: "/global/",
+    href: "/global/falta-documento07-nota-credito",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -445,10 +428,10 @@ export const dataGlobal = [
   },
   {
     id: 39,
-    name: "Validación de Libro Electrónico de Compras - Fecha de documento de referencia no debe ser mayor a fecha de documento para el tipo de documento 07 Nota de créditoo",
+    name: "Validación de Libro Electrónico de Compras - Fecha de documento de referencia no debe ser mayor a fecha de documento para el tipo de documento 07 Nota de crédito",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por consignar de forma errónea la fecha del documento de referencia para el tipo de documento Nota de crédito, ésta no debe ser mayor que la fecha de documento.",
-    href: "/global/",
+    href: "/global/fecha-documento-mayor-documento07",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -464,7 +447,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Fecha de vencimiento debe ser menor o igual al periodo de proceso para tipo de documento 14 Recibo de servicios públicos",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación cuando la fecha de vencimiento del documento se ha registrado de forma incorrecta, debiendo ser menor o igual al periodo de proceso.",
-    href: "/global/",
+    href: "/global/fecha-vencimiento-documento14",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -480,7 +463,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar el número de documento en el registro, el campo no debe estar en blanco ni ser cero.",
-    href: "/global/",
+    href: "/global/numero-blanco-cero",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -496,7 +479,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Número de serie es obligatoria",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar el número de serie del documento registrado.",
-    href: "/global/",
+    href: "/global/numero-serie-obligatoria",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -512,7 +495,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Compras - Para código de documento SUNAT 01 Factura, documento de proveedor debe ser código 6 RUC",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no seleccionar un tipo de documento correcto para un proveedor del exterior.",
-    href: "/global/",
+    href: "/global/documento-codigo6-ruc",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -529,7 +512,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error en el número de serie para el documento de tipo 01 Factura",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie del documento tipo 01 factura.",
-    href: "/global/",
+    href: "/global/error-tipo01-factura",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -545,7 +528,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 03 Boleta de Venta",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
-    href: "/global/",
+    href: "/global/error-documento03-boleta-venta",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -561,7 +544,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 04 Liquidación de Compra",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 04 Liquidación de Compra.",
-    href: "/global/",
+    href: "/global/error-tipo04-liquidacion-compra",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -577,7 +560,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 05 Boleto Aéreo",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 05 Boleto Aéreo.",
-    href: "/global/",
+    href: "/global/error-tipo05-boleto-aereo",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -593,7 +576,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 06 Carta de Porte aéreo",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 06 Carta de porte aéreo.",
-    href: "/global/",
+    href: "/global/error-documento06-carta-porte",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -609,7 +592,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
-    href: "/global/",
+    href: "/global/error-tipo55-transporte-ferroviario",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -626,7 +609,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Falta documento de referencia para el documento tipo 08 Nota de Débito",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar los datos del documento de referencia para el documento tipo 08 Nota de Débito.",
-    href: "/global/",
+    href: "/global/error-tipo08-nota-debito",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -648,7 +631,7 @@ export const dataGlobal = [
     name: "Validación de Registro de Compras - PLE",
     description:
       "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de compras, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/validacion-registro-compras-ple",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -659,7 +642,7 @@ export const dataGlobal = [
     name: "Validación de Registro de Ventas - PLE",
     description:
       "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de ventas, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/validacion-registro-ventas-ple",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -670,7 +653,7 @@ export const dataGlobal = [
     name: "Validación en PLE-SUNAT de los libros electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico diario, diario simplificado y mayor, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/validacion-libro-diario-simplificado",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -687,7 +670,7 @@ export const dataGlobal = [
     name: "Validación en PLE-SUNAT: Campo obligatorio / La llave única es incorrecta",
     description:
       "Al intentar validar el libro electrónico diario en el PLE - SUNAT aparece una observación porque no se ha creado correctamente la compañía en el sistema, debido a que se dejó vacío el campo Tipo de Plan de Cuentas.",
-    href: "/global/",
+    href: "/global/campo-obligatorio-llave-incorrecta",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -698,7 +681,7 @@ export const dataGlobal = [
     name: "Validación en PLE-SUNAT: El número de documento de identidad es incorrecto",
     description:
       "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque el número de documento de identidad es incorrecto.",
-    href: "/global/",
+    href: "/global/documento-identidad-incorrecto",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -713,7 +696,7 @@ export const dataGlobal = [
     name: "Validación en PLE-SUNAT: El valor es incorrecto",
     description:
       "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque en el número de comprobante de pago o documento hay caracteres que no son válidos para el campo.",
-    href: "/global/",
+    href: "/global/valor-incorrecto",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -728,7 +711,7 @@ export const dataGlobal = [
     name: "Libros electrónicos diario, diario simplificado y mayor",
     description:
       "Cómo generar los libros electrónicos del Diario, Diario simplificado y Mayor.",
-    href: "/global/",
+    href: "/global/libro-electronico-diario-simplificado",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -744,7 +727,7 @@ export const dataGlobal = [
     name: "Carga de los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT",
     description:
       "Este tutorial contiene todo lo relacionado a la validación y envío de los libros electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT.",
-    href: "/global/",
+    href: "/global/carga-libro-diario-simplificado",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -760,7 +743,7 @@ export const dataGlobal = [
     name: "Cómo generar el libro electrónico de ventas de un mes sin movimiento",
     description:
       "Procedimiento para la generación del archivo TXT del libro electrónico de ventas de un mes sin movimiento.",
-    href: "/global/",
+    href: "/global/como-generar-mes-movimiento",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -773,7 +756,7 @@ export const dataGlobal = [
   },
   {
     id: 61,
-    name: "Cómo generar Formato 8.2 Registro de Compras a No Domiciliados PLE 5.0",
+    name: "Cómo generar Formato 8.2 Registro de Compras a No Domiciliados PLE 5.0 - FALTA",
     description:
       "La nueva versión 5.0 del PLE de SUNAT solicita información de compras a no domiciliados con su propio formato.",
     href: "/global/",
@@ -792,7 +775,7 @@ export const dataGlobal = [
     name: "Cómo generar los libros electrónicos de Compras,Ventas, Diario y Mayor",
     description:
       "Procedimiento para poder realizar el proceso de generación de los libros electrónicos de Compras, Ventas, Diario, Diario de Formato Simplificado y Mayor para SUNAT en el sistema CONCAR®",
-    href: "/global/",
+    href: "/global/generar-libros-electronicos",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -809,7 +792,7 @@ export const dataGlobal = [
     name: "Cómo Generar los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "El presente documento detalla el procedimiento a realizar en el CONCAR SQL para generar los libros electrónicos Diario y Mayor.",
-    href: "/global/",
+    href: "/global/generacion-libro-diario-simplificado",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -835,7 +818,7 @@ export const dataGlobal = [
     name: "Falta Doc. Referencia para Documento Tipo 07 y/o 08 en Libro Electrónico de Compras",
     description:
       "Falta Doc. Referencia para Documento Tipo 07 y/o 08 en Libro Electrónico de Compras",
-    href: "/global/",
+    href: "/global/doc-referencia-libro-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -846,7 +829,7 @@ export const dataGlobal = [
     name: "Fecha de Vencimiento en Recibos de Servicios Públicos en el Registro de Compras Electrónico",
     description:
       "Al intentar generar el archivo electrónico de Registro de Compras sale error por no tener configurada y/o ingresada la fecha de vencimiento en los recibos de servicios públicos código de documento SUNAT 14.",
-    href: "/global/",
+    href: "/global/fecha-vencimiento-recibos",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -859,7 +842,7 @@ export const dataGlobal = [
   },
   {
     id: 67,
-    name: "Formatos Inventarios y Balances PLE 5.0",
+    name: "Formatos Inventarios y Balances PLE 5.0 - FALTA",
     description:
       "Configuración y emisión de Libros Electrónicos Inventarios y Balances",
     href: "/global/",
@@ -873,7 +856,7 @@ export const dataGlobal = [
     name: "Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Este tutorial contiene todo lo relacionado a la creación de los libros electrónicos Diario, Diario Simplificado y Mayor en el sistema CONCAR®.",
-    href: "/global/",
+    href: "/global/generacion-libro-diario-simplificado",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -889,7 +872,7 @@ export const dataGlobal = [
     name: "Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima de los libros electrónicos Diario, Diario Simplificado y Mayor en el Programa de Libros Electrónicos (PLE-SUNAT).",
-    href: "/global/",
+    href: "/global/libro-electronico-diario-simplificado",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -905,7 +888,7 @@ export const dataGlobal = [
     name: "Registro de Omisiones en los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Esta opción permite incluir asientos omitidos en meses anteriores en los libros electrónicos Diario y Mayor. Para poder incluir asientos en esta opción es necesario que el comprobante contable omitido se registre en el mes en que se va a regularizar su omisión.",
-    href: "/global/",
+    href: "/global/registro-omisiones-libro-diario-simplificado",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -916,7 +899,7 @@ export const dataGlobal = [
     name: "Ventas a No Domiciliados en Libro Electrónico de Ventas",
     description:
       "Configuración para que salgan en forma correcta las ventas a no domiciliados en el archivo para el PLE de Ventas.",
-    href: "/global/",
+    href: "/global/ventas-no-domiciliados",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
