@@ -6,6 +6,7 @@ import Heading from "@/components/Heading";
 import { dataGlobal } from "@/data/global.data";
 import Link from "next/link";
 import { Select, MenuItem } from "@mui/material";
+import Button from "@/components/Button";
 
 const TemaSeparado = () => {
   const router = useRouter();
@@ -14,16 +15,31 @@ const TemaSeparado = () => {
   const [selectedCategoria, setSelectedCategoria] = useState<string | null>(
     null
   );
+  const [selectedPalabraClave, setSelectedPalabraClave] = useState<
+    string | null
+  >(null);
 
   const categorias = [
     ...new Set(dataGlobal.flatMap((item) => item.categorias)),
   ];
+  const palabrasClave = [
+    ...new Set(dataGlobal.flatMap((item) => item.palabrasClave)),
+  ];
 
-  const filteredRows = selectedCategoria
-    ? dataGlobal.filter((item) => item.categorias.includes(selectedCategoria))
-    : dataGlobal;
-  console.log(selectedCategoria);
-  console.log(filteredRows);
+  const filteredRows = dataGlobal.filter((item) => {
+    if (selectedCategoria && !item.categorias.includes(selectedCategoria)) {
+      return false;
+    }
+
+    if (
+      selectedPalabraClave &&
+      !item.palabrasClave?.includes(selectedPalabraClave)
+    ) {
+      return false;
+    }
+
+    return true;
+  });
 
   useEffect(() => {
     router.refresh();
@@ -38,6 +54,9 @@ const TemaSeparado = () => {
         href: item.href,
         tipo: item.tipo,
         categorias: item.categorias.map((item: any) => item),
+        palabrasClave: item.palabrasClave
+          ? item.palabrasClave.map((item: any) => item)
+          : [],
         tema: item.tema,
       };
     });
@@ -102,6 +121,16 @@ const TemaSeparado = () => {
       <div className="mb-4 mt-8">
         <Heading title="Temas" center />
       </div>
+      <div className="w-32 py-5">
+        <Button
+          small
+          label="Limpiar Filtros"
+          onClick={() => {
+            setSelectedCategoria("");
+            setSelectedPalabraClave("");
+          }}
+        />
+      </div>
       <div style={{ height: 900, width: "100%" }}>
         <DataGrid
           localeText={esES.components.MuiDataGrid.defaultProps.localeText}
@@ -115,19 +144,36 @@ const TemaSeparado = () => {
               width: 250,
               renderCell: () => {
                 return (
-                  // <div className="flex flex-col">
-                  //   {params?.row?.categorias.map((item: any, index: any) => (
-                  //     <span key={index} className="text-gray-600 font-semibold">
-                  //       {item}
-                  //     </span>
-                  //   ))}
-                  // </div>
                   <Select
-                    value={selectedCategoria}
+                    value={selectedCategoria || ""}
                     onChange={(e) => setSelectedCategoria(e.target.value)}
                     className="w-full"
                   >
+                    <MenuItem value="">Sin Categoria</MenuItem>
                     {categorias.map((item: any, index: any) => (
+                      <MenuItem key={index} value={item}>
+                        {item}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                );
+              },
+            },
+            {
+              field: "palabrasClave",
+              headerName: "Palabras Clave",
+              filterable: false,
+              width: 250,
+              renderCell: () => {
+                return (
+                  <Select
+                    value={selectedPalabraClave || ""}
+                    onChange={(e) => setSelectedPalabraClave(e.target.value)}
+                    className="w-full"
+                  >
+                    {" "}
+                    <MenuItem value="">Sin Palabra Clave</MenuItem>
+                    {palabrasClave.map((item: any, index: any) => (
                       <MenuItem key={index} value={item}>
                         {item}
                       </MenuItem>

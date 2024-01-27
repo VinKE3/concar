@@ -3,8 +3,10 @@ import TemaSeparado from "./TemaSeparado";
 const page = () => {
   return (
     <div className="md:p-10 p-2">
-      <h1 className="text-sky-800 font-bold text-lg">Temas</h1>
-      <h2 className="font-semibold">Temas tratados en los documentos</h2>
+      <h1 className="text-sky-800 font-bold text-lg">Informacion Global</h1>
+      <h2 className="font-semibold">
+        Esta pagina muestra la informacion global de todos los temas
+      </h2>
       <div>
         <div className="md:p-2 p-0">
           <TemaSeparado />

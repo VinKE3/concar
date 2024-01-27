@@ -1,6 +1,7 @@
 "use client";
 import Container from "@/components/Container";
 import { dataGlobal } from "@/data/global.data";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 interface LayoutProps {
@@ -11,12 +12,15 @@ export default function Layout({ children }: LayoutProps) {
   const pathname = usePathname();
   let tipo = dataGlobal.filter((item) => item.href === pathname)[0].tipo;
   let tema = dataGlobal.filter((item) => item.href === pathname)[0].tema;
-  let categorias = dataGlobal.filter((item) => item.href === pathname)[0]
-    .categorias;
-  let palabrasClave = dataGlobal.filter((item) => item.href === pathname)[0];
+  let categorias = dataGlobal
+    .filter((item) => item.href === pathname)[0]
+    .categorias.join(", ");
+  let palabrasClave = dataGlobal
+    .filter((item) => item.href === pathname)[0]
+    .palabrasClave?.join(", ");
   return (
     <Container>
-      <div className="flex ">
+      <div className="flex gap-4 mt-10">
         <h1>
           <span className="text-sky-600 font-semibold">Tipo: </span>
           {tipo}
@@ -31,9 +35,18 @@ export default function Layout({ children }: LayoutProps) {
         </h1>
         <h1>
           <span className="text-sky-600 font-semibold">Palabras Clave: </span>
+          {palabrasClave}
         </h1>
       </div>
-      <div className="py-8">{children}</div>
+      <div className="mt-5">
+        <Link href="/temas">
+          <button className="bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 mt-4 rounded-md">
+            Volver
+          </button>
+        </Link>
+      </div>
+
+      <div className="">{children}</div>
     </Container>
   );
 }
