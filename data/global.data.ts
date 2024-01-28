@@ -2,10 +2,10 @@ export const dataGlobal = [
   //?Inicio Libros Electrónicos
   {
     id: 1,
-    name: "¿Cómo configurar el ICBPER para Compras y Ventas en el Sistema CONCAR? - Incluye Video - FALTA",
+    name: "¿Cómo configurar el ICBPER para Compras y Ventas en el Sistema CONCAR? - Incluye Video",
     description:
       "A continuación indicamos como configurar el ICBPER para Compras y Ventas en el Sistema CONCAR",
-    href: "/global/",
+    href: "/global/como-configurar-icbper-compras-ventas",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Libros Electrónicos",
@@ -13,10 +13,10 @@ export const dataGlobal = [
   },
   {
     id: 2,
-    name: "¿Cómo generar los Libros Electrónicos del Registro de Compras y Ventas? - Incluye Video - FALTA",
+    name: "¿Cómo generar los Libros Electrónicos del Registro de Compras y Ventas? - Incluye Video",
     description:
       "El proceso para generar los Libros Electrónicos para Compras y Ventas se detallan a continuación",
-    href: "/global/",
+    href: "/global/como-generar-libros-electronicos-compras-ventas",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Libros Electrónicos",
@@ -30,10 +30,10 @@ export const dataGlobal = [
   },
   {
     id: 3,
-    name: "¿Cuáles son los Principales cambios del PLE 5.2 en el Sistema CONCAR para el 2021? - FALTA",
+    name: "¿Cuáles son los Principales cambios del PLE 5.2 en el Sistema CONCAR para el 2021?",
     description:
       "A continuación podrá observar los principales cambios del PLE 5.2 al sistema CONCAR",
-    href: "/global/",
+    href: "/global/cuales-son-los-principales-cambios-ple-5-2",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Libros Electrónicos",
@@ -45,10 +45,10 @@ export const dataGlobal = [
   },
   {
     id: 4,
-    name: "¿Cómo cerrar mis Libros Electrónicos - SIRE SUNAT? - FALTA",
+    name: "¿Cómo cerrar mis Libros Electrónicos - SIRE SUNAT?",
     description:
       "Explicación y ejemplos de como cerrar los libros electrónicos Compras y Ventas periodo Setiembre 2023 SIRE SUNAT",
-    href: "/global/",
+    href: "/global/como-cerrar-mis-libros-electronicos-sire-sunat",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
@@ -59,7 +59,7 @@ export const dataGlobal = [
     name: "¿Genera, compara y carga el registro de Compras Electrónicos (RCE) con CONCAR SIRE? - Incluye Video - FALTA",
     description:
       "Aquí podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al Registro de Compras Electrónicas (RCE) integrado con CONCAR CB y SQL.",
-    href: "/global/",
+    href: "/global/genera-compara-carga-rce-concar-sire",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
@@ -70,7 +70,7 @@ export const dataGlobal = [
     name: "Declaración RVIE + RCE en SIRE SUNAT - FALTA",
     description:
       "Con esta guía podrá cumplir con su declaración de Compras y Ventasen el SIRE SUNAT, generando loa archivos desde el distema CONCAR.",
-    href: "/global/",
+    href: "/global/declaracion-rvie-rce-sire-sunat",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
@@ -79,7 +79,7 @@ export const dataGlobal = [
     id: 7,
     name: "Fuente: SUNAT - Guía para aceptar propuesta RCE y RVIE - FALTA",
     description: "",
-    href: "/global/",
+    href: "/global/guia-aceptar-propuesta-rce-rvie-sunat",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
@@ -620,7 +620,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Número de documento debe ser numérico mayor a cero",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de documento en el registro, el campo debe ser numérico mayor a cero.",
-    href: "/global/",
+    href: "/global/numero-numerico-mayor-cero",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -756,10 +756,10 @@ export const dataGlobal = [
   },
   {
     id: 61,
-    name: "Cómo generar Formato 8.2 Registro de Compras a No Domiciliados PLE 5.0 - FALTA",
+    name: "Cómo generar Formato 8.2 Registro de Compras a No Domiciliados PLE 5.0",
     description:
       "La nueva versión 5.0 del PLE de SUNAT solicita información de compras a no domiciliados con su propio formato.",
-    href: "/global/",
+    href: "/global/como-generar-formato8-2-registro-compras-no-domiciliados",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -807,7 +807,7 @@ export const dataGlobal = [
     id: 64,
     name: "Error No Coinciden los Tipos en Libro Electrónico de Ventas",
     description: "Error No Coinciden los Tipos en Libro Electrónico de Ventas",
-    href: "/global/",
+    href: "/global/error-no-coinciden-tipos",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -842,10 +842,10 @@ export const dataGlobal = [
   },
   {
     id: 67,
-    name: "Formatos Inventarios y Balances PLE 5.0 - FALTA",
+    name: "Formatos Inventarios y Balances PLE 5.0",
     description:
       "Configuración y emisión de Libros Electrónicos Inventarios y Balances",
-    href: "/global/",
+    href: "/global/formatos-inventarios-balances",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
@@ -909,10 +909,10 @@ export const dataGlobal = [
   //*Inico Sin Definir -26
   {
     id: 72,
-    name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE - FALTA",
+    name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE",
     description:
       "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
-    href: "/global/",
+    href: "/global/facultad-discrecional-contribuyentes-obligados-sire",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -920,10 +920,10 @@ export const dataGlobal = [
   },
   {
     id: 73,
-    name: "Fuente: SUNAT - Guía para reemplazar propuesta RCE y RVIE - FALTA",
+    name: "Fuente: SUNAT - Guía para reemplazar propuesta RCE y RVIE",
     description:
       "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
-    href: "/global/",
+    href: "/global/guia-reemplazar-propuesta-rce-rvie",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -953,10 +953,10 @@ export const dataGlobal = [
   },
   {
     id: 76,
-    name: "Mostrar Resultado del ejercicio en Estado de Cambios en el Patrimonio Neto - FALTA",
+    name: "Mostrar Resultado del ejercicio en Estado de Cambios en el Patrimonio Neto",
     description:
       "Mostrar Resultado del ejercicio en Estado de Cambios en el Patrimonio Neto",
-    href: "/global/",
+    href: "/global/mostrar-resultado-ejercicio-estado-cambios-patrimonio-neto",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1000,7 +1000,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de ESET NOD Antivirus? -FALTA",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus",
-    href: "/global/",
+    href: "/global/como-realizar-exclusion-modulos-real-systems-eset-nod-antivirus",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1008,10 +1008,10 @@ export const dataGlobal = [
   },
   {
     id: 81,
-    name: "Licencia Mensaje: ¿RKV0000 RKV0002- Llave de acceso Real Key Virtual no corresponde? - FALTA",
+    name: "Licencia Mensaje: ¿RKV0000 RKV0002- Llave de acceso Real Key Virtual no corresponde?",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus",
-    href: "/global/",
+    href: "/global/rkv0000-rkv0002-llave-acceso-real-key-virtual-no-corresponde",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1019,10 +1019,10 @@ export const dataGlobal = [
   },
   {
     id: 82,
-    name: "¿Cómo se Configura una Factura con Percepción en el Concar SQL? - Incluye Video - FALTA",
+    name: "¿Cómo se Configura una Factura con Percepción en el Concar SQL? - Incluye Video",
     description:
       "A continuación de indicara los pasos previos para registrar Facturas con Percepción en el sistema Concar SQL",
-    href: "/global/",
+    href: "/global/configurar-factura-percepcion-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1033,7 +1033,7 @@ export const dataGlobal = [
     name: "¿Cómo se debe Configurar el Comprobante de Percepción? – CONCAR SQL - Incluye Video -FALTA",
     description:
       "A continuación se indica los procesos previos para configurar su Comprobantes de Percepción",
-    href: "/global/",
+    href: "/global/configurar-comprobante-percepcion-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1044,7 +1044,7 @@ export const dataGlobal = [
     name: "¿Cómo se debe Configurar el Comprobante de Retención? – CONCAR SQL - Incluye Video -FALTA",
     description:
       "A continuación se indica los pasos previos para configurar y poder registrar los comprobantes de retención",
-    href: "/global/",
+    href: "/global/configurar-comprobante-retencion-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1055,7 +1055,7 @@ export const dataGlobal = [
     name: "Consulta de Tabla General CONCAR",
     description:
       "En este menú se podrá consultar las Tablas Generales del CONCAR SQL.",
-    href: "/global/",
+    href: "/global/consulta-tabla-general-concar",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1066,7 +1066,7 @@ export const dataGlobal = [
     name: "Consulta plan de cuentas",
     description:
       "Esta opción sirve para realizar consultas al Plan de Cuentas creado en el sistema CONCAR SQL.",
-    href: "/global/",
+    href: "/global/consulta-plan-cuentas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1077,7 +1077,7 @@ export const dataGlobal = [
     name: "Contabilización documentos C/IGV sin derecho a C. fiscal",
     description:
       "En esta operación, se contabiliza los documentos que no dan derecho a crédito fiscal, que han sido registrados y que, posteriormente, han sido marcados con VºBº.",
-    href: "/global/",
+    href: "/global/contabilizacion-documentos-igv-sin-derecho-c-fiscal",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1099,7 +1099,7 @@ export const dataGlobal = [
     name: "Migración de tablas de CB a SQL",
     description:
       "Seleccionada esta opción se exportarán todos los datos del sistema Placar CB a la versión Placar SQL (en cuanto esté disponible).",
-    href: "/global/",
+    href: "/global/migracion-tablas-cb-sql",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1110,7 +1110,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la configuración del Código UNSPSC en el Sistema Comercial?",
     description:
       "A continuación detallamos como asignar el código UNSPSC al sistema comercial",
-    href: "/global/",
+    href: "/global/configuracion-codigo-unspc-sistema-comercial",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1121,7 +1121,7 @@ export const dataGlobal = [
     name: "Carga inicial documentos",
     description:
       "Esta opción permite hacer la carga inicial en el sistema de los documentos pendientes a una fecha determinada.",
-    href: "/global/",
+    href: "/global/carga-inicial-documentos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1132,7 +1132,7 @@ export const dataGlobal = [
     name: "¿Cómo actualizar los artículos incluyendo el peso de forma masiva en el sistema softcom net?",
     description:
       "A continuación detallamos como actualizar masivamente los pesos de los artículos en el softcom net",
-    href: "/global/",
+    href: "/global/actualizar-articulos-peso-softcom-net",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
@@ -1143,7 +1143,7 @@ export const dataGlobal = [
     name: "Propiedad planta y equipo – Lo mejor de la NIC 16 – Activos Fijos",
     description:
       "En la siguiente exposición conoceremos el objetivo de esta Norma, conocer la información acerca de la inversión que la entidad tiene en sus propiedades, planta y equipo; así como los cambios que se hayan producido en dicha inversión. Además de tratar los principales problemas que presenta el reconocimiento contable de propiedades, planta y equipo",
-    href: "/global/",
+    href: "/global/proiedad-planta-equipo-nic16-activos-fijos",
     tipo: "Video",
     categorias: ["EXPOSICIONES"],
     tema: "Sin Definir",
@@ -1153,7 +1153,7 @@ export const dataGlobal = [
     id: 95,
     name: "¿Cómo actualizar mi llave Real Key?",
     description: "",
-    href: "/global/",
+    href: "/global/como-actualizar-llave-real-key",
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
@@ -1163,7 +1163,7 @@ export const dataGlobal = [
     id: 96,
     name: "¿Cómo funciona la llave REAL KEY®?",
     description: "",
-    href: "/global/",
+    href: "/global/como-funciona-llave-real-key",
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
@@ -1173,7 +1173,7 @@ export const dataGlobal = [
     id: 97,
     name: "¿Qué debo de hacer en caso de pérdida o robo de mi llave REAL KEY®?",
     description: "",
-    href: "/global/",
+    href: "/global/perdida-robo-llave-real-key",
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
@@ -1184,7 +1184,7 @@ export const dataGlobal = [
     name: "¿Qué es la llave REAL KEY®?",
     description:
       "La llave REAL KEY® es un dispositivo USB de seguridad y protección de software que permitirá el acceso a los productos de Real Systems.",
-    href: "/global/",
+    href: "/global/que-es-la-llave-real-key",
     tipo: "Video",
     categorias: ["REALKEY"],
     tema: "Sin Definir",
@@ -1196,7 +1196,7 @@ export const dataGlobal = [
     id: 99,
     name: "Cheque Anulado",
     description: "Cómo registrar un cheque anulado.",
-    href: "/global/",
+    href: "/global/cheque-anulado",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Caja y Bancos",
@@ -1314,7 +1314,7 @@ export const dataGlobal = [
     id: 110,
     name: "Registro de Gastos de Caja Chica o Fondo Fijo - FALTA",
     description: "Cómo registrar gastos de caja chica o fondo fijo.",
-    href: "/global/",
+    href: "/global/registrar-gastos-caja-chica-fondo-fijo",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Caja y Bancos",
@@ -1829,7 +1829,7 @@ export const dataGlobal = [
     name: "Comprobante de Honorarios",
     description:
       "Esta opción permite registrar los comprobantes de honorarios en forma simplificada y automatizada.",
-    href: "/global/",
+    href: "/global/comprobante-honorarios",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Honorarios",
@@ -1840,7 +1840,7 @@ export const dataGlobal = [
     name: "Mantenimiento Parámetros Honorarios",
     description:
       "Este módulo del sistema permite registrar los parámetros que usará el programa de registro de comprobantes honorarios.",
-    href: "/global/",
+    href: "/global/mantenimiento-parametros-honorarios",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Honorarios",
@@ -1853,7 +1853,7 @@ export const dataGlobal = [
     name: "Anexos II, III y IV: Carga de asientos desde otros sistemas",
     description:
       "Al momento de ingresar a esta opción el sistema verifica la existencia de las tablas de interface (Comprobantes y anexos). Estas tablas deben ser creadas en la base de datos del CONCAR® SQL",
-    href: "/global/",
+    href: "/global/anexo-carga-asientos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Interfaz",
@@ -1863,7 +1863,7 @@ export const dataGlobal = [
     id: 165,
     name: "INTERFAZ - Carga de Asientos desde otros sistemas",
     description: "Como cargar asientos desde otros sistemas",
-    href: "/global/",
+    href: "/global/carga-asientos-otros-sistemas",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Interfaz",
@@ -2184,7 +2184,7 @@ export const dataGlobal = [
     name: "Comprobante Compras",
     description:
       "Permite registrar los documentos de las operaciones de compras (sólo las provisiones).",
-    href: "/global/",
+    href: "/global/comprobante-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2269,7 +2269,7 @@ export const dataGlobal = [
     name: "Cómo separar Gastos No Gravados (inafectos o exonerados) en el Registro de Compras",
     description:
       "Procedimiento para que los Gastos No Gravados (inafectos o exonerados) incluidos en documentos que tienen parte Gravada salgan en la columna de Adquisiciones No Gravadas en el Registro de Compras del sistema CONCAR®",
-    href: "/global/",
+    href: "/global/separar-gastos",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2280,7 +2280,7 @@ export const dataGlobal = [
     name: "DAOT-Compras",
     description:
       "El sistema muestra todas las operaciones afectas e inafectas al IGV con proveedores, es decir todos los documentos de compras emitidos en el ejercicio y registrados en el Registro de Compras.",
-    href: "/global/",
+    href: "/global/daot-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2291,7 +2291,7 @@ export const dataGlobal = [
     name: "DETRACCION ¿Cómo habilitar los datos de “Detracción” en comprobantes de compras? - Concar SQL",
     description:
       "A continuación detallamos, como habilitar los campos de detracción en los comprobantes de compras",
-    href: "/global/",
+    href: "/global/detraccion-habilitar-datos",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2301,7 +2301,7 @@ export const dataGlobal = [
     id: 207,
     name: "Error 3265 al generar archivo mensual de compras",
     description: "Error ‘3265’ en tiempo de ejecución",
-    href: "/global/",
+    href: "/global/generar-archivo-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2312,7 +2312,7 @@ export const dataGlobal = [
     name: "Mostrar los Recibos por Honorarios en el Registro de Compras",
     description:
       "Forma de mostrar los recibos por honorarios en el Registro de Compras.",
-    href: "/global/",
+    href: "/global/recibos-honorarios-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2323,7 +2323,7 @@ export const dataGlobal = [
     name: "No se encontró el elemento que corresponde al elemento u ordinal solicitado",
     description:
       "Error que indica que no se encontró el elemento que corresponde al elemento u ordinal solicitado.",
-    href: "/global/",
+    href: "/global/elemento-ordinal-solicitado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2466,7 +2466,7 @@ export const dataGlobal = [
     name: "Comprobante Estándar con Conversión",
     description:
       "Mediante esta opción se puede registrar en el sistema cualquier asiento de diario como son: Bancos, cajas, planillas, costos, canjes, cancelaciones de clientes y otros; exceptuando los registros por compras, ventas, honorarios y cheques.",
-    href: "/global/",
+    href: "/global/comprobante-estandar",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2488,7 +2488,7 @@ export const dataGlobal = [
     name: "Exporta Comprobantes a Excel",
     description:
       "Utilizando esta opción se puede exportar por subdiarios, los comprobantes registrados en CONCAR® SQL al Excel; asimismo, se puede incluir cuentas automáticas.",
-    href: "/global/",
+    href: "/global/exporta-comprobantes-excel",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2499,7 +2499,7 @@ export const dataGlobal = [
     name: "Log eliminación comprobantes",
     description:
       "Muestra los comprobantes contables eliminados, indicando usuario y fecha de eliminación.",
-    href: "/global/",
+    href: "/global/eliminacion-comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2510,7 +2510,7 @@ export const dataGlobal = [
     name: "Mantenimiento Documentos de Referencia",
     description:
       "En esta opción se configuran los documentos que requieren que se active el campo de documento de referencia en el registro de compras y ventas.",
-    href: "/global/",
+    href: "/global/mantenimiento-documentos-referencia",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2521,7 +2521,7 @@ export const dataGlobal = [
     name: "Mantenimiento Tipo pago por programa",
     description:
       "Se debe configurar los tipos de medio de pago que pueden ser utilizados para cada una de las opciones de generación de comprobantes contables.",
-    href: "/global/",
+    href: "/global/mantenimiento-tipo-pago",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2532,7 +2532,7 @@ export const dataGlobal = [
     name: "Numeración de Comprobantes",
     description:
       "En esta tabla se muestra el último número de comprobante generado en forma automática por cada subdiario y mes.",
-    href: "/global/",
+    href: "/global/numeracion-comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2543,7 +2543,7 @@ export const dataGlobal = [
     name: "¿Cómo eliminar Comprobantes en el CONCAR SQL? - Incluye Video",
     description:
       "Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F), individual o masivamente.",
-    href: "/global/",
+    href: "/global/como-eliminar-comprobantes",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2554,7 +2554,7 @@ export const dataGlobal = [
     name: "Comprobantes",
     description:
       "El módulo de comprobantes permite ingresar las operaciones del día a día en el sistema para lo cual deberá tener configuradas las bases de datos indicadas en el menú Archivos.",
-    href: "/global/",
+    href: "/global/comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2565,7 +2565,7 @@ export const dataGlobal = [
     name: "Movimiento Datos",
     description:
       "Esta opción permite adicionar comprobantes contables al sistema originados ya sea por la opción de Transfiere Comprobantes del CONCAR® SQL, por archivos externos generados por una interfaz o desde Excel.",
-    href: "/global/",
+    href: "/global/movimiento-datos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2660,7 +2660,7 @@ export const dataGlobal = [
     name: "Asientos Automáticos",
     description:
       "En este menú, se generan automáticamente los asientos de: Apertura, diferencia de cambio, FASB52, cierre y ajuste por inflación; estando este último en desuso por la coyuntura actual.",
-    href: "/global/",
+    href: "/global/asiestos-automaticos",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2682,7 +2682,7 @@ export const dataGlobal = [
     name: "CIERRE - Tabla de Cierre",
     description:
       "En esta tabla ya viene configurada con los asientos automáticos de cierre del ejercicio, son 17 asientos de cierre.",
-    href: "/global/",
+    href: "/global/tabla-cierre",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2703,7 +2703,7 @@ export const dataGlobal = [
     id: 244,
     name: "Asiento de Apertura",
     description: "Como generar el asiento de Apertura.",
-    href: "/global/",
+    href: "/global/asiento-apertura",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
@@ -2713,7 +2713,7 @@ export const dataGlobal = [
     id: 245,
     name: "Asiento de Apertura Automático se genera descuadrado",
     description: "Asiento de Apertura automático se genera descuadrado.",
-    href: "/global/",
+    href: "/global/apertura-automatico-descuadrado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
@@ -2724,7 +2724,7 @@ export const dataGlobal = [
     name: "CIERRE - Proceso de Cierre",
     description:
       "Procedimiento para poder realizar el proceso de Cierre Contable en el sistema CONCAR®",
-    href: "/global/",
+    href: "/global/apertura-automatico-descuadrado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
@@ -2734,7 +2734,7 @@ export const dataGlobal = [
     id: 247,
     name: "Generación del Asiento de Apertura Automático",
     description: "Cómo generar el Asiento de Apertura en forma automática.",
-    href: "/global/",
+    href: "/global/generacion-asiento-apertura",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
@@ -2758,7 +2758,7 @@ export const dataGlobal = [
     name: "¿Instalar y/o Actualizar CONCAR SIRE CB? - Incluye Video",
     description:
       "A continuación detallamos como realiza la instalación y/o Actualización del módulo CONCAR SIRE CB, para ambos casos es el mismo proceso.",
-    href: "/global/",
+    href: "/global/instalacion-sire",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRESQL"],
     tema: "Instalación/Actualización",
@@ -2780,7 +2780,7 @@ export const dataGlobal = [
     name: "Actualizar Real Key",
     description:
       "Mediante esta opción actualizará la licencia de su Real Key una vez vencido el plazo de contrato.",
-    href: "/global/",
+    href: "/global/acutalizar-real-key",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
@@ -2812,7 +2812,7 @@ export const dataGlobal = [
     id: 254,
     name: "¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video",
     description: "Procedimiento para la Actualización del CONCAR SQL",
-    href: "/global/",
+    href: "/global/proceso-actualizacion-concar-sql",
     tipo: "Tutorial",
     categorias: ["CONCARSQL"],
     tema: "Instalación/Actualización",
@@ -2834,7 +2834,7 @@ export const dataGlobal = [
     name: "¿Instalar y/o Actualizar CONCAR SIRE SQL? - Incluye Video",
     description:
       "A continuación detallamos como realiza la instalación y/o Actualización del módulo CONCAR SIRE SQL, para ambos casos es el mismo proceso.",
-    href: "/global/",
+    href: "/global/instalacion-sire",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Instalación/Actualización",
@@ -2845,7 +2845,7 @@ export const dataGlobal = [
     name: "CONCAR no responde (se cuelga)",
     description:
       "Al darle doble clic al acceso del CONCAR no carga el sistema.",
-    href: "/global/",
+    href: "/global/concar-no-responde",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
@@ -2855,7 +2855,7 @@ export const dataGlobal = [
     id: 258,
     name: "Descarga Versión desde miCONCAR®",
     description: "Forma de descargar Versión desde miCONCAR®.",
-    href: "/global/",
+    href: "/global/descarga-version",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
@@ -2890,7 +2890,7 @@ export const dataGlobal = [
     name: "Carga de información en el DAOT - PDT 3500 Operaciones con Terceros",
     description:
       "Como cargar DAOT Compras y Ventas al PDT 3500 Operaciones con Terceros",
-    href: "/global/",
+    href: "/global/daot-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2901,7 +2901,7 @@ export const dataGlobal = [
     name: "PDT Honorarios",
     description:
       "Para presentar información a la SUNAT de los Honorarios se debe registrar primero todos los recibos de Honorarios “Comprobante de Registro de Honorarios”.",
-    href: "/global/",
+    href: "/global/pdt-honorarios",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2934,7 +2934,7 @@ export const dataGlobal = [
     name: "¿Cómo se genera el PDT Renta Anual para el Concar SQL? - Incluye Video",
     description:
       "El sistema permite generar un archivo con el Balance de Comprobación, de acuerdo al formato establecido por SUNAT, para que pueda ser importado desde el PDT Renta Anual de cualquier ejercicio",
-    href: "/global/",
+    href: "/global/pdt-renta-anual",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2945,7 +2945,7 @@ export const dataGlobal = [
     name: "PDB Mensual Exportadores",
     description:
       "Este menú contiene las opciones para generar los archivos a cargar en el PDB SUNAT",
-    href: "/global/",
+    href: "/global/pdb-mensual-exportadores",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2956,7 +2956,7 @@ export const dataGlobal = [
     name: "PDT 621 – Percepciones",
     description:
       "En esta opción se genera el archivo plano de Percepciones para exportarlo al PDT 621.",
-    href: "/global/",
+    href: "/global/pdt-621",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2967,7 +2967,7 @@ export const dataGlobal = [
     name: "PDT 658 – Casilla Estados Financieros",
     description:
       "Permite generar un archivo con la información detallada, de acuerdo al formato establecido por SUNAT",
-    href: "/global/",
+    href: "/global/pdt-658",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2978,7 +2978,7 @@ export const dataGlobal = [
     name: "PDT IGV Renta Mensual-Retención de Clientes",
     description:
       "El sistema genera el archivo PDT del mes seleccionado con las retenciones (6%, realizadas por los clientes que son Agentes de Retención).",
-    href: "/global/",
+    href: "/global/pdt-igv-renta-mensual",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2989,7 +2989,7 @@ export const dataGlobal = [
     name: "SUNAT",
     description:
       "Este módulo contiene las opciones para generar los archivos planos (archivos de texto) que se declaran en los programas de SUNAT.",
-    href: "/global/",
+    href: "/global/sunat",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -3012,7 +3012,7 @@ export const dataGlobal = [
     id: 274,
     name: "No realiza impresión en red",
     description: "No se logra imprimir en una impresora conectada a la red.",
-    href: "/global/",
+    href: "/global/no-realiza-impresion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
@@ -3091,7 +3091,7 @@ export const dataGlobal = [
     name: "Plan de Cuenta",
     description:
       "En este archivo o base de datos se registrarán, modificarán o visualizarán las cuentas contables que se definan para llevar la contabilidad de la empresa.",
-    href: "/global/",
+    href: "/global/plan-cuenta",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
@@ -3104,7 +3104,7 @@ export const dataGlobal = [
     name: "¿Bloqueo o cierre de periodos mensuales?",
     description:
       "Se desea cerrar (bloquear) periodos mensuales para que no se puedan registrar, modificar ni eliminar comprobantes.",
-    href: "/global/",
+    href: "/global/cierre-periodos-mensuales",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Seguridad",
@@ -3139,7 +3139,7 @@ export const dataGlobal = [
     name: "Códigos de Anexos",
     description:
       "En esta base de datos se registran los anexos, que son datos complementarios a las cuentas, los mismos que sirven para identificar diferentes tipos de entidades o datos que son necesarios para hacer un análisis más detallado de las cuentas.",
-    href: "/global/",
+    href: "/global/codigos-anexos",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Anexos",
@@ -3206,7 +3206,7 @@ export const dataGlobal = [
     name: "Acerca de",
     description:
       "Incluye términos de licencia y opciones relacionadas con la llave Real Key.",
-    href: "/global/",
+    href: "/global/acerca-de",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3217,7 +3217,7 @@ export const dataGlobal = [
     name: "Control de Registro Mensual",
     description:
       "Esta opción del sistema sirve para habilitar o bloquear los meses en los que se ingresan los comprobantes.",
-    href: "/global/",
+    href: "/global/control-registro-mensual",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3250,7 +3250,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Ejecutivos",
     description:
       "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa. Previamente se debe ingresar los datos en el Mantenimiento de Empresas.",
-    href: "/global/",
+    href: "/global/mantenimiento-ejecutivos",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3261,7 +3261,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Tipos de Medio de Pago",
     description:
       "En esta opción se podrá ingresar todos los medios de pago utilizados para registrar las transacciones financieras.",
-    href: "/global/",
+    href: "/global/mantenimiento-tipos-medio-pago",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3271,7 +3271,7 @@ export const dataGlobal = [
     id: 297,
     name: "Manual de Preguntas Frecuentes CONCAR SQL",
     description: "Preguntas Frecuentes",
-    href: "/global/",
+    href: "/global/main-manual-preguntas-frecuentes",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3282,7 +3282,7 @@ export const dataGlobal = [
     name: "Manual de Usuario CONCAR SQL",
     description:
       "Manual 2013 incluye las nuevas funcionalidades de los libros electrónicos PLE.",
-    href: "/global/",
+    href: "/global/main-manual-usuario-concar",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3293,7 +3293,7 @@ export const dataGlobal = [
     name: "Tabla de Transferencia",
     description:
       "Esta tabla es usada cuando el Plan de cuentas está estructurado para trabajar los costos y gastos con las cuentas del elemento 6 y su uso es opcional.",
-    href: "/global/",
+    href: "/global/tabla-transferencia",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3304,7 +3304,7 @@ export const dataGlobal = [
     name: "Tabla General",
     description:
       "En esta opción están registradas todas las tablas creadas para el funcionamiento del sistema. El usuario no podrá crear nuevas tablas; salvo lo indicado en este manual o por un consultor.",
-    href: "/global/",
+    href: "/global/tabla-general",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3315,7 +3315,7 @@ export const dataGlobal = [
     name: "Tipo de Cambio",
     description:
       "La tabla de Tipo de Cambio es aquella donde se definen las monedas con su equivalencia en moneda nacional de cada día. Esta tabla será usada por el sistema para convertir cada asiento contable a soles y dólares. Para registrar el tipo de cambio dólar, se debe usar el código US.",
-    href: "/global/",
+    href: "/global/tipo-cambio",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3336,7 +3336,7 @@ export const dataGlobal = [
     name: "Administración Sistema",
     description:
       "El módulo de Administración del Sistema permite realizar procesos vinculados a la administración de usuarios y compañías.",
-    href: "/global/",
+    href: "/global/administracion-sistema",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3347,7 +3347,7 @@ export const dataGlobal = [
     name: "Anexo I: Configurar favoritos",
     description:
       "Permite configurar atajos o accesos directos a las opciones que elija el usuario.",
-    href: "/global/",
+    href: "/global/anexo-configurar-favoritos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3358,7 +3358,7 @@ export const dataGlobal = [
     name: "Archivos",
     description:
       "El módulo de Archivos permite efectuar el mantenimiento y consulta de las bases de datos del sistema.",
-    href: "/global/",
+    href: "/global/archivos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3369,7 +3369,7 @@ export const dataGlobal = [
     name: "Características del sistema",
     description:
       "Se detallan principales características del sistema CONCAR SQL.",
-    href: "/global/",
+    href: "/global/caracteristicas-sistema",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3380,7 +3380,7 @@ export const dataGlobal = [
     name: "Como obtener el RSFINA",
     description:
       "Se necesita saber la forma de obtener el utilitario RSFINA11 para consolidar los meses contables.",
-    href: "/global/",
+    href: "/global/como-obtener-rsfina",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3391,7 +3391,7 @@ export const dataGlobal = [
     name: "Finalidad y descripción general del sistema",
     description:
       "El Sistema Contable y Financiero CONCAR® SQL ha sido desarrollado para ser utilizado por el área de Contabilidad, en la elaboración de los Libros contables, Balances y Estados Financieros, posibilitando de esta manera mejorar la oportunidad y confiabilidad de los resultados para la toma de decisiones por la Alta Dirección.",
-    href: "/global/",
+    href: "/global/finalidad-descripcion-sistema",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3402,7 +3402,7 @@ export const dataGlobal = [
     name: "Información Real Key",
     description:
       "El sistema le mostrará las características (Número de serie, número de licencias y los días en los que se vence el convenio de soporte) de la Real Key (Llave electrónica) conectada al equipo.",
-    href: "/global/",
+    href: "/global/informacion-real-key",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3413,7 +3413,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Compañías",
     description:
       "Esta opción permite administrar las compañías que se van a trabajar en el sistema dada su característica de ser multiempresa.",
-    href: "/global/",
+    href: "/global/mantenimiento-companias",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3424,7 +3424,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Ejecutivos",
     description:
       "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa",
-    href: "/global/",
+    href: "/global/mantenimiento-ejecutivos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3435,7 +3435,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Empresas",
     description:
       "Esta opción permite completar datos adicionales al mantenimiento de compañías necesarios para emitir el certificado de honorarios.",
-    href: "/global/",
+    href: "/global/mantenimiento-empresas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3446,7 +3446,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Usuarios",
     description:
       "Esta opción permite la creación, modificación o eliminación de los usuarios del sistema, asignándoles un código, un password (clave secreta) y facultades de acceso",
-    href: "/global/",
+    href: "/global/mantenimiento-usuarios",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3457,7 +3457,7 @@ export const dataGlobal = [
     name: "Mantenimiento Usuarios-Compañía",
     description:
       "Esta opción permite la asignación de una o más compañías a los usuarios creados en el Mantenimiento de Usuarios",
-    href: "/global/",
+    href: "/global/mantenimiento-usuarios-compania",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3468,7 +3468,7 @@ export const dataGlobal = [
     name: "Mantenimiento Usuarios-Programa",
     description:
       "Esta opción permite la asignación o restricción de las opciones de menú a los usuarios que fueron creados como Operadores en el Mantenimiento de Usuarios",
-    href: "/global/",
+    href: "/global/mantenimiento-usuarios-programa",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3478,7 +3478,7 @@ export const dataGlobal = [
     id: 316,
     name: "Parámetros Generales",
     description: "Esta opción permite configurar los parámetros del sistema",
-    href: "/global/",
+    href: "/global/parametros-generales",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3489,7 +3489,7 @@ export const dataGlobal = [
     name: "Preguntas Frecuentes CONCAR SQL",
     description:
       "A continuación se detallan las preguntas frecuentes con sus soluciones.",
-    href: "/global/",
+    href: "/global/preguntas-frecuentes",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3500,7 +3500,7 @@ export const dataGlobal = [
     name: "Presentación",
     description:
       "El presente manual ha sido desarrollado para asistir a los usuarios del sistema Contable y Financiero CONCAR® en SQL en las situaciones problemáticas que con más frecuencia hemos visto que se presentan y requieren una ayuda especial para ser superadas.",
-    href: "/global/",
+    href: "/global/presentacion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3511,7 +3511,7 @@ export const dataGlobal = [
     name: "Utilitarios",
     description:
       "El módulo de Utilitarios permite realizar procesos auxiliares como movimiento de datos, verificar comprobantes que generen descuadres naturaleza/destino.",
-    href: "/global/",
+    href: "/global/utilitarios",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3567,7 +3567,7 @@ export const dataGlobal = [
     name: "Ratios",
     description:
       "Esta opción sirve para emitir ratios definidos por el usuario. Las fórmulas de los ratios se ingresan en el Mantenimiento de Ratios",
-    href: "/global/",
+    href: "/global/ratios",
     tipo: "Artículo",
     categorias: ["EXPOSICIONES"],
     tema: "Otros Reportes",
@@ -3589,7 +3589,7 @@ export const dataGlobal = [
     name: "Reportes Comprobantes",
     description:
       "Esta opción mostrará reportes de los comprobantes ingresados, así se encuentren en situación P (Pendiente) o F (Finalizado).",
-    href: "/global/",
+    href: "/global/reporte-comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Otros Reportes",
@@ -3600,7 +3600,7 @@ export const dataGlobal = [
     name: "Análisis cuenta",
     description:
       "Este módulo permite consultar y emitir reportes de saldos por cuenta y anexos, documentos pendientes en forma selectiva a cualquier fecha de saldo y estados de cuentas en línea y sin efectuar ningún proceso previo.",
-    href: "/global/",
+    href: "/global/analisis-cuenta",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3611,7 +3611,7 @@ export const dataGlobal = [
     name: "Áreas",
     description:
       "Imprime reporte que muestra los totales de ingresos y egresos por cada área, así como también los totales generales.",
-    href: "/global/",
+    href: "/global/areas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3622,7 +3622,7 @@ export const dataGlobal = [
     name: "Consultas",
     description:
       "Permite realizar consultas de saldos de balance, balance de comprobación y análisis de cuenta.",
-    href: "/global/",
+    href: "/global/consultas",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3633,7 +3633,7 @@ export const dataGlobal = [
     name: "Documentos Pendientes",
     description:
       "Permite emitir reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.",
-    href: "/global/",
+    href: "/global/documentos-pendientes",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3644,7 +3644,7 @@ export const dataGlobal = [
     name: "Histórico reportes discos",
     description:
       "Esta opción permite consultar e imprimir cualquier reporte que se haya guardado en disco.",
-    href: "/global/",
+    href: "/global/historico-reportes",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3655,7 +3655,7 @@ export const dataGlobal = [
     name: "Mayores",
     description:
       "Incluye reportes de Libros Mayores anteriores y no oficiales.",
-    href: "/global/",
+    href: "/global/reportes-mayores",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3666,7 +3666,7 @@ export const dataGlobal = [
     name: "Reportes",
     description:
       "Este módulo permite emitir los reportes de resultado en base a los datos ya ingresados en los asientos contables.",
-    href: "/global/",
+    href: "/global/reportes",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3677,7 +3677,7 @@ export const dataGlobal = [
     name: "Reportes Anuales",
     description:
       "Incluye reportes con análisis de cuentas anuales con detalle mensual.",
-    href: "/global/",
+    href: "/global/reportes-anuales",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3688,7 +3688,7 @@ export const dataGlobal = [
     name: "Reportes de Ingresos y Gastos",
     description:
       "Incluye los reportes de ingresos y gastos adicionales a los de Ganancias y Pérdidas (Resultados)",
-    href: "/global/",
+    href: "/global/reportes-ingresos-gastos",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3699,7 +3699,7 @@ export const dataGlobal = [
     name: "Verifica Comprobantes",
     description:
       "Esta opción nos permite visualizar aquellos comprobantes que probablemente estén generando un descuadre del resultado en los estados financieros.",
-    href: "/global/",
+    href: "/global/verifica-comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3710,7 +3710,7 @@ export const dataGlobal = [
     name: "Ratios",
     description:
       "Son factores de análisis financieros que permiten establecer la posición financiera de la empresa por medio de fórmulas. Estas fórmulas se aplican a una serie de datos por los cuales se puede calcular la posición real de la empresa.",
-    href: "/global/",
+    href: "/global/ratios",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "EXPOSICIONES"],
     tema: "Otros Reportes",
@@ -3882,7 +3882,7 @@ export const dataGlobal = [
     name: "Compatibilidad del CONCAR - Incluye Video",
     description:
       "Se detallan los siguientes temas de Compatibilidad para las plataformas CODEBASE y SQL - Requisitos Técnicos Equipos, Versiones de Windows, Office y Servidores - Configuración Antivirus - Configuración Regional - Configuración Sistema Operativo /IPV6, UAC, FRAMEWORK",
-    href: "/global/",
+    href: "/global/concar-compatibilidad",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3927,7 +3927,7 @@ export const dataGlobal = [
     id: 358,
     name: "Llave Real Key no detectada",
     description: "Solución al mensaje Llave Real Key (RK) no detectada",
-    href: "/global/",
+    href: "/global/real-key-no-detectada",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -3971,7 +3971,7 @@ export const dataGlobal = [
     id: 362,
     name: "Mensaje de licencia Real Key (RK)",
     description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
-    href: "/global/",
+    href: "/global/licencia-real-key",
     tipo: "Pregunta Frecuente",
     categorias: ["REALKEY"],
     tema: "Acceso",
@@ -4003,7 +4003,7 @@ export const dataGlobal = [
     name: "Como superar mensaje: CC010.fecha fuera de rango",
     description:
       "Procedimiento para superar mensaje al registrar comprobantes: “CC010.FECHA FUERA DE RANGO” en el sistema CONCAR®",
-    href: "/global/",
+    href: "/global/cc010-fecha-fuera-rango",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -4013,7 +4013,7 @@ export const dataGlobal = [
     id: 366,
     name: "Error Apertura de tabla al ingresar al CONCAR",
     description: "Error Apertura de tabla impide ingresar al CONCAR.",
-    href: "/global/",
+    href: "/global/tabla-ingresar-concar",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -4023,7 +4023,7 @@ export const dataGlobal = [
     id: 367,
     name: "Mensaje de licencia Real Key (RK)",
     description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
-    href: "/global/",
+    href: "/global/licencia-real-key",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "REALKEY"],
     tema: "Acceso",
@@ -4036,7 +4036,7 @@ export const dataGlobal = [
     name: "Presupuesto",
     description:
       "Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable. El presupuesto se puede llevar por centro de costo y/o por cuenta de Ganancias y Pérdidas por Función o Naturaleza.",
-    href: "/global/",
+    href: "/global/presupuesto",
     tipo: "Artículo",
     categorias: ["EXPOSICIONES"],
     tema: "Presupuesto",
@@ -4047,7 +4047,7 @@ export const dataGlobal = [
     name: "Ejecución Presupuestal por Función o Naturaleza",
     description:
       "Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.",
-    href: "/global/",
+    href: "/global/ejecucion-presupuestal",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
@@ -4058,7 +4058,7 @@ export const dataGlobal = [
     name: "Ejecución Presupuestal x Centro Costo",
     description:
       "Este reporte nos permite comparar lo presupuestado por centro de costo contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
-    href: "/global/",
+    href: "/global/ejecucion-presupuestal-centro-costo",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
@@ -4069,7 +4069,7 @@ export const dataGlobal = [
     name: "Mantenimiento Presupuesto",
     description:
       "Proceso que registra en forma masiva los importes de la configuración de presupuesto para el ejercicio actual.",
-    href: "/global/",
+    href: "/global/mantenimiento-presupuesto",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
@@ -4080,7 +4080,7 @@ export const dataGlobal = [
     name: "Presupuesto Ordinario",
     description:
       "Emite un reporte de flujo de caja ejecutado, teniendo la posibilidad compararse 2 ejercicios.",
-    href: "/global/",
+    href: "/global/presupuesto-ordinario",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
@@ -4091,7 +4091,7 @@ export const dataGlobal = [
     name: "Reporte de Presupuesto",
     description:
       "Imprime el reporte de lo presupuestado en el Mantenimiento de Presupuesto, pudiéndose generar en moneda nacional o extranjera.",
-    href: "/global/",
+    href: "/global/reporte-presupuesto",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
@@ -4102,7 +4102,7 @@ export const dataGlobal = [
     name: "Reporte Ejecución Presupuesto",
     description:
       "Este reporte se utiliza para comparar lo presupuestado por centro de costo/cuenta contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
-    href: "/global/",
+    href: "/global/reporte-ejecucion-presupuesto",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Presupuesto",
@@ -4155,7 +4155,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Cuentas Ajuste Diferencia de Cambio FASB52",
     description:
       "En esta opción se configuran las cuentas que van a participar en el proceso de Ajuste Diferencia Cambio FASB 52 además del subdiario, las cuentas de pérdida y ganancia por diferencia de cambio y el código de moneda para ajuste.",
-    href: "/global/",
+    href: "/global/mantenimiento-cuentas-ajuste",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Diferencia de Cambio",
@@ -4173,7 +4173,7 @@ export const dataGlobal = [
     name: "Mantenimiento de Cuentas Regularización Diferencia de Cambio",
     description:
       "En esta opción se configuran las cuentas que van a participar en el proceso de Regularización Diferencia de Cambio además del subdiario y las cuentas de pérdida y ganancia por diferencia de cambio.",
-    href: "/global/",
+    href: "/global/mantenimiento-cuentas-regularizacion",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Diferencia de Cambio",
@@ -4234,7 +4234,7 @@ export const dataGlobal = [
     id: 384,
     name: "¿Cómo crear un nuevo ejercicio en el CONCAR SQL ? - Incluye Video",
     description: "Explicamos como crear un nuevo ejercicio en el Concar SQL.",
-    href: "/global/",
+    href: "/global/ejercicio-concar-sql",
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Creación de Compañías",
