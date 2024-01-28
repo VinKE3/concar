@@ -1648,7 +1648,7 @@ export const dataGlobal = [
     name: "Libros y Registros Oficiales - Parte 1",
     description:
       "Incluye los formatos oficiales SUNAT de Libro Contables desde el Libro de Caja y Bancos hasta el Libro Mayor.",
-    href: "/global/libros-registros-oficiales",
+    href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
@@ -1659,7 +1659,7 @@ export const dataGlobal = [
     name: "Libros y Registros Oficiales - Parte 2",
     description:
       "Incluye los formatos oficiales SUNAT de Libros Contables desde el Registro de Compras hasta Registro de Ventas (Genera Archivo Mensual Ventas)",
-    href: "/global/libros-registros-oficiales2",
+    href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
@@ -1670,7 +1670,7 @@ export const dataGlobal = [
     name: "Libros y Registros Oficiales - Parte 3",
     description:
       "Incluye los formatos oficiales SUNAT de Libros Contables desde Mantenimiento Archivo Ventas hasta Otros Reportes de Venta",
-    href: "/global/libros-registros-oficiales3",
+    href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Oficiales",
@@ -1716,7 +1716,7 @@ export const dataGlobal = [
     name: "Análisis Gráfico Estados Financieros",
     description:
       "El sistema permite realizar análisis gráficos del Balance General y del Estado de Ganancias y Pérdidas por Función o Naturaleza.",
-    href: "/global/analisis-grafico",
+    href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
@@ -1726,7 +1726,7 @@ export const dataGlobal = [
     id: 153,
     name: "Cómo cargar los rubros del Estado de Flujo de Efectivo",
     description: "Cómo cargar los rubros del Estado de Flujo de Efectivo",
-    href: "/global/rubros-flujo-efectivo",
+    href: "/global/",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
@@ -1737,7 +1737,7 @@ export const dataGlobal = [
     name: "Estado Cambio Patrimonio Neto",
     description:
       "El Estado de Cambios en el Patrimonio Neto muestra los cambios en el patrimonio de la empresa en un período de tiempo.",
-    href: "/global/estado-cambio-patrimonio",
+    href: "/global/",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
@@ -1748,7 +1748,7 @@ export const dataGlobal = [
     name: "Estado de Flujo de Efectivo",
     description:
       "El Estado de Flujo de Efectivo muestra el efecto de los cambios de efectivo y equivalentes de efectivo, en un tiempo determinado.",
-    href: "/global/estado-flujo-efectivo",
+    href: "/global/",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Estados Financieros",
