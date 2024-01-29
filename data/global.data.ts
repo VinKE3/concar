@@ -1876,7 +1876,7 @@ export const dataGlobal = [
     name: "¿Cómo solucionar el mensaje de inconsistencia al presentar PLE –Compras – columna 31 y columna 33?",
     description:
       "A continuación el proceso para regularizar el PLE Compras – columna 31 y columna 33",
-    href: "/global/",
+    href: "/global/ple-compras-columna-31-columna-33",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -1887,7 +1887,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje Error 09 - No coinciden los tipos al generar archivo mensual compras y/o ventas en Concar SQL? - Incluye Video",
     description:
       "Si se les presenta el mensaje Error 09 - No coinciden los tipos al generar archivo mensual compras y/o ventas deberán actualizar los campos de los mantenimientos de parámetros de la siguiente manera",
-    href: "/global/",
+    href: "/global/superar-mensaje-error-09",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -1898,7 +1898,7 @@ export const dataGlobal = [
     name: "¿Cómo superar mensaje Error 06 en Tiempo de Ejecución – Desbordamiento en el Concar? - Incluye Video",
     description:
       "A continuación detallamos como superar el mensaje de error 06 - desbordamiento en el concar",
-    href: "/global/",
+    href: "/global/superar-mensaje-error-06",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -1909,7 +1909,7 @@ export const dataGlobal = [
     name: "IMPORTACION - ¿Cómo contabilizar Compras No Domiciliadas de Bienes? - Incluye Video",
     description:
       "Para poder realizar el registro de comprobantes por Compras No Domiciliadas - Bienes detallamos los pasos a continuación",
-    href: "/global/",
+    href: "/global/contabilizar-compras-no-domiciliadas",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -1920,7 +1920,7 @@ export const dataGlobal = [
     name: "Ingreso de Compras de un Ejercicio o Año Anterior",
     description:
       "Cómo registrar compras de un ejercicio o año anterior, cuando el crédito fiscal se utilizará en el ejercicio siguiente.",
-    href: "/global/",
+    href: "/global/ingreso-compras-ejercicio-anterior",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -1931,7 +1931,7 @@ export const dataGlobal = [
     name: "¿Cómo configurar parámetros de Compras Nacionales ? - Incluye Video",
     description:
       "A continuación se detalla el Mantenimiento de Parámetros que se debe revisar y realizar previo al registro de sus Compras.",
-    href: "/global/",
+    href: "/global/configurar-parametros-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -1942,7 +1942,7 @@ export const dataGlobal = [
     name: "¿Cómo se realiza el registro de Compras y Ventas con Descuento en el sistema?",
     description:
       "A continuación de detalla como registrar Compras y Ventas con Descuento",
-    href: "/global/",
+    href: "/global/registro-compras-ventas-descuento",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -1953,7 +1953,7 @@ export const dataGlobal = [
     name: "¿Cómo se registra el Comprobante de Compras al Contado? - Incluye Video",
     description:
       "A continuación se detalla como realizar el registro de Comprobantes de Compras al Contado",
-    href: "/global/",
+    href: "/global/registrar-comprobante-compras-contado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -1964,7 +1964,7 @@ export const dataGlobal = [
     name: "¿Como superar el mensaje: Error 9 en tiempo de ejecución - al Generar Registro Compra? - Incluye Video",
     description:
       "Al momento de Generar el Registro de Compra sale: Error 9 en tiempo de ejecución",
-    href: "/global/",
+    href: "/global/error-9-tiempo-ejecucion-generar-registro-compra",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -1975,7 +1975,7 @@ export const dataGlobal = [
     name: "Cómo registrar facturas de compras con igv, sin derecho a Crédito Fiscal - Incluye Video",
     description:
       "Mediante esta opción se permite registrar los asientos contables de compras sin derecho a crédito fiscal. Esto aplica para empresas que están normadas por la Ley del Libro o de Región Selva y para aquellas que tienen compras por las que, por algún motivo, no pueden utilizar el IGV como crédito fiscal, segun Reglamento del IGV.",
-    href: "/global/",
+    href: "/global/registrar-facturas-compras-igv-derecho-credito-fiscal",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -1985,7 +1985,7 @@ export const dataGlobal = [
     id: 176,
     name: "Contabilizacion de Leasing",
     description: "Cómo contabilizar un leasing",
-    href: "/global/",
+    href: "/global/contabilizacion-leasing",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -1996,7 +1996,7 @@ export const dataGlobal = [
     name: "IMPORTACION -¿Cómo se registra la Declaración Unica de Aduanas (DUA) en el Registro de Compras? - Incluye Video",
     description:
       "Para poder registrar los respectivos documentos de importación se deberá realizar lo indicado en el siguiente tutorial y manual",
-    href: "/global/",
+    href: "/global/registrar-declaracion-unica-aduanas-dua",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2006,7 +2006,7 @@ export const dataGlobal = [
     id: 178,
     name: "Importacion - Circuito para el registro de una importación",
     description: "Qué circuito seguir para el registro de una importación.",
-    href: "/global/",
+    href: "/global/circuito-registro-importacion",
     tipo: "Tip",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2017,7 +2017,7 @@ export const dataGlobal = [
     name: "Importacion - Constancia de Pago del IGV - Servicios de No Domiciliado",
     description:
       "Cómo mostrar el número del comprobante del servicio del exterior (no domiciliado) en formato 8.1 Registro de Compras y libro electrónico de compras.",
-    href: "/global/",
+    href: "/global/constancia-pago-igv-servicios-no-domiciliado",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2027,7 +2027,7 @@ export const dataGlobal = [
     id: 180,
     name: "Importacion - Ingreso de la Factura del Agente de Aduana",
     description: "Cómo ingresar la factura del agente de Aduana.",
-    href: "/global/",
+    href: "/global/ingreso-factura-agente-aduana",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2037,7 +2037,7 @@ export const dataGlobal = [
     id: 181,
     name: "Importacion - Provisión del IGV No Domiciliado",
     description: "Cómo provisionar el IGV No Domiciliado.",
-    href: "/global/",
+    href: "/global/provision-igv-no-domiciliado",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2047,7 +2047,7 @@ export const dataGlobal = [
     id: 182,
     name: "Importacion - Registro de Factura Servicio del Exterior",
     description: "Cómo registrar una factura de servicio del exterior.",
-    href: "/global/",
+    href: "/global/registro-factura-servicio-exterior",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2058,7 +2058,7 @@ export const dataGlobal = [
     name: "IMPORTACION -¿Cómo contabilizar Compras No Domiciliadas de Servicios? - Invoice - Incluye Video",
     description:
       "A continuación detallamos los pasos para registrar Compras No Domiciliadas - Servicios en el sistema correctamente",
-    href: "/global/",
+    href: "/global/contabilizar-compras-no-domiciliadas-servicios",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2069,7 +2069,7 @@ export const dataGlobal = [
     name: "IMPORTACION -¿Cómo realizar el Tratamiento del IGV NO Domiciliado por Comprobantes de Compras No Domiciliadas - Servicios? - Incluye Video",
     description:
       "A continuación se detalla los pasos a realizar para la Provisión y Aplicación del IGV No Domiciliado generado por Compras de Servicios No Domiciliados",
-    href: "/global/",
+    href: "/global/tratar-igv-no-domiciliado-compras-servicios",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2079,7 +2079,7 @@ export const dataGlobal = [
     id: 185,
     name: "Impresión del Registro de Compras en Una Hoja",
     description: "Cómo imprimir el registro de compras en una sola hoja",
-    href: "/global/",
+    href: "/global/impresion-registro-compras-una-hoja",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2089,7 +2089,7 @@ export const dataGlobal = [
     id: 186,
     name: "Pago del IGV no debe mostrarse en el Registro de Compras",
     description: "Pago de IGV",
-    href: "/global/",
+    href: "/global/igv-no-mostrarse-registro-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2100,7 +2100,7 @@ export const dataGlobal = [
     name: "Proveedor Incompleto en Registro de Compras",
     description:
       "Qué hacer cuando en el formato 8.1 registro de compras se muestra el proveedor incompleto.",
-    href: "/global/",
+    href: "/global/proveedor-incompleto-registro-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2110,7 +2110,7 @@ export const dataGlobal = [
     id: 188,
     name: "Registro de compra con retención del IGV",
     description: "Cómo registrar una compra con retención del IGV.",
-    href: "/global/",
+    href: "/global/registro-compra-retencion-igv",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2120,7 +2120,7 @@ export const dataGlobal = [
     id: 189,
     name: "Registro de Compras con Detracción",
     description: "Cómo ingresar una compra con detracción.",
-    href: "/global/",
+    href: "/global/registro-compras-detraccion",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2130,7 +2130,7 @@ export const dataGlobal = [
     id: 190,
     name: "Registro de Compras Inafectas, No Gravadas o Sin IGV - Incluye Video",
     description: "Cómo ingresar una compra con detracción.",
-    href: "/global/",
+    href: "/global/registro-compras-inafectas-no-gravadas-sin-igv",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2140,7 +2140,7 @@ export const dataGlobal = [
     id: 191,
     name: "Registro de Compras no muestra el número de serie de los Tickets",
     description: "Cómo ingresar una compra con detracción.",
-    href: "/global/",
+    href: "/global/registrar-compras-no-muestra-numero-serie-tickets",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2151,7 +2151,7 @@ export const dataGlobal = [
     name: "Registro de una compra afecta al Impuesto Selectivo al Consumo (ISC) - Incluye Video",
     description:
       "Cómo registrar una compra afecta al impuesto selectivo al consumo (ISC)",
-    href: "/global/",
+    href: "/global/registro-compra-afecta-isc",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2162,7 +2162,7 @@ export const dataGlobal = [
     name: "¿Cómo registro operaciones de un ejercicio anterior en el Concar SQL? - Incluye Video",
     description:
       "Se detallara el proceso de como registrar operaciones de un ejercicio anterior en el sistema",
-    href: "/global/",
+    href: "/global/registro-operaciones-ejercicio-anterior",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2173,7 +2173,7 @@ export const dataGlobal = [
     name: "¿Cómo solucionar el mensaje “Error 3021” en Tiempo de Ejecución al generar Archivo Mensual de Compras?",
     description:
       "A continuación detallamos como solucionar “Error 3021” en Tiempo de Ejecución",
-    href: "/global/",
+    href: "/global/error-3021-tiempo-ejecucion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2195,7 +2195,7 @@ export const dataGlobal = [
     name: "Diferencia de Cambio en Cuenta Detracciones",
     description:
       "Como regularizar la diferencia de cambio generada en la cuenta de detracciones después del pago de la detracción.",
-    href: "/global/",
+    href: "/global/diferencia-cambio-cuenta-detracciones",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2206,7 +2206,7 @@ export const dataGlobal = [
     name: "Honorarios Profesionales en el Registro de Compras",
     description:
       "Cómo mostrar los recibos por honorarios, con retención, en el formato 8.1 Registro de Compras.",
-    href: "/global/",
+    href: "/global/honorarios-profesionales-registro-compras",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2217,7 +2217,7 @@ export const dataGlobal = [
     name: "Mensaje Habilitar Columna ISC en la emisión del Formato 8.1 Registro de Compras",
     description:
       "Solución al mensaje Habilitar Columna ISC en la emisión del libro oficial impreso Formato 8.1 Registro de Compras.",
-    href: "/global/",
+    href: "/global/mensaje-habilitar-columna-isc",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2227,7 +2227,7 @@ export const dataGlobal = [
     id: 199,
     name: "Nota de Crédito Especial",
     description: "Cómo registrar una nota de crédito especial.",
-    href: "/global/",
+    href: "/global/nota-credito-especial",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2238,7 +2238,7 @@ export const dataGlobal = [
     name: "Registro de compras no domiciliado",
     description:
       "En ésta opción se registran los parámetros que definirán el registro y control de los comprobantes de compras a no domiciliados. Entre otros datos se definirán los tipos de documentos, sub diario de compra, cuentas de gasto, moneda de referencia, otros impuestos y parámetros de cuentas.",
-    href: "/global/",
+    href: "/global/registro-compras-no-domiciliado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2248,7 +2248,7 @@ export const dataGlobal = [
     id: 202,
     name: "Actualización de Tasas de Detracción",
     description: "Cómo actualizar las tasas de detracción.",
-    href: "/global/",
+    href: "/global/actualizar-tasas-detraccion",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2257,8 +2257,9 @@ export const dataGlobal = [
   {
     id: 203,
     name: "Aplicación de la Ley 31556 ¿Cómo registrar una factura de compra con IGV 10% en CONCAR SQL? - Incluye Video",
-    description: "Cómo actualizar las tasas de detracción.",
-    href: "/global/",
+    description:
+      "A continuación se detalla el proceso de como configurar y registrar el nuevo IGV 10% en ventas",
+    href: "/global/aplicacion-ley-31556",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2334,7 +2335,7 @@ export const dataGlobal = [
     name: "Parámetros de Compras",
     description:
       "Incluye reportes de Registro de Compras anteriores, oficiales impresos y electrónico.",
-    href: "/global/",
+    href: "/global/parametros-compras",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2345,7 +2346,7 @@ export const dataGlobal = [
     name: "Registro de Compras con Detracción",
     description:
       "Como ingresar una compra con detracción para efectos de considerarse en la presentación del Registro de Compras Formato 8.1 o en el libro electrónico de compras.",
-    href: "/global/",
+    href: "/global/registrar-compras-detraccion",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2356,7 +2357,7 @@ export const dataGlobal = [
     name: "Registro de Compras con Percepción en Comprobante Compras",
     description:
       "Cómo registrar las percepciones de IGV en compras, a través de la opción Comprobante Compras, para que se muestren en el Formato 8.1 Registro de Compras.",
-    href: "/global/",
+    href: "/global/registro-compras-percepcion-comprobante-compras",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compras",
@@ -2367,7 +2368,7 @@ export const dataGlobal = [
     name: "Como realizar el registro de comprobantes de compras con tasa de IGV del 10% en el SISPAG SQL",
     description:
       "A continuacion detallamos los procesos a realizar en el SISPAG para el registro de estos comprobantes",
-    href: "/global/",
+    href: "/global/registro-comprobantes-compras-tasa-igv-10-sispag",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Compras",
@@ -2380,7 +2381,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje comprobante ya fue registrado? - Incluye Video",
     description:
       "A continuación se detalla como superar el mensaje comprobante ya fue registrado",
-    href: "/global/",
+    href: "/global/mensaje-comprobante-registrado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2391,7 +2392,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje de Error 380 en tiempo de ejecución? - Incluye Video",
     description:
       "A continuación se detalla como superar el mensaje comprobante ya fue registrado",
-    href: "/global/",
+    href: "/global/error-380-tiempo-ejecucion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2401,7 +2402,7 @@ export const dataGlobal = [
     id: 216,
     name: "Registro y/o Contabilización de una nota de crédito (nota de abono)",
     description: "Cómo registrar una nota de crédito (nota de abono).",
-    href: "/global/",
+    href: "/global/contabilizacion-nota-credito",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2412,7 +2413,7 @@ export const dataGlobal = [
     name: "¿Como se realiza la Carga de Comprobantes desde Excel? - Incluye Video",
     description:
       "Procedimiento para realizar la Carga de Comprobantes desde Excel.",
-    href: "/global/",
+    href: "/global/carga-comprobantes-excel",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2423,7 +2424,7 @@ export const dataGlobal = [
     name: "Comprobante Automático ya Existe",
     description:
       "Al registrar un comprobante, por la opción Comprobante Estándar con ó sin Conversión, el sistema muestra el mensaje Comprobante Automático ya Existe.",
-    href: "/global/",
+    href: "/global/comprobante-automatico-existe",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2434,7 +2435,7 @@ export const dataGlobal = [
     name: "Error en Fecha o Moneda del Comprobante",
     description:
       "Qué hacer si hubo un error al registrar la moneda o la fecha de un comprobante.",
-    href: "/global/",
+    href: "/global/error-fecha-moneda-comprobante",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2444,7 +2445,7 @@ export const dataGlobal = [
     id: 220,
     name: "Modificar el Tipo de Cambio de un Comprobante",
     description: "Como modificar el tipo de cambio de un comprobante",
-    href: "/global/",
+    href: "/global/modificar-tipo-cambio-comprobante",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Registro de Comprobantes",
@@ -2455,7 +2456,7 @@ export const dataGlobal = [
     name: "¿Cómo configurar si le genera el mensaje “Flag Debe/Haber errado”? - Incluye Video",
     description:
       "Al momento de registrar su comprobante le genera un mensaje Flag Debe/Haber -/+ errado",
-    href: "/global/",
+    href: "/global/flag-debe-haber-errado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2477,7 +2478,7 @@ export const dataGlobal = [
     name: "Consulta situación comprobantes",
     description:
       "Esta opción sirve para consultar los comprobantes ingresados y verificar que todos se encuentren finalizados.",
-    href: "/global/",
+    href: "/global/consulta-situacion-comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
@@ -2578,7 +2579,7 @@ export const dataGlobal = [
     name: "Carga de Estado de Cuenta para Conciliación Bancaria",
     description:
       "¿En qué formatos se puede cargar el estado de cuenta del banco para realizar la conciliación bancaria?",
-    href: "/global/",
+    href: "/global/cargar-estado-cuenta-conciliacion-bancaria",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2589,7 +2590,7 @@ export const dataGlobal = [
     name: "Cierre 2023 - Tips - Recomendaciones para un correcto proceso de Cierre 2023 y Apertura 2024",
     description:
       "A continuacion compartimos los PPT con los tips - recomendaciones para realizar un correcto proceso de cierre y apertura",
-    href: "/global/",
+    href: "/global/tips-cierre-2023",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2600,7 +2601,7 @@ export const dataGlobal = [
     name: "Contabilidad Sin Asiento de Apertura",
     description:
       "¿Se pueden registrar operaciones contables, sin antes haber ingresado los saldos iniciales (asiento de apertura)?",
-    href: "/global/",
+    href: "/global/contabilidad-sin-asiento-apertura",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2611,7 +2612,7 @@ export const dataGlobal = [
     name: "¿Por qué mi Asiento de Apertura se genera Descuadrado? - Incluye Video",
     description:
       "Acontinuacion detallamos que motivos puede generar mi asiento de apertura descuadrado",
-    href: "/global/",
+    href: "/global/asiento-apertura-descuadrado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
@@ -2622,7 +2623,7 @@ export const dataGlobal = [
     name: "Asiento de Apertura en un Mes Distinto a Enero",
     description:
       "Cómo ingresar un asiento de apertura en un mes distinto a enero.",
-    href: "/global/",
+    href: "/global/asiento-apertura-distinto-enero",
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cierre y Apertura",
@@ -2643,7 +2644,7 @@ export const dataGlobal = [
     name: "¿Como cargar información en mantenimiento Tabla de Cierre?",
     description:
       "A continuación detallamos, como se realiza la carga de las Tablas de Cierre en el Concar SQL",
-    href: "/global/",
+    href: "/global/cargar-informacion-mantenimiento-tabla-cierre",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2671,7 +2672,7 @@ export const dataGlobal = [
     name: "CIERRE - Cierre y Apertura - Concar SQL",
     description:
       "A continuación presentamos el proceso para realizar el proceso de Cierre y Apertura en el ambiente Concar SQL.",
-    href: "/global/",
+    href: "/global/cierre-apertura-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2693,7 +2694,7 @@ export const dataGlobal = [
     name: "Cierre 2023 - ¿Cómo realizar el correcto proceso de Cierre 2023 y Apertura 2024? - CONCAR SQL",
     description:
       "A continuación se detalla como realizar el correcto proceso de cierre y apertura en el concar sql.",
-    href: "/global/",
+    href: "/global/proceso-cierre-apertura-2023",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Cierre y Apertura",
@@ -2747,7 +2748,7 @@ export const dataGlobal = [
     name: "¿Funcionamiento de la llave o licencia virtual? - RKV",
     description:
       "A continuación detallamos las principales características y recomendaciones cuando usen nuestra llave virtual - RKV",
-    href: "/global/",
+    href: "/global/funcionamiento-llave-virtual",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRESQL"],
     tema: "Instalación/Actualización",
@@ -2769,7 +2770,7 @@ export const dataGlobal = [
     name: "¿Conectar a la Base Datos CONCAR SIRE CB o SQL?",
     description:
       "Proceso de como conectar a la base de datos de CONCAR SIRE CB o SQL",
-    href: "/global/",
+    href: "/global/conectar-base-datos-concar-sire",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Instalación/Actualización",
@@ -2791,7 +2792,7 @@ export const dataGlobal = [
     name: "CONTABILIDAD CONCAR DEJO DE FUNCIONAR",
     description:
       "Mensaje que impide acceder al sistema después de actualizar de versión.",
-    href: "/global/",
+    href: "/global/contabilidad-concar-dejo-funcionar",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
@@ -2802,7 +2803,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje - Su servicio post venta ha expirado - Renueve su servicio y Actualice la Llave Electrónica? - Incluye Video",
     description:
       "Mediante esta opción actualizará la licencia de su Real Key tanto para Concar CB y SQL",
-    href: "/global/",
+    href: "/global/servicio-post-venta-expirado",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
@@ -2823,7 +2824,7 @@ export const dataGlobal = [
     name: "Proceso de Instalación y/o Actualización de CONCAR SQL? - Incluye Video",
     description:
       "A continuación el proceso para actualizar la Versión CONCAR SQL",
-    href: "/global/",
+    href: "/global/instalar-actualizar-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Instalación/Actualización",
@@ -2866,7 +2867,7 @@ export const dataGlobal = [
     name: "Cómo realizar el Proceso de Actualización del e-Softcom SQL y del e-Softcom NET",
     description:
       "A continuación detallamos como realizar la actualización del e-Softcom SQL y del e-Softcom NET",
-    href: "/global/",
+    href: "/global/actualizacion-softcom",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Instalación/Actualización",
@@ -2877,7 +2878,7 @@ export const dataGlobal = [
     name: "Cómo realizar el Proceso de Actualización del Archivo DLL",
     description:
       "A continuación detallamos como realizar una correcta actualización del archivo dll",
-    href: "/global/",
+    href: "/global/actualizacion-archivo-dll",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Instalación/Actualización",
@@ -2912,7 +2913,7 @@ export const dataGlobal = [
     name: "¿Cómo actualizar el plan de cuentas SUNAT para el PDT 0710 Renta Anual ejercicio 2023?",
     description:
       "A continuación detallamos los pasos para actualizar el plan de cuentas SUNAT para el PDT 0710 Renta Anual ejercicio 2023",
-    href: "/global/",
+    href: "/global/actualizar-archivo-pdt-0710",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -2923,7 +2924,7 @@ export const dataGlobal = [
     name: "¿Cómo generar por primera vez el archivo para el PDT 0710 Renta Anual ejercicio 2023?",
     description:
       "A continuación detallamos como generar por primera vez el archivo para el PDT 0710 Renta Anual ejercicio 2023 para CONCAR SQL",
-    href: "/global/",
+    href: "/global/generar-archivo-pdt-0710",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sunat",
@@ -3002,7 +3003,7 @@ export const dataGlobal = [
     name: "¿Cómo proceder al mensaje Llave No Reconocida - Llave No Corresponde - Llave No está Conectada? – Llave Virtual RKV",
     description:
       "Si al momento de ingresar al Concar le aparece mensaje similares a Llave No Reconocida - Llave no Corresponde - Llave No esta Conectada",
-    href: "/global/",
+    href: "/global/llave-no-reconocida-rkv",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
@@ -3023,7 +3024,7 @@ export const dataGlobal = [
     name: "¿Cómo restaurar una Copia de Seguridad en Concar SQL?",
     description:
       "A continuacion se detalla el proceso para restaurar una Copia de Seguridad en Concar SQL",
-    href: "/global/",
+    href: "/global/restaurar-copia-seguridad-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Conexión",
@@ -3034,7 +3035,7 @@ export const dataGlobal = [
     name: "¿Cómo se soluciona el mensaje - Error en Tiempo de Ejecución – Error 2147217900 en el Sistema Concar SQL?",
     description:
       "A continuación se detalla como solucionara el mensaje - Error en Tiempo de Ejecución 2147217900",
-    href: "/global/",
+    href: "/global/error-2147217900",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
@@ -3045,7 +3046,7 @@ export const dataGlobal = [
     name: "¿Cómo solucionar procesos de lentitud en el Sistema Concar SQL? - Baja Log",
     description:
       "A continuación detallamos como ejecutar el baja log y agilizar el proceso en el concar sql",
-    href: "/global/",
+    href: "/global/solucionar-procesos-lentitud-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Conexión",
@@ -3058,7 +3059,7 @@ export const dataGlobal = [
     name: "¿Cómo debo Configurar el Plan de Cuentas? - Incluye Video",
     description:
       "A continuación detallaremos como realizar la configuración al Plan de Cuentas",
-    href: "/global/",
+    href: "/global/configurar-plan-cuentas",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
@@ -3069,7 +3070,7 @@ export const dataGlobal = [
     name: "Plan contable 2020 - Creación de Compañía con el Nuevo PCGE 2020",
     description:
       "Creación de un Nuevo Ejercicio con Nuevo Plan Contable Empresarial PCGE 2020",
-    href: "/global/",
+    href: "/global/creacion-compania-nuevo-plan-contable-2020",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
@@ -3080,7 +3081,7 @@ export const dataGlobal = [
     name: "Plan contable 2020 – Creación de un Nuevo Ejercicio 2020 - Incluye Videos",
     description:
       "Creación de Ejercicio con el Nuevo Plan Contable Empresarial PCGE 2020",
-    href: "/global/",
+    href: "/global/crear-nuevo-ejercicio-2020",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Plan de Cuentas",
@@ -3115,7 +3116,7 @@ export const dataGlobal = [
     name: "Como realizar una Copia de Seguridad o Backup",
     description:
       "Procedimiento para generar copia de seguridad en SQL Server versión 2008 y 2012.",
-    href: "/global/",
+    href: "/global/generacion-backup-automatico",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Seguridad",
@@ -3126,7 +3127,7 @@ export const dataGlobal = [
     name: "Generación Backup (Copia de Seguridad) Automático en SQL versión 2008 R2",
     description:
       "Cómo ingresar un plan de mantenimiento para generar backup (copia de seguridad) de forma automática.",
-    href: "/global/",
+    href: "/global/generacion-backup-automatico",
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Seguridad",
@@ -3152,7 +3153,7 @@ export const dataGlobal = [
     name: "¿Cómo registrar y aplicar las Notas de Crédito o (Nota de Abono)? - Incluye Video",
     description:
       "A continuación se realizara el ciclo completo para el registro y aplicación de una Nota de Crédito",
-    href: "/global/",
+    href: "/global/registrar-aplicar-notas-credito",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3163,7 +3164,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje Error 09 en tiempo de ejecución – El Sub Índice esta fuera del intervalo al generar registro de compra? - Incluye Video",
     description:
       "A continuación se detalla como superar el error 91 el sub índice fuera del intervalo",
-    href: "/global/",
+    href: "/global/error-09-tiempo-ejecucion-sub-indice",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3173,7 +3174,7 @@ export const dataGlobal = [
     id: 288,
     name: "Video de Conceptos Básicos del CONCAR",
     description: "Este vídeo contiene conceptos básicos del CONCAR.",
-    href: "/global/",
+    href: "/global/conceptos-basicos-concar",
     tipo: "Video",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3184,7 +3185,7 @@ export const dataGlobal = [
     name: "Ventajas de contar con el Real Key",
     description:
       "La llave REAL KEY® es un dispositivo USB de seguridad y protección de software que permitirá el acceso a los productos de Real Systems. La llave de protección se utilizará en algunos de los productos a partir de la versión 2013",
-    href: "/global/",
+    href: "/global/ventejas-real-key",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3195,7 +3196,7 @@ export const dataGlobal = [
     name: "¿Cómo modificar comprobantes o asientos contables en el Concar SQL? - Incluye Video",
     description:
       "A continuación se detalla como se puede modificar comprobantes o asientos contables",
-    href: "/global/",
+    href: "/global/modificar-comprobantes-asientos-contables",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3228,7 +3229,7 @@ export const dataGlobal = [
     name: "Eliminación Masiva de Comprobantes",
     description:
       "Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F). Puede eliminar comprobantes específicos o masivamente",
-    href: "/global/",
+    href: "/global/eliminacion-masiva-comprobantes",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3239,7 +3240,7 @@ export const dataGlobal = [
     name: "En el Ejercicio 2020 - ¿Como Habilito las Opciones del CONCAR SQL - Proceso de Homologacion? - Equivalencia",
     description:
       "Al ingresar al ambiente contable CONCAR SQL visualiza deshabilitado las principales opciones del Menú Principal",
-    href: "/global/",
+    href: "/global/como-habilito-opciones-concar-sql",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Generalidades",
@@ -3325,7 +3326,7 @@ export const dataGlobal = [
     id: 302,
     name: "Activa Consulta en línea de SUNAT",
     description: "Guía para activar Consulta en línea de SUNAT",
-    href: "/global/",
+    href: "/global/activa-consulta-linea-sunat",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3522,7 +3523,7 @@ export const dataGlobal = [
     name: "¿Cómo se carga las Tablas de Flujo de Efectivo en el Concar SQL?",
     description:
       "A continuación se detalla el proceso a realizar para cargar las Tablas de Flujo de Efectivo",
-    href: "/global/",
+    href: "/global/tablas-flujo-efectivo-carga",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3533,7 +3534,7 @@ export const dataGlobal = [
     name: "¿Cómo se realiza el proceso de Mayusculizar en el Sistema Concar SQL?",
     description:
       "A continuación detallamos en que ocasiones y como realizar la mayusculizacion en el concar sql",
-    href: "/global/",
+    href: "/global/mayusculizar-proceso",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3544,7 +3545,7 @@ export const dataGlobal = [
     name: "¿Cuál es el Procedimiento para la generación del Backup Automático en el Sistema Concar SQL?",
     description:
       "A continuación detallamos los pasos para generar el Backup Automático en el Concar SQL",
-    href: "/global/",
+    href: "/global/generacion-backup-automatico",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Generalidades",
@@ -3556,7 +3557,7 @@ export const dataGlobal = [
     id: 324,
     name: "GASTOS REPARABLES",
     description: "EMISIÓN DE REPORTE CON GASTOS REPARABLES O CON TOPES",
-    href: "/global/",
+    href: "/global/gastos-reparables",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3578,7 +3579,7 @@ export const dataGlobal = [
     name: "¿Cómo proceder cuando se presenta mensaje de inconsistencia al generar un reporte en Excel en el ambiente del Concar SQL?",
     description:
       "Si durante la generación de algún reporte en excel se presenta algún mensaje de inconsistencia deberá REVISAR y EJECUTAR los siguientes pasos:",
-    href: "/global/",
+    href: "/global/reporte-excel-inconsistencia",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Otros Reportes",
@@ -3721,7 +3722,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje “Error de Ejecución - Valor Null” al procesar la Conciliación Bancaria?",
     description:
       "Si al momento de realizar la Conciliacion Bancaria se genera el mensaje error de ejecucion - valor null seguir las siguientes indicaciones",
-    href: "/global/",
+    href: "/global/error-ejecucion-valor-null-concar",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Otros Reportes",
@@ -3734,7 +3735,7 @@ export const dataGlobal = [
     name: "¿Cómo proceder si se presenta el mensaje “Error-50003” al momento de ingresar al Concar CB - Virtual?",
     description:
       "Al momento de actualizar a la versión Real Key - Virtual se le presenta un mensaje de inconsistencia similar",
-    href: "/global/",
+    href: "/global/error-50003-concar-cb-virtual",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compatibilidad",
@@ -3744,7 +3745,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Excepción a los sistemas de Real Systems en el Antivirus AVG?",
     description:
       "Se indica el proceso para excluir tanto la carpeta y nuestro ejecutable del antivirus",
-    href: "/global/",
+    href: "/global/excepcion-antivirus-avg",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3754,7 +3755,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Excepción a los sistemas de Real Systems en el Antivirus AVIRA FREE?",
     description:
       "A continuación se indica los procesos a realizar para permitir que el sistema trabaje con normalidad",
-    href: "/global/",
+    href: "/global/excepcion-antivirus-avira-free",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3764,7 +3765,7 @@ export const dataGlobal = [
     name: "¿Cómo se realiza la eliminación del Avast Free y Bytefence?",
     description:
       "En algunos equipos se presentan antivirus gratuitos los cuales no permiten la ejecución del sistema, por lo cual se desinstala o elimina. Asimismo puede crear archivos TEMP - temporales",
-    href: "/global/",
+    href: "/global/elminacion-avast-free-bytefence",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3774,7 +3775,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Kaspersky?",
     description:
       "A continuación se indica los pasos para colocar en exclusión a nuestros ejecutables",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-kaspersky",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "CONCARSIRESQL"],
     tema: "Compatibilidad",
@@ -3784,7 +3785,7 @@ export const dataGlobal = [
     name: "¿Cómo proceder si se presenta el mensaje Error.vbs en el Concar?",
     description:
       "Si durante el funcionamiento del sistema Concar CB se presenta el mensaje Error.vbs se deberá verificar en configuración regional",
-    href: "/global/",
+    href: "/global/error-vbs-concar",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compatibilidad",
@@ -3795,7 +3796,7 @@ export const dataGlobal = [
     name: "¿Cómo superar el mensaje Error 13 en Tiempo de Ejecución - en el Concar?",
     description:
       "A continuación se detalla como superar el mensaje Error 13 en Tiempo de Ejecución",
-    href: "/global/",
+    href: "/global/error-13-tiempo-ejecucion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compatibilidad",
@@ -3806,7 +3807,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus 360 Total Security?",
     description:
       "Ocasionalmente algunos antivirus bloquean el correcto funcionamiento del sistema, se deberá excluir los sistemas de RS",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-360-total-security",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3817,7 +3818,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Kaspersky Endpoint?",
     description:
       "A continuación detallaremos los pasos a realizar para excluir los sistema de RS del Antivirus Kaspersky Endpoint",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-kaspersky-endpoint",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3828,7 +3829,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus McAfee?",
     description:
       "A continuación se indicara los pasos a realizar para excluir el sistema del antivirus",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-mcafee",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3839,7 +3840,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Norton Security?",
     description:
       "A continuación se detallara los procesos a realizar para excluir a los componentes del sistema del antivirus",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-norton-security",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3850,7 +3851,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Panda?",
     description:
       "Algunos antivirus llevan a cuarentena los sistemas de RS para ello se debe realizar el proceso de exclusión",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-panda",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3861,7 +3862,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de Windows Defender?",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus del defender",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-windows-defender",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3871,7 +3872,7 @@ export const dataGlobal = [
     id: 353,
     name: "¿Cómo realizar la Exclusión de los módulos de Real Systems en el Antivirus AVAST?",
     description: "El proceso para excluir nuestro sistema del antivirus AVAST",
-    href: "/global/",
+    href: "/global/exclusion-antivirus-avast",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
@@ -3895,7 +3896,7 @@ export const dataGlobal = [
     name: "¿Activación del Real Key Virtual- RKV o Llave? - Incluye Video",
     description:
       "A continuación detallamos como proceder para activar su Real Key - Virtual",
-    href: "/global/",
+    href: "/global/activacion-real-key-virtual",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
@@ -3906,7 +3907,7 @@ export const dataGlobal = [
     name: "¿Desactivar o Anular su Real Key Virtual- RKV?",
     description:
       "A continuación detallamos como Desactivar - Anular su Real Key Virtual",
-    href: "/global/",
+    href: "/global/desactivar-anular-real-key-virtual",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
@@ -3917,7 +3918,7 @@ export const dataGlobal = [
     name: "¿Nuevo Canal de Atención - SALA VIRTUAL? - Incluye Video",
     description:
       "Que permite realizar la Sala Virtual?; Como ingresar? a continuación indicaremos los Lineamientos de uso de nuestra Sala Virtual",
-    href: "/global/",
+    href: "/global/canal-atencion-sala-virtual",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
@@ -3939,7 +3940,7 @@ export const dataGlobal = [
     name: "¿Como superar el mensaje: Error 339 en tiempo de ejecución? - Archivos OCX - Incluye Video",
     description:
       "Al momento de ingresar o trabajar en el sistema se genera Error 339 en tiempo de ejecución - Archivos OCX",
-    href: "/global/",
+    href: "/global/error-339-tiempo-ejecucion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -3950,7 +3951,7 @@ export const dataGlobal = [
     name: "¿Cómo descargar la herramienta del FTP?",
     description:
       "Esta herramienta FTP permitirá realizar sus descargas de forma mas ágil y directa, para todos nuestros usuarios.",
-    href: "/global/",
+    href: "/global/descargar-herramienta-ftp",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Acceso",
@@ -3961,7 +3962,7 @@ export const dataGlobal = [
     name: "¿Cómo generar nueva contraseña y accesos para el Portal miCONCAR? - Incluye Video",
     description:
       "Si necesita crear nueva contraseña o gestionar nuevos accesos para el portal miCONCAR",
-    href: "/global/",
+    href: "/global/crear-nueva-contrasena-accesos-portal-miconcar",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -3981,7 +3982,7 @@ export const dataGlobal = [
     id: 363,
     name: "Separata Curso Básico Concar SQL",
     description: "Separatas usadas en el cursos básico de CONCAR SQL",
-    href: "/global/",
+    href: "/global/separata-curso-basico-concar-sql",
     tipo: "Descarga de Archivo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -3992,7 +3993,7 @@ export const dataGlobal = [
     name: "¿Cómo crear el Ejercicio 2024 en el Concar SQL? - Incluye Video",
     description:
       "A continuación detallamos como crear el ejercicio 2024 en el sistema Concar SQL",
-    href: "/global/",
+    href: "/global/crear-ejercicio-2024",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Acceso",
@@ -4115,7 +4116,7 @@ export const dataGlobal = [
     name: "¿Cómo realizar el Proceso de Regularización y Ajuste por Diferencia de Cambio? - Incluye Video",
     description:
       "A continuación detallamos los pasos a realizar para la Regularización y Ajuste por Diferencia de Cambio en el Concar CB",
-    href: "/global/",
+    href: "/global/realizar-proceso-regularizacion",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Diferencia de Cambio",
@@ -4133,7 +4134,7 @@ export const dataGlobal = [
     name: "¿Por qué no me regulariza el tipo de cambio cierre en mi cuenta contable al realizar el proceso de ajuste FASB 52? - Incluye Video",
     description:
       "A continuacion detallamos las recomendaciones para realizar el proceso de ajuste FASB52",
-    href: "/global/",
+    href: "/global/cambio-cierre-cuenta-contable",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Diferencia de Cambio",
@@ -4144,7 +4145,7 @@ export const dataGlobal = [
     name: "¿Por qué sigue figurando saldos en el análisis de cuentas, al realizar mi proceso de regularización por diferencia de cambio? - Incluye Video",
     description:
       "A continuacion brindamos los tips, recomendaciones sobre el proceso de diferencia de cambio",
-    href: "/global/",
+    href: "/global/saldos-analisis-cuentas",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Diferencia de Cambio",
@@ -4192,7 +4193,7 @@ export const dataGlobal = [
     name: "Cancelación de Facturas por Cobrar con Documentos por Pagar",
     description:
       "Aplicación de un documento por pagar a una factura por cobrar.",
-    href: "/global/",
+    href: "/global/cancelacion-facturas-cobrar-documentos-pagar",
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL"],
     tema: "Cobranzas",
@@ -4202,7 +4203,7 @@ export const dataGlobal = [
     id: 381,
     name: "Canje de Facturas por Letras",
     description: "Cómo canjear facturas por letras.",
-    href: "/global/",
+    href: "/global/canje-facturas-letras",
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL"],
     tema: "Cobranzas",
@@ -4212,7 +4213,7 @@ export const dataGlobal = [
     id: 382,
     name: "Cobranzas Registro de Planilla de Cobranza",
     description: "Cómo contabilizar una planilla de cobranza.",
-    href: "/global/",
+    href: "/global/cobranzas-registro-planilla-cobranza",
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Cobranzas",
@@ -4224,7 +4225,7 @@ export const dataGlobal = [
     id: 383,
     name: "Modificación de la Razón social",
     description: "Cómo cambiar el nombre o razón social de una compañía.",
-    href: "/global/",
+    href: "/global/modificacion-razon-social",
     tipo: "Caso Práctico",
     categorias: ["CONCARSQL"],
     tema: "Creación de Compañías",
