@@ -50,7 +50,7 @@ export default function Layout({ children }: LayoutProps) {
           </button>
         </Link>
       </div>
-      <div className="mt-5">{children}</div>
+      <div className="mt-10 mb-10">{children}</div>
     </Container>
   );
 }
