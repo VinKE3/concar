@@ -13,11 +13,6 @@ const ComoGenerarMesMovimiento = () => {
   ];
   return (
     <>
-      <Heading
-        title="Cómo generar el libro electrónico de compras de un mes sin movimiento"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <p>
         Procedimiento para la generación del archivo TXT del libro electrónico
         de compras de un mes sin movimiento.

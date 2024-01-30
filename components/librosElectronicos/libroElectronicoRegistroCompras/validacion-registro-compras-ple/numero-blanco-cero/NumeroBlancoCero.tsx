@@ -12,11 +12,6 @@ const NumeroBlancoCero = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

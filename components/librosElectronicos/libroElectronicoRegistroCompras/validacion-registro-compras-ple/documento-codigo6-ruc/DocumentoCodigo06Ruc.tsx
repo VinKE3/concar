@@ -12,11 +12,6 @@ const DocumentoCodigo06Ruc = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Para código de documento SUNAT 01 Factura, documento de proveedor debe ser código 6 RUC"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

@@ -12,11 +12,6 @@ const ComoCargarLibroDiario = () => {
   ];
   return (
     <>
-      <Heading
-        title="Cómo Cargar los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <div>
         <Table items={data} />
       </div>

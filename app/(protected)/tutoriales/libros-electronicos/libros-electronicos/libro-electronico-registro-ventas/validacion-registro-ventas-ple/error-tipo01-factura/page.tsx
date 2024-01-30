@@ -3,15 +3,9 @@ import ErrorTipo01Factura from "@/components/librosElectronicos/libro-electronic
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/numero-numerico-mayor-cero"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-documento03-boleta-venta"
-    >
+    <>
       <ErrorTipo01Factura />
-    </Layout>
+    </>
   );
 };
 export default page;

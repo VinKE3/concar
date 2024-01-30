@@ -12,11 +12,6 @@ const ComoCargarLibroCompras = () => {
   ];
   return (
     <>
-      <Heading
-        title="Cómo Cargar el Libro Electrónico de Compras al PLE-SUNAT"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

@@ -11,11 +11,6 @@ const DocumentoIdentidadIncorrecto = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación en PLE-SUNAT: El número de documento de identidad es incorrecto"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <p>
         Al validar el libro electrónico de compras o ventas en el PLE-SUNAT, el
         programa detecta el error El número de documento de identidad es

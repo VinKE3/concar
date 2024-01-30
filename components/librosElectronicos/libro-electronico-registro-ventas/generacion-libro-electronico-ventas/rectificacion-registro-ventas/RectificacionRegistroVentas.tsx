@@ -11,11 +11,6 @@ const RectificacionRegistroVentas = () => {
   ];
   return (
     <>
-      <Heading
-        title="Rectificación u Omisión: Registros Adicionales en Registro de Ventas Electrónico"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

@@ -4,18 +4,25 @@ import Header from "@/components/Header";
 import TriButtons from "@/components/TriButtons";
 import Heading from "@/components/Heading";
 import { usePathname } from "next/navigation";
-import { dataCierreAperturaContable } from "@/data/cierre.data";
+import { dataSubLibros } from "@/data/librosElectronicos.data";
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 export default function Layout({ children }: LayoutProps) {
   const pathname = usePathname();
-  const flattenedData = dataCierreAperturaContable.reduce((acc: any, item) => {
-    return [...acc, item, ...item.items2];
+  const flattenedData = dataSubLibros.reduce((acc: any, item) => {
+    const items2 = item.items2.reduce((acc2: any, item2) => {
+      const items3 = item2.items3.reduce((acc3: any, item3) => {
+        return [...acc3, item3, ...item3.items4];
+      }, []);
+      return [...acc2, item2, ...items3];
+    }, []);
+    return [...acc, item, ...items2];
   }, []);
 
   const sortedData = flattenedData.sort((a: any, b: any) => a.id - b.id);
+
   // Encuentra el índice del objeto actual en dataManualUsuario
   const currentIndex = sortedData.findIndex(
     (item: any) => item.href === pathname
@@ -33,25 +40,27 @@ export default function Layout({ children }: LayoutProps) {
   // define el titulo de la página
   let titulo = sortedData[currentIndex].title;
   return (
-    <Container>
-      <Header
-        title="Cierre y apertura contable"
-        href="/tutoriales/cierre-apertura-contable"
-        subtitle="Categoría: CONCAR® SIRE SQL"
-        text="Proceso de Cierre y Apertura contable."
-      />
-      <TriButtons
-        indice="/tutoriales/cierre-apertura-contable-main"
-        anterior={anterior}
-        anteriorHref={anteriorHref}
-        siguiente={siguiente}
-        siguienteHref={siguienteHref}
-      />
-      <Heading
-        title={titulo}
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-      />
-      <div className="py-8">{children}</div>
-    </Container>
+    <>
+      <Container>
+        <Header
+          title="Libros electrónicos"
+          href="/tutoriales/libros-electronicos"
+          subtitle="Categoría: CONCAR® SIRE SQL"
+          text="ILibros electrónicos Compras, Ventas, Diario y Mayor."
+        />
+        <TriButtons
+          indice="/tutoriales/libros-electronicos"
+          anterior={anterior}
+          anteriorHref={anteriorHref}
+          siguiente={siguiente}
+          siguienteHref={siguienteHref}
+        />
+        <Heading
+          title={titulo}
+          subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
+        />
+        <div className="py-8">{children}</div>
+      </Container>
+    </>
   );
 }

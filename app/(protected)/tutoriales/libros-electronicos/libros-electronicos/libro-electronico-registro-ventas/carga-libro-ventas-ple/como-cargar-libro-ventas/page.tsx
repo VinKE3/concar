@@ -3,15 +3,9 @@ import ComoCargarLibroVentas from "@/components/librosElectronicos/libro-electro
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/carga-libro-ventas-ple/subsanar-inconsistencias"
-    >
+    <>
       <ComoCargarLibroVentas />
-    </Layout>
+    </>
   );
 };
 

@@ -4,11 +4,6 @@ import Image from "next/image";
 const ComoSubsanarInconsistencias = () => {
   return (
     <>
-      <Heading
-        title="Cómo subsanar inconsistencias en el PLE-SUNAT"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <h1 className="text-gray-900 font-semibold pb-2">Caso:</h1>
       <p className="pb-2">
         Cómo subsanar las inconsistencias que el PLE detecta en el proceso de

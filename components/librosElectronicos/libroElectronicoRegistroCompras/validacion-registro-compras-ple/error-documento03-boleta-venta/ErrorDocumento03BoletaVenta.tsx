@@ -12,11 +12,6 @@ const ErrorDocumento03BoletaVenta = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 03 Boleta de Venta"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

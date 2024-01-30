@@ -3,15 +3,9 @@ import ErrorDocumento02ReciboHonorarios from "@/components/librosElectronicos/li
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/documento-codigo6-ruc"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento10-recibo-arrendamiento"
-    >
+    <>
       <ErrorDocumento02ReciboHonorarios />
-    </Layout>
+    </>
   );
 };
 

@@ -1,4 +1,3 @@
-import Heading from "@/components/Heading";
 import React from "react";
 import { DataInstalacion } from "./instalacion.data";
 

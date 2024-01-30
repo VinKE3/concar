@@ -9,16 +9,7 @@ const ErrorDocumento06CartaPorte = () => {
       href: "https://miconcar.com/uploads/documentos/866_concar_cb_sql_c1_1_error_serie_carta_porte_aereo_v1_.pdf",
     },
   ];
-  return (
-    <>
-      <Heading
-        title="Validación de Libro Electrónico de Ventas  - Error número de serie para el documento de tipo 06 Carta de Porte Aéreo"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-      {/* <Table items={data} /> */}
-    </>
-  );
+  return <>{/* <Table items={data} /> */}</>;
 };
 
 export default ErrorDocumento06CartaPorte;

@@ -3,15 +3,9 @@ import ErroresDetectadosLibroCompras from "@/components/librosElectronicos/libro
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-subsanar-inconsistencias"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras"
-    >
+    <>
       <ErroresDetectadosLibroCompras />
-    </Layout>
+    </>
   );
 };
 

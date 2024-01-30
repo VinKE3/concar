@@ -13,11 +13,6 @@ const RegistroOmisionesLibroDiarioSimplificado = () => {
 
   return (
     <>
-      <Heading
-        title="Registro de Omisiones en los Libros Electrónicos Diario, Diario Simplificado y Mayor"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
         1. Las omisiones se podrán ingresar desde cualquiera de las dos opciones
         siguientes:

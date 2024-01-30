@@ -11,11 +11,6 @@ const EstadoIndicadorLibroCompras = () => {
   ];
   return (
     <>
-      <Heading
-        title="Estado o Indicador de la Operación en el Libro Electrónico de Compras"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <p>
         El CONCAR® genera automáticamente los estados 0, 1, 6 y 7 de acuerdo a
         como se registró el comprobante de compra en el sistema. Los

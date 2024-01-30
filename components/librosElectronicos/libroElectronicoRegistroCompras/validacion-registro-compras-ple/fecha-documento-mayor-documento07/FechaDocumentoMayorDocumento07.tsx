@@ -12,11 +12,6 @@ const FechaDocumentoMayorDocumento07 = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Fecha de documento de referencia no debe ser mayor a fecha de documento para el tipo de documento 07 Nota de crédito"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

@@ -12,11 +12,6 @@ const ErrorTipo04LiquidacionCompra = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 04 Liquidación de Compra"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

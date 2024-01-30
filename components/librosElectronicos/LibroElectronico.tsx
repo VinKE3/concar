@@ -3,10 +3,6 @@ import Heading from "@/components/Heading";
 const LibroElectronico = () => {
   return (
     <>
-      <Heading
-        title="Libros electrónicos"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-      />
       <div className="mt-10 space-y-2">
         <p>
           Según la Resolución 248-2012-SUNAT (26.10.12) se dispuso que desde el

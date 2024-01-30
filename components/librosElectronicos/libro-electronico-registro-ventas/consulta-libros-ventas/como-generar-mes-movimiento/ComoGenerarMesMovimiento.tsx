@@ -12,12 +12,6 @@ const ComoGenerarMesMovimiento = () => {
   ];
   return (
     <>
-      <Heading
-        title="Cómo generar el libro electrónico de Ventas de un mes sin movimiento"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-
       <Table items={data} />
     </>
   );

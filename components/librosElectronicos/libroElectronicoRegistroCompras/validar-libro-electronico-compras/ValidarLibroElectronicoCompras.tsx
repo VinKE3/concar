@@ -12,11 +12,6 @@ const ValidarLibroElectronicoCompras = () => {
   ];
   return (
     <>
-      <Heading
-        title="Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <p>
         El reporte de información inconsistente brinda un detalle de todos los
         errores detectados por el PLE-SUNAT durante la validación del libro

@@ -3,15 +3,9 @@ import ErrorDocumento03BoletaVenta from "@/components/librosElectronicos/libro-e
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo01-factura"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo04-liquidacion-compra"
-    >
+    <>
       <ErrorDocumento03BoletaVenta />
-    </Layout>
+    </>
   );
 };
 

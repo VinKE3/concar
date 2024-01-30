@@ -12,11 +12,6 @@ const FechaVencimientoDocumento14 = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Fecha de vencimiento debe ser menor o igual al periodo de proceso para tipo de documento 14 Recibo de servicios públicos"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

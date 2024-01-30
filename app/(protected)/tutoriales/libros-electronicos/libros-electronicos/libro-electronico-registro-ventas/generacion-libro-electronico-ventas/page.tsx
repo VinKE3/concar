@@ -3,15 +3,9 @@ import GeneracionLibroElectronicoVentas from "@/components/librosElectronicos/li
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior={true}
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas"
-      siguiente={true}
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/como-generar-libro-ventas"
-    >
+    <>
       <GeneracionLibroElectronicoVentas />
-    </Layout>
+    </>
   );
 };
 

@@ -13,11 +13,6 @@ const ErroresDetectadosLibroCompras = () => {
   ];
   return (
     <>
-      <Heading
-        title="Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

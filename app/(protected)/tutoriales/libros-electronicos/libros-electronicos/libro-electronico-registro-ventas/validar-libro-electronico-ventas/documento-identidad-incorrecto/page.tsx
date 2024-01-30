@@ -3,15 +3,9 @@ import DocumentoIdentidadIncorrecto from "@/components/librosElectronicos/libro-
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validar-libro-electronico-ventas"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validar-libro-electronico-ventas/valor-incorrecto"
-    >
+    <>
       <DocumentoIdentidadIncorrecto />
-    </Layout>
+    </>
   );
 };
 

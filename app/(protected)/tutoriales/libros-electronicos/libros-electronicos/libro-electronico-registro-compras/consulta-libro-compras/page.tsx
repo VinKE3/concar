@@ -3,15 +3,9 @@ import ConsultaLibroCompras from "@/components/librosElectronicos/libroElectroni
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras/valor-incorrecto"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/consulta-libro-compras/como-generar-mes-movimiento"
-    >
+    <>
       <ConsultaLibroCompras />
-    </Layout>
+    </>
   );
 };
 

@@ -7,15 +7,9 @@ import ValidacionRegistroComprasPle from "@/components/librosElectronicos/libroE
 const page = () => {
   return (
     <div>
-      <Layout
-        on
-        siguiente
-        anterior
-        siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-blanco-cero"
-        anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/generacion-libro-electronico-compras/rectificacion-registro-compras"
-      >
+      <>
         <ValidacionRegistroComprasPle />
-      </Layout>
+      </>
     </div>
   );
 };

@@ -11,11 +11,6 @@ const NumeroNumericoMayorCero = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Ventas - Número de documento debe ser numérico mayor a cero"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

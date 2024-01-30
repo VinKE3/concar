@@ -11,11 +11,6 @@ const CampoObligatorioLlaveIncorrecta = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación en PLE-SUNAT: Campo obligatorio / La llave única es incorrecta"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <div>
         <h1>
           Al validar el libro electrónico diario en el PLE-SUNAT, el programa

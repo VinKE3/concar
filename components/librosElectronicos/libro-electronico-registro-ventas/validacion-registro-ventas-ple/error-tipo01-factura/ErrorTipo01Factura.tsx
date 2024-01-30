@@ -11,11 +11,6 @@ const ErrorTipo01Factura = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Ventas - Error en el número de serie para el documento de tipo 01 Factura"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

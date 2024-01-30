@@ -11,11 +11,6 @@ const ErrorTipo05BoletoAereo = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 05 Boleto Aéreo"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

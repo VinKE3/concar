@@ -22,11 +22,6 @@ const CargaLibroVentasPle = () => {
   ];
   return (
     <>
-      <Heading
-        title="Carga del Libro Electrónico de Ventas al PLE-SUNAT"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <h1>Este tutorial contiene:</h1>
       <List items={data} />
     </>

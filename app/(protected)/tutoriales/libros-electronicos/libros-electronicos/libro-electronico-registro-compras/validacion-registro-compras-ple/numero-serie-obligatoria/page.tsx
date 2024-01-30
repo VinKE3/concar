@@ -3,15 +3,9 @@ import NumeroSerieObligatoria from "@/components/librosElectronicos/libroElectro
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-blanco-cero"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-tipo01-factura"
-    >
+    <>
       <NumeroSerieObligatoria />
-    </Layout>
+    </>
   );
 };
 

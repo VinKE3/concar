@@ -12,11 +12,6 @@ const EstadoIndicadorLibroVentas = () => {
   ];
   return (
     <>
-      <Heading
-        title="Estado o Indicador de la Operación en el Libro Electrónico de Ventas"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <p>
         El CONCAR® genera automáticamente los estados 0, 1, 2, 8 y 9 de acuerdo
         a como se registró el comprobante de ventas en el sistema. Los

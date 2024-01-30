@@ -8,15 +8,7 @@ const ValidacionLibroDiarioSimplificado = () => {
       href: "https://miconcar.com/uploads/documentos/841_CONCAR_SQL_Como_generar_el_libro_electronico_de_compras.pdf",
     },
   ];
-  return (
-    <>
-      <Heading
-        title="Validación en PLE-SUNAT de los libros electrónicos Diario, Diario Simplificado y Mayor"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
-    </>
-  );
+  return <></>;
 };
 
 export default ValidacionLibroDiarioSimplificado;

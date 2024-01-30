@@ -11,11 +11,6 @@ const ComoGenerarLibroVentas = () => {
   ];
   return (
     <>
-      <Heading
-        title="¿Cómo Generar el Libro Electrónico de Ventas?"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <div>
         <h1>
           El presente documento detalla el procedimiento a realizar en el CONCAR

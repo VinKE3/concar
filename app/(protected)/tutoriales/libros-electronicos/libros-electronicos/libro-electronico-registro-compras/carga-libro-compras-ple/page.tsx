@@ -3,15 +3,9 @@ import CargaLibroComprasPle from "@/components/librosElectronicos/libroElectroni
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-tipo55-transporte-ferroviario"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-cargar-libro-compras"
-    >
+    <>
       <CargaLibroComprasPle />
-    </Layout>
+    </>
   );
 };
 

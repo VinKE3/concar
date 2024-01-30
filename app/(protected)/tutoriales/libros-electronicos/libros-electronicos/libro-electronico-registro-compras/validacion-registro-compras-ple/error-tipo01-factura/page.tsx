@@ -3,15 +3,9 @@ import ErrorTipo01Factura from "@/components/librosElectronicos/libroElectronico
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/numero-serie-obligatoria"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/documento-codigo6-ruc"
-    >
+    <>
       <ErrorTipo01Factura />
-    </Layout>
+    </>
   );
 };
 export default page;

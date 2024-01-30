@@ -3,15 +3,9 @@ import ValorIncorrecto from "@/components/librosElectronicos/libro-electronico-r
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/validar-libro-electronico-ventas/documento-identidad-incorrecto"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/consulta-libros-ventas"
-    >
+    <>
       <ValorIncorrecto />
-    </Layout>
+    </>
   );
 };
 

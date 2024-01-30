@@ -3,15 +3,9 @@ import ComoSubsanarInconsistencias from "@/components/librosElectronicos/libroEl
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/carga-libro-compras-ple/como-cargar-libro-compras"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras"
-    >
+    <>
       <ComoSubsanarInconsistencias />
-    </Layout>
+    </>
   );
 };
 

@@ -11,11 +11,6 @@ const ErrorDocumento06CartaPorte = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Error número de serie para el documento de tipo 06 Carta de Porte Aéreo"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

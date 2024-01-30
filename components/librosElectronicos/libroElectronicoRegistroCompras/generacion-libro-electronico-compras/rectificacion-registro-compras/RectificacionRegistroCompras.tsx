@@ -17,11 +17,6 @@ const RectificacionRegistroCompras = () => {
   ];
   return (
     <>
-      <Heading
-        title="Rectificación - Registros Adicionales en Registro de Compras Electrónico"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

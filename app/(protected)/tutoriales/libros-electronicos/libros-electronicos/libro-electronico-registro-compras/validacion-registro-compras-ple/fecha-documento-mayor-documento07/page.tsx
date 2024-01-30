@@ -3,15 +3,9 @@ import FechaDocumentoMayorDocumento07 from "@/components/librosElectronicos/libr
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento06-carta-porte"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/falta-documento07-nota-credito"
-    >
+    <>
       <FechaDocumentoMayorDocumento07 />
-    </Layout>
+    </>
   );
 };
 

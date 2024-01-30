@@ -5,11 +5,6 @@ const ValidacionRegistroVentasPle = () => {
   return (
     <div>
       <>
-        <Heading
-          title="Validación de Registro de Ventas - PLE"
-          subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-          className="py-6"
-        />
         <p className="mb-5">
           Al generar el libro electrónico de ventas, ya sea en archivo de texto
           (para enviar a SUNAT) o en Excel, el sistema CONCAR® realiza una

@@ -3,15 +3,9 @@ import ComoGenerarMesMovimiento from "@/components/librosElectronicos/libro-elec
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-ventas/consulta-libros-ventas"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-diario-simplificado"
-    >
+    <>
       <ComoGenerarMesMovimiento />
-    </Layout>
+    </>
   );
 };
 

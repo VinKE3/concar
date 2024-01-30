@@ -12,11 +12,6 @@ const ErrorTipo08NotaDebito = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Ventas - Falta documento de referencia para el documento tipo 08 Nota de Débito"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

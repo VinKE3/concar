@@ -3,15 +3,9 @@ import FechaVencimientoDocumento14 from "@/components/librosElectronicos/libroEl
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/falta-documento07-nota-credito"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento52-dua-simplificada"
-    >
+    <>
       <FechaVencimientoDocumento14 />
-    </Layout>
+    </>
   );
 };
 

@@ -12,11 +12,6 @@ const ErrorDocumento02ReciboHonorarios = () => {
   ];
   return (
     <>
-      <Heading
-        title="Validación de Libro Electrónico de Compras - Error en número de serie para tipo de documento 02 Recibo por Honorarios"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <Table items={data} />
     </>
   );

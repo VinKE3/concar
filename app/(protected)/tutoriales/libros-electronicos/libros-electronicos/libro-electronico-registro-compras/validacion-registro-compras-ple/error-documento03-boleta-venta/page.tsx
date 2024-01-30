@@ -3,15 +3,9 @@ import ErrorDocumento03BoletaVenta from "@/components/librosElectronicos/libroEl
 
 const page = () => {
   return (
-    <Layout
-      on
-      anterior
-      siguiente
-      anteriorHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento10-recibo-arrendamiento"
-      siguienteHref="/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento06-carta-porte"
-    >
+    <>
       <ErrorDocumento03BoletaVenta />
-    </Layout>
+    </>
   );
 };
 

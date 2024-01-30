@@ -11,11 +11,6 @@ const ComoGenerarLibroDiarioSimplificado = () => {
   ];
   return (
     <>
-      <Heading
-        title="Cómo Generar los Libros Electrónicos Diario, Diario Simplificado y Mayor"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
       <div>
         <Table items={data} />
       </div>
