@@ -24,6 +24,6 @@ export const dataConcar = [
     id: "3",
     title: "Cierre y apertura contable",
     description: "[ Cód: T00004 ]",
-    href: "/tutoriales/cierre-apertura-contable",
+    href: "/tutoriales/cierre-apertura-contable-main",
   },
 ];

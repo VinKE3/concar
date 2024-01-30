@@ -11,14 +11,14 @@ const page = () => {
     },
   ];
   return (
-    <div>
+    <div className="space-y-3">
       <h1>
         Se adjunta el Manual detallando paso a paso como configurar el ICBPER.
       </h1>
       <p>
         ¿Cómo configurar el ICBPER para Compras y Ventas en el Sistema CONCAR?
       </p>
-      <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
+      <div className="md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
         <div
           style={{
             width: "100%",

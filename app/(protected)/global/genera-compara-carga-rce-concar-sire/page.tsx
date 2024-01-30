@@ -12,7 +12,7 @@ const page = () => {
   ];
   return (
     <div className="space-y-3">
-      <h1></h1>
+      <h1 className="font-bold">Consideraciones Generales</h1>
       <ul className="px-5 list-disc">
         <li>Validar entorno Windows UPDATE se encuentre actualizado.</li>
         <li>

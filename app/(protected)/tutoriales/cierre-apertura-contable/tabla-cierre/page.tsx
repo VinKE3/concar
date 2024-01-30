@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../../../layouts/layoutCierreApertura";
 import Heading from "@/components/Heading";
 import Table from "@/components/Table";
 
@@ -22,18 +21,7 @@ const page = () => {
     },
   ];
   return (
-    <Layout
-      indice="/tutoriales/cierre-apertura-contable"
-      anterior={true}
-      anteriorHref="/tutoriales/cierre-apertura-contable/proceso-cierre"
-      siguiente={true}
-      siguienteHref="/tutoriales/cierre-apertura-contable/proceso-apertura"
-    >
-      <Heading
-        title="Proceso de Cierre"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
+    <>
       <p>
         En esta tabla ya viene configurada con los asientos automáticos de
         cierre del ejercicio, son 17 asientos de cierre. Primero, se debe
@@ -43,7 +31,7 @@ const page = () => {
         comprobante contable.
       </p>
       <Table items={data} />
-    </Layout>
+    </>
   );
 };
 

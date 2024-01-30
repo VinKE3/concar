@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../../../layouts/layoutCierreApertura";
 import Heading from "@/components/Heading";
 import Table from "@/components/Table";
 
@@ -12,16 +11,7 @@ const page = () => {
     },
   ];
   return (
-    <Layout
-      indice="/tutoriales/cierre-apertura-contable"
-      anterior={true}
-      anteriorHref="/tutoriales/cierre-apertura-contable/proceso-apertura"
-    >
-      <Heading
-        title="Asiento de Apertura"
-        subtitle="Productos SQL - NET  CONCAR® SQL Productos SQL - NET  CONCAR® SQL #YOMEQUEDOENCASA"
-        className="py-6"
-      />
+    <>
       <p>
         El sistema genera los asientos de apertura en forma automática, después
         de procesado el cierre del ejercicio anterior (excepto el último asiento
@@ -30,7 +20,7 @@ const page = () => {
         Activo, Pasivo y Patrimonio (asiento 17).
       </p>
       <Table items={data} />
-    </Layout>
+    </>
   );
 };
 

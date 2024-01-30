@@ -11,7 +11,7 @@ const page = () => {
     },
   ];
   return (
-    <div>
+    <div className="space-y-3">
       <h1>
         Adjuntamos el Manual con los pasos para emitir los respectivos Libros
         Electronicos 14.1 Ventas y 8.1 Compras
@@ -19,7 +19,7 @@ const page = () => {
       <p>
         ¿Cómo generar los Libros Electrónicos del Registro de Compras y Ventas?
       </p>
-      <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
+      <div className="md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
         <div
           style={{
             width: "100%",

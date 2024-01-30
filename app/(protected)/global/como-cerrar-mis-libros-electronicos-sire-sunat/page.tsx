@@ -32,7 +32,7 @@ const page = () => {
         contables, adicionalmente, está tipificado en las resoluciones de
         superintendencia que regulan el SIRE.
       </p>
-      <p>
+      <p className="font-bold">
         Revise el Inciso a) del artículo 5 de la Resolución de Superintendencia
         N° 112-2021
       </p>

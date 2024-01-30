@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import Indice from "@/components/Indice";
 import React from "react";
-import { dataCierreAperturaContable, dataProcesoApertura } from "./cierre.data";
+import { dataCierreAperturaContable } from "@/data/cierre.data";
 import Heading from "@/components/Heading";
 
 const CierreAperturaPage = () => {
@@ -18,7 +18,6 @@ const CierreAperturaPage = () => {
       </div>
       <Heading title="índice" className="bg-gray-200 px-2" />
       <Indice items={dataCierreAperturaContable} />
-      <Indice items={dataProcesoApertura} />
     </Container>
   );
 };

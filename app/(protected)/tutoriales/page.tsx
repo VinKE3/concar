@@ -1,6 +1,6 @@
 import React from "react";
 import Acordion from "@/components/acordion/Acordion";
-import { dataSireSql, dataConcar } from "./tuturiales.data";
+import { dataSireSql, dataConcar } from "@/data/tuturiales.data";
 
 const TutorialesPage = () => {
   return (
