@@ -5,7 +5,7 @@ import { esES, DataGrid, GridColDef } from "@mui/x-data-grid";
 import Heading from "@/components/Heading";
 import { dataGlobal } from "@/data/global.data";
 import Link from "next/link";
-import { Select, MenuItem } from "@mui/material";
+import { Select, MenuItem, Autocomplete, TextField } from "@mui/material";
 import Button from "@/components/Button";
 
 const TemaSeparado = () => {
@@ -141,7 +141,7 @@ const TemaSeparado = () => {
               field: "categorias",
               headerName: "Categorias",
               filterable: false,
-              width: 250,
+              width: 220,
               renderCell: () => {
                 return (
                   <Select
@@ -166,19 +166,38 @@ const TemaSeparado = () => {
               width: 250,
               renderCell: () => {
                 return (
-                  <Select
-                    value={selectedPalabraClave || ""}
-                    onChange={(e) => setSelectedPalabraClave(e.target.value)}
+                  <Autocomplete
                     className="w-full"
-                  >
-                    {" "}
-                    <MenuItem value="">Sin Palabra Clave</MenuItem>
-                    {palabrasClave.map((item: any, index: any) => (
-                      <MenuItem key={index} value={item}>
-                        {item}
-                      </MenuItem>
-                    ))}
-                  </Select>
+                    value={
+                      selectedPalabraClave
+                        ? { label: selectedPalabraClave }
+                        : null
+                    }
+                    onChange={(event, newValue) => {
+                      setSelectedPalabraClave(newValue ? newValue.label : null);
+                    }}
+                    options={palabrasClave.map((option) => ({ label: option }))}
+                    getOptionLabel={(option: any) => option.label}
+                    renderInput={(params) => (
+                      <TextField {...params} label="Palabras" />
+                    )}
+                  />
+                  // <Autocomplete
+                  //   className="w-full"
+                  //   value={
+                  //     selectedPalabraClave
+                  //       ? { label: selectedPalabraClave }
+                  //       : null
+                  //   }
+                  //   onChange={(event, newValue) => {
+                  //     setSelectedPalabraClave(newValue ? newValue.label : "");
+                  //   }}
+                  //   options={palabrasClave.map((option) => ({ label: option }))}
+                  //   getOptionLabel={(option: any) => option.label}
+                  //   renderInput={(params) => (
+                  //     <TextField {...params} label="Palabras" />
+                  //   )}
+                  // />
                 );
               },
             },

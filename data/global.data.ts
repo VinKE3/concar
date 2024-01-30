@@ -74,6 +74,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
+    palabrasClave: ["rvie", "rce", "sire"],
   },
   {
     id: 7,
@@ -1026,7 +1027,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
-    plabrasClave: ["factura", "percepcion", "concar sql"],
+    palabrasClave: ["percepcion", "concar sql"],
   },
   {
     id: 82,
