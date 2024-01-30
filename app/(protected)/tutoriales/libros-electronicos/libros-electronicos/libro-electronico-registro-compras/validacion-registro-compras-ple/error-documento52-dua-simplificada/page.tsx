@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import ErrorDocumento52DuaSimplificada from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/error-documento52-dua-simplificada/ErrorDocumento52DuaSimplificada";
 
 const page = () => {

@@ -1,4 +1,3 @@
-import Layout from "../../../layouts/layoutLibrosElectronicos";
 import LibroElectronicoRegistroVentas from "@/components/librosElectronicos/libro-electronico-registro-ventas/LibroElectronicoRegistroVentas";
 
 const page = () => {

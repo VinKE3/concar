@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import ComoGenerarLibroVentas from "@/components/librosElectronicos/libro-electronico-registro-ventas/generacion-libro-electronico-ventas/como-generar-libro-ventas/ComoGenerarLibroVentas";
 
 const page = () => {

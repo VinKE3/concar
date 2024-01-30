@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import FaltaDocumento57NotaCredito from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/falta-documento07-nota-credito/FaltaDocumento57NotaCredito";
 
 const page = () => {

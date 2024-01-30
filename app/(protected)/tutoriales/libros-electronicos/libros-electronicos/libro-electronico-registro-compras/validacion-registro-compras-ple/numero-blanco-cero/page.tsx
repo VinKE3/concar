@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import NumeroBlancoCero from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/numero-blanco-cero/NumeroBlancoCero";
 
 const page = () => {

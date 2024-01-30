@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import ErrorTipo08NotaDebito from "@/components/librosElectronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/error-tipo08-nota-debito/ErrorTipo08NotaDebito";
 
 const page = () => {

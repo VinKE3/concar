@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import ErrorDocumento03BoletaVenta from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/error-documento03-boleta-venta/ErrorDocumento03BoletaVenta";
 
 const page = () => {

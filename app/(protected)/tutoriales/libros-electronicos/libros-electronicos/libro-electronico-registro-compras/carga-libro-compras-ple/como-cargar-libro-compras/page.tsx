@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import ComoCargarLibroCompras from "@/components/librosElectronicos/libroElectronicoRegistroCompras/carga-libro-compras-ple/como-cargar-libro-compras/ComoCargarLibroCompras";
 
 const page = () => {

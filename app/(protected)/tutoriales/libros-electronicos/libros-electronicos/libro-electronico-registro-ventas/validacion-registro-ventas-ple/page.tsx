@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import ValidacionRegistroVentasPle from "@/components/librosElectronicos/libro-electronico-registro-ventas/validacion-registro-ventas-ple/ValidacionRegistroVentasPle";
 
 const page = () => {

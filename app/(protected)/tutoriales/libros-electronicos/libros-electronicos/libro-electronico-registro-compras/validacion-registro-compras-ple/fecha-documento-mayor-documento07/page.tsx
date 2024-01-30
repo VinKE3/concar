@@ -1,4 +1,3 @@
-import Layout from "@/app/(protected)/tutoriales/layouts/layoutLibrosElectronicos";
 import FechaDocumentoMayorDocumento07 from "@/components/librosElectronicos/libroElectronicoRegistroCompras/validacion-registro-compras-ple/fecha-documento-mayor-documento07/FechaDocumentoMayorDocumento07";
 
 const page = () => {
