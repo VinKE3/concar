@@ -27,7 +27,7 @@ const MantenimientoCuentasBancos = () => {
         Regularización Diferencia Cambio y Ajuste Diferencia Cambio FASB52.
       </p>
       <Image
-        src="/manCuentasBancos/1.jpg"
+        src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_1_.jpg"
         alt="Mantenimiento Cuentas Bancos"
         width={650}
         height={500}
@@ -35,7 +35,7 @@ const MantenimientoCuentasBancos = () => {
       <p>En esta pantalla se podrá</p>
       <div className="flex items-center justify-start gap-1">
         <Image
-          src="/manCuentasBancos/2.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_2_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}
@@ -44,7 +44,7 @@ const MantenimientoCuentasBancos = () => {
       </div>
       <div className="flex items-center justify-start gap-1">
         <Image
-          src="/manCuentasBancos/3.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_3_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}
@@ -53,7 +53,7 @@ const MantenimientoCuentasBancos = () => {
       </div>
       <div className="flex items-center justify-start gap-1">
         <Image
-          src="/manCuentasBancos/4.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_4_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}
@@ -62,7 +62,7 @@ const MantenimientoCuentasBancos = () => {
       </div>
       <div className="flex items-center justify-start gap-1">
         <Image
-          src="/manCuentasBancos/5.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_5_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}
@@ -71,7 +71,7 @@ const MantenimientoCuentasBancos = () => {
       </div>
       <div className="flex items-center justify-start gap-1">
         <Image
-          src="/manCuentasBancos/6.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_6_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}
@@ -81,14 +81,14 @@ const MantenimientoCuentasBancos = () => {
       <div className="flex items-center justify-start gap-1">
         <h1>Presionar el botón</h1>
         <Image
-          src="/manCuentasBancos/2.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_2_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}
         />
       </div>
       <Image
-        src="/manCuentasBancos/7.jpg"
+        src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_7_1.jpg"
         alt="Mantenimiento Cuentas Bancos"
         width={650}
         height={500}
@@ -124,7 +124,7 @@ const MantenimientoCuentasBancos = () => {
       <div className="flex items-center justify-start gap-1">
         <h1>Presionar el botón</h1>
         <Image
-          src="/manCuentasBancos/6.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_4_8_mantenimiento_cuentas_bancos_8_.jpg"
           alt="Mantenimiento Cuentas Bancos"
           width={35}
           height={30}

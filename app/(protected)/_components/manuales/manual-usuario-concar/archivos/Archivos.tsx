@@ -18,7 +18,12 @@ const Archivos = () => {
         Las bases de datos principales definidas para el sistema de Contabilidad
         General (menú Archivos) son las siguientes:
       </p>
-      <Image src="/archivos.jpg" alt="Archivos" width={700} height={500} />
+      <Image
+        src="https://miconcar.com/uploads/documentos/concar_sql_c4_menu_archivos_.jpg"
+        alt="Archivos"
+        width={700}
+        height={500}
+      />
       <p>A continuación el detalle de las opciones de este módulo:</p>
       <List items={newData} />
     </div>

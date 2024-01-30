@@ -17,7 +17,12 @@ const RealKeyNoDetectada = () => {
         En caso el sistema no reconozca la llave electrónica Real Key, mostrará
         el siguiente mensaje:
       </p>
-      <Image src="/llaveKeyNoDetectada.png" alt="1" width={500} height={500} />
+      <Image
+        src="https://miconcar.com/uploads/documentos/concar_cb_c1_v2015_01_llave_real_key_no_detectada_img1_v1_.png"
+        alt="1"
+        width={500}
+        height={500}
+      />
       <Table items={data} />
     </div>
   );

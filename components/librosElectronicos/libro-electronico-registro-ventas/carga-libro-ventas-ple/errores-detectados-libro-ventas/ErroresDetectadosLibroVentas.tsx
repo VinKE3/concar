@@ -12,6 +12,11 @@ const ErroresDetectadosLibroVentas = () => {
   ];
   return (
     <>
+      <p>
+        El reporte de información inconsistente brinda un detalle de todos los
+        errores detectados por el PLE-SUNAT durante la validación del libro
+        electrónico, señalando la ubicación del error.{" "}
+      </p>
       <Table items={data} />
     </>
   );

@@ -13,10 +13,20 @@ export default function Home() {
       <Container>
         <div className="py-5">
           <div className="text-center flex justify-center">
-            <Image src="/1.jpg" alt="logo" width={1200} height={1200} />
+            <Image
+              src="https://miconcar.com/uploads/cmslogin/1_miconcar-web-inicio.jpg"
+              alt="logo"
+              width={1200}
+              height={1200}
+            />
           </div>
           <div className="text-center flex justify-center">
-            <Image src="/2.jpg" alt="logo" width={1200} height={1200} />
+            <Image
+              src="https://miconcar.com/uploads/cmslogin/miconcar-web-inicio-busca.jpg"
+              alt="logo"
+              width={1200}
+              height={1200}
+            />
           </div>
         </div>
       </Container>

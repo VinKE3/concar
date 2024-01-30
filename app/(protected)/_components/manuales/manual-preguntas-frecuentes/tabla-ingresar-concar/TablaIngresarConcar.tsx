@@ -8,7 +8,7 @@ const TablaIngresarConcar = () => {
         <h1>Descripción del problema</h1>
         <h2>Error Apertura de tabla impide ingresar al CONCAR.</h2>
         <Image
-          src="/errorAperturaTablaIngresarConcar/1.jpg"
+          src="https://miconcar.com/uploads/documentos/CONXION2.jpg"
           width={500}
           height={300}
           alt="Error Apertura de tabla impide ingresar al CONCAR."
@@ -32,7 +32,7 @@ const TablaIngresarConcar = () => {
             1. Entrar a la carpeta C:\RSCONCAR\ y eliminar el archivo rsovl.com.
           </li>
           <Image
-            src="/errorAperturaTablaIngresarConcar/2.jpg"
+            src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_frecuentes_error_apertura_tabla_.jpg"
             width={700}
             height={500}
             alt="Eliminar el archivo rsovl.com."
@@ -45,7 +45,7 @@ const TablaIngresarConcar = () => {
             3. Colocar los datos para volver a conectar con el Servidor SQL:
           </li>
           <Image
-            src="/errorAperturaTablaIngresarConcar/3.jpg"
+            src="https://miconcar.com/uploads/documentos/CONXION.jpg"
             width={700}
             height={500}
             alt="Colocar los datos para volver a conectar con el Servidor SQL."

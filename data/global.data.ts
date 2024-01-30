@@ -56,7 +56,7 @@ export const dataGlobal = [
   },
   {
     id: 5,
-    name: "¿Genera, compara y carga el registro de Compras Electrónicos (RCE) con CONCAR SIRE? - Incluye Video - FALTA",
+    name: "¿Genera, compara y carga el registro de Compras Electrónicos (RCE) con CONCAR SIRE? - Incluye Video ",
     description:
       "Aquí podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al Registro de Compras Electrónicas (RCE) integrado con CONCAR CB y SQL.",
     href: "/global/genera-compara-carga-rce-concar-sire",
@@ -67,7 +67,7 @@ export const dataGlobal = [
   },
   {
     id: 6,
-    name: "Declaración RVIE + RCE en SIRE SUNAT - FALTA",
+    name: "Declaración RVIE + RCE en SIRE SUNAT ",
     description:
       "Con esta guía podrá cumplir con su declaración de Compras y Ventasen el SIRE SUNAT, generando loa archivos desde el distema CONCAR.",
     href: "/global/declaracion-rvie-rce-sire-sunat",
@@ -77,7 +77,7 @@ export const dataGlobal = [
   },
   {
     id: 7,
-    name: "Fuente: SUNAT - Guía para aceptar propuesta RCE y RVIE - FALTA",
+    name: "Fuente: SUNAT - Guía para aceptar propuesta RCE y RVIE ",
     description: "",
     href: "/global/guia-aceptar-propuesta-rce-rvie-sunat",
     tipo: "Tutorial",
@@ -328,7 +328,7 @@ export const dataGlobal = [
     palabrasClave: ["ventas", "libro electronico", "rectificacion"],
   },
   {
-    id: 31,
+    id: 30,
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 01 Factura",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 01 Factura",
@@ -339,7 +339,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
-    id: 32,
+    id: 31,
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 03 Boleta de Venta",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
@@ -350,7 +350,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
-    id: 33,
+    id: 32,
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 10 Recibo por Arrendamiento",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación porque el número de serie del documento tipo 10 Recibo por arrendamiento está incompleto y falta registrar el código por el aporte de renta de primero categoría.",
@@ -361,7 +361,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
-    id: 34,
+    id: 33,
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para el documento de tipo 52 DUA Simplificada",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación porque en la serie del número de documento los datos están mal ingresados o éstos contienen caracteres no válidos.",
@@ -372,7 +372,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
-    id: 35,
+    id: 34,
     name: "Validación de Libro Electrónico de Compras - Error en número de serie para tipo de documento 02 Recibo por Honorarios",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie del tipo de documento recibo por honorarios.",
@@ -383,7 +383,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
-    id: 36,
+    id: 35,
     name: "Validación de Libro Electrónico de Compras - Error número de serie para el documento de tipo 06 Carta de Porte Aéreo",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 06 Carta de Porte Aéreo.",
@@ -394,7 +394,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "numero de serie"],
   },
   {
-    id: 37,
+    id: 36,
     name: "Validación de Libro Electrónico de Compras - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
@@ -411,8 +411,8 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 38,
-    name: "Validación de Libro Electrónico de Compras - Falta documento de referencia para el documento tipo 07 Nota de Crédito",
+    id: 37,
+    name: "Validación de Libro Electrónico de Compras  documento de referencia para el documento tipo 07 Nota de Crédito",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar los datos del documento de referencia para el documento tipo 07 Nota de Crédito.",
     href: "/global/falta-documento07-nota-credito",
@@ -427,7 +427,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 39,
+    id: 38,
     name: "Validación de Libro Electrónico de Compras - Fecha de documento de referencia no debe ser mayor a fecha de documento para el tipo de documento 07 Nota de crédito",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por consignar de forma errónea la fecha del documento de referencia para el tipo de documento Nota de crédito, ésta no debe ser mayor que la fecha de documento.",
@@ -443,7 +443,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 40,
+    id: 39,
     name: "Validación de Libro Electrónico de Compras - Fecha de vencimiento debe ser menor o igual al periodo de proceso para tipo de documento 14 Recibo de servicios públicos",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación cuando la fecha de vencimiento del documento se ha registrado de forma incorrecta, debiendo ser menor o igual al periodo de proceso.",
@@ -459,7 +459,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 41,
+    id: 40,
     name: "Validación de Libro Electrónico de Compras - Número de documento no debe estar en blanco o en cero",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar el número de documento en el registro, el campo no debe estar en blanco ni ser cero.",
@@ -475,7 +475,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 42,
+    id: 41,
     name: "Validación de Libro Electrónico de Compras - Número de serie es obligatoria",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no consignar el número de serie del documento registrado.",
@@ -491,7 +491,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 43,
+    id: 42,
     name: "Validación de Libro Electrónico de Compras - Para código de documento SUNAT 01 Factura, documento de proveedor debe ser código 6 RUC",
     description:
       "Al intentar generar el libro electrónico de Registro de Compras aparece una observación por no seleccionar un tipo de documento correcto para un proveedor del exterior.",
@@ -508,7 +508,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 44,
+    id: 43,
     name: "Validación de Libro Electrónico de Ventas - Error en el número de serie para el documento de tipo 01 Factura",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie del documento tipo 01 factura.",
@@ -524,7 +524,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 45,
+    id: 44,
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 03 Boleta de Venta",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
@@ -540,7 +540,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 46,
+    id: 45,
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 04 Liquidación de Compra",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 04 Liquidación de Compra.",
@@ -556,7 +556,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 47,
+    id: 46,
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 05 Boleto Aéreo",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 05 Boleto Aéreo.",
@@ -572,7 +572,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 48,
+    id: 47,
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 06 Carta de Porte aéreo",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 06 Carta de porte aéreo.",
@@ -588,7 +588,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 49,
+    id: 48,
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
@@ -605,8 +605,8 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 50,
-    name: "Validación de Libro Electrónico de Ventas - Falta documento de referencia para el documento tipo 08 Nota de Débito",
+    id: 49,
+    name: "Validación de Libro Electrónico de Ventas  documento de referencia para el documento tipo 08 Nota de Débito",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar los datos del documento de referencia para el documento tipo 08 Nota de Débito.",
     href: "/global/error-tipo08-nota-debito",
@@ -616,7 +616,7 @@ export const dataGlobal = [
     palabrasClave: ["ventas", "libro electronico", "documento de referencia"],
   },
   {
-    id: 51,
+    id: 50,
     name: "Validación de Libro Electrónico de Ventas - Número de documento debe ser numérico mayor a cero",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar el número de documento en el registro, el campo debe ser numérico mayor a cero.",
@@ -627,7 +627,7 @@ export const dataGlobal = [
     palabrasClave: ["ventas", "libro electronico", "numero de documento"],
   },
   {
-    id: 52,
+    id: 51,
     name: "Validación de Registro de Compras - PLE",
     description:
       "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de compras, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
@@ -638,7 +638,7 @@ export const dataGlobal = [
     palabrasClave: ["compras", "libro electronico", "ple sunat"],
   },
   {
-    id: 53,
+    id: 52,
     name: "Validación de Registro de Ventas - PLE",
     description:
       "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico de ventas, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
@@ -649,7 +649,7 @@ export const dataGlobal = [
     palabrasClave: ["ventas", "libro electronico", "ple sunat"],
   },
   {
-    id: 54,
+    id: 53,
     name: "Validación en PLE-SUNAT de los libros electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Reporte que emite el CONCAR® automáticamente, al generar el libro electrónico diario, diario simplificado y mayor, cuando detecta observaciones en los comprobantes registrados que impidan la carga del libro electrónico al PLE-SUNAT.",
@@ -666,7 +666,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 55,
+    id: 54,
     name: "Validación en PLE-SUNAT: Campo obligatorio / La llave única es incorrecta",
     description:
       "Al intentar validar el libro electrónico diario en el PLE - SUNAT aparece una observación porque no se ha creado correctamente la compañía en el sistema, debido a que se dejó vacío el campo Tipo de Plan de Cuentas.",
@@ -677,7 +677,7 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "ple sunat", "campo obligatorio"],
   },
   {
-    id: 56,
+    id: 55,
     name: "Validación en PLE-SUNAT: El número de documento de identidad es incorrecto",
     description:
       "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque el número de documento de identidad es incorrecto.",
@@ -692,7 +692,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 57,
+    id: 56,
     name: "Validación en PLE-SUNAT: El valor es incorrecto",
     description:
       "Al intentar validar el libro electrónico de compras o ventas en el PLE - SUNAT aparece una observación porque en el número de comprobante de pago o documento hay caracteres que no son válidos para el campo.",
@@ -707,7 +707,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 58,
+    id: 57,
     name: "Libros electrónicos diario, diario simplificado y mayor",
     description:
       "Cómo generar los libros electrónicos del Diario, Diario simplificado y Mayor.",
@@ -723,7 +723,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 59,
+    id: 58,
     name: "Carga de los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT",
     description:
       "Este tutorial contiene todo lo relacionado a la validación y envío de los libros electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT.",
@@ -739,7 +739,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 60,
+    id: 59,
     name: "Cómo generar el libro electrónico de ventas de un mes sin movimiento",
     description:
       "Procedimiento para la generación del archivo TXT del libro electrónico de ventas de un mes sin movimiento.",
@@ -755,7 +755,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 61,
+    id: 60,
     name: "Cómo generar Formato 8.2 Registro de Compras a No Domiciliados PLE 5.0",
     description:
       "La nueva versión 5.0 del PLE de SUNAT solicita información de compras a no domiciliados con su propio formato.",
@@ -771,7 +771,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 62,
+    id: 61,
     name: "Cómo generar los libros electrónicos de Compras,Ventas, Diario y Mayor",
     description:
       "Procedimiento para poder realizar el proceso de generación de los libros electrónicos de Compras, Ventas, Diario, Diario de Formato Simplificado y Mayor para SUNAT en el sistema CONCAR®",
@@ -788,7 +788,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 63,
+    id: 62,
     name: "Cómo Generar los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "El presente documento detalla el procedimiento a realizar en el CONCAR SQL para generar los libros electrónicos Diario y Mayor.",
@@ -804,7 +804,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 64,
+    id: 63,
     name: "Error No Coinciden los Tipos en Libro Electrónico de Ventas",
     description: "Error No Coinciden los Tipos en Libro Electrónico de Ventas",
     href: "/global/error-no-coinciden-tipos",
@@ -814,7 +814,7 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "ventas", "tipos"],
   },
   {
-    id: 65,
+    id: 64,
     name: "Falta Doc. Referencia para Documento Tipo 07 y/o 08 en Libro Electrónico de Compras",
     description:
       "Falta Doc. Referencia para Documento Tipo 07 y/o 08 en Libro Electrónico de Compras",
@@ -825,7 +825,7 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "compras", "documento de referencia"],
   },
   {
-    id: 66,
+    id: 65,
     name: "Fecha de Vencimiento en Recibos de Servicios Públicos en el Registro de Compras Electrónico",
     description:
       "Al intentar generar el archivo electrónico de Registro de Compras sale error por no tener configurada y/o ingresada la fecha de vencimiento en los recibos de servicios públicos código de documento SUNAT 14.",
@@ -841,7 +841,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 67,
+    id: 66,
     name: "Formatos Inventarios y Balances PLE 5.0",
     description:
       "Configuración y emisión de Libros Electrónicos Inventarios y Balances",
@@ -852,7 +852,7 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "inventarios", "balances", "ple 5.0"],
   },
   {
-    id: 68,
+    id: 67,
     name: "Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Este tutorial contiene todo lo relacionado a la creación de los libros electrónicos Diario, Diario Simplificado y Mayor en el sistema CONCAR®.",
@@ -868,7 +868,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 69,
+    id: 68,
     name: "Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima de los libros electrónicos Diario, Diario Simplificado y Mayor en el Programa de Libros Electrónicos (PLE-SUNAT).",
@@ -884,7 +884,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 70,
+    id: 69,
     name: "Registro de Omisiones en los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Esta opción permite incluir asientos omitidos en meses anteriores en los libros electrónicos Diario y Mayor. Para poder incluir asientos en esta opción es necesario que el comprobante contable omitido se registre en el mes en que se va a regularizar su omisión.",
@@ -895,7 +895,7 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "diario", "diario simplificado"],
   },
   {
-    id: 71,
+    id: 70,
     name: "Ventas a No Domiciliados en Libro Electrónico de Ventas",
     description:
       "Configuración para que salgan en forma correcta las ventas a no domiciliados en el archivo para el PLE de Ventas.",
@@ -908,7 +908,7 @@ export const dataGlobal = [
   //?Fin Libros Electrónicos
   //*Inico Sin Definir -26
   {
-    id: 72,
+    id: 71,
     name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE",
     description:
       "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
@@ -919,7 +919,7 @@ export const dataGlobal = [
     palabrasClave: ["sire", "libros electronicos", "facultad discrecional"],
   },
   {
-    id: 73,
+    id: 72,
     name: "Fuente: SUNAT - Guía para reemplazar propuesta RCE y RVIE",
     description:
       "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
@@ -930,7 +930,7 @@ export const dataGlobal = [
     palabrasClave: ["sire", "libros electronicos", "sunat"],
   },
   {
-    id: 74,
+    id: 73,
     name: "Mantenimiento de compañias",
     description:
       "La creación de una compañía se utiliza cuando se va a dar inicio a los registros en el SISPAG SQL.",
@@ -941,7 +941,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "compañias"],
   },
   {
-    id: 75,
+    id: 74,
     name: "Mantenimiento usuario-programa",
     description:
       "Esta opción permite asignar opciones de menú a los usurarios tipo Operadores (O).",
@@ -952,7 +952,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "usuario", "programa"],
   },
   {
-    id: 76,
+    id: 75,
     name: "Mostrar Resultado del ejercicio en Estado de Cambios en el Patrimonio Neto",
     description:
       "Mostrar Resultado del ejercicio en Estado de Cambios en el Patrimonio Neto",
@@ -963,8 +963,8 @@ export const dataGlobal = [
     palabrasClave: ["estado de cambios", "patrimonio neto"],
   },
   {
-    id: 77,
-    name: "Interfaz con Reloj Marcador - FALTA",
+    id: 76,
+    name: "Interfaz con Reloj Marcador ",
     description:
       "Esta opción sirve para importar la información de un reloj marcador de acuerdo a la estructura de datos que recibe el sistema Placar",
     href: "/global/interfaz-reloj-marcador",
@@ -974,7 +974,7 @@ export const dataGlobal = [
     palabrasClave: ["reloj marcador"],
   },
   {
-    id: 78,
+    id: 77,
     name: "Mantenimiento de usuarios",
     description:
       "En esta opción se tendrá que crear los usuarios que tendrán acceso al sistema. Cada usuario que haga uso del sistema; deberá estar registrado.",
@@ -985,7 +985,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "usuarios"],
   },
   {
-    id: 79,
+    id: 78,
     name: "Mantenimiento usuario-compañia",
     description:
       "Mediante esta opción, se puede asignar a cada usuario una o más compañías.",
@@ -996,7 +996,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "usuario", "compañia"],
   },
   {
-    id: 80,
+    id: 79,
     name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de ESET NOD Antivirus? -FALTA",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus",
@@ -1007,7 +1007,7 @@ export const dataGlobal = [
     palabrasClave: ["exclusion", "antivirus", "eset nod antivirus"],
   },
   {
-    id: 81,
+    id: 80,
     name: "Licencia Mensaje: ¿RKV0000 RKV0002- Llave de acceso Real Key Virtual no corresponde?",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus",
@@ -1018,7 +1018,7 @@ export const dataGlobal = [
     palabrasClave: ["licencia", "rkv0000", "rkv0002"],
   },
   {
-    id: 82,
+    id: 81,
     name: "¿Cómo se Configura una Factura con Percepción en el Concar SQL? - Incluye Video",
     description:
       "A continuación de indicara los pasos previos para registrar Facturas con Percepción en el sistema Concar SQL",
@@ -1029,7 +1029,7 @@ export const dataGlobal = [
     plabrasClave: ["factura", "percepcion", "concar sql"],
   },
   {
-    id: 84,
+    id: 82,
     name: "¿Cómo se debe Configurar el Comprobante de Percepción? – CONCAR SQL - Incluye Video -FALTA",
     description:
       "A continuación se indica los procesos previos para configurar su Comprobantes de Percepción",
@@ -1040,7 +1040,7 @@ export const dataGlobal = [
     palabrasClave: ["percepcion", "concar sql"],
   },
   {
-    id: 85,
+    id: 83,
     name: "¿Cómo se debe Configurar el Comprobante de Retención? – CONCAR SQL - Incluye Video -FALTA",
     description:
       "A continuación se indica los pasos previos para configurar y poder registrar los comprobantes de retención",
@@ -1051,7 +1051,7 @@ export const dataGlobal = [
     palabrasClave: ["retencion", "concar sql"],
   },
   {
-    id: 86,
+    id: 84,
     name: "Consulta de Tabla General CONCAR",
     description:
       "En este menú se podrá consultar las Tablas Generales del CONCAR SQL.",
@@ -1062,7 +1062,7 @@ export const dataGlobal = [
     palabrasClave: ["tabla general", "concar sql"],
   },
   {
-    id: 87,
+    id: 85,
     name: "Consulta plan de cuentas",
     description:
       "Esta opción sirve para realizar consultas al Plan de Cuentas creado en el sistema CONCAR SQL.",
@@ -1073,7 +1073,7 @@ export const dataGlobal = [
     palabrasClave: ["consulta", "plan de cuentas"],
   },
   {
-    id: 88,
+    id: 86,
     name: "Contabilización documentos C/IGV sin derecho a C. fiscal",
     description:
       "En esta operación, se contabiliza los documentos que no dan derecho a crédito fiscal, que han sido registrados y que, posteriormente, han sido marcados con VºBº.",
@@ -1084,7 +1084,7 @@ export const dataGlobal = [
     palabrasClave: ["contabilizacion", "documentos", "igv"],
   },
   {
-    id: 89,
+    id: 87,
     name: "Contabilización documentos con retención C/IGV sin derecho a C. Fiscal",
     description:
       "Mediante esta opción se contabilizan documentos de proveedores de los que no tiene derecho a utilizar el crédito fiscal del IGV cuando la empresa ha sido designada como Agente de retención.",
@@ -1095,7 +1095,7 @@ export const dataGlobal = [
     palabrasClave: ["contabilizacion", "documentos", "retencion"],
   },
   {
-    id: 90,
+    id: 88,
     name: "Migración de tablas de CB a SQL",
     description:
       "Seleccionada esta opción se exportarán todos los datos del sistema Placar CB a la versión Placar SQL (en cuanto esté disponible).",
@@ -1106,7 +1106,7 @@ export const dataGlobal = [
     palabrasClave: ["migracion", "tablas", "cb", "sql"],
   },
   {
-    id: 91,
+    id: 89,
     name: "¿Cómo realizar la configuración del Código UNSPSC en el Sistema Comercial?",
     description:
       "A continuación detallamos como asignar el código UNSPSC al sistema comercial",
@@ -1117,7 +1117,7 @@ export const dataGlobal = [
     palabrasClave: ["codigo unspc", "sistema comercial"],
   },
   {
-    id: 92,
+    id: 90,
     name: "Carga inicial documentos",
     description:
       "Esta opción permite hacer la carga inicial en el sistema de los documentos pendientes a una fecha determinada.",
@@ -1128,7 +1128,7 @@ export const dataGlobal = [
     palabrasClave: ["carga inicial", "documentos"],
   },
   {
-    id: 93,
+    id: 91,
     name: "¿Cómo actualizar los artículos incluyendo el peso de forma masiva en el sistema softcom net?",
     description:
       "A continuación detallamos como actualizar masivamente los pesos de los artículos en el softcom net",
@@ -1139,7 +1139,7 @@ export const dataGlobal = [
     palabrasClave: ["actualizar", "articulos", "peso", "softcom net"],
   },
   {
-    id: 94,
+    id: 92,
     name: "Propiedad planta y equipo – Lo mejor de la NIC 16 – Activos Fijos",
     description:
       "En la siguiente exposición conoceremos el objetivo de esta Norma, conocer la información acerca de la inversión que la entidad tiene en sus propiedades, planta y equipo; así como los cambios que se hayan producido en dicha inversión. Además de tratar los principales problemas que presenta el reconocimiento contable de propiedades, planta y equipo",
@@ -1150,7 +1150,7 @@ export const dataGlobal = [
     palabrasClave: ["propiedad", "planta", "equipo", "nic 16", "activos fijos"],
   },
   {
-    id: 95,
+    id: 93,
     name: "¿Cómo actualizar mi llave Real Key?",
     description: "",
     href: "/global/como-actualizar-llave-real-key",
@@ -1160,7 +1160,7 @@ export const dataGlobal = [
     palabrasClave: ["actualizar", "llave", "real key"],
   },
   {
-    id: 96,
+    id: 94,
     name: "¿Cómo funciona la llave REAL KEY®?",
     description: "",
     href: "/global/como-funciona-llave-real-key",
@@ -1170,7 +1170,7 @@ export const dataGlobal = [
     palabrasClave: ["llave", "real key"],
   },
   {
-    id: 97,
+    id: 95,
     name: "¿Qué debo de hacer en caso de pérdida o robo de mi llave REAL KEY®?",
     description: "",
     href: "/global/perdida-robo-llave-real-key",
@@ -1180,7 +1180,7 @@ export const dataGlobal = [
     palabrasClave: ["perdida", "robo", "llave", "real key"],
   },
   {
-    id: 98,
+    id: 96,
     name: "¿Qué es la llave REAL KEY®?",
     description:
       "La llave REAL KEY® es un dispositivo USB de seguridad y protección de software que permitirá el acceso a los productos de Real Systems.",
@@ -1193,7 +1193,7 @@ export const dataGlobal = [
   //*Fin Sin Definir
   //?Inicio CAJA Y BANCOS-16
   {
-    id: 99,
+    id: 97,
     name: "Cheque Anulado",
     description: "Cómo registrar un cheque anulado.",
     href: "/global/cheque-anulado",
@@ -1203,7 +1203,7 @@ export const dataGlobal = [
     palabrasClave: ["cheque", "anulado"],
   },
   {
-    id: 100,
+    id: 98,
     name: "Comprobante Bancos",
     description:
       "Esta opción permite registrar los comprobantes de bancos en forma simplificada y automatizada.",
@@ -1214,7 +1214,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "bancos"],
   },
   {
-    id: 101,
+    id: 99,
     name: "Comprobante Cheques",
     description:
       "Esta opción permite registrar los cheques girados en forma simplificada y automatizada.",
@@ -1225,7 +1225,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "cheques"],
   },
   {
-    id: 102,
+    id: 100,
     name: "Mantenimiento Cuentas Bancos",
     description:
       "En este archivo o base de datos se deberán registrar todas las cuentas bancarias que tenga la empresa.",
@@ -1236,7 +1236,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "cuentas", "bancos"],
   },
   {
-    id: 103,
+    id: 101,
     name: "Mantenimiento Movimientos Bancos",
     description:
       "En esta opción se configuran los movimientos para el registro de Comprobante Bancos.",
@@ -1247,7 +1247,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "movimientos", "bancos"],
   },
   {
-    id: 104,
+    id: 102,
     name: "Bancos",
     description:
       "Este reporte muestra los ingresos, egresos y saldos de las cuentas corrientes.",
@@ -1258,7 +1258,7 @@ export const dataGlobal = [
     palabrasClave: ["bancos"],
   },
   {
-    id: 105,
+    id: 103,
     name: "Conciliación bancaria",
     description:
       "El módulo de Conciliación Bancaria permite realizar la conciliación de movimientos comparando lo registrado en los comprobantes contables de bancos y lo que reporta el banco vía el estado de cuenta bancario, a una fecha determinada.",
@@ -1269,7 +1269,7 @@ export const dataGlobal = [
     palabrasClave: ["conciliacion", "bancaria"],
   },
   {
-    id: 106,
+    id: 104,
     name: "Consulta de Estados por Banco",
     description:
       "Muestra los movimientos bancarios registrados en los estados cuenta.",
@@ -1280,7 +1280,7 @@ export const dataGlobal = [
     palabrasClave: ["consulta", "estados", "banco"],
   },
   {
-    id: 107,
+    id: 105,
     name: "Movimiento Contable por Banco",
     description: "Muestra los movimientos contables registrados por banco.",
     href: "/global/movimiento-contable-banco",
@@ -1290,7 +1290,7 @@ export const dataGlobal = [
     palabrasClave: ["movimiento", "contable", "banco"],
   },
   {
-    id: 108,
+    id: 106,
     name: "Pago de la detracción",
     description: "Cómo pagar la detracción.",
     href: "/global/",
@@ -1300,7 +1300,7 @@ export const dataGlobal = [
     palabrasClave: ["pago", "detraccion"],
   },
   {
-    id: 109,
+    id: 107,
     name: "Proceso de Conciliación",
     description:
       "Esta opción permite realizar el proceso de conciliación bancaria.",
@@ -1311,8 +1311,8 @@ export const dataGlobal = [
     palabrasClave: ["proceso", "conciliacion"],
   },
   {
-    id: 110,
-    name: "Registro de Gastos de Caja Chica o Fondo Fijo - FALTA",
+    id: 108,
+    name: "Registro de Gastos de Caja Chica o Fondo Fijo ",
     description: "Cómo registrar gastos de caja chica o fondo fijo.",
     href: "/global/registrar-gastos-caja-chica-fondo-fijo",
     tipo: "Pregunta Frecuente",
@@ -1321,7 +1321,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "gastos", "caja chica", "fondo fijo"],
   },
   {
-    id: 111,
+    id: 109,
     name: "Registro Estados Cuenta",
     description:
       "Esta opción permite registrar y visualizar los movimientos bancarios reportados por el banco.",
@@ -1332,7 +1332,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "estados", "cuenta"],
   },
   {
-    id: 112,
+    id: 110,
     name: "Reporte Estados de Cuenta",
     description:
       "Esta opción contiene reportes en los que se podrán apreciar los cargos, abonos y saldos de todas las cuentas contables a nivel analítico, sin importar el nivel de saldo que tenga la cuenta.",
@@ -1343,7 +1343,7 @@ export const dataGlobal = [
     palabrasClave: ["reporte", "estados", "cuenta"],
   },
   {
-    id: 113,
+    id: 111,
     name: "Reportes Conciliación",
     description:
       "Esta opción permite imprimir los resultados del proceso de conciliación bancaria.",
@@ -1354,7 +1354,7 @@ export const dataGlobal = [
     palabrasClave: ["reportes", "conciliacion"],
   },
   {
-    id: 114,
+    id: 112,
     name: "Transfiere Pendientes Año Anterior",
     description:
       "Esta opción permite transferir documentos no conciliados de años anteriores. Se requiere haber realizado la conciliación bancaria definitiva de todos los meses del ejercicio anterior.",
@@ -1367,7 +1367,7 @@ export const dataGlobal = [
   //?Fin CAJA Y BANCOS
   //*Inicio VENTAS -15
   {
-    id: 115,
+    id: 113,
     name: "¿Cómo registro Comisiones por Venta de Servicios realizadas? - Incluye Video",
     description:
       "Se indicara como realizar el registro de comisiones por venta de servicio realizada.",
@@ -1378,7 +1378,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "comisiones", "venta", "servicios"],
   },
   {
-    id: 117,
+    id: 114,
     name: "¿Genera, compara y carga el Registro de Ventas e Ingresos Electrónicos (RVIE) con CONCAR SIRE? - Incluye Video",
     description:
       "Aquí podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al Registro de Ventas e Ingresos Electrónicos (RVIE) integrado con CONCAR CB y SQL.",
@@ -1389,7 +1389,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "ventas", "ingresos", "electronicos", "rvie"],
   },
   {
-    id: 119,
+    id: 115,
     name: "Qué significa “Licencia Temporal” con Llave Virtual?",
     description: "Activación de la licencia CONCAR SIRE es automático",
     href: "/global/significa-licencia-temporal-llave-virtual",
@@ -1399,7 +1399,7 @@ export const dataGlobal = [
     palabrasClave: ["licencia", "temporal", "llave", "virtual"],
   },
   {
-    id: 120,
+    id: 116,
     name: "Como registrar una venta con Impuesto Selectivo al Consumo (ISC) - Incluye Video",
     description:
       "Como registrar una venta con Impuesto Selectivo al Consumo (ISC)",
@@ -1410,7 +1410,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "venta", "impuesto", "selectivo", "consumo"],
   },
   {
-    id: 122,
+    id: 117,
     name: "Primera Venta de Inmueble",
     description: "Primera Venta de Inmueble.",
     href: "/global/primera-venta-inmueble",
@@ -1420,7 +1420,7 @@ export const dataGlobal = [
     palabrasClave: ["primera", "venta", "inmueble"],
   },
   {
-    id: 123,
+    id: 118,
     name: "Registro de Ticket de Venta",
     description: "Cómo registrar un ticket de venta.",
     href: "/global/registrar-ticket-venta",
@@ -1430,7 +1430,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "ticket", "venta"],
   },
   {
-    id: 124,
+    id: 119,
     name: "Se duplican el total Ventas Netas y/o Total Costo de Ventas en Estado de Ganancias y Pérdidas por Función",
     description:
       "Se duplican el total Ventas Netas y/o el Total Costo de Ventas en el Estado de Ganancias y Pérdidas por Función.",
@@ -1441,7 +1441,7 @@ export const dataGlobal = [
     palabrasClave: ["duplican", "ventas", "netas", "costo"],
   },
   {
-    id: 125,
+    id: 120,
     name: "Comprobante Ventas",
     description:
       "Esta opción permite registrar los comprobantes de ventas en forma simplificada y automatizada.",
@@ -1452,7 +1452,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "ventas"],
   },
   {
-    id: 126,
+    id: 121,
     name: "Aplicación de la LEY 31556 - ¿Cómo registrar una factura de venta con IGV 10% en CONCAR SQL? - Incluye Video",
     description:
       "A continuación se detalla el proceso de como configurar y registrar el nuevo IGV 10% en ventas",
@@ -1463,7 +1463,7 @@ export const dataGlobal = [
     palabrasClave: ["ley", "31556", "factura", "venta", "igv", "10%"],
   },
   {
-    id: 128,
+    id: 122,
     name: "DAOT- Ventas",
     description:
       "El sistema muestra todas las operaciones afectas e inafectas al IGV con clientes, es decir todos documentos de venta emitidos en el ejercicio y registrados en el Registro de Ventas",
@@ -1474,7 +1474,7 @@ export const dataGlobal = [
     palabrasClave: ["daot", "ventas"],
   },
   {
-    id: 129,
+    id: 123,
     name: "Ingreso de Ventas Anuladas",
     description: "Forma de ingresar al sistema comprobantes de ventas anuladas",
     href: "/global/ingreso-ventas-anuladas",
@@ -1484,7 +1484,7 @@ export const dataGlobal = [
     palabrasClave: ["ingreso", "ventas", "anuladas"],
   },
   {
-    id: 130,
+    id: 124,
     name: "PDT 3550 – Resumen Ventas",
     description:
       "Muestra los totales vendidos a todos los clientes en el año y genera el archivo de venta anual para la carga al PDT 3550",
@@ -1495,7 +1495,7 @@ export const dataGlobal = [
     palabrasClave: ["pdt", "3550", "resumen", "ventas"],
   },
   {
-    id: 131,
+    id: 125,
     name: "Registro de Ventas con Comisión por Servicio",
     description:
       "Cómo registrar un comprobante de venta que incluye comisión por servicio.",
@@ -1506,7 +1506,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "ventas", "comision", "servicio"],
   },
   {
-    id: 132,
+    id: 126,
     name: "Registro y visualización de Ventas a Inafectas y Exoneradas del IGV en el Registro de Ventas",
     description:
       "Configuración para que salgan en forma separada ventas inafectas y exoneradas del IGV en el Registro de Ventas.",
@@ -1524,7 +1524,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 133,
+    id: 127,
     name: "CONFIGURACIÓN IVAP EN CONCAR SQL",
     description: "A continuación se detalla como configurar el IVAP.",
     href: "/global/configuracion-ivap-concar-sql",
@@ -1536,7 +1536,7 @@ export const dataGlobal = [
   //*Fin VENTAS
   //?Inicio LIBROS OFICIALES-13
   {
-    id: 134,
+    id: 128,
     name: "Ganancias y Pérdidas Del Mes y Acumulado",
     description:
       "Comparación entre el reporte de Ganancias y Pérdidas mensual y acumulado.",
@@ -1547,7 +1547,7 @@ export const dataGlobal = [
     palabrasClave: ["ganancias", "perdidas", "mes", "acumulado"],
   },
   {
-    id: 135,
+    id: 129,
     name: "Impresión de libros oficiales",
     description: "Impresión de libros oficiales",
     href: "/global/impresison-libros-oficiales",
@@ -1557,7 +1557,7 @@ export const dataGlobal = [
     palabrasClave: ["impresion", "libros", "oficiales"],
   },
   {
-    id: 136,
+    id: 130,
     name: "Impresión del Registro de Ventas en Una Hoja",
     description: "Impresión del Registro de Ventas en Una Hoja",
     href: "/global/",
@@ -1567,7 +1567,7 @@ export const dataGlobal = [
     palabrasClave: ["impresion", "registro", "ventas"],
   },
   {
-    id: 137,
+    id: 131,
     name: "Libros Oficiales de Inventarios y Balances en blanco",
     description:
       "Al emitir los Libros Oficiales de Inventarios y Balances el sistema muestra el reporte en blanco a pesar que la cuenta ha tenido movimientos",
@@ -1578,7 +1578,7 @@ export const dataGlobal = [
     palabrasClave: ["libros", "oficiales", "inventarios"],
   },
   {
-    id: 138,
+    id: 132,
     name: "Balances",
     description:
       "cluye reportes generales y analíticos de Balance General y Balance de Comprobación.",
@@ -1589,7 +1589,7 @@ export const dataGlobal = [
     palabrasClave: ["balances"],
   },
   {
-    id: 140,
+    id: 133,
     name: "Ganancias y Pérdidas",
     description:
       "El sistema tiene diferentes presentaciones del Estado de Ganancias y Pérdidas.",
@@ -1600,7 +1600,7 @@ export const dataGlobal = [
     palabrasClave: ["ganancias", "perdidas"],
   },
   {
-    id: 141,
+    id: 134,
     name: "Costos",
     description:
       "Contiene reportes de costos y gastos por centro de costo y/o cuenta contable.",
@@ -1611,7 +1611,7 @@ export const dataGlobal = [
     palabrasClave: ["costos"],
   },
   {
-    id: 142,
+    id: 135,
     name: "Diarios",
     description:
       "Incluye reportes de Libros Diarios anteriores y no oficiales.",
@@ -1622,7 +1622,7 @@ export const dataGlobal = [
     palabrasClave: ["diarios"],
   },
   {
-    id: 143,
+    id: 136,
     name: "Libro de Caja y Bancos",
     description:
       "Incluye reportes de Libros Caja y Bancos anteriores y no oficiales.",
@@ -1633,7 +1633,7 @@ export const dataGlobal = [
     palabrasClave: ["libro", "caja", "bancos"],
   },
   {
-    id: 144,
+    id: 137,
     name: "Libro de Inventarios y Balances PCGR",
     description:
       "Incluye el formato de Libro de Inventarios y Balances antiguo.",
@@ -1644,7 +1644,7 @@ export const dataGlobal = [
     palabrasClave: ["libro", "inventarios", "balances", "pcgr"],
   },
   {
-    id: 146,
+    id: 138,
     name: "Libros y Registros Oficiales - Parte 1",
     description:
       "Incluye los formatos oficiales SUNAT de Libro Contables desde el Libro de Caja y Bancos hasta el Libro Mayor.",
@@ -1655,7 +1655,7 @@ export const dataGlobal = [
     palabrasClave: ["libros", "registros", "oficiales"],
   },
   {
-    id: 147,
+    id: 139,
     name: "Libros y Registros Oficiales - Parte 2",
     description:
       "Incluye los formatos oficiales SUNAT de Libros Contables desde el Registro de Compras hasta Registro de Ventas (Genera Archivo Mensual Ventas)",
@@ -1666,7 +1666,7 @@ export const dataGlobal = [
     palabrasClave: ["libros", "registros", "oficiales"],
   },
   {
-    id: 148,
+    id: 140,
     name: "Libros y Registros Oficiales - Parte 3",
     description:
       "Incluye los formatos oficiales SUNAT de Libros Contables desde Mantenimiento Archivo Ventas hasta Otros Reportes de Venta",
@@ -1679,7 +1679,7 @@ export const dataGlobal = [
   //?Fin LIBROS OFICIALES -13
   //*Inicio ESTADOS FINANCIEROS - 7
   {
-    id: 149,
+    id: 141,
     name: "¿Qué debemos revisar cuando nuestra cuenta 6 no cuadra con la cuenta 9? - Incluye Video",
     description:
       "Acontinuacion se detalla como superar este tipo de diferencia, entre la cuenta 6 y la cuenta 9 por destino",
@@ -1690,7 +1690,7 @@ export const dataGlobal = [
     palabrasClave: ["cuenta"],
   },
   {
-    id: 150,
+    id: 142,
     name: "Descuadre de Estados Financieros después del Costo de Ventas",
     description:
       "Solución cuando los estados de ganancias y pérdidas (o resultados) y el balance no cuadran, además en el reporte de verifica comprobantes no hay registros por revisar.",
@@ -1701,7 +1701,7 @@ export const dataGlobal = [
     palabrasClave: ["descuadre", "estados", "financieros"],
   },
   {
-    id: 151,
+    id: 143,
     name: "Resultado del Ejercicio en el Estado de Cambios en el Patrimonio Neto",
     description:
       "Cómo mostrar el resultado del ejercicio al emitir el Estado de Cambios en el Patrimonio Neto.",
@@ -1712,7 +1712,7 @@ export const dataGlobal = [
     palabrasClave: ["resultado", "ejercicio", "estado"],
   },
   {
-    id: 152,
+    id: 144,
     name: "Análisis Gráfico Estados Financieros",
     description:
       "El sistema permite realizar análisis gráficos del Balance General y del Estado de Ganancias y Pérdidas por Función o Naturaleza.",
@@ -1723,7 +1723,7 @@ export const dataGlobal = [
     palabrasClave: ["analisis", "grafico", "estados", "financieros"],
   },
   {
-    id: 153,
+    id: 145,
     name: "Cómo cargar los rubros del Estado de Flujo de Efectivo",
     description: "Cómo cargar los rubros del Estado de Flujo de Efectivo",
     href: "/global/rubros-flujo-efectivo",
@@ -1733,7 +1733,7 @@ export const dataGlobal = [
     palabrasClave: ["cargar", "rubros", "estado", "flujo", "efectivo"],
   },
   {
-    id: 154,
+    id: 146,
     name: "Estado Cambio Patrimonio Neto",
     description:
       "El Estado de Cambios en el Patrimonio Neto muestra los cambios en el patrimonio de la empresa en un período de tiempo.",
@@ -1744,7 +1744,7 @@ export const dataGlobal = [
     palabrasClave: ["estado", "cambio", "patrimonio", "neto"],
   },
   {
-    id: 155,
+    id: 147,
     name: "Estado de Flujo de Efectivo",
     description:
       "El Estado de Flujo de Efectivo muestra el efecto de los cambios de efectivo y equivalentes de efectivo, en un tiempo determinado.",
@@ -1757,7 +1757,7 @@ export const dataGlobal = [
   //*Fin ESTADOS FINANCIEROS -7
   //?Inicio FACTURACIÓN ELECTRÓNICA - 5
   {
-    id: 156,
+    id: 148,
     name: "¿Cómo crear la serie de una Guía Electrónica? - Incluye Video",
     description:
       "A continuación detallamos como crear nuevas serie de una guía electrónica",
@@ -1768,7 +1768,7 @@ export const dataGlobal = [
     palabrasClave: ["crear", "serie", "guia", "electronica"],
   },
   {
-    id: 157,
+    id: 149,
     name: "¿Como dar de baja guías electrónicas aceptadas en el Sistema eRSGUIAS? - Incluye Video",
     description:
       "A continuación detallamos como dar de baja a guías electrónicas en el eRSGUIAS",
@@ -1779,7 +1779,7 @@ export const dataGlobal = [
     palabrasClave: ["baja", "guia", "electronica"],
   },
   {
-    id: 158,
+    id: 150,
     name: "¿Cómo configurar el módulo comercial electrónico para cumplir con el plazo de declaración de 1 día?",
     description:
       "A continuacion se detalla como configurar el modulo comercial electronico para cumplir con el plazo de declaracion de 1 dia calendario.",
@@ -1790,7 +1790,7 @@ export const dataGlobal = [
     palabrasClave: ["configurar", "modulo", "comercial", "electronico"],
   },
   {
-    id: 159,
+    id: 151,
     name: "NUEVOS CAMBIOS EN LOS SISTEMAS ELECTRONICOS",
     description:
       "Nuevos Cambios en los Sistemas Electrónicos vigentes a partir del 17 de diciembre de 2021",
@@ -1801,7 +1801,7 @@ export const dataGlobal = [
     palabrasClave: ["nuevos", "cambios", "sistemas", "electronicos"],
   },
   {
-    id: 160,
+    id: 152,
     name: "¿Cómo se configura los Códigos de Establecimientos Sunat para la Facturación Electrónica – archivos XML? - Incluye Video",
     description:
       "A continuación se indica como configurar los Códigos de Establecimientos Sunat para la Facturación Electrónica en módulo comercial",
@@ -1814,7 +1814,7 @@ export const dataGlobal = [
   //?Fin FACTURACIÓN ELECTRÓNICA -5
   //*Inicio HONORARIOS -3
   {
-    id: 161,
+    id: 153,
     name: "¿Cómo se contabiliza las Notas de Crédito por Honorarios en el Sistema?",
     description:
       "A continuación se detalla como registrar las Notas de Crédito por Honorarios",
@@ -1825,7 +1825,7 @@ export const dataGlobal = [
     palabrasClave: ["contabiliza", "notas", "credito"],
   },
   {
-    id: 162,
+    id: 154,
     name: "Comprobante de Honorarios",
     description:
       "Esta opción permite registrar los comprobantes de honorarios en forma simplificada y automatizada.",
@@ -1836,7 +1836,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "honorarios"],
   },
   {
-    id: 163,
+    id: 155,
     name: "Mantenimiento Parámetros Honorarios",
     description:
       "Este módulo del sistema permite registrar los parámetros que usará el programa de registro de comprobantes honorarios.",
@@ -1849,7 +1849,7 @@ export const dataGlobal = [
   //*Fin HONORARIOS -3
   //?Inicio INTERFAZ -2
   {
-    id: 164,
+    id: 156,
     name: "Anexos II, III y IV: Carga de asientos desde otros sistemas",
     description:
       "Al momento de ingresar a esta opción el sistema verifica la existencia de las tablas de interface (Comprobantes y anexos). Estas tablas deben ser creadas en la base de datos del CONCAR® SQL",
@@ -1860,7 +1860,7 @@ export const dataGlobal = [
     palabrasClave: ["anexos", "carga", "asientos"],
   },
   {
-    id: 165,
+    id: 157,
     name: "INTERFAZ - Carga de Asientos desde otros sistemas",
     description: "Como cargar asientos desde otros sistemas",
     href: "/global/carga-asientos-otros-sistemas",
@@ -1872,7 +1872,7 @@ export const dataGlobal = [
   //?Fin INTERFAZ -2
   //?*Inicio COMPRAS
   {
-    id: 166,
+    id: 158,
     name: "¿Cómo solucionar el mensaje de inconsistencia al presentar PLE –Compras – columna 31 y columna 33?",
     description:
       "A continuación el proceso para regularizar el PLE Compras – columna 31 y columna 33",
@@ -1883,7 +1883,7 @@ export const dataGlobal = [
     palabrasClave: ["solucionar", "mensaje", "inconsistencia"],
   },
   {
-    id: 167,
+    id: 159,
     name: "¿Cómo superar el mensaje Error 09 - No coinciden los tipos al generar archivo mensual compras y/o ventas en Concar SQL? - Incluye Video",
     description:
       "Si se les presenta el mensaje Error 09 - No coinciden los tipos al generar archivo mensual compras y/o ventas deberán actualizar los campos de los mantenimientos de parámetros de la siguiente manera",
@@ -1894,7 +1894,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error"],
   },
   {
-    id: 168,
+    id: 160,
     name: "¿Cómo superar mensaje Error 06 en Tiempo de Ejecución – Desbordamiento en el Concar? - Incluye Video",
     description:
       "A continuación detallamos como superar el mensaje de error 06 - desbordamiento en el concar",
@@ -1905,7 +1905,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error"],
   },
   {
-    id: 169,
+    id: 161,
     name: "IMPORTACION - ¿Cómo contabilizar Compras No Domiciliadas de Bienes? - Incluye Video",
     description:
       "Para poder realizar el registro de comprobantes por Compras No Domiciliadas - Bienes detallamos los pasos a continuación",
@@ -1916,7 +1916,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "contabilizar", "compras"],
   },
   {
-    id: 170,
+    id: 162,
     name: "Ingreso de Compras de un Ejercicio o Año Anterior",
     description:
       "Cómo registrar compras de un ejercicio o año anterior, cuando el crédito fiscal se utilizará en el ejercicio siguiente.",
@@ -1927,7 +1927,7 @@ export const dataGlobal = [
     palabrasClave: ["ingreso", "compras", "ejercicio", "año", "anterior"],
   },
   {
-    id: 171,
+    id: 163,
     name: "¿Cómo configurar parámetros de Compras Nacionales ? - Incluye Video",
     description:
       "A continuación se detalla el Mantenimiento de Parámetros que se debe revisar y realizar previo al registro de sus Compras.",
@@ -1938,7 +1938,7 @@ export const dataGlobal = [
     palabrasClave: ["configurar", "parametros", "compras"],
   },
   {
-    id: 172,
+    id: 164,
     name: "¿Cómo se realiza el registro de Compras y Ventas con Descuento en el sistema?",
     description:
       "A continuación de detalla como registrar Compras y Ventas con Descuento",
@@ -1949,7 +1949,7 @@ export const dataGlobal = [
     palabrasClave: ["realiza", "registro", "compras", "ventas"],
   },
   {
-    id: 173,
+    id: 165,
     name: "¿Cómo se registra el Comprobante de Compras al Contado? - Incluye Video",
     description:
       "A continuación se detalla como realizar el registro de Comprobantes de Compras al Contado",
@@ -1960,7 +1960,7 @@ export const dataGlobal = [
     palabrasClave: ["registra", "comprobante", "compras", "contado"],
   },
   {
-    id: 174,
+    id: 166,
     name: "¿Como superar el mensaje: Error 9 en tiempo de ejecución - al Generar Registro Compra? - Incluye Video",
     description:
       "Al momento de Generar el Registro de Compra sale: Error 9 en tiempo de ejecución",
@@ -1971,7 +1971,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error"],
   },
   {
-    id: 175,
+    id: 167,
     name: "Cómo registrar facturas de compras con igv, sin derecho a Crédito Fiscal - Incluye Video",
     description:
       "Mediante esta opción se permite registrar los asientos contables de compras sin derecho a crédito fiscal. Esto aplica para empresas que están normadas por la Ley del Libro o de Región Selva y para aquellas que tienen compras por las que, por algún motivo, no pueden utilizar el IGV como crédito fiscal, segun Reglamento del IGV.",
@@ -1982,7 +1982,7 @@ export const dataGlobal = [
     palabrasClave: ["registrar", "facturas", "compras", "igv"],
   },
   {
-    id: 176,
+    id: 168,
     name: "Contabilizacion de Leasing",
     description: "Cómo contabilizar un leasing",
     href: "/global/contabilizacion-leasing",
@@ -1992,7 +1992,7 @@ export const dataGlobal = [
     palabrasClave: ["contabilizacion", "leasing"],
   },
   {
-    id: 177,
+    id: 169,
     name: "IMPORTACION -¿Cómo se registra la Declaración Unica de Aduanas (DUA) en el Registro de Compras? - Incluye Video",
     description:
       "Para poder registrar los respectivos documentos de importación se deberá realizar lo indicado en el siguiente tutorial y manual",
@@ -2003,7 +2003,7 @@ export const dataGlobal = [
     palabrasClave: ["registra", "declaracion", "aduanas", "dua"],
   },
   {
-    id: 178,
+    id: 170,
     name: "Importacion - Circuito para el registro de una importación",
     description: "Qué circuito seguir para el registro de una importación.",
     href: "/global/circuito-registro-importacion",
@@ -2013,7 +2013,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "circuito", "registro"],
   },
   {
-    id: 179,
+    id: 171,
     name: "Importacion - Constancia de Pago del IGV - Servicios de No Domiciliado",
     description:
       "Cómo mostrar el número del comprobante del servicio del exterior (no domiciliado) en formato 8.1 Registro de Compras y libro electrónico de compras.",
@@ -2024,7 +2024,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "constancia", "pago", "igv"],
   },
   {
-    id: 180,
+    id: 172,
     name: "Importacion - Ingreso de la Factura del Agente de Aduana",
     description: "Cómo ingresar la factura del agente de Aduana.",
     href: "/global/ingreso-factura-agente-aduana",
@@ -2034,7 +2034,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "ingreso", "factura", "agente", "aduana"],
   },
   {
-    id: 181,
+    id: 173,
     name: "Importacion - Provisión del IGV No Domiciliado",
     description: "Cómo provisionar el IGV No Domiciliado.",
     href: "/global/provision-igv-no-domiciliado",
@@ -2044,7 +2044,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "provision", "igv"],
   },
   {
-    id: 182,
+    id: 174,
     name: "Importacion - Registro de Factura Servicio del Exterior",
     description: "Cómo registrar una factura de servicio del exterior.",
     href: "/global/registro-factura-servicio-exterior",
@@ -2054,7 +2054,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "registro", "factura"],
   },
   {
-    id: 183,
+    id: 175,
     name: "IMPORTACION -¿Cómo contabilizar Compras No Domiciliadas de Servicios? - Invoice - Incluye Video",
     description:
       "A continuación detallamos los pasos para registrar Compras No Domiciliadas - Servicios en el sistema correctamente",
@@ -2065,7 +2065,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "contabilizar", "compras"],
   },
   {
-    id: 184,
+    id: 176,
     name: "IMPORTACION -¿Cómo realizar el Tratamiento del IGV NO Domiciliado por Comprobantes de Compras No Domiciliadas - Servicios? - Incluye Video",
     description:
       "A continuación se detalla los pasos a realizar para la Provisión y Aplicación del IGV No Domiciliado generado por Compras de Servicios No Domiciliados",
@@ -2076,7 +2076,7 @@ export const dataGlobal = [
     palabrasClave: ["importacion", "realizar", "tratamiento"],
   },
   {
-    id: 185,
+    id: 177,
     name: "Impresión del Registro de Compras en Una Hoja",
     description: "Cómo imprimir el registro de compras en una sola hoja",
     href: "/global/impresion-registro-compras-una-hoja",
@@ -2086,7 +2086,7 @@ export const dataGlobal = [
     palabrasClave: ["impresion", "registro", "compras"],
   },
   {
-    id: 186,
+    id: 178,
     name: "Pago del IGV no debe mostrarse en el Registro de Compras",
     description: "Pago de IGV",
     href: "/global/igv-no-mostrarse-registro-compras",
@@ -2096,7 +2096,7 @@ export const dataGlobal = [
     palabrasClave: ["pago", "igv", "registro", "compras"],
   },
   {
-    id: 187,
+    id: 179,
     name: "Proveedor Incompleto en Registro de Compras",
     description:
       "Qué hacer cuando en el formato 8.1 registro de compras se muestra el proveedor incompleto.",
@@ -2107,7 +2107,7 @@ export const dataGlobal = [
     palabrasClave: ["proveedor", "incompleto", "registro", "compras"],
   },
   {
-    id: 188,
+    id: 180,
     name: "Registro de compra con retención del IGV",
     description: "Cómo registrar una compra con retención del IGV.",
     href: "/global/registro-compra-retencion-igv",
@@ -2117,7 +2117,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compra", "retencion", "igv"],
   },
   {
-    id: 189,
+    id: 181,
     name: "Registro de Compras con Detracción",
     description: "Cómo ingresar una compra con detracción.",
     href: "/global/registro-compras-detraccion",
@@ -2127,7 +2127,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compras", "detraccion"],
   },
   {
-    id: 190,
+    id: 182,
     name: "Registro de Compras Inafectas, No Gravadas o Sin IGV - Incluye Video",
     description: "Cómo ingresar una compra con detracción.",
     href: "/global/registro-compras-inafectas-no-gravadas-sin-igv",
@@ -2137,7 +2137,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compras", "inafectas"],
   },
   {
-    id: 191,
+    id: 183,
     name: "Registro de Compras no muestra el número de serie de los Tickets",
     description: "Cómo ingresar una compra con detracción.",
     href: "/global/registrar-compras-no-muestra-numero-serie-tickets",
@@ -2147,7 +2147,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compras", "tickets"],
   },
   {
-    id: 192,
+    id: 184,
     name: "Registro de una compra afecta al Impuesto Selectivo al Consumo (ISC) - Incluye Video",
     description:
       "Cómo registrar una compra afecta al impuesto selectivo al consumo (ISC)",
@@ -2158,7 +2158,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compra", "afecta"],
   },
   {
-    id: 193,
+    id: 185,
     name: "¿Cómo registro operaciones de un ejercicio anterior en el Concar SQL? - Incluye Video",
     description:
       "Se detallara el proceso de como registrar operaciones de un ejercicio anterior en el sistema",
@@ -2169,7 +2169,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "operaciones", "ejercicio"],
   },
   {
-    id: 194,
+    id: 186,
     name: "¿Cómo solucionar el mensaje “Error 3021” en Tiempo de Ejecución al generar Archivo Mensual de Compras?",
     description:
       "A continuación detallamos como solucionar “Error 3021” en Tiempo de Ejecución",
@@ -2180,7 +2180,7 @@ export const dataGlobal = [
     palabrasClave: ["solucionar", "mensaje", "error"],
   },
   {
-    id: 195,
+    id: 187,
     name: "Comprobante Compras",
     description:
       "Permite registrar los documentos de las operaciones de compras (sólo las provisiones).",
@@ -2191,7 +2191,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "compras"],
   },
   {
-    id: 196,
+    id: 188,
     name: "Diferencia de Cambio en Cuenta Detracciones",
     description:
       "Como regularizar la diferencia de cambio generada en la cuenta de detracciones después del pago de la detracción.",
@@ -2202,7 +2202,7 @@ export const dataGlobal = [
     palabrasClave: ["diferencia", "cambio", "cuenta"],
   },
   {
-    id: 197,
+    id: 189,
     name: "Honorarios Profesionales en el Registro de Compras",
     description:
       "Cómo mostrar los recibos por honorarios, con retención, en el formato 8.1 Registro de Compras.",
@@ -2213,7 +2213,7 @@ export const dataGlobal = [
     palabrasClave: ["honorarios", "profesionales", "registro"],
   },
   {
-    id: 198,
+    id: 190,
     name: "Mensaje Habilitar Columna ISC en la emisión del Formato 8.1 Registro de Compras",
     description:
       "Solución al mensaje Habilitar Columna ISC en la emisión del libro oficial impreso Formato 8.1 Registro de Compras.",
@@ -2224,7 +2224,7 @@ export const dataGlobal = [
     palabrasClave: ["mensaje", "habilitar", "columna"],
   },
   {
-    id: 199,
+    id: 191,
     name: "Nota de Crédito Especial",
     description: "Cómo registrar una nota de crédito especial.",
     href: "/global/nota-credito-especial",
@@ -2234,7 +2234,7 @@ export const dataGlobal = [
     palabrasClave: ["nota", "credito", "especial"],
   },
   {
-    id: 200,
+    id: 192,
     name: "Registro de compras no domiciliado",
     description:
       "En ésta opción se registran los parámetros que definirán el registro y control de los comprobantes de compras a no domiciliados. Entre otros datos se definirán los tipos de documentos, sub diario de compra, cuentas de gasto, moneda de referencia, otros impuestos y parámetros de cuentas.",
@@ -2245,7 +2245,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compras", "domiciliado"],
   },
   {
-    id: 202,
+    id: 193,
     name: "Actualización de Tasas de Detracción",
     description: "Cómo actualizar las tasas de detracción.",
     href: "/global/actualizar-tasas-detraccion",
@@ -2255,7 +2255,7 @@ export const dataGlobal = [
     palabrasClave: ["actualizacion", "tasas", "detraccion"],
   },
   {
-    id: 203,
+    id: 194,
     name: "Aplicación de la Ley 31556 ¿Cómo registrar una factura de compra con IGV 10% en CONCAR SQL? - Incluye Video",
     description:
       "A continuación se detalla el proceso de como configurar y registrar el nuevo IGV 10% en ventas",
@@ -2266,7 +2266,7 @@ export const dataGlobal = [
     palabrasClave: ["aplicacion", "ley 31556"],
   },
   {
-    id: 204,
+    id: 195,
     name: "Cómo separar Gastos No Gravados (inafectos o exonerados) en el Registro de Compras",
     description:
       "Procedimiento para que los Gastos No Gravados (inafectos o exonerados) incluidos en documentos que tienen parte Gravada salgan en la columna de Adquisiciones No Gravadas en el Registro de Compras del sistema CONCAR®",
@@ -2277,7 +2277,7 @@ export const dataGlobal = [
     palabrasClave: ["separar", "gastos", "gravados"],
   },
   {
-    id: 205,
+    id: 196,
     name: "DAOT-Compras",
     description:
       "El sistema muestra todas las operaciones afectas e inafectas al IGV con proveedores, es decir todos los documentos de compras emitidos en el ejercicio y registrados en el Registro de Compras.",
@@ -2288,7 +2288,7 @@ export const dataGlobal = [
     palabrasClave: ["daot", "compras"],
   },
   {
-    id: 206,
+    id: 197,
     name: "DETRACCION ¿Cómo habilitar los datos de “Detracción” en comprobantes de compras? - Concar SQL",
     description:
       "A continuación detallamos, como habilitar los campos de detracción en los comprobantes de compras",
@@ -2299,7 +2299,7 @@ export const dataGlobal = [
     palabrasClave: ["detraccion", "habilitar", "datos"],
   },
   {
-    id: 207,
+    id: 198,
     name: "Error 3265 al generar archivo mensual de compras",
     description: "Error ‘3265’ en tiempo de ejecución",
     href: "/global/generar-archivo-compras",
@@ -2309,7 +2309,7 @@ export const dataGlobal = [
     palabrasClave: ["error", "3265", "archivo", "mensual", "compras"],
   },
   {
-    id: 208,
+    id: 199,
     name: "Mostrar los Recibos por Honorarios en el Registro de Compras",
     description:
       "Forma de mostrar los recibos por honorarios en el Registro de Compras.",
@@ -2320,7 +2320,7 @@ export const dataGlobal = [
     palabrasClave: ["mostrar", "recibos", "honorarios", "registro", "compras"],
   },
   {
-    id: 209,
+    id: 200,
     name: "No se encontró el elemento que corresponde al elemento u ordinal solicitado",
     description:
       "Error que indica que no se encontró el elemento que corresponde al elemento u ordinal solicitado.",
@@ -2331,7 +2331,7 @@ export const dataGlobal = [
     palabrasClave: ["elemento", "ordinal", "solicitado"],
   },
   {
-    id: 210,
+    id: 201,
     name: "Parámetros de Compras",
     description:
       "Incluye reportes de Registro de Compras anteriores, oficiales impresos y electrónico.",
@@ -2342,7 +2342,7 @@ export const dataGlobal = [
     palabrasClave: ["parametros", "compras"],
   },
   {
-    id: 211,
+    id: 202,
     name: "Registro de Compras con Detracción",
     description:
       "Como ingresar una compra con detracción para efectos de considerarse en la presentación del Registro de Compras Formato 8.1 o en el libro electrónico de compras.",
@@ -2353,7 +2353,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compras", "detraccion"],
   },
   {
-    id: 212,
+    id: 203,
     name: "Registro de Compras con Percepción en Comprobante Compras",
     description:
       "Cómo registrar las percepciones de IGV en compras, a través de la opción Comprobante Compras, para que se muestren en el Formato 8.1 Registro de Compras.",
@@ -2364,7 +2364,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "compras", "percepcion", "comprobante"],
   },
   {
-    id: 213,
+    id: 204,
     name: "Como realizar el registro de comprobantes de compras con tasa de IGV del 10% en el SISPAG SQL",
     description:
       "A continuacion detallamos los procesos a realizar en el SISPAG para el registro de estos comprobantes",
@@ -2377,7 +2377,7 @@ export const dataGlobal = [
   //?*Fin COMPRAS
   //?Iniio REGISTR0 DE COMPROBANTES -19
   {
-    id: 214,
+    id: 205,
     name: "¿Cómo superar el mensaje comprobante ya fue registrado? - Incluye Video",
     description:
       "A continuación se detalla como superar el mensaje comprobante ya fue registrado",
@@ -2388,7 +2388,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "comprobante"],
   },
   {
-    id: 215,
+    id: 206,
     name: "¿Cómo superar el mensaje de Error 380 en tiempo de ejecución? - Incluye Video",
     description:
       "A continuación se detalla como superar el mensaje comprobante ya fue registrado",
@@ -2399,7 +2399,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error"],
   },
   {
-    id: 216,
+    id: 207,
     name: "Registro y/o Contabilización de una nota de crédito (nota de abono)",
     description: "Cómo registrar una nota de crédito (nota de abono).",
     href: "/global/contabilizacion-nota-credito",
@@ -2409,7 +2409,7 @@ export const dataGlobal = [
     palabrasClave: ["registro", "contabilizacion", "nota", "credito"],
   },
   {
-    id: 217,
+    id: 208,
     name: "¿Como se realiza la Carga de Comprobantes desde Excel? - Incluye Video",
     description:
       "Procedimiento para realizar la Carga de Comprobantes desde Excel.",
@@ -2420,7 +2420,7 @@ export const dataGlobal = [
     palabrasClave: ["realiza", "carga", "comprobantes", "excel"],
   },
   {
-    id: 218,
+    id: 209,
     name: "Comprobante Automático ya Existe",
     description:
       "Al registrar un comprobante, por la opción Comprobante Estándar con ó sin Conversión, el sistema muestra el mensaje Comprobante Automático ya Existe.",
@@ -2431,7 +2431,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "automatico", "existe"],
   },
   {
-    id: 219,
+    id: 210,
     name: "Error en Fecha o Moneda del Comprobante",
     description:
       "Qué hacer si hubo un error al registrar la moneda o la fecha de un comprobante.",
@@ -2442,7 +2442,7 @@ export const dataGlobal = [
     palabrasClave: ["error", "fecha", "moneda", "comprobante"],
   },
   {
-    id: 220,
+    id: 211,
     name: "Modificar el Tipo de Cambio de un Comprobante",
     description: "Como modificar el tipo de cambio de un comprobante",
     href: "/global/modificar-tipo-cambio-comprobante",
@@ -2452,7 +2452,7 @@ export const dataGlobal = [
     palabrasClave: ["modificar", "tipo", "cambio", "comprobante"],
   },
   {
-    id: 221,
+    id: 212,
     name: "¿Cómo configurar si le genera el mensaje “Flag Debe/Haber errado”? - Incluye Video",
     description:
       "Al momento de registrar su comprobante le genera un mensaje Flag Debe/Haber -/+ errado",
@@ -2463,7 +2463,7 @@ export const dataGlobal = [
     palabrasClave: ["configurar", "mensaje", "flag", "debe", "haber"],
   },
   {
-    id: 222,
+    id: 213,
     name: "Comprobante Estándar con Conversión",
     description:
       "Mediante esta opción se puede registrar en el sistema cualquier asiento de diario como son: Bancos, cajas, planillas, costos, canjes, cancelaciones de clientes y otros; exceptuando los registros por compras, ventas, honorarios y cheques.",
@@ -2474,7 +2474,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobante", "estandar", "conversion"],
   },
   {
-    id: 224,
+    id: 214,
     name: "Consulta situación comprobantes",
     description:
       "Esta opción sirve para consultar los comprobantes ingresados y verificar que todos se encuentren finalizados.",
@@ -2485,7 +2485,7 @@ export const dataGlobal = [
     palabrasClave: ["consulta", "situacion", "comprobantes"],
   },
   {
-    id: 225,
+    id: 215,
     name: "Exporta Comprobantes a Excel",
     description:
       "Utilizando esta opción se puede exportar por subdiarios, los comprobantes registrados en CONCAR® SQL al Excel; asimismo, se puede incluir cuentas automáticas.",
@@ -2496,7 +2496,7 @@ export const dataGlobal = [
     palabrasClave: ["exporta", "comprobantes", "excel"],
   },
   {
-    id: 226,
+    id: 216,
     name: "Log eliminación comprobantes",
     description:
       "Muestra los comprobantes contables eliminados, indicando usuario y fecha de eliminación.",
@@ -2507,7 +2507,7 @@ export const dataGlobal = [
     palabrasClave: ["log", "eliminacion", "comprobantes"],
   },
   {
-    id: 227,
+    id: 217,
     name: "Mantenimiento Documentos de Referencia",
     description:
       "En esta opción se configuran los documentos que requieren que se active el campo de documento de referencia en el registro de compras y ventas.",
@@ -2518,7 +2518,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "documentos", "referencia"],
   },
   {
-    id: 228,
+    id: 218,
     name: "Mantenimiento Tipo pago por programa",
     description:
       "Se debe configurar los tipos de medio de pago que pueden ser utilizados para cada una de las opciones de generación de comprobantes contables.",
@@ -2529,7 +2529,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "tipo", "pago", "programa"],
   },
   {
-    id: 229,
+    id: 219,
     name: "Numeración de Comprobantes",
     description:
       "En esta tabla se muestra el último número de comprobante generado en forma automática por cada subdiario y mes.",
@@ -2540,7 +2540,7 @@ export const dataGlobal = [
     palabrasClave: ["numeracion", "comprobantes"],
   },
   {
-    id: 230,
+    id: 220,
     name: "¿Cómo eliminar Comprobantes en el CONCAR SQL? - Incluye Video",
     description:
       "Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F), individual o masivamente.",
@@ -2551,7 +2551,7 @@ export const dataGlobal = [
     palabrasClave: ["eliminar", "comprobantes"],
   },
   {
-    id: 231,
+    id: 221,
     name: "Comprobantes",
     description:
       "El módulo de comprobantes permite ingresar las operaciones del día a día en el sistema para lo cual deberá tener configuradas las bases de datos indicadas en el menú Archivos.",
@@ -2562,7 +2562,7 @@ export const dataGlobal = [
     palabrasClave: ["comprobantes"],
   },
   {
-    id: 232,
+    id: 222,
     name: "Movimiento Datos",
     description:
       "Esta opción permite adicionar comprobantes contables al sistema originados ya sea por la opción de Transfiere Comprobantes del CONCAR® SQL, por archivos externos generados por una interfaz o desde Excel.",
@@ -2575,7 +2575,7 @@ export const dataGlobal = [
   //?Fin REGISTR0 DE COMPROBANTES
   //*Inicio CIERRE Y APERTURA
   {
-    id: 233,
+    id: 223,
     name: "Carga de Estado de Cuenta para Conciliación Bancaria",
     description:
       "¿En qué formatos se puede cargar el estado de cuenta del banco para realizar la conciliación bancaria?",
@@ -2586,7 +2586,7 @@ export const dataGlobal = [
     palabrasClave: ["carga", "estado", "cuenta"],
   },
   {
-    id: 234,
+    id: 224,
     name: "Cierre 2023 - Tips - Recomendaciones para un correcto proceso de Cierre 2023 y Apertura 2024",
     description:
       "A continuacion compartimos los PPT con los tips - recomendaciones para realizar un correcto proceso de cierre y apertura",
@@ -2597,7 +2597,7 @@ export const dataGlobal = [
     palabrasClave: ["cierre", "tips", "recomendaciones"],
   },
   {
-    id: 235,
+    id: 225,
     name: "Contabilidad Sin Asiento de Apertura",
     description:
       "¿Se pueden registrar operaciones contables, sin antes haber ingresado los saldos iniciales (asiento de apertura)?",
@@ -2608,7 +2608,7 @@ export const dataGlobal = [
     palabrasClave: ["contabilidad", "asiento", "apertura"],
   },
   {
-    id: 236,
+    id: 226,
     name: "¿Por qué mi Asiento de Apertura se genera Descuadrado? - Incluye Video",
     description:
       "Acontinuacion detallamos que motivos puede generar mi asiento de apertura descuadrado",
@@ -2619,7 +2619,7 @@ export const dataGlobal = [
     palabrasClave: ["asiento", "apertura", "descuadrado"],
   },
   {
-    id: 237,
+    id: 227,
     name: "Asiento de Apertura en un Mes Distinto a Enero",
     description:
       "Cómo ingresar un asiento de apertura en un mes distinto a enero.",
@@ -2630,7 +2630,7 @@ export const dataGlobal = [
     palabrasClave: ["asiento", "apertura", "mes"],
   },
   {
-    id: 238,
+    id: 228,
     name: "Cancelación de Compras con Cheque",
     description: "Cómo cancelar compras con cheque.",
     href: "/global/",
@@ -2640,7 +2640,7 @@ export const dataGlobal = [
     palabrasClave: ["cancelacion", "compras", "cheque"],
   },
   {
-    id: 239,
+    id: 229,
     name: "¿Como cargar información en mantenimiento Tabla de Cierre?",
     description:
       "A continuación detallamos, como se realiza la carga de las Tablas de Cierre en el Concar SQL",
@@ -2657,7 +2657,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 240,
+    id: 230,
     name: "Asientos Automáticos",
     description:
       "En este menú, se generan automáticamente los asientos de: Apertura, diferencia de cambio, FASB52, cierre y ajuste por inflación; estando este último en desuso por la coyuntura actual.",
@@ -2668,7 +2668,7 @@ export const dataGlobal = [
     palabrasClave: ["asientos", "automaticos"],
   },
   {
-    id: 241,
+    id: 231,
     name: "CIERRE - Cierre y Apertura - Concar SQL",
     description:
       "A continuación presentamos el proceso para realizar el proceso de Cierre y Apertura en el ambiente Concar SQL.",
@@ -2679,7 +2679,7 @@ export const dataGlobal = [
     palabrasClave: ["cierre", "apertura"],
   },
   {
-    id: 242,
+    id: 232,
     name: "CIERRE - Tabla de Cierre",
     description:
       "En esta tabla ya viene configurada con los asientos automáticos de cierre del ejercicio, son 17 asientos de cierre.",
@@ -2690,7 +2690,7 @@ export const dataGlobal = [
     palabrasClave: ["cierre", "tabla"],
   },
   {
-    id: 243,
+    id: 233,
     name: "Cierre 2023 - ¿Cómo realizar el correcto proceso de Cierre 2023 y Apertura 2024? - CONCAR SQL",
     description:
       "A continuación se detalla como realizar el correcto proceso de cierre y apertura en el concar sql.",
@@ -2701,7 +2701,7 @@ export const dataGlobal = [
     palabrasClave: ["cierre", "apertura"],
   },
   {
-    id: 244,
+    id: 234,
     name: "Asiento de Apertura",
     description: "Como generar el asiento de Apertura.",
     href: "/global/asiento-apertura",
@@ -2711,7 +2711,7 @@ export const dataGlobal = [
     palabrasClave: ["asiento", "apertura"],
   },
   {
-    id: 245,
+    id: 235,
     name: "Asiento de Apertura Automático se genera descuadrado",
     description: "Asiento de Apertura automático se genera descuadrado.",
     href: "/global/apertura-automatico-descuadrado",
@@ -2721,7 +2721,7 @@ export const dataGlobal = [
     palabrasClave: ["asiento", "apertura", "automatico", "descuadrado"],
   },
   {
-    id: 246,
+    id: 236,
     name: "CIERRE - Proceso de Cierre",
     description:
       "Procedimiento para poder realizar el proceso de Cierre Contable en el sistema CONCAR®",
@@ -2732,7 +2732,7 @@ export const dataGlobal = [
     palabrasClave: ["cierre", "proceso"],
   },
   {
-    id: 247,
+    id: 237,
     name: "Generación del Asiento de Apertura Automático",
     description: "Cómo generar el Asiento de Apertura en forma automática.",
     href: "/global/generacion-asiento-apertura",
@@ -2744,7 +2744,7 @@ export const dataGlobal = [
   //*Fin CIERRE Y APERTURA
   //?Inicio INSTALACION/ACTUALIZACION
   {
-    id: 248,
+    id: 238,
     name: "¿Funcionamiento de la llave o licencia virtual? - RKV",
     description:
       "A continuación detallamos las principales características y recomendaciones cuando usen nuestra llave virtual - RKV",
@@ -2755,7 +2755,7 @@ export const dataGlobal = [
     palabrasClave: ["funcionamiento", "llave", "licencia", "virtual"],
   },
   {
-    id: 249,
+    id: 239,
     name: "¿Instalar y/o Actualizar CONCAR SIRE CB? - Incluye Video",
     description:
       "A continuación detallamos como realiza la instalación y/o Actualización del módulo CONCAR SIRE CB, para ambos casos es el mismo proceso.",
@@ -2766,7 +2766,7 @@ export const dataGlobal = [
     palabrasClave: ["instalar", "actualizar", "concar", "sire", "cb"],
   },
   {
-    id: 250,
+    id: 240,
     name: "¿Conectar a la Base Datos CONCAR SIRE CB o SQL?",
     description:
       "Proceso de como conectar a la base de datos de CONCAR SIRE CB o SQL",
@@ -2777,7 +2777,7 @@ export const dataGlobal = [
     palabrasClave: ["conectar", "base", "datos"],
   },
   {
-    id: 251,
+    id: 241,
     name: "Actualizar Real Key",
     description:
       "Mediante esta opción actualizará la licencia de su Real Key una vez vencido el plazo de contrato.",
@@ -2788,7 +2788,7 @@ export const dataGlobal = [
     palabrasClave: ["actualizar", "real", "key"],
   },
   {
-    id: 252,
+    id: 242,
     name: "CONTABILIDAD CONCAR DEJO DE FUNCIONAR",
     description:
       "Mensaje que impide acceder al sistema después de actualizar de versión.",
@@ -2799,7 +2799,7 @@ export const dataGlobal = [
     palabrasClave: ["contabilidad", "concar", "funcionar"],
   },
   {
-    id: 253,
+    id: 243,
     name: "¿Cómo superar el mensaje - Su servicio post venta ha expirado - Renueve su servicio y Actualice la Llave Electrónica? - Incluye Video",
     description:
       "Mediante esta opción actualizará la licencia de su Real Key tanto para Concar CB y SQL",
@@ -2810,7 +2810,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "servicio", "post", "venta"],
   },
   {
-    id: 254,
+    id: 244,
     name: "¿Cómo realizar el Proceso de Actualización de la Versión RK en el Concar SQL? - Incluye Video",
     description: "Procedimiento para la Actualización del CONCAR SQL",
     href: "/global/proceso-actualizacion-concar-sql",
@@ -2820,7 +2820,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "proceso", "actualizacion", "version"],
   },
   {
-    id: 255,
+    id: 245,
     name: "Proceso de Instalación y/o Actualización de CONCAR SQL? - Incluye Video",
     description:
       "A continuación el proceso para actualizar la Versión CONCAR SQL",
@@ -2831,7 +2831,7 @@ export const dataGlobal = [
     palabrasClave: ["proceso", "instalacion", "actualizacion", "concar"],
   },
   {
-    id: 256,
+    id: 246,
     name: "¿Instalar y/o Actualizar CONCAR SIRE SQL? - Incluye Video",
     description:
       "A continuación detallamos como realiza la instalación y/o Actualización del módulo CONCAR SIRE SQL, para ambos casos es el mismo proceso.",
@@ -2842,7 +2842,7 @@ export const dataGlobal = [
     palabrasClave: ["instalar", "actualizar", "concar", "sire", "sql"],
   },
   {
-    id: 257,
+    id: 247,
     name: "CONCAR no responde (se cuelga)",
     description:
       "Al darle doble clic al acceso del CONCAR no carga el sistema.",
@@ -2853,7 +2853,7 @@ export const dataGlobal = [
     palabrasClave: ["concar", "no responde"],
   },
   {
-    id: 258,
+    id: 248,
     name: "Descarga Versión desde miCONCAR®",
     description: "Forma de descargar Versión desde miCONCAR®.",
     href: "/global/descarga-version",
@@ -2863,7 +2863,7 @@ export const dataGlobal = [
     palabrasClave: ["descarga", "version", "miconcar"],
   },
   {
-    id: 259,
+    id: 249,
     name: "Cómo realizar el Proceso de Actualización del e-Softcom SQL y del e-Softcom NET",
     description:
       "A continuación detallamos como realizar la actualización del e-Softcom SQL y del e-Softcom NET",
@@ -2874,7 +2874,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "proceso", "actualizacion", "softcom"],
   },
   {
-    id: 260,
+    id: 250,
     name: "Cómo realizar el Proceso de Actualización del Archivo DLL",
     description:
       "A continuación detallamos como realizar una correcta actualización del archivo dll",
@@ -2887,7 +2887,7 @@ export const dataGlobal = [
   //?Fin INSTALACION/ACTUALIZACION
   //*Inicio SUNAT
   {
-    id: 261,
+    id: 251,
     name: "Carga de información en el DAOT - PDT 3500 Operaciones con Terceros",
     description:
       "Como cargar DAOT Compras y Ventas al PDT 3500 Operaciones con Terceros",
@@ -2898,7 +2898,7 @@ export const dataGlobal = [
     palabrasClave: ["carga", "informacion", "daot", "pdt", "3500"],
   },
   {
-    id: 262,
+    id: 252,
     name: "PDT Honorarios",
     description:
       "Para presentar información a la SUNAT de los Honorarios se debe registrar primero todos los recibos de Honorarios “Comprobante de Registro de Honorarios”.",
@@ -2909,7 +2909,7 @@ export const dataGlobal = [
     palabrasClave: ["pdt", "honorarios"],
   },
   {
-    id: 263,
+    id: 253,
     name: "¿Cómo actualizar el plan de cuentas SUNAT para el PDT 0710 Renta Anual ejercicio 2023?",
     description:
       "A continuación detallamos los pasos para actualizar el plan de cuentas SUNAT para el PDT 0710 Renta Anual ejercicio 2023",
@@ -2920,7 +2920,7 @@ export const dataGlobal = [
     palabrasClave: ["actualizar", "plan", "cuentas", "sunat", "pdt"],
   },
   {
-    id: 264,
+    id: 254,
     name: "¿Cómo generar por primera vez el archivo para el PDT 0710 Renta Anual ejercicio 2023?",
     description:
       "A continuación detallamos como generar por primera vez el archivo para el PDT 0710 Renta Anual ejercicio 2023 para CONCAR SQL",
@@ -2931,7 +2931,7 @@ export const dataGlobal = [
     palabrasClave: ["generar", "archivo", "pdt", "renta", "anual"],
   },
   {
-    id: 266,
+    id: 255,
     name: "¿Cómo se genera el PDT Renta Anual para el Concar SQL? - Incluye Video",
     description:
       "El sistema permite generar un archivo con el Balance de Comprobación, de acuerdo al formato establecido por SUNAT, para que pueda ser importado desde el PDT Renta Anual de cualquier ejercicio",
@@ -2942,7 +2942,7 @@ export const dataGlobal = [
     palabrasClave: ["genera", "pdt", "renta", "anual"],
   },
   {
-    id: 267,
+    id: 256,
     name: "PDB Mensual Exportadores",
     description:
       "Este menú contiene las opciones para generar los archivos a cargar en el PDB SUNAT",
@@ -2953,7 +2953,7 @@ export const dataGlobal = [
     palabrasClave: ["pdb", "mensual", "exportadores"],
   },
   {
-    id: 269,
+    id: 257,
     name: "PDT 621 – Percepciones",
     description:
       "En esta opción se genera el archivo plano de Percepciones para exportarlo al PDT 621.",
@@ -2964,7 +2964,7 @@ export const dataGlobal = [
     palabrasClave: ["pdt 621", "percepciones"],
   },
   {
-    id: 270,
+    id: 258,
     name: "PDT 658 – Casilla Estados Financieros",
     description:
       "Permite generar un archivo con la información detallada, de acuerdo al formato establecido por SUNAT",
@@ -2975,7 +2975,7 @@ export const dataGlobal = [
     palabrasClave: ["pdt 658", "casilla", "estados", "financieros"],
   },
   {
-    id: 271,
+    id: 259,
     name: "PDT IGV Renta Mensual-Retención de Clientes",
     description:
       "El sistema genera el archivo PDT del mes seleccionado con las retenciones (6%, realizadas por los clientes que son Agentes de Retención).",
@@ -2986,7 +2986,7 @@ export const dataGlobal = [
     palabrasClave: ["pdt", "igv", "renta", "mensual", "retencion", "clientes"],
   },
   {
-    id: 272,
+    id: 260,
     name: "SUNAT",
     description:
       "Este módulo contiene las opciones para generar los archivos planos (archivos de texto) que se declaran en los programas de SUNAT.",
@@ -2999,7 +2999,7 @@ export const dataGlobal = [
   //*Fin SUNAT
   //?Inicio CONEXION
   {
-    id: 273,
+    id: 261,
     name: "¿Cómo proceder al mensaje Llave No Reconocida - Llave No Corresponde - Llave No está Conectada? – Llave Virtual RKV",
     description:
       "Si al momento de ingresar al Concar le aparece mensaje similares a Llave No Reconocida - Llave no Corresponde - Llave No esta Conectada",
@@ -3010,7 +3010,7 @@ export const dataGlobal = [
     palabrasClave: ["proceder", "mensaje", "llave", "no", "reconocida"],
   },
   {
-    id: 274,
+    id: 262,
     name: "No realiza impresión en red",
     description: "No se logra imprimir en una impresora conectada a la red.",
     href: "/global/no-realiza-impresion",
@@ -3020,7 +3020,7 @@ export const dataGlobal = [
     palabrasClave: ["no", "realiza", "impresion", "red"],
   },
   {
-    id: 275,
+    id: 263,
     name: "¿Cómo restaurar una Copia de Seguridad en Concar SQL?",
     description:
       "A continuacion se detalla el proceso para restaurar una Copia de Seguridad en Concar SQL",
@@ -3031,7 +3031,7 @@ export const dataGlobal = [
     palabrasClave: ["restaurar", "copia", "seguridad", "concar"],
   },
   {
-    id: 276,
+    id: 264,
     name: "¿Cómo se soluciona el mensaje - Error en Tiempo de Ejecución – Error 2147217900 en el Sistema Concar SQL?",
     description:
       "A continuación se detalla como solucionara el mensaje - Error en Tiempo de Ejecución 2147217900",
@@ -3042,7 +3042,7 @@ export const dataGlobal = [
     palabrasClave: ["soluciona", "mensaje", "error", "ejecucion"],
   },
   {
-    id: 277,
+    id: 265,
     name: "¿Cómo solucionar procesos de lentitud en el Sistema Concar SQL? - Baja Log",
     description:
       "A continuación detallamos como ejecutar el baja log y agilizar el proceso en el concar sql",
@@ -3055,7 +3055,7 @@ export const dataGlobal = [
   //?Fin CONEXION
   //*Inicio PLAN DE CUENTAS
   {
-    id: 278,
+    id: 266,
     name: "¿Cómo debo Configurar el Plan de Cuentas? - Incluye Video",
     description:
       "A continuación detallaremos como realizar la configuración al Plan de Cuentas",
@@ -3066,7 +3066,7 @@ export const dataGlobal = [
     palabrasClave: ["configurar", "plan", "cuentas"],
   },
   {
-    id: 279,
+    id: 267,
     name: "Plan contable 2020 - Creación de Compañía con el Nuevo PCGE 2020",
     description:
       "Creación de un Nuevo Ejercicio con Nuevo Plan Contable Empresarial PCGE 2020",
@@ -3077,7 +3077,7 @@ export const dataGlobal = [
     palabrasClave: ["plan", "contable", "2020", "creacion", "compania"],
   },
   {
-    id: 280,
+    id: 268,
     name: "Plan contable 2020 – Creación de un Nuevo Ejercicio 2020 - Incluye Videos",
     description:
       "Creación de Ejercicio con el Nuevo Plan Contable Empresarial PCGE 2020",
@@ -3088,7 +3088,7 @@ export const dataGlobal = [
     palabrasClave: ["plan", "contable", "2020", "creacion", "ejercicio"],
   },
   {
-    id: 281,
+    id: 269,
     name: "Plan de Cuenta",
     description:
       "En este archivo o base de datos se registrarán, modificarán o visualizarán las cuentas contables que se definan para llevar la contabilidad de la empresa.",
@@ -3101,7 +3101,7 @@ export const dataGlobal = [
   //*Fin PLAN DE CUENTAS
   //?Inicio SEGURIDAD
   {
-    id: 282,
+    id: 270,
     name: "¿Bloqueo o cierre de periodos mensuales?",
     description:
       "Se desea cerrar (bloquear) periodos mensuales para que no se puedan registrar, modificar ni eliminar comprobantes.",
@@ -3112,7 +3112,7 @@ export const dataGlobal = [
     palabrasClave: ["bloqueo", "cierre", "periodos", "mensuales"],
   },
   {
-    id: 283,
+    id: 271,
     name: "Como realizar una Copia de Seguridad o Backup",
     description:
       "Procedimiento para generar copia de seguridad en SQL Server versión 2008 y 2012.",
@@ -3123,7 +3123,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "copia", "seguridad", "backup"],
   },
   {
-    id: 284,
+    id: 272,
     name: "Generación Backup (Copia de Seguridad) Automático en SQL versión 2008 R2",
     description:
       "Cómo ingresar un plan de mantenimiento para generar backup (copia de seguridad) de forma automática.",
@@ -3136,7 +3136,7 @@ export const dataGlobal = [
   //?Fin SEGURIDAD
   //*ANEXOS
   {
-    id: 285,
+    id: 273,
     name: "Códigos de Anexos",
     description:
       "En esta base de datos se registran los anexos, que son datos complementarios a las cuentas, los mismos que sirven para identificar diferentes tipos de entidades o datos que son necesarios para hacer un análisis más detallado de las cuentas.",
@@ -3149,7 +3149,7 @@ export const dataGlobal = [
   //*Fin ANEXOS
   //?Inicio GENERALIDADES
   {
-    id: 286,
+    id: 274,
     name: "¿Cómo registrar y aplicar las Notas de Crédito o (Nota de Abono)? - Incluye Video",
     description:
       "A continuación se realizara el ciclo completo para el registro y aplicación de una Nota de Crédito",
@@ -3160,7 +3160,7 @@ export const dataGlobal = [
     palabrasClave: ["registrar", "aplicar", "notas", "credito", "abono"],
   },
   {
-    id: 287,
+    id: 275,
     name: "¿Cómo superar el mensaje Error 09 en tiempo de ejecución – El Sub Índice esta fuera del intervalo al generar registro de compra? - Incluye Video",
     description:
       "A continuación se detalla como superar el error 91 el sub índice fuera del intervalo",
@@ -3171,7 +3171,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error", "ejecucion"],
   },
   {
-    id: 288,
+    id: 276,
     name: "Video de Conceptos Básicos del CONCAR",
     description: "Este vídeo contiene conceptos básicos del CONCAR.",
     href: "/global/conceptos-basicos-concar",
@@ -3181,7 +3181,7 @@ export const dataGlobal = [
     palabrasClave: ["video", "conceptos", "basicos", "concar"],
   },
   {
-    id: 289,
+    id: 277,
     name: "Ventajas de contar con el Real Key",
     description:
       "La llave REAL KEY® es un dispositivo USB de seguridad y protección de software que permitirá el acceso a los productos de Real Systems. La llave de protección se utilizará en algunos de los productos a partir de la versión 2013",
@@ -3192,7 +3192,7 @@ export const dataGlobal = [
     palabrasClave: ["ventajas", "real", "key"],
   },
   {
-    id: 290,
+    id: 278,
     name: "¿Cómo modificar comprobantes o asientos contables en el Concar SQL? - Incluye Video",
     description:
       "A continuación se detalla como se puede modificar comprobantes o asientos contables",
@@ -3203,7 +3203,7 @@ export const dataGlobal = [
     palabrasClave: ["modificar", "comprobantes", "asientos", "contables"],
   },
   {
-    id: 291,
+    id: 279,
     name: "Acerca de",
     description:
       "Incluye términos de licencia y opciones relacionadas con la llave Real Key.",
@@ -3214,7 +3214,7 @@ export const dataGlobal = [
     palabrasClave: ["acerca"],
   },
   {
-    id: 292,
+    id: 280,
     name: "Control de Registro Mensual",
     description:
       "Esta opción del sistema sirve para habilitar o bloquear los meses en los que se ingresan los comprobantes.",
@@ -3225,7 +3225,7 @@ export const dataGlobal = [
     palabrasClave: ["control", "registro", "mensual"],
   },
   {
-    id: 293,
+    id: 281,
     name: "Eliminación Masiva de Comprobantes",
     description:
       "Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F). Puede eliminar comprobantes específicos o masivamente",
@@ -3236,7 +3236,7 @@ export const dataGlobal = [
     palabrasClave: ["eliminacion", "masiva", "comprobantes"],
   },
   {
-    id: 294,
+    id: 282,
     name: "En el Ejercicio 2020 - ¿Como Habilito las Opciones del CONCAR SQL - Proceso de Homologacion? - Equivalencia",
     description:
       "Al ingresar al ambiente contable CONCAR SQL visualiza deshabilitado las principales opciones del Menú Principal",
@@ -3247,7 +3247,7 @@ export const dataGlobal = [
     palabrasClave: ["ejercicio", "habilito", "opciones", "homologacion"],
   },
   {
-    id: 295,
+    id: 283,
     name: "Mantenimiento de Ejecutivos",
     description:
       "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa. Previamente se debe ingresar los datos en el Mantenimiento de Empresas.",
@@ -3258,7 +3258,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "ejecutivos"],
   },
   {
-    id: 296,
+    id: 284,
     name: "Mantenimiento de Tipos de Medio de Pago",
     description:
       "En esta opción se podrá ingresar todos los medios de pago utilizados para registrar las transacciones financieras.",
@@ -3269,7 +3269,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "tipos", "medio", "pago"],
   },
   {
-    id: 297,
+    id: 285,
     name: "Manual de Preguntas Frecuentes CONCAR SQL",
     description: "Preguntas Frecuentes",
     href: "/global/main-manual-preguntas-frecuentes",
@@ -3279,7 +3279,7 @@ export const dataGlobal = [
     palabrasClave: ["manual", "preguntas", "frecuentes"],
   },
   {
-    id: 298,
+    id: 286,
     name: "Manual de Usuario CONCAR SQL",
     description:
       "Manual 2013 incluye las nuevas funcionalidades de los libros electrónicos PLE.",
@@ -3290,7 +3290,7 @@ export const dataGlobal = [
     palabrasClave: ["manual", "usuario"],
   },
   {
-    id: 299,
+    id: 287,
     name: "Tabla de Transferencia",
     description:
       "Esta tabla es usada cuando el Plan de cuentas está estructurado para trabajar los costos y gastos con las cuentas del elemento 6 y su uso es opcional.",
@@ -3301,7 +3301,7 @@ export const dataGlobal = [
     palabrasClave: ["tabla", "transferencia"],
   },
   {
-    id: 300,
+    id: 288,
     name: "Tabla General",
     description:
       "En esta opción están registradas todas las tablas creadas para el funcionamiento del sistema. El usuario no podrá crear nuevas tablas; salvo lo indicado en este manual o por un consultor.",
@@ -3312,7 +3312,7 @@ export const dataGlobal = [
     palabrasClave: ["tabla", "general"],
   },
   {
-    id: 301,
+    id: 289,
     name: "Tipo de Cambio",
     description:
       "La tabla de Tipo de Cambio es aquella donde se definen las monedas con su equivalencia en moneda nacional de cada día. Esta tabla será usada por el sistema para convertir cada asiento contable a soles y dólares. Para registrar el tipo de cambio dólar, se debe usar el código US.",
@@ -3323,7 +3323,7 @@ export const dataGlobal = [
     palabrasClave: ["tipo", "cambio"],
   },
   {
-    id: 302,
+    id: 290,
     name: "Activa Consulta en línea de SUNAT",
     description: "Guía para activar Consulta en línea de SUNAT",
     href: "/global/activa-consulta-linea-sunat",
@@ -3333,7 +3333,7 @@ export const dataGlobal = [
     palabrasClave: ["activa", "consulta", "linea", "sunat"],
   },
   {
-    id: 303,
+    id: 291,
     name: "Administración Sistema",
     description:
       "El módulo de Administración del Sistema permite realizar procesos vinculados a la administración de usuarios y compañías.",
@@ -3344,7 +3344,7 @@ export const dataGlobal = [
     palabrasClave: ["administracion", "sistema"],
   },
   {
-    id: 304,
+    id: 292,
     name: "Anexo I: Configurar favoritos",
     description:
       "Permite configurar atajos o accesos directos a las opciones que elija el usuario.",
@@ -3355,7 +3355,7 @@ export const dataGlobal = [
     palabrasClave: ["anexo", "configurar", "favoritos"],
   },
   {
-    id: 305,
+    id: 293,
     name: "Archivos",
     description:
       "El módulo de Archivos permite efectuar el mantenimiento y consulta de las bases de datos del sistema.",
@@ -3366,7 +3366,7 @@ export const dataGlobal = [
     palabrasClave: ["archivos"],
   },
   {
-    id: 306,
+    id: 294,
     name: "Características del sistema",
     description:
       "Se detallan principales características del sistema CONCAR SQL.",
@@ -3377,7 +3377,7 @@ export const dataGlobal = [
     palabrasClave: ["caracteristicas", "sistema"],
   },
   {
-    id: 307,
+    id: 295,
     name: "Como obtener el RSFINA",
     description:
       "Se necesita saber la forma de obtener el utilitario RSFINA11 para consolidar los meses contables.",
@@ -3388,7 +3388,7 @@ export const dataGlobal = [
     palabrasClave: ["obtener", "rsfina"],
   },
   {
-    id: 308,
+    id: 296,
     name: "Finalidad y descripción general del sistema",
     description:
       "El Sistema Contable y Financiero CONCAR® SQL ha sido desarrollado para ser utilizado por el área de Contabilidad, en la elaboración de los Libros contables, Balances y Estados Financieros, posibilitando de esta manera mejorar la oportunidad y confiabilidad de los resultados para la toma de decisiones por la Alta Dirección.",
@@ -3399,7 +3399,7 @@ export const dataGlobal = [
     palabrasClave: ["finalidad", "descripcion", "general", "sistema", "concar"],
   },
   {
-    id: 309,
+    id: 297,
     name: "Información Real Key",
     description:
       "El sistema le mostrará las características (Número de serie, número de licencias y los días en los que se vence el convenio de soporte) de la Real Key (Llave electrónica) conectada al equipo.",
@@ -3410,7 +3410,7 @@ export const dataGlobal = [
     palabrasClave: ["informacion", "real", "key"],
   },
   {
-    id: 310,
+    id: 298,
     name: "Mantenimiento de Compañías",
     description:
       "Esta opción permite administrar las compañías que se van a trabajar en el sistema dada su característica de ser multiempresa.",
@@ -3421,7 +3421,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "companias"],
   },
   {
-    id: 311,
+    id: 299,
     name: "Mantenimiento de Ejecutivos",
     description:
       "Esta opción permite registrar en el sistema los distintos ejecutivos de la empresa",
@@ -3432,7 +3432,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "ejecutivos"],
   },
   {
-    id: 312,
+    id: 300,
     name: "Mantenimiento de Empresas",
     description:
       "Esta opción permite completar datos adicionales al mantenimiento de compañías necesarios para emitir el certificado de honorarios.",
@@ -3443,7 +3443,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "empresas"],
   },
   {
-    id: 313,
+    id: 301,
     name: "Mantenimiento de Usuarios",
     description:
       "Esta opción permite la creación, modificación o eliminación de los usuarios del sistema, asignándoles un código, un password (clave secreta) y facultades de acceso",
@@ -3454,7 +3454,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "usuarios"],
   },
   {
-    id: 314,
+    id: 302,
     name: "Mantenimiento Usuarios-Compañía",
     description:
       "Esta opción permite la asignación de una o más compañías a los usuarios creados en el Mantenimiento de Usuarios",
@@ -3465,7 +3465,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "usuarios", "compania"],
   },
   {
-    id: 315,
+    id: 303,
     name: "Mantenimiento Usuarios-Programa",
     description:
       "Esta opción permite la asignación o restricción de las opciones de menú a los usuarios que fueron creados como Operadores en el Mantenimiento de Usuarios",
@@ -3476,7 +3476,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "usuarios", "programa"],
   },
   {
-    id: 316,
+    id: 304,
     name: "Parámetros Generales",
     description: "Esta opción permite configurar los parámetros del sistema",
     href: "/global/parametros-generales",
@@ -3486,7 +3486,7 @@ export const dataGlobal = [
     palabrasClave: ["parametros", "generales"],
   },
   {
-    id: 317,
+    id: 305,
     name: "Preguntas Frecuentes CONCAR SQL",
     description:
       "A continuación se detallan las preguntas frecuentes con sus soluciones.",
@@ -3497,7 +3497,7 @@ export const dataGlobal = [
     palabrasClave: ["preguntas", "frecuentes"],
   },
   {
-    id: 318,
+    id: 306,
     name: "Presentación",
     description:
       "El presente manual ha sido desarrollado para asistir a los usuarios del sistema Contable y Financiero CONCAR® en SQL en las situaciones problemáticas que con más frecuencia hemos visto que se presentan y requieren una ayuda especial para ser superadas.",
@@ -3508,7 +3508,7 @@ export const dataGlobal = [
     palabrasClave: ["presentacion"],
   },
   {
-    id: 319,
+    id: 307,
     name: "Utilitarios",
     description:
       "El módulo de Utilitarios permite realizar procesos auxiliares como movimiento de datos, verificar comprobantes que generen descuadres naturaleza/destino.",
@@ -3519,7 +3519,7 @@ export const dataGlobal = [
     palabrasClave: ["utilitarios"],
   },
   {
-    id: 320,
+    id: 308,
     name: "¿Cómo se carga las Tablas de Flujo de Efectivo en el Concar SQL?",
     description:
       "A continuación se detalla el proceso a realizar para cargar las Tablas de Flujo de Efectivo",
@@ -3530,7 +3530,7 @@ export const dataGlobal = [
     palabrasClave: ["carga", "tablas", "flujo", "efectivo"],
   },
   {
-    id: 322,
+    id: 309,
     name: "¿Cómo se realiza el proceso de Mayusculizar en el Sistema Concar SQL?",
     description:
       "A continuación detallamos en que ocasiones y como realizar la mayusculizacion en el concar sql",
@@ -3541,7 +3541,7 @@ export const dataGlobal = [
     palabrasClave: ["realiza", "proceso", "mayusculizar"],
   },
   {
-    id: 323,
+    id: 310,
     name: "¿Cuál es el Procedimiento para la generación del Backup Automático en el Sistema Concar SQL?",
     description:
       "A continuación detallamos los pasos para generar el Backup Automático en el Concar SQL",
@@ -3554,7 +3554,7 @@ export const dataGlobal = [
   //?Fin GENERALIDADES
   //*Inicio OTROS REPORTES
   {
-    id: 324,
+    id: 311,
     name: "GASTOS REPARABLES",
     description: "EMISIÓN DE REPORTE CON GASTOS REPARABLES O CON TOPES",
     href: "/global/gastos-reparables",
@@ -3564,7 +3564,7 @@ export const dataGlobal = [
     palabrasClave: ["gastos", "reparables"],
   },
   {
-    id: 325,
+    id: 312,
     name: "Ratios",
     description:
       "Esta opción sirve para emitir ratios definidos por el usuario. Las fórmulas de los ratios se ingresan en el Mantenimiento de Ratios",
@@ -3575,7 +3575,7 @@ export const dataGlobal = [
     palabrasClave: ["ratios"],
   },
   {
-    id: 326,
+    id: 313,
     name: "¿Cómo proceder cuando se presenta mensaje de inconsistencia al generar un reporte en Excel en el ambiente del Concar SQL?",
     description:
       "Si durante la generación de algún reporte en excel se presenta algún mensaje de inconsistencia deberá REVISAR y EJECUTAR los siguientes pasos:",
@@ -3586,7 +3586,7 @@ export const dataGlobal = [
     palabrasClave: ["proceder", "mensaje", "inconsistencia", "reporte"],
   },
   {
-    id: 327,
+    id: 314,
     name: "Reportes Comprobantes",
     description:
       "Esta opción mostrará reportes de los comprobantes ingresados, así se encuentren en situación P (Pendiente) o F (Finalizado).",
@@ -3597,7 +3597,7 @@ export const dataGlobal = [
     palabrasClave: ["reportes", "comprobantes"],
   },
   {
-    id: 328,
+    id: 315,
     name: "Análisis cuenta",
     description:
       "Este módulo permite consultar y emitir reportes de saldos por cuenta y anexos, documentos pendientes en forma selectiva a cualquier fecha de saldo y estados de cuentas en línea y sin efectuar ningún proceso previo.",
@@ -3608,7 +3608,7 @@ export const dataGlobal = [
     palabrasClave: ["analisis", "cuenta"],
   },
   {
-    id: 329,
+    id: 316,
     name: "Áreas",
     description:
       "Imprime reporte que muestra los totales de ingresos y egresos por cada área, así como también los totales generales.",
@@ -3619,7 +3619,7 @@ export const dataGlobal = [
     palabrasClave: ["areas"],
   },
   {
-    id: 330,
+    id: 317,
     name: "Consultas",
     description:
       "Permite realizar consultas de saldos de balance, balance de comprobación y análisis de cuenta.",
@@ -3630,7 +3630,7 @@ export const dataGlobal = [
     palabrasClave: ["consultas"],
   },
   {
-    id: 331,
+    id: 318,
     name: "Documentos Pendientes",
     description:
       "Permite emitir reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.",
@@ -3641,7 +3641,7 @@ export const dataGlobal = [
     palabrasClave: ["documentos", "pendientes"],
   },
   {
-    id: 332,
+    id: 319,
     name: "Histórico reportes discos",
     description:
       "Esta opción permite consultar e imprimir cualquier reporte que se haya guardado en disco.",
@@ -3652,7 +3652,7 @@ export const dataGlobal = [
     palabrasClave: ["historico", "reportes", "discos"],
   },
   {
-    id: 333,
+    id: 320,
     name: "Mayores",
     description:
       "Incluye reportes de Libros Mayores anteriores y no oficiales.",
@@ -3663,7 +3663,7 @@ export const dataGlobal = [
     palabrasClave: ["mayores"],
   },
   {
-    id: 334,
+    id: 321,
     name: "Reportes",
     description:
       "Este módulo permite emitir los reportes de resultado en base a los datos ya ingresados en los asientos contables.",
@@ -3674,7 +3674,7 @@ export const dataGlobal = [
     palabrasClave: ["reportes"],
   },
   {
-    id: 335,
+    id: 322,
     name: "Reportes Anuales",
     description:
       "Incluye reportes con análisis de cuentas anuales con detalle mensual.",
@@ -3685,7 +3685,7 @@ export const dataGlobal = [
     palabrasClave: ["reportes", "anuales"],
   },
   {
-    id: 336,
+    id: 323,
     name: "Reportes de Ingresos y Gastos",
     description:
       "Incluye los reportes de ingresos y gastos adicionales a los de Ganancias y Pérdidas (Resultados)",
@@ -3696,7 +3696,7 @@ export const dataGlobal = [
     palabrasClave: ["reportes", "ingresos", "gastos"],
   },
   {
-    id: 337,
+    id: 324,
     name: "Verifica Comprobantes",
     description:
       "Esta opción nos permite visualizar aquellos comprobantes que probablemente estén generando un descuadre del resultado en los estados financieros.",
@@ -3707,7 +3707,7 @@ export const dataGlobal = [
     palabrasClave: ["verifica", "comprobantes"],
   },
   {
-    id: 338,
+    id: 325,
     name: "Ratios",
     description:
       "Son factores de análisis financieros que permiten establecer la posición financiera de la empresa por medio de fórmulas. Estas fórmulas se aplican a una serie de datos por los cuales se puede calcular la posición real de la empresa.",
@@ -3718,7 +3718,7 @@ export const dataGlobal = [
     palabrasClave: ["ratios"],
   },
   {
-    id: 339,
+    id: 326,
     name: "¿Cómo superar el mensaje “Error de Ejecución - Valor Null” al procesar la Conciliación Bancaria?",
     description:
       "Si al momento de realizar la Conciliacion Bancaria se genera el mensaje error de ejecucion - valor null seguir las siguientes indicaciones",
@@ -3731,7 +3731,7 @@ export const dataGlobal = [
   //*Fin OTROS REPORTES
   //?Inicio COMPATIBILIDAD
   {
-    id: 340,
+    id: 327,
     name: "¿Cómo proceder si se presenta el mensaje “Error-50003” al momento de ingresar al Concar CB - Virtual?",
     description:
       "Al momento de actualizar a la versión Real Key - Virtual se le presenta un mensaje de inconsistencia similar",
@@ -3741,7 +3741,7 @@ export const dataGlobal = [
     tema: "Compatibilidad",
   },
   {
-    id: 341,
+    id: 328,
     name: "¿Cómo realizar la Excepción a los sistemas de Real Systems en el Antivirus AVG?",
     description:
       "Se indica el proceso para excluir tanto la carpeta y nuestro ejecutable del antivirus",
@@ -3751,7 +3751,7 @@ export const dataGlobal = [
     tema: "Compatibilidad",
   },
   {
-    id: 342,
+    id: 329,
     name: "¿Cómo realizar la Excepción a los sistemas de Real Systems en el Antivirus AVIRA FREE?",
     description:
       "A continuación se indica los procesos a realizar para permitir que el sistema trabaje con normalidad",
@@ -3761,7 +3761,7 @@ export const dataGlobal = [
     tema: "Compatibilidad",
   },
   {
-    id: 343,
+    id: 330,
     name: "¿Cómo se realiza la eliminación del Avast Free y Bytefence?",
     description:
       "En algunos equipos se presentan antivirus gratuitos los cuales no permiten la ejecución del sistema, por lo cual se desinstala o elimina. Asimismo puede crear archivos TEMP - temporales",
@@ -3771,7 +3771,7 @@ export const dataGlobal = [
     tema: "Compatibilidad",
   },
   {
-    id: 344,
+    id: 331,
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Kaspersky?",
     description:
       "A continuación se indica los pasos para colocar en exclusión a nuestros ejecutables",
@@ -3781,7 +3781,7 @@ export const dataGlobal = [
     tema: "Compatibilidad",
   },
   {
-    id: 345,
+    id: 332,
     name: "¿Cómo proceder si se presenta el mensaje Error.vbs en el Concar?",
     description:
       "Si durante el funcionamiento del sistema Concar CB se presenta el mensaje Error.vbs se deberá verificar en configuración regional",
@@ -3792,7 +3792,7 @@ export const dataGlobal = [
     palabrasClave: ["proceder", "mensaje", "error", "vbs"],
   },
   {
-    id: 346,
+    id: 333,
     name: "¿Cómo superar el mensaje Error 13 en Tiempo de Ejecución - en el Concar?",
     description:
       "A continuación se detalla como superar el mensaje Error 13 en Tiempo de Ejecución",
@@ -3803,7 +3803,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error", "ejecucion"],
   },
   {
-    id: 347,
+    id: 334,
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus 360 Total Security?",
     description:
       "Ocasionalmente algunos antivirus bloquean el correcto funcionamiento del sistema, se deberá excluir los sistemas de RS",
@@ -3814,7 +3814,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 348,
+    id: 335,
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Kaspersky Endpoint?",
     description:
       "A continuación detallaremos los pasos a realizar para excluir los sistema de RS del Antivirus Kaspersky Endpoint",
@@ -3825,7 +3825,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 349,
+    id: 336,
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus McAfee?",
     description:
       "A continuación se indicara los pasos a realizar para excluir el sistema del antivirus",
@@ -3836,7 +3836,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 350,
+    id: 337,
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Norton Security?",
     description:
       "A continuación se detallara los procesos a realizar para excluir a los componentes del sistema del antivirus",
@@ -3847,7 +3847,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 351,
+    id: 338,
     name: "¿Cómo realizar la Exclusión a los módulos de Real Systems en el Antivirus Panda?",
     description:
       "Algunos antivirus llevan a cuarentena los sistemas de RS para ello se debe realizar el proceso de exclusión",
@@ -3858,7 +3858,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 352,
+    id: 339,
     name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de Windows Defender?",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus del defender",
@@ -3869,7 +3869,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 353,
+    id: 340,
     name: "¿Cómo realizar la Exclusión de los módulos de Real Systems en el Antivirus AVAST?",
     description: "El proceso para excluir nuestro sistema del antivirus AVAST",
     href: "/global/exclusion-antivirus-avast",
@@ -3879,7 +3879,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
-    id: 354,
+    id: 341,
     name: "Compatibilidad del CONCAR - Incluye Video",
     description:
       "Se detallan los siguientes temas de Compatibilidad para las plataformas CODEBASE y SQL - Requisitos Técnicos Equipos, Versiones de Windows, Office y Servidores - Configuración Antivirus - Configuración Regional - Configuración Sistema Operativo /IPV6, UAC, FRAMEWORK",
@@ -3892,7 +3892,7 @@ export const dataGlobal = [
   //?Fin COMPATIBILIDAD
   //*Inicio ACCESO
   {
-    id: 355,
+    id: 342,
     name: "¿Activación del Real Key Virtual- RKV o Llave? - Incluye Video",
     description:
       "A continuación detallamos como proceder para activar su Real Key - Virtual",
@@ -3903,7 +3903,7 @@ export const dataGlobal = [
     palabrasClave: ["activacion", "real", "key", "virtual"],
   },
   {
-    id: 356,
+    id: 343,
     name: "¿Desactivar o Anular su Real Key Virtual- RKV?",
     description:
       "A continuación detallamos como Desactivar - Anular su Real Key Virtual",
@@ -3914,7 +3914,7 @@ export const dataGlobal = [
     palabrasClave: ["desactivar", "anular", "real", "key", "virtual"],
   },
   {
-    id: 357,
+    id: 344,
     name: "¿Nuevo Canal de Atención - SALA VIRTUAL? - Incluye Video",
     description:
       "Que permite realizar la Sala Virtual?; Como ingresar? a continuación indicaremos los Lineamientos de uso de nuestra Sala Virtual",
@@ -3925,7 +3925,7 @@ export const dataGlobal = [
     palabrasClave: ["nuevo", "canal", "atencion", "sala", "virtual"],
   },
   {
-    id: 358,
+    id: 345,
     name: "Llave Real Key no detectada",
     description: "Solución al mensaje Llave Real Key (RK) no detectada",
     href: "/global/real-key-no-detectada",
@@ -3936,7 +3936,7 @@ export const dataGlobal = [
   },
 
   {
-    id: 359,
+    id: 346,
     name: "¿Como superar el mensaje: Error 339 en tiempo de ejecución? - Archivos OCX - Incluye Video",
     description:
       "Al momento de ingresar o trabajar en el sistema se genera Error 339 en tiempo de ejecución - Archivos OCX",
@@ -3947,7 +3947,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "error", "ejecucion"],
   },
   {
-    id: 360,
+    id: 347,
     name: "¿Cómo descargar la herramienta del FTP?",
     description:
       "Esta herramienta FTP permitirá realizar sus descargas de forma mas ágil y directa, para todos nuestros usuarios.",
@@ -3958,7 +3958,7 @@ export const dataGlobal = [
     palabrasClave: ["descargar", "herramienta", "ftp"],
   },
   {
-    id: 361,
+    id: 348,
     name: "¿Cómo generar nueva contraseña y accesos para el Portal miCONCAR? - Incluye Video",
     description:
       "Si necesita crear nueva contraseña o gestionar nuevos accesos para el portal miCONCAR",
@@ -3969,7 +3969,7 @@ export const dataGlobal = [
     palabrasClave: ["generar", "nueva", "contraseña", "accesos", "portal"],
   },
   {
-    id: 362,
+    id: 349,
     name: "Mensaje de licencia Real Key (RK)",
     description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
     href: "/global/licencia-real-key",
@@ -3979,7 +3979,7 @@ export const dataGlobal = [
     palabrasClave: ["mensaje", "licencia", "real", "key", "rk"],
   },
   {
-    id: 363,
+    id: 350,
     name: "Separata Curso Básico Concar SQL",
     description: "Separatas usadas en el cursos básico de CONCAR SQL",
     href: "/global/separata-curso-basico-concar-sql",
@@ -3989,7 +3989,7 @@ export const dataGlobal = [
     palabrasClave: ["separata", "curso", "basico", "concar", "sql"],
   },
   {
-    id: 364,
+    id: 351,
     name: "¿Cómo crear el Ejercicio 2024 en el Concar SQL? - Incluye Video",
     description:
       "A continuación detallamos como crear el ejercicio 2024 en el sistema Concar SQL",
@@ -4000,7 +4000,7 @@ export const dataGlobal = [
     palabrasClave: ["crear", "ejercicio", "2024", "concar", "sql"],
   },
   {
-    id: 365,
+    id: 352,
     name: "Como superar mensaje: CC010.fecha fuera de rango",
     description:
       "Procedimiento para superar mensaje al registrar comprobantes: “CC010.FECHA FUERA DE RANGO” en el sistema CONCAR®",
@@ -4011,7 +4011,7 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "cc010", "fecha", "rango"],
   },
   {
-    id: 366,
+    id: 353,
     name: "Error Apertura de tabla al ingresar al CONCAR",
     description: "Error Apertura de tabla impide ingresar al CONCAR.",
     href: "/global/tabla-ingresar-concar",
@@ -4021,7 +4021,7 @@ export const dataGlobal = [
     palabrasClave: ["error", "apertura", "tabla", "ingresar", "concar"],
   },
   {
-    id: 367,
+    id: 354,
     name: "Mensaje de licencia Real Key (RK)",
     description: "Mensaje de licencia por archivo .VPL no encontrado o dañado.",
     href: "/global/licencia-real-key",
@@ -4033,7 +4033,7 @@ export const dataGlobal = [
   //*Fin ACCESO
   //?Inicio PRESUPUESTO
   {
-    id: 368,
+    id: 355,
     name: "Presupuesto",
     description:
       "Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable. El presupuesto se puede llevar por centro de costo y/o por cuenta de Ganancias y Pérdidas por Función o Naturaleza.",
@@ -4044,7 +4044,7 @@ export const dataGlobal = [
     palabrasClave: ["presupuesto"],
   },
   {
-    id: 369,
+    id: 356,
     name: "Ejecución Presupuestal por Función o Naturaleza",
     description:
       "Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.",
@@ -4055,7 +4055,7 @@ export const dataGlobal = [
     palabrasClave: ["ejecucion", "presupuestal", "funcion", "naturaleza"],
   },
   {
-    id: 370,
+    id: 357,
     name: "Ejecución Presupuestal x Centro Costo",
     description:
       "Este reporte nos permite comparar lo presupuestado por centro de costo contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
@@ -4066,7 +4066,7 @@ export const dataGlobal = [
     palabrasClave: ["ejecucion", "presupuestal", "centro", "costo"],
   },
   {
-    id: 371,
+    id: 358,
     name: "Mantenimiento Presupuesto",
     description:
       "Proceso que registra en forma masiva los importes de la configuración de presupuesto para el ejercicio actual.",
@@ -4077,7 +4077,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "presupuesto"],
   },
   {
-    id: 372,
+    id: 359,
     name: "Presupuesto Ordinario",
     description:
       "Emite un reporte de flujo de caja ejecutado, teniendo la posibilidad compararse 2 ejercicios.",
@@ -4088,7 +4088,7 @@ export const dataGlobal = [
     palabrasClave: ["presupuesto", "ordinario"],
   },
   {
-    id: 373,
+    id: 360,
     name: "Reporte de Presupuesto",
     description:
       "Imprime el reporte de lo presupuestado en el Mantenimiento de Presupuesto, pudiéndose generar en moneda nacional o extranjera.",
@@ -4099,7 +4099,7 @@ export const dataGlobal = [
     palabrasClave: ["reporte", "presupuesto"],
   },
   {
-    id: 374,
+    id: 361,
     name: "Reporte Ejecución Presupuesto",
     description:
       "Este reporte se utiliza para comparar lo presupuestado por centro de costo/cuenta contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
@@ -4112,7 +4112,7 @@ export const dataGlobal = [
   //?Fin PRESUPUESTO
   //*Inicio DIFERENCIA DE CAMBIO
   {
-    id: 375,
+    id: 362,
     name: "¿Cómo realizar el Proceso de Regularización y Ajuste por Diferencia de Cambio? - Incluye Video",
     description:
       "A continuación detallamos los pasos a realizar para la Regularización y Ajuste por Diferencia de Cambio en el Concar CB",
@@ -4130,7 +4130,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 376,
+    id: 363,
     name: "¿Por qué no me regulariza el tipo de cambio cierre en mi cuenta contable al realizar el proceso de ajuste FASB 52? - Incluye Video",
     description:
       "A continuacion detallamos las recomendaciones para realizar el proceso de ajuste FASB52",
@@ -4141,7 +4141,7 @@ export const dataGlobal = [
     palabrasClave: ["regulariza", "tipo", "cambio"],
   },
   {
-    id: 377,
+    id: 364,
     name: "¿Por qué sigue figurando saldos en el análisis de cuentas, al realizar mi proceso de regularización por diferencia de cambio? - Incluye Video",
     description:
       "A continuacion brindamos los tips, recomendaciones sobre el proceso de diferencia de cambio",
@@ -4152,7 +4152,7 @@ export const dataGlobal = [
     palabrasClave: ["figurando", "saldos", "analisis", "cuentas"],
   },
   {
-    id: 378,
+    id: 365,
     name: "Mantenimiento de Cuentas Ajuste Diferencia de Cambio FASB52",
     description:
       "En esta opción se configuran las cuentas que van a participar en el proceso de Ajuste Diferencia Cambio FASB 52 además del subdiario, las cuentas de pérdida y ganancia por diferencia de cambio y el código de moneda para ajuste.",
@@ -4170,7 +4170,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 379,
+    id: 366,
     name: "Mantenimiento de Cuentas Regularización Diferencia de Cambio",
     description:
       "En esta opción se configuran las cuentas que van a participar en el proceso de Regularización Diferencia de Cambio además del subdiario y las cuentas de pérdida y ganancia por diferencia de cambio.",
@@ -4189,7 +4189,7 @@ export const dataGlobal = [
   //*Fin DIFERENCIA DE CAMBIO
   //?Inicio COBRANZAS
   {
-    id: 380,
+    id: 367,
     name: "Cancelación de Facturas por Cobrar con Documentos por Pagar",
     description:
       "Aplicación de un documento por pagar a una factura por cobrar.",
@@ -4200,7 +4200,7 @@ export const dataGlobal = [
     palabrasClave: ["cancelacion", "facturas", "cobrar", "documentos", "pagar"],
   },
   {
-    id: 381,
+    id: 368,
     name: "Canje de Facturas por Letras",
     description: "Cómo canjear facturas por letras.",
     href: "/global/canje-facturas-letras",
@@ -4210,7 +4210,7 @@ export const dataGlobal = [
     palabrasClave: ["canje", "facturas", "letras"],
   },
   {
-    id: 382,
+    id: 369,
     name: "Cobranzas Registro de Planilla de Cobranza",
     description: "Cómo contabilizar una planilla de cobranza.",
     href: "/global/cobranzas-registro-planilla-cobranza",
@@ -4222,7 +4222,7 @@ export const dataGlobal = [
   //?Fin COBRANZAS
   //*Inicio CREARCION DE COMPAÑIAS
   {
-    id: 383,
+    id: 370,
     name: "Modificación de la Razón social",
     description: "Cómo cambiar el nombre o razón social de una compañía.",
     href: "/global/modificacion-razon-social",
@@ -4232,7 +4232,7 @@ export const dataGlobal = [
     palabrasClave: ["modificacion", "razon", "social"],
   },
   {
-    id: 384,
+    id: 371,
     name: "¿Cómo crear un nuevo ejercicio en el CONCAR SQL ? - Incluye Video",
     description: "Explicamos como crear un nuevo ejercicio en el Concar SQL.",
     href: "/global/ejercicio-concar-sql",

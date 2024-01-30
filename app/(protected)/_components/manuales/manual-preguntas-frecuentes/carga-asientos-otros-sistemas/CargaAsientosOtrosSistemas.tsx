@@ -592,7 +592,12 @@ const CargaAsientosOtrosSistemas = () => {
           por comprobante. Los campos de relación son los campos SUBDIA y
           COMPRO.
         </p>
-        <Image src="/dic1.jpg" alt="1" width={500} height={300} />
+        <Image
+          src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_carga_desde_otros_sistemas_1.jpg"
+          alt="1"
+          width={500}
+          height={300}
+        />
       </div>
       <div className="space-y-2">
         <h1>NOTAS</h1>

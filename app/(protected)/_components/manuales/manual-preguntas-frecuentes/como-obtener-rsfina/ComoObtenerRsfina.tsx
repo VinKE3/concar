@@ -33,14 +33,14 @@ const ComoObtenerRsfina = () => {
           <li>Contraseña: concar2011</li>
         </ul>
         <Image
-          src="/comoObtenerRsfina/1.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_frecuentes_como_obtener_el_rstina11_.jpg"
           width={500}
           height={300}
           alt="Iniciar Sesión"
         />
         <p>Entrar a la carpeta RSFINA11/</p>
         <Image
-          src="/comoObtenerRsfina/2.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_frecuentes_como_obtener_el_rstina11_1_.jpg"
           width={900}
           height={500}
           alt="Entrar a la carpeta RSFINA11/"
@@ -49,7 +49,7 @@ const ComoObtenerRsfina = () => {
         <p>CONCARSQL_Manual_RSFINA11-pdf (manual)</p>
         <p>RSFINA11.exe (ejecutable del programa)</p>
         <Image
-          src="/comoObtenerRsfina/3.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_frecuentes_como_obtener_el_rstina11_2_.jpg"
           width={900}
           height={500}
           alt="En la siguiente ventana aparecerán los siguientes documentos:"

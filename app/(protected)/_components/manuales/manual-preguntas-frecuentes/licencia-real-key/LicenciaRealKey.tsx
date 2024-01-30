@@ -23,7 +23,7 @@ const LicenciaRealKey = () => {
           the software.”
         </p>
         <Image
-          src="/manejoLicenciaRealKey/1.jpeg"
+          src="https://miconcar.com/uploads/documentos/error_vpl_rk1.JPG"
           alt="1"
           width={500}
           height={500}
@@ -33,7 +33,7 @@ const LicenciaRealKey = () => {
           reinstall the software. (0)”,
         </p>
         <Image
-          src="/manejoLicenciaRealKey/2.jpeg"
+          src="https://miconcar.com/uploads/documentos/license_file_error.JPG"
           alt="2"
           width={500}
           height={500}
@@ -45,7 +45,7 @@ const LicenciaRealKey = () => {
         <div className="flex items-center justify-start gap-2">
           <p>para descargar el archivo</p>
           <Image
-            src="/manejoLicenciaRealKey/3.jpeg"
+            src="https://miconcar.com/uploads/documentos/rsconcar_vpl.JPG"
             alt="3"
             width={200}
             height={200}
@@ -57,7 +57,7 @@ const LicenciaRealKey = () => {
           enlace como... de la siguiente forma:
         </p>
         <Image
-          src="/manejoLicenciaRealKey/4.jpeg"
+          src="https://miconcar.com/uploads/documentos/guardar_enlace_como_pweb1.JPG"
           alt="4"
           width={800}
           height={700}
@@ -67,7 +67,7 @@ const LicenciaRealKey = () => {
           carpeta donde se instaló el software como sigue:
         </p>
         <Image
-          src="/manejoLicenciaRealKey/5.jpeg"
+          src="https://miconcar.com/uploads/documentos/ruta_guardar_rsconcar_vpl.JPG"
           alt="5"
           width={500}
           height={500}

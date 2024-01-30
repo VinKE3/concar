@@ -11,6 +11,10 @@ const ComoCargarLibroVentas = () => {
   ];
   return (
     <>
+      <p>
+        Procedimiento para cargar el libro electrónico de ventas al programa de
+        libros electrónicos PLE-SUNAT.
+      </p>
       <Table items={data} />
     </>
   );

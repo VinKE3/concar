@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const ComoSubsanarInconsistencias = () => {
   return (
-    <>
+    <div className="space-y-3">
       <h1 className="text-gray-900 font-semibold pb-2">Caso:</h1>
       <p className="pb-2">
         Cómo subsanar las inconsistencias que el PLE detecta en el proceso de
         validación de los libros electrónicos. Ejemplo:
       </p>
       <Image
-        src="/libroCompra/subsanar1.jpg"
+        src="https://miconcar.com/uploads/documentos/HOY301.jpg"
         width={493}
         height={511}
         className="object-contain"
@@ -19,7 +19,7 @@ const ComoSubsanarInconsistencias = () => {
       <h1 className="text-gray-900 font-semibold pb-2">Solución:</h1>
       <h1>1.Generar el libro electrónico de compras para el PLE en Excel:</h1>
       <Image
-        src="/libroCompra/subsanar2.jpg"
+        src="https://miconcar.com/uploads/documentos/351.jpg"
         width={493}
         height={266}
         className="object-contain"
@@ -32,7 +32,7 @@ const ComoSubsanarInconsistencias = () => {
         ejemplo:
       </h1>
       <Image
-        src="/libroCompra/subsanar3.jpg"
+        src="https://miconcar.com/uploads/documentos/401.jpg"
         width={493}
         height={288}
         className="object-contain"
@@ -45,7 +45,7 @@ const ComoSubsanarInconsistencias = () => {
         o documento del comprobante 13-010025:
       </h1>
       <Image
-        src="/libroCompra/subsanar4.jpg"
+        src="https://miconcar.com/uploads/documentos/361.jpg"
         width={493}
         height={288}
         className="object-contain"
@@ -57,7 +57,7 @@ const ComoSubsanarInconsistencias = () => {
         comprobante 13-010025 la fecha de emisión del documento.
       </h1>
       <Image
-        src="/libroCompra/subsanar5.png"
+        src="https://miconcar.com/uploads/documentos/50.png"
         width={493}
         height={288}
         className="object-contain"
@@ -66,7 +66,7 @@ const ComoSubsanarInconsistencias = () => {
       <h1>5. Volver a generar el archivo mensual de compras.</h1>
       <h1>6. Volver a generar el libro electrónico de compras.</h1>
       <h1>7. Validar el libro electrónico en el PLE.</h1>
-    </>
+    </div>
   );
 };
 

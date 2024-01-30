@@ -25,7 +25,7 @@ const DescargarVersion = () => {
           <li>3. En la página de Inicio elegir la sección descargas:</li>
           <Image
             alt="imagen1"
-            src="/descargarVersionMiConcar/1.png"
+            src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_01__.png"
             width={996}
             height={500}
           />
@@ -35,7 +35,7 @@ const DescargarVersion = () => {
           </li>
           <Image
             alt="imagen2"
-            src="/descargarVersionMiConcar/2.png"
+            src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_02__1.png"
             width={900}
             height={500}
           />
@@ -45,7 +45,7 @@ const DescargarVersion = () => {
           </p>
           <Image
             alt="imagen3"
-            src="/descargarVersionMiConcar/3.png"
+            src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_03__.png"
             width={300}
             height={300}
           />
@@ -60,16 +60,16 @@ const DescargarVersion = () => {
             mostrará la carpeta llamada{" "}
             <Image
               alt="imagen4"
-              src="/descargarVersionMiConcar/4.png"
-              width={300}
-              height={300}
+              src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_05__.png"
+              width={200}
+              height={200}
             />
             dentro encontrará el actualizador
             <Image
               alt="imagen5"
-              src="/descargarVersionMiConcar/5.png"
-              width={300}
-              height={300}
+              src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_06__.png"
+              width={200}
+              height={200}
             />
             donde XX es la versión vigente en el momento de la descarga.
           </li>
@@ -77,16 +77,16 @@ const DescargarVersion = () => {
             6. Seleccionar el actualizador
             <Image
               alt="imagen6"
-              src="/descargarVersionMiConcar/6.png"
-              width={300}
-              height={300}
+              src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_06__.png"
+              width={200}
+              height={200}
             />
             hacer clic derecho y elegir la opción
             <Image
               alt="imagen7"
-              src="/descargarVersionMiConcar/7.png"
-              width={300}
-              height={300}
+              src="https://miconcar.com/uploads/documentos/concar_sql_proceso_descarga_1.0_04__.png"
+              width={200}
+              height={200}
             />
             para realizar la actualización.
           </li>

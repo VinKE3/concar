@@ -12,6 +12,10 @@ const ComoGenerarMesMovimiento = () => {
   ];
   return (
     <>
+      <h1>
+        Procedimiento para la generación del archivo TXT del libro electrónico
+        de compras de un mes sin movimiento.
+      </h1>
       <Table items={data} />
     </>
   );

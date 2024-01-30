@@ -15,7 +15,7 @@ const ValidacionRegistroVentasPle = () => {
           especificando las observaciones detectadas. Por ejemplo:
         </p>
         <Image
-          src="/validacionLibroVenta.png"
+          src="https://miconcar.com/uploads/documentos/concar_cb_sql_c1_1_v2015_01_Observaciones_libro_electronico_ventas_img1_v1_.png"
           alt="Validación del Registro de Ventas PLE"
           width={1000}
           height={1000}

@@ -19,7 +19,7 @@ const GenerarArchivoCompras = () => {
         el ordinal solicitado al generar registro de compras
       </p>
       <Image
-        src="/generarArchivoCompras.jpg"
+        src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_frecuentes_error_3265_en_tiempo_de_ejecucion_.jpg"
         alt="1"
         width={700}
         height={500}

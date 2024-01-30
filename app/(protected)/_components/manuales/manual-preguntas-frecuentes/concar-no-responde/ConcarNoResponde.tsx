@@ -15,7 +15,7 @@ const ConcarNoResponde = () => {
           Administrador.
         </p>
         <Image
-          src="/concarNoResponde.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_sql_preguntas_frecuentes_concar_no_responde_.jpg"
           alt="Concar no responde"
           width={500}
           height={500}

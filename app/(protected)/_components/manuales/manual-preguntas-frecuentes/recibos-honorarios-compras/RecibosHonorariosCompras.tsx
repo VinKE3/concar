@@ -24,7 +24,7 @@ const RecibosHonorariosCompras = () => {
         </li>
         <Image
           alt="RecibosHonorariosCompras1"
-          src="/reciboHonorarios/1.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_cb_preguntas_frecuentes_mostrar_recibos_por_honorarios_en_registro_de_compras_.jpg"
           width={500}
           height={500}
         />
@@ -34,7 +34,7 @@ const RecibosHonorariosCompras = () => {
         </li>
         <Image
           alt="RecibosHonorariosCompras2"
-          src="/reciboHonorarios/2.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_cb_preguntas_frecuentes_mostrar_recibos_por_honorarios_en_registro_de_compras_1_.jpg"
           width={500}
           height={500}
         />
@@ -44,7 +44,7 @@ const RecibosHonorariosCompras = () => {
         </li>
         <Image
           alt="RecibosHonorariosCompras3"
-          src="/reciboHonorarios/3.jpg"
+          src="https://miconcar.com/uploads/documentos/concar_cb_preguntas_frecuentes_mostrar_recibos_por_honorarios_en_registro_de_compras_2_.jpg"
           width={500}
           height={500}
         />

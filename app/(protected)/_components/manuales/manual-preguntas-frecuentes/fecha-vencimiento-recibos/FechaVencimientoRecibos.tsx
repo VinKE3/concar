@@ -21,7 +21,7 @@ const FechaVencimientoRecibos = () => {
             tengan activado el check de Fecha Vencimiento en el Plan de Cuentas.
           </li>
           <Image
-            src="/fechaVencimientoRegistros/1.jpg"
+            src="https://miconcar.com/uploads/documentos/concar_cb_preguntas_frecuentes_fecha_vencimiento_rc_registro_compras_electronico_.jpg"
             alt="1"
             width={700}
             height={500}
@@ -38,7 +38,7 @@ const FechaVencimientoRecibos = () => {
             de Parámetros de Compras.
           </li>
           <Image
-            src="/fechaVencimientoRegistros/2.jpg"
+            src="https://miconcar.com/uploads/documentos/concar_cb_preguntas_frecuentes_fecha_vencimiento_rc_registro_compras_electronico_1_.jpg"
             alt="2"
             width={700}
             height={500}
