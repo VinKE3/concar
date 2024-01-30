@@ -3740,6 +3740,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL"],
     tema: "Compatibilidad",
+    palabrasClave: ["proceder", "mensaje", "error", "50003"],
   },
   {
     id: 328,
@@ -3750,6 +3751,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "excepcion", "sistemas", "antivirus"],
   },
   {
     id: 329,
@@ -3760,6 +3762,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "excepcion", "sistemas", "antivirus"],
   },
   {
     id: 330,
@@ -3770,6 +3773,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "eliminacion", "avast", "free", "bytefence"],
   },
   {
     id: 331,
@@ -3780,6 +3784,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA", "CONCARSIRESQL"],
     tema: "Compatibilidad",
+    palabrasClave: ["realizar", "exclusion", "modulos", "antivirus"],
   },
   {
     id: 332,
