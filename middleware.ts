@@ -6,7 +6,6 @@ import {
   authRoutes,
   publicRoutes,
 } from "@/routes";
-import { signOut } from "next-auth/react";
 
 const { auth } = NextAuth(authConfig);
 

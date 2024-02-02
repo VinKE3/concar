@@ -6,11 +6,10 @@ import { AiFillCaretDown } from "react-icons/ai";
 import MenuItem from "./MenuItem";
 import Avatar from "./Avatar";
 import BackDrop from "../BackDrop";
-import { signOut } from "next-auth/react";
-import { redirect, useRouter } from "next/navigation";
 import { User } from "next-auth";
 import { UserRole } from "@prisma/client";
 import { LogOut, User2 } from "lucide-react";
+import { logout } from "@/actions/logout";
 
 interface UserMenuProps {
   currentUser:
@@ -24,15 +23,9 @@ interface UserMenuProps {
 
 const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
-
   const toggleOpen = useCallback(() => {
     setIsOpen((prev) => !prev);
   }, []);
-
-  // useEffect(() => {
-  //   if (!currentUser) router.push("/");
-  // }, [currentUser]);
 
   return (
     <>
@@ -88,10 +81,10 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                 <MenuItem
                   onClick={async () => {
                     toggleOpen();
-                    await signOut();
+                    await logout();
                   }}
                 >
-                  <LogOut className="" />
+                  <LogOut />
                   Salir
                 </MenuItem>
               </div>
