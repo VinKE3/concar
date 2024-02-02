@@ -42,6 +42,7 @@ export const NewVerificationForm = () => {
   return (
     <CardWrapper
       headerLabel="Confirma tu cuenta"
+      backButtonOn
       backButtonLabel="Volver al Login"
       backButtonHref="/auth/login"
     >

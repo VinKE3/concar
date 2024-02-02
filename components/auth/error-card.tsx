@@ -6,6 +6,7 @@ export const ErrorCard = () => {
   return (
     <CardWrapper
       headerLabel="Oops! Algo salio mal!"
+      backButtonOn
       backButtonHref="/auth/login"
       backButtonLabel="Volver al Login"
     >

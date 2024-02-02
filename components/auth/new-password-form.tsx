@@ -52,6 +52,7 @@ export const NewPasswordForm = () => {
   return (
     <CardWrapper
       headerLabel="Ingrese su nueva contraseña"
+      backButtonOn
       backButtonLabel="Volver al inicio de sesión"
       backButtonHref="/auth/login"
     >
