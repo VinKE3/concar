@@ -13,3 +13,11 @@ export type EmpresaData = {
   icon: any;
   description: string;
 }[];
+
+export type NovedadesData = {
+  id: number;
+  title: string;
+  icon: any;
+  href: string;
+  description: string;
+}[];

@@ -1,0 +1,22 @@
+export const dataBanner = [
+  {
+    id: 1,
+    image: "b1.png",
+  },
+  {
+    id: 2,
+    image: "b2.png",
+  },
+  {
+    id: 3,
+    image: "b3.png",
+  },
+  {
+    id: 4,
+    image: "b4.png",
+  },
+  {
+    id: 5,
+    image: "b5.png",
+  },
+];
