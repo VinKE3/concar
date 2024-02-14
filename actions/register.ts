@@ -52,12 +52,12 @@ export const register = async (values: z.infer<typeof RegisterSchema>) => {
     },
   });
 
-  const verificationToken = await generateVerificationToken(email);
-  await sendVerificationEmail(
-    verificationToken.email,
-    verificationToken.token,
-    name
-  );
+  // const verificationToken = await generateVerificationToken(email);
+  // await sendVerificationEmail(
+  //   verificationToken.email,
+  //   verificationToken.token,
+  //   name
+  // );
 
   return { success: "Email de Confirmación Enviado!" };
 };

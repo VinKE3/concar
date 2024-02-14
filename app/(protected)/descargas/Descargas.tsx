@@ -14,7 +14,7 @@ const Descargas = () => {
       title: "CONCAR® SQL #YoMeQuedoEnCasa 14.19",
       description:
         "CARPETA INCLUYE: #QUÉDATE EN CASA CONCAR SQL 14.19 + e-CONCAR NET 12.55 + RSFINA",
-      href: "https://www.concar.com.pe/descargas/concar-sql-yomequedoencasa-14-19/",
+      href: "https://mega.nz/file/3HpXWJIb#LebTnu5_yxunu5bT4bBnlmYtAj8lYJoTC4SXRoJfM50",
       publicado: moment().format("DD/MM/YYYY"),
     },
     {
@@ -22,7 +22,7 @@ const Descargas = () => {
       title: "0CONCAR® SIRE SQL 2023.144",
       description:
         "- Se otorgará (01) licencia por cliente (sin costo) para única instalación local.",
-      href: "ENERO",
+      href: "https://mega.nz/file/3HpXWJIb",
       publicado: moment().format("DD/MM/YYYY"),
     },
   ];

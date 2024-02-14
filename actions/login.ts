@@ -34,19 +34,19 @@ export const login = async (
     };
   }
 
-  if (!existingUser.emailVerified) {
-    const verificationToken = await generateVerificationToken(
-      existingUser.email
-    );
+  // if (!existingUser.emailVerified) {
+  //   const verificationToken = await generateVerificationToken(
+  //     existingUser.email
+  //   );
 
-    await sendVerificationEmail(
-      verificationToken.email,
-      verificationToken.token,
-      existingUser.name as string
-    );
+  //   await sendVerificationEmail(
+  //     verificationToken.email,
+  //     verificationToken.token,
+  //     existingUser.name as string
+  //   );
 
-    return { success: "Email de Confirmación Enviado!" };
-  }
+  //   return { success: "Email de Confirmación Enviado!" };
+  // }
 
   try {
     await signIn("credentials", {
@@ -54,6 +54,7 @@ export const login = async (
       password,
       redirectTo: callbackUrl || DEFAULT_LOGIN_REDIRECT,
     });
+    return { success: "Inicio de sesión exitoso!" };
   } catch (error) {
     if (error instanceof AuthError) {
       switch (error.type) {
