@@ -1,18 +1,18 @@
 import Table from "@/components/Table";
 import React from "react";
 
-const page = () => {
+const GeneraComparaCargaRegistro = () => {
   const data = [
     {
       id: 1,
       title:
-        "Generación de Registro de Compras Electrónicos (RCE) con CONCAR-SIRE-CB",
-      href: "https://miconcar-uploads.s3.amazonaws.com/documentos/2023/11/1208_Cod.1208_D01195_Genera%2C_comparar_y_Carga_Compras_Electronicos_RCE_con_CONCAR_SIRE_cb_sql1.pdf",
+        "Generación_de_Registro_de_Ventas_e_Ingresos_Electrónicos (RVIE)_con_CONCAR SIRE",
+      href: "https://miconcar-uploads.s3.amazonaws.com/documentos/2023/10/Cod.1170_D01157_Generacion_de_Registro_de_Ventas_e_Ingresos_Electronicos-RVIE_con_CONCAR_SIRE_cb_sql.pdf",
     },
   ];
   return (
     <div className="space-y-3">
-      <h1 className="font-bold">Consideraciones Generales</h1>
+      <h1></h1>
       <ul className="px-5 list-disc">
         <li>Validar entorno Windows UPDATE se encuentre actualizado.</li>
         <li>
@@ -70,7 +70,7 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/t-3hIWTSLeg?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>
@@ -94,7 +94,7 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/tgP6hIhAWgI?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>
@@ -118,7 +118,7 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/h2mOk6Owdwo?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>
@@ -129,4 +129,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default GeneraComparaCargaRegistro;

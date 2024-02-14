@@ -1,6 +1,6 @@
 import React from "react";
 import Acordion from "@/components/acordion/Acordion";
-import { dataSireSql, dataConcar } from "@/data/tuturiales.data";
+import { dataSireSql, dataConcar, dataSireCB } from "@/data/tuturiales.data";
 
 const TutorialesPage = () => {
   return (
@@ -18,6 +18,18 @@ const TutorialesPage = () => {
           </div>
           <div className="md:p-2 p-0">
             <Acordion id="2" title="CONCAR SQL" description={dataConcar} />
+          </div>
+        </div>
+        <div>
+          <h2 className="px-2 pt-2 text-black font-bold">Productos CodeBase</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="md:p-2 p-0">
+              <Acordion
+                id="3"
+                title="CONCAR® SIRE CB"
+                description={dataSireCB}
+              />
+            </div>
           </div>
         </div>
       </div>

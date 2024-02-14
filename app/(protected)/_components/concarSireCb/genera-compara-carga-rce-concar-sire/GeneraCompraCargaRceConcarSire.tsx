@@ -1,7 +1,7 @@
 import Table from "@/components/Table";
 import React from "react";
 
-const page = () => {
+const GeneraCompraCargaRceConcarSire = () => {
   const data = [
     {
       id: 1,
@@ -129,4 +129,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default GeneraCompraCargaRceConcarSire;
