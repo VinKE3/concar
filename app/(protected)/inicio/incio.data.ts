@@ -30,7 +30,7 @@ export const dataSoporte: SoporteData = [
   },
   {
     id: 3,
-    title: "Temas",
+    title: "Temas CONCAR SIRE SQL",
     href: "/temas",
     icon: List,
     description:
@@ -38,6 +38,14 @@ export const dataSoporte: SoporteData = [
   },
   {
     id: 4,
+    title: "Temas CONCAR SIRE CB",
+    href: "/temas-sireCb",
+    icon: List,
+    description:
+      "Navegue por los distintos temas de interes de nuestra biblioteca digital.",
+  },
+  {
+    id: 5,
     title: "Descargas",
     href: "/descargas",
     icon: Download,
