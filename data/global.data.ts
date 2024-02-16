@@ -2376,7 +2376,7 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "registro", "comprobantes", "compras"],
   },
   //?*Fin COMPRAS
-  //?Iniio REGISTR0 DE COMPROBANTES -19
+  //?Inicio REGISTR0 DE COMPROBANTES -19
   {
     id: 205,
     name: "¿Cómo superar el mensaje comprobante ya fue registrado? - Incluye Video",
@@ -2469,6 +2469,17 @@ export const dataGlobal = [
     description:
       "Mediante esta opción se puede registrar en el sistema cualquier asiento de diario como son: Bancos, cajas, planillas, costos, canjes, cancelaciones de clientes y otros; exceptuando los registros por compras, ventas, honorarios y cheques.",
     href: "/global/comprobante-estandar",
+    tipo: "Artículo",
+    categorias: ["CONCARSQL"],
+    tema: "Registro de Comprobantes",
+    palabrasClave: ["comprobante", "estandar", "conversion"],
+  },
+  {
+    id: 213,
+    name: "Comprobante Estándar sin Conversión",
+    description:
+      "Mediante esta opción se puede registrar en el sistema cualquier asiento de diario como son: Bancos, cajas, planillas, costos, canjes, cancelaciones de clientes y otros; exceptuando los registros por compras, ventas, honorarios y cheques.",
+    href: "/global/comprobante-estandar-sin-conversion",
     tipo: "Artículo",
     categorias: ["CONCARSQL"],
     tema: "Registro de Comprobantes",
