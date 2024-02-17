@@ -1,4 +1,5 @@
 export const dataGlobal = [
+  //#region Libros Electrónicos
   //?Inicio Libros Electrónicos
   {
     id: 1,
@@ -907,6 +908,9 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "ventas", "no domiciliados"],
   },
   //?Fin Libros Electrónicos
+  //#endregion
+
+  //#region Sin Definir
   //*Inico Sin Definir -26
   {
     id: 71,
@@ -1192,6 +1196,9 @@ export const dataGlobal = [
     palabrasClave: ["llave", "real key"],
   },
   //*Fin Sin Definir
+  //#endregion
+
+  //#region Caja y Bancos
   //?Inicio CAJA Y BANCOS-16
   {
     id: 97,
@@ -1366,6 +1373,9 @@ export const dataGlobal = [
     palabrasClave: ["transfiere", "pendientes", "año", "anterior"],
   },
   //?Fin CAJA Y BANCOS
+  //#endregion
+
+  //#region Ventas
   //*Inicio VENTAS -15
   {
     id: 113,
@@ -1535,6 +1545,9 @@ export const dataGlobal = [
     palabrasClave: ["configuracion", "ivap"],
   },
   //*Fin VENTAS
+  //#endregion
+
+  //#region Libros Oficiales
   //?Inicio LIBROS OFICIALES-13
   {
     id: 128,
@@ -1678,6 +1691,9 @@ export const dataGlobal = [
     palabrasClave: ["libros", "registros", "oficiales"],
   },
   //?Fin LIBROS OFICIALES -13
+  //#endregion
+
+  //#region Estados Financieros
   //*Inicio ESTADOS FINANCIEROS - 7
   {
     id: 141,
@@ -1756,6 +1772,9 @@ export const dataGlobal = [
     palabrasClave: ["estado", "flujo", "efectivo"],
   },
   //*Fin ESTADOS FINANCIEROS -7
+  //#endregion
+
+  //#region Facturación Electrónica
   //?Inicio FACTURACIÓN ELECTRÓNICA - 5
   {
     id: 148,
@@ -1813,6 +1832,9 @@ export const dataGlobal = [
     palabrasClave: ["configura", "codigos", "establecimientos"],
   },
   //?Fin FACTURACIÓN ELECTRÓNICA -5
+  //#endregion
+
+  //#region Honorarios
   //*Inicio HONORARIOS -3
   {
     id: 153,
@@ -1848,6 +1870,9 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "parametros", "honorarios"],
   },
   //*Fin HONORARIOS -3
+  //#endregion
+
+  //#region Interfaz
   //?Inicio INTERFAZ -2
   {
     id: 156,
@@ -1871,6 +1896,9 @@ export const dataGlobal = [
     palabrasClave: ["interfaz", "carga", "asientos"],
   },
   //?Fin INTERFAZ -2
+  //#endregion
+
+  //#region Compras
   //?*Inicio COMPRAS
   {
     id: 158,
@@ -2376,6 +2404,9 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "registro", "comprobantes", "compras"],
   },
   //?*Fin COMPRAS
+  //#endregion
+
+  //#region Registro de Comprobantes
   //?Inicio REGISTR0 DE COMPROBANTES -19
   {
     id: 205,
@@ -2585,6 +2616,9 @@ export const dataGlobal = [
     palabrasClave: ["movimiento", "datos"],
   },
   //?Fin REGISTR0 DE COMPROBANTES
+  //#endregion
+
+  //#region CIERRE Y APERTURA
   //*Inicio CIERRE Y APERTURA
   {
     id: 223,
@@ -2754,6 +2788,9 @@ export const dataGlobal = [
     palabrasClave: ["generacion", "asiento", "apertura", "automatico"],
   },
   //*Fin CIERRE Y APERTURA
+  //#endregion
+
+  //#region INSTALACION/ACTUALIZACION
   //?Inicio INSTALACION/ACTUALIZACION
   {
     id: 238,
@@ -2897,6 +2934,9 @@ export const dataGlobal = [
     palabrasClave: ["realizar", "proceso", "actualizacion", "archivo dll"],
   },
   //?Fin INSTALACION/ACTUALIZACION
+  //#endregion
+
+  //#region SUNAT
   //*Inicio SUNAT
   {
     id: 251,
@@ -3009,6 +3049,9 @@ export const dataGlobal = [
     palabrasClave: ["sunat"],
   },
   //*Fin SUNAT
+  //#endregion
+
+  //#region CONEXION
   //?Inicio CONEXION
   {
     id: 261,
@@ -3065,6 +3108,9 @@ export const dataGlobal = [
     palabrasClave: ["solucionar", "procesos", "lentitud", "sistema"],
   },
   //?Fin CONEXION
+  //#endregion
+
+  //#region PLAN DE CUENTAS
   //*Inicio PLAN DE CUENTAS
   {
     id: 266,
@@ -3111,6 +3157,9 @@ export const dataGlobal = [
     palabrasClave: ["plan", "cuenta"],
   },
   //*Fin PLAN DE CUENTAS
+  //#endregion
+
+  //#region SEGURIDAD
   //?Inicio SEGURIDAD
   {
     id: 270,
@@ -3146,6 +3195,9 @@ export const dataGlobal = [
     palabrasClave: ["generacion", "backup", "copia", "seguridad", "automatico"],
   },
   //?Fin SEGURIDAD
+  //#endregion
+
+  //#region ANEXOS
   //*ANEXOS
   {
     id: 273,
@@ -3159,6 +3211,9 @@ export const dataGlobal = [
     palabrasClave: ["codigos", "anexos"],
   },
   //*Fin ANEXOS
+  //#endregion
+
+  //#region GENERALIDADES
   //?Inicio GENERALIDADES
   {
     id: 274,
@@ -3564,6 +3619,9 @@ export const dataGlobal = [
     palabrasClave: ["procedimiento", "generacion", "backup", "automatico"],
   },
   //?Fin GENERALIDADES
+  //#endregion
+
+  //#region OTROS REPORTES
   //*Inicio OTROS REPORTES
   {
     id: 311,
@@ -3741,6 +3799,9 @@ export const dataGlobal = [
     palabrasClave: ["superar", "mensaje", "ejecucion"],
   },
   //*Fin OTROS REPORTES
+  //#endregion
+
+  //#region COMPATIBILIDAD
   //?Inicio COMPATIBILIDAD
   {
     id: 327,
@@ -3907,6 +3968,9 @@ export const dataGlobal = [
     palabrasClave: ["compatibilidad", "concar"],
   },
   //?Fin COMPATIBILIDAD
+  //#endregion
+
+  //#region ACCESO
   //*Inicio ACCESO
   {
     id: 342,
@@ -4048,6 +4112,9 @@ export const dataGlobal = [
     palabrasClave: ["mensaje", "licencia", "real", "key", "rk"],
   },
   //*Fin ACCESO
+  //#endregion
+
+  //#region PRESUPUESTO
   //?Inicio PRESUPUESTO
   {
     id: 355,
@@ -4127,6 +4194,9 @@ export const dataGlobal = [
     palabrasClave: ["reporte", "ejecucion", "presupuesto"],
   },
   //?Fin PRESUPUESTO
+  //#endregion
+
+  //#region DIFERENCIA DE CAMBIO
   //*Inicio DIFERENCIA DE CAMBIO
   {
     id: 362,
@@ -4204,6 +4274,9 @@ export const dataGlobal = [
     ],
   },
   //*Fin DIFERENCIA DE CAMBIO
+  //#endregion
+
+  //#region COBRANZAS
   //?Inicio COBRANZAS
   {
     id: 367,
@@ -4237,6 +4310,9 @@ export const dataGlobal = [
     palabrasClave: ["cobranzas", "registro", "planilla", "cobranza"],
   },
   //?Fin COBRANZAS
+  //#endregion
+
+  //#region CREARCION DE COMPAÑIAS
   //*Inicio CREARCION DE COMPAÑIAS
   {
     id: 370,
@@ -4259,322 +4335,5 @@ export const dataGlobal = [
     palabrasClave: ["crear", "ejercicio", "concar", "sql"],
   },
   //*Fin CREARCION DE COMPAÑIAS
-  //?Inicio CONCAR SIRE CB
-  {
-    id: 372,
-    name: "Aplicación de la nota de crédito (nota de abono)",
-    description:
-      "Aplicación y/o Cancelación de una nota de crédito (nota de abono)",
-    href: "/global/aplicacion-nota-credito",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSIRECB"],
-    tema: "Cobranzas",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 373,
-    name: "Objetivos y características del sistema",
-    description:
-      "El principal objetivo del sistema es realizar el cálculo automático de las planillas (sueldos, salarios), emitir los reportes oficiales (planilla, boletas), así como también aquellos necesarios para el control y trabajo diario.",
-    href: "/global/objetivos-caracteristicas-sistema",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 374,
-    name: "¿Qué contiene la Tabla General? - Incluye Video",
-    description:
-      "El sistema centraliza su información en tablas, las cuales se ubican en la Tabla General",
-    href: "/global/contiene-tabla-general",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 375,
-    name: "¿Actualización CONCAR CB - Virtual? - Incluye Video",
-    description:
-      "A continuación de detalla los pasos a realizar para el proceso de Actualización del Concar CB - Virtual.",
-    href: "/global/actualizacion-concar-cb-virtual",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 376,
-    name: "¿Actualización CONCAR CB y e-CONCAR PRO en Red?",
-    description:
-      "A continuación se indicaran los pasos para una correcta actualización en redes",
-    href: "/global/actualizacion-concar-cb-red",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 377,
-    name: "¿Actualización de módulos CONCAR CB y e-CONCAR PRO Monousuario? - Incluye Video",
-    description:
-      "Conocerás el proceso de actualización sistemas CONCAR CB y el módulo ECONCAR PRO.",
-    href: "/global/acutalizacion-modulos-concar-cb",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 378,
-    name: "¿Archivo corrupto CBA en el momento de reindexar? - Incluye Video",
-    description:
-      "Si durante el proceso de Reindexación se genera el archivo corrupto CBA",
-    href: "/global/archivo-corrupto-cba-reindexar",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 379,
-    name: "¿Archivo Corrupto CTRUTR al momento de ejecutar una copia de seguridad? - Incluye Video",
-    description:
-      "A continuación detallamos los pasos a realizar si se presenta el mensaje Archivo Corrupto – CTRUTR",
-    href: "/global/archivo-corrupto-ctrutr-copia-seguridad",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 380,
-    name: "¿Archivo corrupto DND en el momento de reindexar? - Incluye Video",
-    description:
-      "Si al momento de reindexar le genera un mensaje de inconsistencia archivo corrupto DND deberá realizar los pasos que se indica a continuación",
-    href: "/global/archivo-corrupto-dnd-reindexar",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 381,
-    name: "¿Cómo Activar la Consulta en Linea de Sunat? - Incluye Video",
-    description: "Guía para activar Consulta en línea de SUNAT",
-    href: "/global/activar-consulta-linea-sunat",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 382,
-    name: "¿Como cargar información en mantenimiento Tabla de Cierre? - Incluye Video",
-    description:
-      "A continuación detallamos como deberá cargar las Tablas para el Mantenimiento de Cierre, en el caso que la compañia no cuenta con esta información.",
-    href: "/global/cargar-informacion-mantenimiento-tabla-cierre",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 383,
-    name: "¿Cómo cargar los rubros del Estado de Flujo de Efectivo? - Incluye Video",
-    description:
-      "Para poder trabajar un reporte de Flujo de Efectivo, deberá validar que cuenta con sus rubros",
-    href: "/global/cargar-rubros-estado-flujo-efectivo",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 384,
-    name: "¿Cómo Configurar el Tipo de Cambio? - Incluye Video",
-    description:
-      "El proceso para verificar y activar la herramienta - Tipo de Cambio Automático de Sunat",
-    href: "/global/configurar-tipo-cambio",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 385,
-    name: "¿Cómo contabilizar una Facturación Electrónica XML en el e-CONCAR PRO? - Incluye Video",
-    description:
-      "Aquí aprenderás en contabilizar facturas de compras en representación XML",
-    href: "/global/contabilizar-facturacion-electronica-xml",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 386,
-    name: "¿Como Crear Código de Anexos? - Incluye Video",
-    description:
-      "El sistema permite la creación de los diversos anexos que utilizara el usuario para el registro de sus operaciones",
-    href: "/global/crear-codigo-anexos",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 387,
-    name: "¿Cómo crear el Ejercicio 2024 en el Concar CB? - Incluye Video",
-    description:
-      "A continuación detallamos los pasos para crear el Ejercicio 2024 en el sistema CONCAR CB",
-    href: "/global/crear-ejercicio-2024-concar-cb",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 388,
-    name: "¿Cómo crear un nuevo Ejercicio en CONCAR CB? - Incluye Video",
-    description: "Explicamos como crear un nuevo ejercicio en el CONCAR CB.",
-    href: "/global/crear-nuevo-ejercicio-concar-cb",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 389,
-    name: "¿Cómo descargar la nueva versión del Portal miCONCAR? - Incluye Video",
-    description:
-      "A continuación se indica como podrán realizar la descarga de las actualizaciones del sistema",
-    href: "/global/descargar-nueva-version-portal-miconcar",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 390,
-    name: "¿Cómo funciona el mantenimiento del Tipo de Cambio y Consulta RUC - SUNAT? - Incluye Video",
-    description:
-      "A continuación se detalla como funciona el mantenimiento del tipo de cambio y consulta ruc",
-    href: "/global/funciona-mantenimiento-tipo-cambio",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 391,
-    name: "¿Cómo generar Formato 8.2 Registro de Compras de No Domiciliados PLE 5.1? - Incluye Video",
-    description:
-      "El proceso para generar Formato 8.2 Registro de Compras No Domiciliadas",
-    href: "/global/generar-formato-8-2-registro-compras",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 392,
-    name: "¿Cómo generar Formato 8.2 Registro de Compras de No Domiciliados PLE 5.1? - Incluye Video",
-    description:
-      "El proceso para generar Formato 8.2 Registro de Compras No Domiciliadas",
-    href: "/global/generar-formato-8-2-registro-compras",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 393,
-    name: "¿Cómo generar los libros electrónicos SUNAT de Libro Diario, Libro Diario de Formato Simplificado y Mayor? - Incluye Video",
-    description:
-      "El proceso para generar los respectivos Libros Electrónicos SUNAT - Libro Diario - Diario Simplificado y Mayor",
-    href: "/global/generar-libros-electronicos-formato-sunat",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 394,
-    name: "¿Cómo modificar comprobantes o asientos contables en el Concar CB? - Incluye Video",
-    description:
-      "A continuación se detalla como modificar un comprobante o asiento en el sistema",
-    href: "/global/modificar-comprobantes-asientos-contables",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 395,
-    name: "¿Cómo realizar el Proceso de Instalación de CONCAR CB Monousuario? - Incluye Video",
-    description:
-      "Se detalla el procedimiento de Instalación del CONCAR CB Monousuario",
-    href: "/global/proceso-instalacion-concar-cb-monousuario",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 396,
-    name: "¿Como Realizar el Proceso de Instalación en Redes? - Incluye Video",
-    description:
-      "Se detalla el procedimiento de instalación del CONCAR CB redes",
-    href: "/global/realizar-proceso-instalacion-redes",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 397,
-    name: "¿Cómo realizar la Actualización de Compañía con el Nuevo PCGE 2020, si inicialmente lo creo con el Plan Contable 2019?",
-    description:
-      "A continuación se realizara los pasos para actualizar su Plan Contable del ejercicio 2020-, si lo creo inicialmente con su Plan 2019",
-    href: "/global/actualizacion-compania-nuevo-pcge-2020",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 398,
-    name: "¿Cómo realizar la carga de anexos en el e-CONCAR PRO? - Incluye Video",
-    description: "¿Como realizar la carga de anexos en el e-CONCAR PRO?",
-    href: "/global/realizar-carga-anexos-econcar-pro",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 399,
-    name: "¿Cómo realizar la carga del Estado Bancario al e Concar Pro? - Incluye Video",
-    description:
-      "A continuación detallamos como realizar la carga del estado bancario al e Concar Pro",
-    href: "/global/realizar-carga-estado-bancario-econcar-pro",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  {
-    id: 400,
-    name: "¿Cómo realizar la configuración del porcentaje para el Régimen Mype Tributario en su Liquidación de Impuesto del módulo e Concar Pro? - Incluye Video",
-    description:
-      "Para poder realizar la configuración del Régimen - Mype Tributario debe realizar los pasos que se detallan a continuación",
-    href: "/global/realizar-configuracion-porcentaje-regimen-mype-tributario",
-    tipo: "Caso Práctico",
-    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
-    tema: "Creación de Compañías",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
-  },
-  //?Fin CONCAR SIRE CB
+  //#endregion
 ];
