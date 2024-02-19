@@ -974,7 +974,7 @@ export const dataGlobal = [
     name: "¿Cómo crear el Ejercicio 2024 en el Concar CB? - Incluye Video",
     description:
       "A continuación detallamos los pasos para crear el Ejercicio 2024 en el sistema CONCAR CB",
-    href: "/globalSireCb/sin-definir/archivo-corrupto-dnd-reindexar",
+    href: "/globalSireCb/sin-definir/crear-ejercicio-2024-concar-cb",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRECB"],
     tema: "Sin Definir",
@@ -1007,7 +1007,7 @@ export const dataGlobal = [
     name: "¿Cómo realizo la Liquidación de Impuestos en el e-CONCAR PRO? -Incluye Video",
     description:
       "Para poder realizar la configuración del Régimen - Mype Tributario debe realizar los pasos que se detallan a continuación",
-    href: "/globalSireCb/sin-definir/configuracion-porcentaje-regimen-mype-tributario",
+    href: "/globalSireCb/sin-definir/liquidacion-impuestos-e-concar-pro",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRECB"],
     tema: "Sin Definir",
@@ -1187,17 +1187,6 @@ export const dataGlobal = [
     categorias: ["CONCARSIRECB"],
     tema: "Sin Definir",
     palabrasClave: ["instalacion", "sistema", "concar", "sire", "cb"],
-  },
-  {
-    id: 71,
-    name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE",
-    description:
-      "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
-    href: "/globalSireCb/sin-definir/facultad-discrecional-contribuyentes-obligados-sire",
-    tipo: "Artículo",
-    categorias: ["CONCARSQL", "CONCARSIRESQL"],
-    tema: "Sin Definir",
-    palabrasClave: ["sire", "libros electronicos", "facultad discrecional"],
   },
   {
     id: 72,
@@ -2808,7 +2797,7 @@ export const dataGlobal = [
   //?Fin Generalidades
   //#endregion
 
-  //#region Comprobantes
+  //#region Registro Comprobantes
   //*Inicio Registro de Comprobantes LISTO
   {
     id: 2220,
@@ -4486,7 +4475,7 @@ export const dataGlobal = [
     name: "Error de Automatización - No se ha encontrado el componente necesario para comunicación con servicio SUNAT.",
     description:
       "Procedimiento a seguir cuando el sistema emite el mensaje No se ha encontrado el componente necesario para comunicación con el Servicio SUNAT.",
-    href: "/globalSireCb/instalacion-actualizacion/sitio-web-engañoso",
+    href: "/globalSireCb/instalacion-actualizacion/error-automatizacion-no-encontrado-componente-sunat",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSIRECB"],
     tema: "Instalación/Actualización",
