@@ -9,6 +9,7 @@ import { Autocomplete, TextField } from "@mui/material";
 import Button from "@/components/Button";
 
 const TemaSeparado = () => {
+  console.log(dataGlobal);
   const router = useRouter();
   const tipos = [...new Set(dataGlobal.map((item) => item.tipo))];
   const temas = [...new Set(dataGlobal.map((item) => item.tema))];
