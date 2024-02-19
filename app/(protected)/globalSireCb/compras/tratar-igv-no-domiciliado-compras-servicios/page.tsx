@@ -19,7 +19,7 @@ const page = () => {
       </p>
       <Image
         alt="superar-mensaje-error-06"
-        src="/igvNoDomiciliadas.png.png"
+        src="/compras/igvNoDomiciliadas.png.png"
         width={200}
         height={200}
       />

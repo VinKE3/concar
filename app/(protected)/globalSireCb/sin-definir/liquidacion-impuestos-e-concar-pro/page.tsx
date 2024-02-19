@@ -21,7 +21,7 @@ const page = () => {
       </p>
       <Image
         alt="liquidacion impuesto"
-        src="/liquidacionImpuesto.png"
+        src="/sinDefinir/liquidacionImpuesto.png"
         width={500}
         height={500}
       />

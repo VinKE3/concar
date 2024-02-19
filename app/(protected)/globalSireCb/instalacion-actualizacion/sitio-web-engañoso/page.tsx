@@ -13,7 +13,12 @@ const page = () => {
   return (
     <div className="space-y-3">
       <p>Mensaje:”El sitio web al que vas a acceder es engañoso”.</p>
-      <Image alt="" src="/enganoso.png" width={500} height={500} />
+      <Image
+        alt="engañoso"
+        src="/instalacion/enganoso.png"
+        width={500}
+        height={500}
+      />
       <Table items={data} />
     </div>
   );

@@ -16,7 +16,7 @@ const page = () => {
       <p>Si se presenta el siguiente mensaje:</p>
       <Image
         alt="Como superar el mensaje de archivo corrupto ctrutr al momento de ejecutar una copia de seguridad"
-        src="/corruptoCtrutr.png"
+        src="/acceso/corruptoCtrutr.png"
         width={300}
         height={300}
       />

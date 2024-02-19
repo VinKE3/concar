@@ -1283,7 +1283,7 @@ export const dataGlobal = [
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus",
     href: "/globalSireCb/sin-definir/rkv0000-rkv0002-llave-acceso-real-key-virtual-no-corresponde",
     tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL, CONCARSIRECB"],
+    categorias: ["CONCARCBVIRTUAL", "CONCARSIRECB"],
     tema: "Sin Definir",
     palabrasClave: ["licencia", "rkv0000", "rkv0002"],
   },

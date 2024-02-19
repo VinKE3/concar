@@ -17,7 +17,7 @@ const page = () => {
         equipos que permitira la descarga de los programas o informacion que
         enviemos de forma mas directa y segura.
       </p>
-      <Image alt="ftp" src="/ftp.png" width={500} height={500} />
+      <Image alt="ftp" src="/acceso/ftp.png" width={500} height={500} />
       <Table items={data} />
     </div>
   );

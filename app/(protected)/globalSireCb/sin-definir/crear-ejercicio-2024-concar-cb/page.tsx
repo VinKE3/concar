@@ -39,7 +39,7 @@ const page = () => {
       <p>Se adjunta Manual:</p>
       <Image
         alt="Como crear el Ejercicio 2021 en el Concar CB"
-        src="concar2024.png"
+        src="/sinDefinir/concar2024.png"
         width={350}
         height={350}
       />

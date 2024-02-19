@@ -19,7 +19,7 @@ const page = () => {
       </p>
       <Image
         alt="Que contiene la Tabla General"
-        src="/tablaGeneral.png"
+        src="/generalidades/tablaGeneral.png"
         width={300}
         height={300}
       />

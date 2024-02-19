@@ -31,7 +31,7 @@ const page = () => {
         detallados en el manual y video adjunto:
       </p>
       <Image
-        src="/postVentaExp.png"
+        src="/instalacion/postVentaExp.png"
         alt="llave no reconocida"
         width={200}
         height={200}

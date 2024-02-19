@@ -16,7 +16,7 @@ const page = () => {
       <p>Se adjunta Manual detallado</p>
       <Image
         alt="superar-mensaje-error-06"
-        src="/error09.png"
+        src="/compras/error09.png"
         width={500}
         height={500}
       />

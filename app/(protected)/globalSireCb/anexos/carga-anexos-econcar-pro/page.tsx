@@ -18,7 +18,7 @@ const page = () => {
       </p>
       <Image
         alt="Que contiene la Tabla General"
-        src="/cargaAnexosEconcar.png"
+        src="/anexo/cargaAnexosEconcar.png"
         width={300}
         height={300}
       />

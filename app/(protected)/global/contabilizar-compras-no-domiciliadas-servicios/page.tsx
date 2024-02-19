@@ -18,7 +18,7 @@ const page = () => {
       </p>
       <Image
         alt="superar-mensaje-error-06"
-        src="/comprasNoDomiciliadas.png"
+        src="/compras/comprasNoDomiciliadas.png"
         width={200}
         height={200}
       />

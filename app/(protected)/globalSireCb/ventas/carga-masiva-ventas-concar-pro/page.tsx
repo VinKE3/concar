@@ -24,7 +24,7 @@ const page = () => {
       </p>
       <Image
         alt="Carga masiva de ventas"
-        src="/cargaMasivaVentas.png"
+        src="/ventas/cargaMasivaVentas.png"
         width={300}
         height={300}
       />

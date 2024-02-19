@@ -16,7 +16,12 @@ const page = () => {
         Se puede presentan mensajes de {"Archivos Corruptos"}de diferentes
         nombres
       </p>
-      <Image alt="" src="/archivoCorrupto.png" width={500} height={500} />
+      <Image
+        alt="archivo corrupto"
+        src="/sinDefinir/archivoCorrupto.png"
+        width={300}
+        height={300}
+      />
       <p>Adjuntamos el Manual de como solucionar</p>
       <p>La solución va a depender del nombre del archivo, por ejemplo:</p>
       <ul className="list-disc px-5">

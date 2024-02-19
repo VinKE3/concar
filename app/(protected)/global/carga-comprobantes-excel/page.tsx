@@ -20,7 +20,7 @@ const page = () => {
       </p>
       <Image
         alt="comprobante-automatico-existe"
-        src="/comprobantesExcel.png"
+        src="/comprobantes/comprobantesExcel.png"
         width={200}
         height={200}
       />

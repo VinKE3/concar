@@ -15,7 +15,7 @@ const page = () => {
     <div className="space-y-3">
       <Image
         alt="Transferencia Comprobantes"
-        src="/transferenciaAnexos.png"
+        src="/comprobantes/transferenciaAnexos.png"
         width={300}
         height={300}
       />

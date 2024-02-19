@@ -28,7 +28,7 @@ const page = () => {
       </p>
       <Image
         alt="superar-mensaje-error-06"
-        src="/canalAtencion.png"
+        src="/acceso/canalAtencion.png"
         width={200}
         height={200}
       />

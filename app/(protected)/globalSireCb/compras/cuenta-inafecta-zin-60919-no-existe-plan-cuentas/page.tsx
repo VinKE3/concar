@@ -24,7 +24,7 @@ const page = () => {
       </p>
       <Image
         alt="Contabilizar Factura Electronica en e-CONCAR PRO"
-        src="/zin.jpg"
+        src="/compras/zin.jpg"
         width={400}
         height={400}
       />

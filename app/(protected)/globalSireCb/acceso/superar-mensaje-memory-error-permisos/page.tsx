@@ -16,7 +16,7 @@ const page = () => {
       <p>Mensaje {"Memory Error"} al ingresar al sistema.</p>
       <Image
         alt="Que contiene la Tabla General"
-        src="/mensajeMemory.png"
+        src="/acceso/mensajeMemory.png"
         width={300}
         height={300}
       />

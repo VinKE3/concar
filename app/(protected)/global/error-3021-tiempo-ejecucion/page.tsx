@@ -15,7 +15,7 @@ const page = () => {
     <div className="space-y-3">
       <Image
         alt="superar-mensaje-error-06"
-        src="/error3021.png"
+        src="/compras/error3021.png"
         width={200}
         height={200}
       />

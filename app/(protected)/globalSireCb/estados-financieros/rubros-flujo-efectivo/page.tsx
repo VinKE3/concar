@@ -28,7 +28,7 @@ const page = () => {
       </p>
       <Image
         alt="Flujo de Efectivo"
-        src="/flujoEfectivo.png"
+        src="/estadosFinancieros/flujoEfectivo.png"
         width={300}
         height={300}
       />

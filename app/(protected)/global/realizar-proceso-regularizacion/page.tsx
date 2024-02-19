@@ -21,7 +21,7 @@ const page = () => {
       </p>
       <Image
         alt="procesoRegularizacion.png"
-        src="/contabilizar.png"
+        src="/compras/contabilizar.png"
         width={200}
         height={200}
       />

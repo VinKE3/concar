@@ -20,8 +20,8 @@ const page = () => {
         Cambio
       </p>
       <Image
-        alt="procesoRegularizacion.png"
-        src="/contabilizar.png"
+        alt="proceso Regularizacion"
+        src="/diferenciaCambio/procesoRegularizacion.png"
         width={200}
         height={200}
       />
