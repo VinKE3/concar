@@ -5,18 +5,18 @@ export const dataBanner = [
   },
   {
     id: 2,
-    image: "b2.png",
+    image: "b2.jpg",
   },
   {
     id: 3,
-    image: "b3.png",
+    image: "b3.jpg",
   },
   {
     id: 4,
-    image: "b4.png",
+    image: "b4.jpg",
   },
   {
     id: 5,
-    image: "b5.png",
+    image: "b5.jpg",
   },
 ];

@@ -35,7 +35,7 @@ export function Slider() {
                 className="flex items-center slider-horizontal"
               >
                 <Image
-                  src={`/concarPlagio/${image}`}
+                  src={`/banner/${image}`}
                   alt="Partners"
                   width={450}
                   height={180}
