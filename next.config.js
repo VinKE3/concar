@@ -1,7 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // images: {
+  //   domains: ["localhost", "miconcar.com"],
+  // },
   images: {
-    domains: ["localhost", "miconcar.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "miconcar.com",
+        port: "",
+        pathname: "/uploads/**",
+      },
+    ],
   },
 };
 

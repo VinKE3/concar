@@ -1192,7 +1192,7 @@ export const dataGlobal = [
     id: 104,
     name: "Fuente: SUNAT - Guía para reemplazar propuesta RCE y RVIE",
     description:
-      "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
+      "Guía de reemplazar propuesta en el Sistema Integrado de Registros Electrónicos (SIRE).",
     href: "/globalSireCb/sin-definir/guia-reemplazar-propuesta-rce-rvie",
     tipo: "Tutorial",
     categorias: ["CONCARCBVIRTUAL", "CONCARSIRECB"],
