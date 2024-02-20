@@ -8,7 +8,6 @@ import moment from "moment";
 const MisUsuarios = () => {
   const currentUser = useCurrentUser();
   const router = useRouter();
-  console.log(currentUser);
   useEffect(() => {
     router.refresh();
   }, [router]);
@@ -42,7 +41,6 @@ const MisUsuarios = () => {
       },
     },
   ];
-  console.log(rows, "ROWS");
   return (
     <div className="md:max-w-[1150px] m-auto text-xl">
       <div className="mb-4 mt-8">
