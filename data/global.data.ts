@@ -912,17 +912,17 @@ export const dataGlobal = [
 
   //#region Sin Definir
   //*Inico Sin Definir -26
-  {
-    id: 71,
-    name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE",
-    description:
-      "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
-    href: "/global/facultad-discrecional-contribuyentes-obligados-sire",
-    tipo: "Artículo",
-    categorias: ["CONCARSQL", "CONCARSIRESQL"],
-    tema: "Sin Definir",
-    palabrasClave: ["sire", "libros electronicos", "facultad discrecional"],
-  },
+  // {
+  //   id: 71,
+  //   name: "Facultad Discrecional para Contribuyentes Obligados a declarar con SIRE",
+  //   description:
+  //     "RESOLUCIÓN DE SUPERINTENDENCIA NRO. 000039-2023-SUNAT/700000 – APLICARÁN FACULTAD DISCRECIONAL A INFRACCIONES VINCULADAS A LIBROS Y REGISTROS ELECTRÓNICOS",
+  //   href: "/global/facultad-discrecional-contribuyentes-obligados-sire",
+  //   tipo: "Artículo",
+  //   categorias: ["CONCARSQL", "CONCARSIRESQL"],
+  //   tema: "Sin Definir",
+  //   palabrasClave: ["sire", "libros electronicos", "facultad discrecional"],
+  // },
   {
     id: 72,
     name: "Fuente: SUNAT - Guía para reemplazar propuesta RCE y RVIE",
@@ -1002,7 +1002,7 @@ export const dataGlobal = [
   },
   {
     id: 79,
-    name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de ESET NOD Antivirus? -FALTA",
+    name: "¿Cómo realizar la Exclusión de los módulos de Real Systems de ESET NOD Antivirus?",
     description:
       "A continuación se indica los pasos a realizar para excluir el ejecutable y la carpeta del antivirus",
     href: "/global/como-realizar-exclusion-modulos-real-systems-eset-nod-antivirus",
@@ -1093,7 +1093,7 @@ export const dataGlobal = [
     name: "Contabilización documentos con retención C/IGV sin derecho a C. Fiscal",
     description:
       "Mediante esta opción se contabilizan documentos de proveedores de los que no tiene derecho a utilizar el crédito fiscal del IGV cuando la empresa ha sido designada como Agente de retención.",
-    href: "/global/contabilizacion-documentos-igv-sin-derecho-c-fiscal",
+    href: "/global/contabilizacion-documentos-retencion-igv-sin-derecho-c-fiscal",
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Sin Definir",
