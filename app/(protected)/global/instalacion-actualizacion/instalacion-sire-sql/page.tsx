@@ -7,8 +7,8 @@ const Instalacionpage = () => {
   const data = [
     {
       id: 1,
-      title: "Cómo Generar el Libro Electrónico de Compras",
-      href: "https://miconcar.com/uploads/documentos/895_concar_cb_sql_c1_1_Llave_unica_es_incorrecta_v1_.pdf",
+      title: "Como instalar CONCAR SIRE SQL",
+      href: "https://miconcar-uploads.s3.amazonaws.com/documentos/2023/10/1209_Cod.1209_D01196_Como_Instalar_CONCAR-SIRE-SQL_sql.pdf",
     },
   ];
   return (
