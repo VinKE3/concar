@@ -85,7 +85,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSIRESQL"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["sunat", "sire"],
+    palabrasClave: ["sire", "sunat"],
   },
   {
     id: 8,
@@ -118,7 +118,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ple sunat", "compras", "libro electronico"],
+    palabrasClave: ["libro electronico", "ple sunat", "compras"],
   },
   {
     id: 11,
@@ -129,7 +129,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ple sunat", "ventas", "libro electronico"],
+    palabrasClave: ["libro electronico", "ple sunat", "ventas"],
   },
   {
     id: 12,
@@ -173,7 +173,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico"],
+    palabrasClave: ["libro electronico", "venta"],
   },
   {
     id: 16,
@@ -184,7 +184,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ple sunat", "libro electronico"],
+    palabrasClave: ["inconsistencias", "libro electronico", "ple"],
   },
   {
     id: 17,
@@ -195,7 +195,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "consultas"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 18,
@@ -206,7 +206,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico", "consultas"],
+    palabrasClave: ["ventas", "libro de ventas"],
   },
   {
     id: 19,
@@ -217,7 +217,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "ple sunat", "errores"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 20,
@@ -228,7 +228,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "ple sunat", "errores"],
+    palabrasClave: ["libro de ventas", "ple sunat"],
   },
   {
     id: 21,
@@ -239,7 +239,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "estado"],
+    palabrasClave: ["compras", "libro electronico", "indicador"],
   },
   {
     id: 22,
@@ -261,7 +261,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "generacion"],
+    palabrasClave: ["compras", "libro electronico"],
   },
 
   {
@@ -273,7 +273,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico", "generacion"],
+    palabrasClave: ["venta", "libro electronico"],
   },
   {
     id: 25,
@@ -284,7 +284,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "registro"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 26,
@@ -295,7 +295,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico", "registro"],
+    palabrasClave: ["ventas", "libro electronico", "registro de ventas"],
   },
   {
     id: 27,
@@ -305,7 +305,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["libro electronico"],
+    palabrasClave: ["libros electronicos"],
   },
   {
     id: 28,
@@ -316,7 +316,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "rectificacion"],
+    palabrasClave: ["compras", "adicionales", "rectificacion"],
   },
   {
     id: 29,
@@ -327,7 +327,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico", "rectificacion"],
+    palabrasClave: ["ventas", "adicionales", "rectificacion"],
   },
   {
     id: 30,
@@ -338,7 +338,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "numero de serie"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 31,
@@ -349,7 +349,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "numero de serie"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 32,
@@ -360,7 +360,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "numero de serie"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 33,
@@ -371,7 +371,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "numero de serie"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 34,
@@ -382,7 +382,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "numero de serie"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 35,
@@ -393,7 +393,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "numero de serie"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 36,
@@ -404,13 +404,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "numero de serie",
-      "bvme",
-      "transporte ferroviario",
-    ],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 37,
@@ -421,12 +415,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "documento de referencia",
-      "nota de credito",
-    ],
+    palabrasClave: ["compras", "libro electronico", "referencia"],
   },
   {
     id: 38,
@@ -437,12 +426,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "documento de referencia",
-      "nota de credito",
-    ],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 39,
@@ -453,12 +437,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "fecha de vencimiento",
-      "recibo de servicios publicos",
-    ],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 40,
@@ -469,12 +448,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "numero de documento",
-      "cero",
-    ],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 41,
@@ -485,12 +459,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "numero de serie",
-      "obligatoria",
-    ],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 42,
@@ -501,13 +470,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "compras",
-      "libro electronico",
-      "codigo de documento",
-      "ruc",
-      "proveedor",
-    ],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 43,
@@ -534,12 +497,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "ventas",
-      "libro electronico",
-      "numero de serie",
-      "boleta de venta",
-    ],
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 45,
@@ -550,12 +508,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "ventas",
-      "libro electronico",
-      "numero de serie",
-      "liquidacion de compra",
-    ],
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 46,
@@ -566,12 +519,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "ventas",
-      "libro electronico",
-      "numero de serie",
-      "boleto aereo",
-    ],
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 47,
@@ -582,12 +530,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "ventas",
-      "libro electronico",
-      "numero de serie",
-      "carta de porte aereo",
-    ],
+    palabrasClave: ["ventas", "libro electronico", "porte aereo"],
   },
   {
     id: 48,
@@ -598,13 +541,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "ventas",
-      "libro electronico",
-      "numero de serie",
-      "bvme",
-      "transporte ferroviario",
-    ],
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 49,
@@ -626,7 +563,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico", "numero de documento"],
+    palabrasClave: ["ventas", "libro electronico"],
   },
   {
     id: 51,
@@ -637,7 +574,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["compras", "libro electronico", "ple sunat"],
+    palabrasClave: ["compras", "libro electronico"],
   },
   {
     id: 52,
@@ -648,7 +585,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["ventas", "libro electronico", "ple sunat"],
+    palabrasClave: ["validacion", "ple ventas"],
   },
   {
     id: 53,
@@ -659,13 +596,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "ple sunat",
-      "diario",
-      "diario simplificado",
-      "mayor",
-    ],
+    palabrasClave: ["ple sunat"],
   },
   {
     id: 54,
@@ -676,7 +607,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: ["libro electronico", "ple sunat", "campo obligatorio"],
+    palabrasClave: ["ple sunat"],
   },
   {
     id: 55,
@@ -687,11 +618,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "ple sunat",
-      "numero de documento de identidad",
-    ],
+    palabrasClave: ["ple sunat"],
   },
   {
     id: 56,
@@ -702,11 +629,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "ple sunat",
-      "numero de comprobante de pago",
-    ],
+    palabrasClave: ["ple sunat"],
   },
   {
     id: 57,
@@ -717,12 +640,7 @@ export const dataGlobal = [
     tipo: "Tutorial",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "diario",
-      "diario simplificado",
-      "mayor",
-    ],
+    palabrasClave: ["libro electronico"],
   },
   {
     id: 58,
@@ -733,12 +651,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "diario",
-      "diario simplificado",
-      "mayor",
-    ],
+    palabrasClave: ["libro electronico"],
   },
   {
     id: 59,
@@ -749,12 +662,7 @@ export const dataGlobal = [
     tipo: "Caso práctico",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "ventas",
-      "mes sin movimiento",
-      "archivo txt",
-    ],
+    palabrasClave: ["libro electronico", "ventas", "sin movimiento"],
   },
   {
     id: 60,
@@ -765,12 +673,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "compras",
-      "no domiciliados",
-      "ple 5.0",
-    ],
+    palabrasClave: ["compras", "compras no domiciliadas"],
   },
   {
     id: 61,
@@ -781,13 +684,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "compras",
-      "ventas",
-      "diario",
-      "mayor",
-    ],
+    palabrasClave: ["libro electronico", "ple"],
   },
   {
     id: 62,
@@ -798,12 +695,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Libros Electrónicos",
-    palabrasClave: [
-      "libro electronico",
-      "diario",
-      "diario simplificado",
-      "mayor",
-    ],
+    palabrasClave: ["libro electronico", "diario", "simplificado", "mayor"],
   },
   {
     id: 63,
@@ -4334,6 +4226,6 @@ export const dataGlobal = [
     tema: "Creación de Compañías",
     palabrasClave: ["crear", "ejercicio", "concar", "sql"],
   },
-  //*Fin CREARCION DE COMPAÑIAS
+  //*Fin CREACION DE COMPAÑIAS
   //#endregion
 ];
