@@ -833,7 +833,7 @@ export const dataGlobal = [
       "La creación de una compañía se utiliza cuando se va a dar inicio a los registros en el SISPAG SQL.",
     href: "/global/sin-definir/mantenimiento-companias",
     tipo: "Artículo",
-    categorias: ["CONCARSQL", "CONCARSIRESQL"],
+    categorias: ["CONCARSQL", "CONCARSQL#YOMEQUEDOENCASA"],
     tema: "Sin Definir",
     palabrasClave: ["mantenimiento", "compañias"],
   },

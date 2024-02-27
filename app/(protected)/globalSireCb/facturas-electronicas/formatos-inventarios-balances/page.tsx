@@ -8,6 +8,11 @@ const page = () => {
       title: "Manual PLE Inventarios y Balances",
       href: "https://miconcar.com/uploads/documentos/1001_Manual_ple_5.0_Inventarios_y_Balances.pdf",
     },
+    {
+      id: 2,
+      title: "PPT - Libros Electrónicos",
+      href: "https://miconcar.com/uploads/documentos/1002_PPT_Real_Systems_-_Taller_Libros_Electronicos.pdf",
+    },
   ];
   return (
     <div className="space-y-3">

@@ -24,7 +24,6 @@ export const dataGlobal = [
     tema: "Libros Electrónicos",
     palabrasClave: ["configurar icbper", "icbper"],
   },
-
   {
     id: 3,
     name: "Carga de los Libros Electrónicos Diario, Diario Simplificado y Mayor al PLE-SUNAT",
@@ -187,7 +186,7 @@ export const dataGlobal = [
   },
   {
     id: 14,
-    name: "Libros Electrónicos Diario, Diario Simplificado y Mayor",
+    name: "Libros electrónicos del diario, mayor, y diario simplificado",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima de los libros electrónicos Diario, Diario Simplificado y Mayor en el Programa de Libros Electrónicos (PLE-SUNAT).",
     href: "/globalSireCb/facturas-electronicas/libro-electronico-diario-simplificado",
