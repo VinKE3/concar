@@ -17,6 +17,14 @@ const CodigosAnexos = () => {
         diferentes tipos de entidades o datos que son necesarios para hacer un
         análisis más detallado de las cuentas.
       </p>
+      <p>
+        Por ejemplo: Se tienen como anexos a clientes, proveedores, bancos, y
+        otros datos que la empresa estime necesario tener.
+      </p>
+      <p>
+        Nota: Los Tipos de anexo son definidos en la Tabla 07 del Mantenimiento
+        Tabla General.
+      </p>
       <Table items={data} />
     </div>
   );

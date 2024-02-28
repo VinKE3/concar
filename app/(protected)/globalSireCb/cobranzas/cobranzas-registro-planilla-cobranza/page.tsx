@@ -5,7 +5,7 @@ const page = () => {
   const data = [
     {
       id: 1,
-      title: "obranzas Registro de Planilla de Cobranza",
+      title: "Cobranzas Registro de Planilla de Cobranza",
       href: "https://miconcar.com/uploads/documentos/723_CONCAR_SQL_Cobranzas_registro_de_planilla_de_cobranza.pdf",
     },
   ];

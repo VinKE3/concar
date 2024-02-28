@@ -18,9 +18,9 @@ const page = () => {
       </p>
       <Image
         alt="Como crear código Anexos"
-        src="/crearCodigoAnexos.png"
-        width={300}
-        height={300}
+        src="/anexo/crearCodigoAnexos.png"
+        width={550}
+        height={550}
       />
       <h1>TEMA: Cómo crear códigos de Anexos</h1>
       <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">

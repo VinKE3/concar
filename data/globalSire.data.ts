@@ -484,7 +484,6 @@ export const dataGlobal = [
     tema: "Libros Electrónicos",
     palabrasClave: ["compras", "libro electronico", "generacion"],
   },
-
   {
     id: 40,
     name: "Generación del Libro Electrónico de Ventas",
@@ -2042,29 +2041,9 @@ export const dataGlobal = [
 
   //#region Conexión
   //*Inicio Conexion LISTO
+
   {
     id: 180,
-    name: "¿Cómo proceder al mensaje Llave No Reconocida - Llave No Corresponde - Llave No está Conectada? – Llave Virtual RKV",
-    description:
-      "Si al momento de ingresar al Concar le aparece mensaje similares a Llave No Reconocida - Llave no Corresponde - Llave No esta Conectada",
-    href: "/globalSireCb/conexion/llave-no-reconocida-rkv",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Conexión",
-    palabrasClave: ["proceder", "mensaje", "llave", "no", "reconocida"],
-  },
-  {
-    id: 181,
-    name: "No realiza impresión en red",
-    description: "No se logra imprimir en una impresora conectada a la red.",
-    href: "/globalSireCb/conexion/no-realiza-impresion",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Conexión",
-    palabrasClave: ["no", "realiza", "impresion", "red"],
-  },
-  {
-    id: 182,
     name: "¿Cómo reestablecer la Conexión al Directorio del Concar CB? - Incluye Video",
     description:
       "Al momento de ingresar al sistema aparece la ventana de Conectar al Directorio del CONCAR®",
@@ -2075,7 +2054,7 @@ export const dataGlobal = [
     palabrasClave: ["restaurar", "copia", "seguridad", "concar"],
   },
   {
-    id: 183,
+    id: 181,
     name: "¿Qué hacer cuando no me permite ingresar a una Compañía en el Sistema Concar CB? – Archivo CEN - Incluye Video",
     description:
       "Cuando se presenta lentitud al ingresar a una de sus compañías, se deberá trabajar con el archivo CEN",
@@ -2086,7 +2065,7 @@ export const dataGlobal = [
     palabrasClave: ["soluciona", "mensaje", "error", "ejecucion"],
   },
   {
-    id: 184,
+    id: 182,
     name: "Acerca de",
     description:
       "Incluye términos de licencia y opciones relacionadas con la llave Real Key.",
@@ -2096,6 +2075,27 @@ export const dataGlobal = [
     tema: "Conexión",
     palabrasClave: ["solucionar", "procesos", "lentitud", "sistema"],
   },
+  {
+    id: 183,
+    name: "¿Cómo proceder al mensaje Llave No Reconocida - Llave No Corresponde - Llave No está Conectada? – Llave Virtual RKV",
+    description:
+      "Si al momento de ingresar al Concar le aparece mensaje similares a Llave No Reconocida - Llave no Corresponde - Llave No esta Conectada",
+    href: "/globalSireCb/conexion/llave-no-reconocida-rkv",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Conexión",
+    palabrasClave: ["proceder", "mensaje", "llave", "no", "reconocida"],
+  },
+  {
+    id: 184,
+    name: "No realiza impresión en red",
+    description: "No se logra imprimir en una impresora conectada a la red.",
+    href: "/globalSireCb/conexion/no-realiza-impresion",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Conexión",
+    palabrasClave: ["no", "realiza", "impresion", "red"],
+  },
   //* Fin Conexion
   //#endregion
 
@@ -2103,7 +2103,7 @@ export const dataGlobal = [
   //?Inicio Diferencia de cambio LISTO
   {
     id: 185,
-    name: "Parámetros para el Proceso de Regularización por Diferencia de Cambio -- DIFERENTE",
+    name: "Parámetros para el Proceso de Regularización por Diferencia de Cambio",
     description:
       "Dónde y cómo se configuran las cuentas contables a considerar en el proceso de regularización por diferencia de cambio.",
     href: "/globalSireCb/diferencia-de-cambio/parametros-proceso-regularizacion",
@@ -2182,14 +2182,14 @@ export const dataGlobal = [
     description:
       "CEspecificaciones de la estructura del archivo a generar para la carga de anexos al CONCAR Codebase.",
     href: "/globalSireCb/interfaz/carga-anexos-otros-sistemas",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Interfaz",
-    palabrasClave: ["interfaz", "carga", "asientos"],
+    palabrasClave: ["interfaz", "carga", "anexos"],
   },
   {
     id: 191,
-    name: "INTERFAZ - Carga de Asientos desde otros sistemas --IGUAL",
+    name: "INTERFAZ - Carga de Asientos desde otros sistemas",
     description: "Como cargar asientos desde otros sistemas",
     href: "/globalSireCb/interfaz/carga-asientos-otros-sistemas",
     tipo: "Pregunta Frecuente",
@@ -3623,7 +3623,7 @@ export const dataGlobal = [
     description:
       "El sistema permite la creación de los diversos anexos que utilizara el usuario para el registro de sus operaciones",
     href: "/globalSireCb/anexos/crear-codigos-anexos",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Anexos",
     palabrasClave: ["codigos", "anexos"],
@@ -3634,7 +3634,7 @@ export const dataGlobal = [
     description:
       "A continuación se detalla como funciona el mantenimiento del tipo de cambio y consulta ruc",
     href: "/globalSireCb/anexos/funciona-mantenimiento-tipo-cambio",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Anexos",
     palabrasClave: ["codigos", "anexos"],
@@ -3644,14 +3644,14 @@ export const dataGlobal = [
     name: "¿Cómo realizar la carga de anexos en el e-CONCAR PRO? - Incluye Video",
     description: "¿Como realizar la carga de anexos en el e-CONCAR PRO?",
     href: "/globalSireCb/anexos/carga-anexos-econcar-pro",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Anexos",
     palabrasClave: ["codigos", "anexos"],
   },
   {
     id: 321,
-    name: "Códigos de Anexos -- IGUAL",
+    name: "Códigos de Anexos",
     description:
       "En esta base de datos se registran los anexos, que son datos complementarios a las cuentas, los mismos que sirven para identificar diferentes tipos de entidades o datos que son necesarios para hacer un análisis más detallado de las cuentas.",
     href: "/globalSireCb/anexos/codigos-anexos",
@@ -3667,17 +3667,6 @@ export const dataGlobal = [
   //*Inicio Plan de Cuentas LISTO
   {
     id: 323,
-    name: "¿Cómo debo Configurar el Plan de Cuentas? - Incluye Video -- IGUAL",
-    description:
-      "A continuación detallaremos como realizar la configuración al Plan de Cuentas",
-    href: "/globalSireCb/plan-de-cuentas/configurar-plan-cuentas",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Plan de Cuentas",
-    palabrasClave: ["configurar", "plan", "cuentas"],
-  },
-  {
-    id: 324,
     name: "¿Cómo realizar la Actualización de Compañía con el Nuevo PCGE 2020, si inicialmente lo creo con el Plan Contable 2019?",
     description:
       "A continuación se realizara los pasos para actualizar su Plan Contable del ejercicio 2020-, si lo creo inicialmente con su Plan 2019",
@@ -3688,7 +3677,7 @@ export const dataGlobal = [
     palabrasClave: ["plan", "contable", "2020", "creacion", "compania"],
   },
   {
-    id: 325,
+    id: 324,
     name: "Cuenta 38401 no existe en PCGE 2019 y 2020 - Equivalencia",
     description:
       "Al ingresar al módulo contable sale un mensaje que se deriva de la configuración de cuenta equivalentes, dentro de la relación de cuentas que falta configurar con el nuevo PCGE 2020, son los siguientes: 1. Cuenta 38401 no existe en el PCGE 2019 ni 2020 2. Cuentas de titulo con 4 caracteres.",
@@ -3699,7 +3688,7 @@ export const dataGlobal = [
     palabrasClave: ["plan", "contable", "2020", "creacion", "ejercicio"],
   },
   {
-    id: 326,
+    id: 325,
     name: "Plan de Cuenta",
     description:
       "En este archivo o base de datos se registrarán, modificarán o visualizarán las cuentas contables que se definan para llevar la contabilidad de la empresa.",
@@ -3708,6 +3697,17 @@ export const dataGlobal = [
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Plan de Cuentas",
     palabrasClave: ["plan", "cuenta"],
+  },
+  {
+    id: 326,
+    name: "¿Cómo debo Configurar el Plan de Cuentas? - Incluye Video",
+    description:
+      "A continuación detallaremos como realizar la configuración al Plan de Cuentas",
+    href: "/globalSireCb/plan-de-cuentas/configurar-plan-cuentas",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Plan de Cuentas",
+    palabrasClave: ["configurar", "plan", "cuentas"],
   },
   //* Fin Plan de Cuentas
   //#endregion
@@ -3723,7 +3723,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Lentitud",
-    palabrasClave: ["cobranzas", "registro", "planilla", "cobranza"],
+    palabrasClave: ["borrar", "temporales", "concar", "lentitud"],
   },
   //*Fin Lentitud
   //#endregion
@@ -5084,7 +5084,7 @@ export const dataGlobal = [
   },
   {
     id: 450,
-    name: "Objetivos y características del sistema",
+    name: "Canje de Facturas por Letras",
     description: "Cómo canjear facturas por letras.",
     href: "/globalSireCb/cobranzas/canje-facturas-letras",
     tipo: "Caso Práctico",
@@ -5109,17 +5109,6 @@ export const dataGlobal = [
   //?Inicio Honorarios - LISTO
   {
     id: 452,
-    name: "¿Cómo se contabiliza las Notas de Crédito por Honorarios en el Sistema?",
-    description:
-      "A continuación se detalla como registrar las Notas de Crédito por Honorarios",
-    href: "/globalSireCb/honorarios/contabiliza-notas-credito-honorarios",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Honorarios",
-    palabrasClave: ["contabiliza", "notas", "credito"],
-  },
-  {
-    id: 453,
     name: "Comprobante de Honorarios",
     description:
       "Esta opción permite registrar los comprobantes de honorarios en forma simplificada y automatizada.",
@@ -5128,6 +5117,17 @@ export const dataGlobal = [
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Honorarios",
     palabrasClave: ["comprobante", "honorarios"],
+  },
+  {
+    id: 453,
+    name: "¿Cómo se contabiliza las Notas de Crédito por Honorarios en el Sistema?",
+    description:
+      "A continuación se detalla como registrar las Notas de Crédito por Honorarios",
+    href: "/globalSireCb/honorarios/contabiliza-notas-credito-honorarios",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Honorarios",
+    palabrasClave: ["contabiliza", "notas", "credito"],
   },
   {
     id: 454,
