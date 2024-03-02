@@ -13,7 +13,10 @@ const page = () => {
   ];
   return (
     <div className="space-y-3">
-      <p>Se adjunta Manual detallado</p>
+      <p>
+        Esto aplica para compañías nuevas (que nunca generaron o cargaron el
+        plan de cuentas SUNAT)
+      </p>
 
       <Table items={data} />
     </div>

@@ -1944,10 +1944,10 @@ export const dataGlobal = [
     description:
       "El proceso para verificar y activar la herramienta - Tipo de Cambio Automático de Sunat",
     href: "/globalSireCb/sunat/configurar-tipo-cambio",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Sunat",
-    palabrasClave: ["genera", "pdt", "renta", "anual"],
+    palabrasClave: ["configurar", "tipo", "cambio"],
   },
   {
     id: 172,
@@ -4855,48 +4855,6 @@ export const dataGlobal = [
   //*Inicio Libros Oficiales
   {
     id: 430,
-    name: "Ganancias y Pérdidas Del Mes y Acumulado",
-    description:
-      "Comparación entre el reporte de Ganancias y Pérdidas mensual y acumulado.",
-    href: "/globalSireCb/libros-oficiales/gananacias-perdidas-mes-acumulado",
-    tipo: "Caso práctico",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["ganancias", "perdidas", "mes", "acumulado"],
-  },
-  {
-    id: 431,
-    name: "Impresión de libros oficiales",
-    description: "Impresión de libros oficiales",
-    href: "/globalSireCb/libros-oficiales/impresison-libros-oficiales",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["impresion", "libros", "oficiales"],
-  },
-  {
-    id: 432,
-    name: "Impresión del Registro de Ventas en Una Hoja",
-    description: "Impresión del Registro de Ventas en Una Hoja",
-    href: "/globalSireCb/libros-oficiales/impresion-registro-ventas-hoja",
-    tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["impresion", "registro", "ventas"],
-  },
-  {
-    id: 433,
-    name: "Libros Oficiales de Inventarios y Balances en blanco",
-    description:
-      "Al emitir los Libros Oficiales de Inventarios y Balances el sistema muestra el reporte en blanco a pesar que la cuenta ha tenido movimientos",
-    href: "/globalSireCb/libros-oficiales/libros-oficiales-inventarios-balances-blanco",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["libros", "oficiales", "inventarios"],
-  },
-  {
-    id: 434,
     name: "Balances",
     description:
       "cluye reportes generales y analíticos de Balance General y Balance de Comprobación.",
@@ -4907,51 +4865,7 @@ export const dataGlobal = [
     palabrasClave: ["balances"],
   },
   {
-    id: 435,
-    name: "Ganancias y Pérdidas",
-    description:
-      "El sistema tiene diferentes presentaciones del Estado de Ganancias y Pérdidas.",
-    href: "/globalSireCb/libros-oficiales/ganancias-perdidas",
-    tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["ganancias", "perdidas"],
-  },
-  {
-    id: 436,
-    name: "Costos",
-    description:
-      "Contiene reportes de costos y gastos por centro de costo y/o cuenta contable.",
-    href: "/globalSireCb/libros-oficiales/reportes-costos",
-    tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["costos"],
-  },
-  {
-    id: 437,
-    name: "Diarios",
-    description:
-      "Incluye reportes de Libros Diarios anteriores y no oficiales.",
-    href: "/globalSireCb/libros-oficiales/reportes-diarios",
-    tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["diarios"],
-  },
-  {
-    id: 438,
-    name: "Libro de Caja y Bancos",
-    description:
-      "Incluye reportes de Libros Caja y Bancos anteriores y no oficiales.",
-    href: "/globalSireCb/libros-oficiales/reportes-caja-bancos",
-    tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Oficiales",
-    palabrasClave: ["libro", "caja", "bancos"],
-  },
-  {
-    id: 439,
+    id: 431,
     name: "Configuración de Libros",
     description:
       "En esta opción se configuran los reportes Formatos SUNAT 10.1, 3.9, 3.15 y 3.16.",
@@ -4962,7 +4876,51 @@ export const dataGlobal = [
     palabrasClave: ["libro", "inventarios", "balances"],
   },
   {
-    id: 440,
+    id: 432,
+    name: "Costos",
+    description:
+      "Contiene reportes de costos y gastos por centro de costo y/o cuenta contable.",
+    href: "/globalSireCb/libros-oficiales/reportes-costos",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["costos"],
+  },
+  {
+    id: 433,
+    name: "Diarios",
+    description:
+      "Incluye reportes de Libros Diarios anteriores y no oficiales.",
+    href: "/globalSireCb/libros-oficiales/reportes-diarios",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["diarios"],
+  },
+  {
+    id: 434,
+    name: "Ganancias y Pérdidas",
+    description:
+      "El sistema tiene diferentes presentaciones del Estado de Ganancias y Pérdidas.",
+    href: "/globalSireCb/libros-oficiales/ganancias-perdidas",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["ganancias", "perdidas"],
+  },
+  {
+    id: 435,
+    name: "Libro de Caja y Bancos",
+    description:
+      "Incluye reportes de Libros Caja y Bancos anteriores y no oficiales.",
+    href: "/globalSireCb/libros-oficiales/reportes-caja-bancos",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["libro", "caja", "bancos"],
+  },
+  {
+    id: 436,
     name: "Libro de Inventarios y Balances",
     description:
       "Incluye el formato de Libro de Inventarios y Balances antiguo.",
@@ -4971,6 +4929,48 @@ export const dataGlobal = [
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Libros Oficiales",
     palabrasClave: ["libro", "inventarios", "balances"],
+  },
+  {
+    id: 437,
+    name: "Ganancias y Pérdidas Del Mes y Acumulado",
+    description:
+      "Comparación entre el reporte de Ganancias y Pérdidas mensual y acumulado.",
+    href: "/globalSireCb/libros-oficiales/gananacias-perdidas-mes-acumulado",
+    tipo: "Caso práctico",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["ganancias", "perdidas", "mes", "acumulado"],
+  },
+  {
+    id: 438,
+    name: "Impresión de libros oficiales",
+    description: "Impresión de libros oficiales",
+    href: "/globalSireCb/libros-oficiales/impresison-libros-oficiales",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["impresion", "libros", "oficiales"],
+  },
+  {
+    id: 439,
+    name: "Impresión del Registro de Ventas en Una Hoja",
+    description: "Impresión del Registro de Ventas en Una Hoja",
+    href: "/globalSireCb/libros-oficiales/impresion-registro-ventas-hoja",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["impresion", "registro", "ventas"],
+  },
+  {
+    id: 440,
+    name: "Libros Oficiales de Inventarios y Balances en blanco",
+    description:
+      "Al emitir los Libros Oficiales de Inventarios y Balances el sistema muestra el reporte en blanco a pesar que la cuenta ha tenido movimientos",
+    href: "/globalSireCb/libros-oficiales/libros-oficiales-inventarios-balances-blanco",
+    tipo: "Pregunta Frecuente",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Oficiales",
+    palabrasClave: ["libros", "oficiales", "inventarios"],
   },
 
   //* Fin Libros Oficiales

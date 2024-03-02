@@ -13,7 +13,7 @@ const page = () => {
   ];
   return (
     <div className="space-y-3">
-      <p>Se adjunta Manual detallado</p>
+      <p>Los pasos a realizar lo podra visualizar en el Manual adjunto</p>
 
       <Table items={data} />
     </div>
