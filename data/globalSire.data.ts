@@ -1,7 +1,7 @@
 export const dataGlobal = [
   //?Inicio CONCAR SIRE CB
   //#region Libros Electrónicos
-  //*Inicio Libros Electrónicos LISTO
+  //*Inicio Libros Electrónicos
   {
     id: 1,
     name: "¿Cómo generar Formato 8.2 Registro de Compras de No Domiciliados PLE 5.1? - Incluye Video",
@@ -933,7 +933,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Sin Definir
-  //?Inicio Sin Definir LISTO
+  //?Inicio Sin Definir
   {
     id: 73,
     name: "Objetivos y características del sistema",
@@ -1418,7 +1418,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Ventas
-  //*Inicio Ventas LISTO
+  //*Inicio Ventas
   {
     id: 125,
     name: "¿Cómo se realiza la carga masiva de ventas en el e-CONCAR PRO? - Incluye Video",
@@ -1631,7 +1631,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Compatibilidad
-  //?Inicio Compatibilidad LISTO
+  //?Inicio Compatibilidad
   {
     id: 144,
     name: "Mensaje de Inconsistencia Date Time al cargar excel por el e Concar Pro",
@@ -1811,7 +1811,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Presupuesto
-  //*Inicio Presupuesto LISTO
+  //*Inicio Presupuesto
   {
     id: 160,
     name: "Presupuesto",
@@ -1937,7 +1937,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Sunat
-  //?Inicio Sunat LISTO
+  //?Inicio Sunat
   {
     id: 171,
     name: "¿Cómo Configurar el Tipo de Cambio? - Incluye Video",
@@ -2040,7 +2040,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Conexión
-  //*Inicio Conexion LISTO
+  //*Inicio Conexion
 
   {
     id: 180,
@@ -2100,7 +2100,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Diferencia de Cambio
-  //?Inicio Diferencia de cambio LISTO
+  //?Inicio Diferencia de cambio
   {
     id: 185,
     name: "Parámetros para el Proceso de Regularización por Diferencia de Cambio",
@@ -2164,7 +2164,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Interfaz
-  //*Inicio Interfaz LISTO
+  //*Inicio Interfaz
   {
     id: 189,
     name: "Anexos II y III: Carga de asientos desde otros sistemas",
@@ -2201,7 +2201,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Generalidades
-  //?Inicio Generalidades LISTO
+  //?Inicio Generalidades
   {
     id: 192,
     name: "¿Qué contiene la Tabla General? - Incluye Video",
@@ -2775,7 +2775,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Registro Comprobantes
-  //*Inicio Registro de Comprobantes LISTO
+  //*Inicio Registro de Comprobantes
   {
     id: 244,
     name: "¿Cómo realizar la Transferencia de Comprobantes en el Concar CB? - Incluye Video",
@@ -3042,7 +3042,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Otros Reportes
-  //?Inicio Otros Reportes LISTO
+  //?Inicio Otros Reportes
   {
     id: 268,
     name: "Análisis cuenta",
@@ -3232,7 +3232,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Cierre y Apertura
-  //*Inicio Cierre y Apertura LISTO
+  //*Inicio Cierre y Apertura
   {
     id: 285,
     name: "¿Como cargar información en mantenimiento Tabla de Cierre? - Incluye Video",
@@ -3400,7 +3400,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Creacion De Compañias
-  //?Inicio Creacion de compañias LISTO
+  //?Inicio Creacion de compañias
   {
     id: 299,
     name: "Modificación de la Razón social",
@@ -3525,7 +3525,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Seguridad
-  //*Inicio Seguridad LISTO
+  //*Inicio Seguridad
   {
     id: 310,
     name: "¿Cómo restaurar una copia de Seguridad o Backup en el Concar CB? - Incluye Video",
@@ -3534,8 +3534,8 @@ export const dataGlobal = [
     href: "/globalSireCb/seguridad/restaurar-copia-seguridad-concar-cb",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["restaurar", "copia", "seguridad"],
   },
   {
     id: 311,
@@ -3545,8 +3545,8 @@ export const dataGlobal = [
     href: "/globalSireCb/seguridad/realiza-copia-seguridad-concar-cb",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["realiza", "copia", "seguridad"],
   },
   {
     id: 312,
@@ -3555,8 +3555,8 @@ export const dataGlobal = [
     href: "/globalSireCb/seguridad/mensaje-error-apertura-archivo-ctcias",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["error", "apertura", "archivo", "ctcias"],
   },
   {
     id: 313,
@@ -3566,8 +3566,8 @@ export const dataGlobal = [
     href: "/globalSireCb/seguridad/error-cpe-ctg-ctcamb",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["error", "apertura", "archivo", "cpe"],
   },
   {
     id: 314,
@@ -3577,8 +3577,8 @@ export const dataGlobal = [
     href: "/globalSireCb/seguridad/restaurar-copia-seguridad-backup",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["restaurar", "copia", "seguridad"],
   },
   {
     id: 315,
@@ -3586,10 +3586,10 @@ export const dataGlobal = [
     description:
       "Esta opción permite guardar en archivos comprimidos la información de uno o más ejercicios contable de una o más compañías.",
     href: "/globalSireCb/seguridad/copia-seguridad",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["copia", "seguridad"],
   },
   {
     id: 316,
@@ -3598,8 +3598,8 @@ export const dataGlobal = [
     href: "/globalSireCb/seguridad/no-generado-copia-seguridad",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["generado", "copia", "seguridad"],
   },
   {
     id: 317,
@@ -3607,16 +3607,16 @@ export const dataGlobal = [
     description:
       "Qué prevenciones tomar en cuenta para evitar archivos corruptos o perdida de información",
     href: "/globalSireCb/seguridad/prevenciones-archivos-corruptos",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Compras",
-    palabrasClave: ["crear", "ejercicio", "concar", "sql"],
+    tema: "Seguridad",
+    palabrasClave: ["evitar", "archivos", "corruptos"],
   },
   //* Fin Seguridad
   //#endregion
 
   //#region Anexos
-  //?Inicio Anexos LISTO
+  //?Inicio Anexos
   {
     id: 318,
     name: "¿Como Crear Código de Anexos? - Incluye Video",
@@ -3664,7 +3664,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Plan de Cuentas
-  //*Inicio Plan de Cuentas LISTO
+  //*Inicio Plan de Cuentas
   {
     id: 323,
     name: "¿Cómo realizar la Actualización de Compañía con el Nuevo PCGE 2020, si inicialmente lo creo con el Plan Contable 2019?",
@@ -3713,7 +3713,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Lentitud
-  //*Inicio Lentitud LISTO
+  //*Inicio Lentitud
   {
     id: 327,
     name: "Lentitud al utilizar módulo CONCAR CB",
@@ -4294,7 +4294,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Instalacion/Actualizacion
-  //?Inicio Instalacion/Actualizacion LISTO
+  //?Inicio Instalacion/Actualizacion
   {
     id: 380,
     name: "¿Actualización CONCAR CB - Virtual? - Incluye Video",
@@ -4528,7 +4528,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Accesos
-  //*Inicio Acceso LISTO
+  //*Inicio Acceso
   {
     id: 401,
     name: "¿Archivo Corrupto CTRUTR al momento de ejecutar una copia de seguridad? - Incluye Video",
@@ -4706,7 +4706,7 @@ export const dataGlobal = [
   //#endregion Accesos
 
   //#region Caja y Bancos
-  //?Inicio Caja y Bancos LISTO
+  //?Inicio Caja y Bancos
   {
     id: 417,
     name: "Bancos",
@@ -4852,7 +4852,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Libros Oficiales
-  //*Inicio Libros Oficiales LISTO
+  //*Inicio Libros Oficiales
   {
     id: 430,
     name: "Ganancias y Pérdidas Del Mes y Acumulado",
@@ -4977,7 +4977,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Estados Financieros
-  //?Inicio Estados Financieros Listo
+  //?Inicio Estados Financieros
   {
     id: 441,
     name: "¿Cómo cargar los rubros del Estado de Flujo de Efectivo? - Incluye Video",
@@ -5006,7 +5006,7 @@ export const dataGlobal = [
     description:
       "Error 9 en tiempo de ejecución el subíndice está fuera del intervalo en Reporte de Flujo de Efectivo",
     href: "/globalSireCb/estados-financieros/error-9-tiempo-ejecucion",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Estados Financieros",
     palabrasClave: ["analisis", "grafico", "estados", "financieros"],
@@ -5017,7 +5017,7 @@ export const dataGlobal = [
     description:
       "El Estado de Cambios en el Patrimonio Neto muestra los cambios en el patrimonio de la empresa en un período de tiempo.",
     href: "/globalSireCb/estados-financieros/estado-cambio-patrimonio",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Estados Financieros",
     palabrasClave: ["estado", "cambio", "patrimonio", "neto"],
@@ -5059,7 +5059,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Cobranzas
-  //*Inicio Cobranzas - LISTO
+  //*Inicio Cobranzas -
   {
     id: 448,
     name: "Aplicación de la nota de crédito (nota de abono)",
@@ -5106,7 +5106,7 @@ export const dataGlobal = [
   //#endregion
 
   //#region Honorarios
-  //?Inicio Honorarios - LISTO
+  //?Inicio Honorarios -
   {
     id: 452,
     name: "Comprobante de Honorarios",

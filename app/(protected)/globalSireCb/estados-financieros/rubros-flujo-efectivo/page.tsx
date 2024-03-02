@@ -1,3 +1,4 @@
+import TablaDocumentosRelacionados from "@/components/TablaDocumentosRelacionados";
 import Table from "@/components/Table";
 import Image from "next/image";
 import React from "react";
@@ -18,6 +19,15 @@ const page = () => {
       id: 3,
       title: "Detalle de Flujo de Efectivo - CAFXX.dbf",
       href: "https://miconcar.com/uploads/documentos/171_CAFXX.DBF",
+    },
+  ];
+  const data2 = [
+    {
+      id: 1,
+      title: "Flujo Efectivo",
+      description:
+        "El Estado de Flujo de Efectivo muestra el efecto de los cambios de efectivo y equivalentes de efectivo, en un tiempo determinado.",
+      href: "/globalSireCb/estados-financieros/flujo-efectivo",
     },
   ];
   return (
@@ -57,6 +67,7 @@ const page = () => {
         </div>
       </div>
       <Table items={data} />
+      <TablaDocumentosRelacionados items={data2} />
     </div>
   );
 };

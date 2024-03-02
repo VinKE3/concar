@@ -7,10 +7,9 @@ const page = () => {
   const data = [
     {
       id: 1,
-      title: "¿Mensaje Error de Apertura de Archivo (CPE,CTG,CTCAMB)?",
-      description:
-        "Se detalla solución para superar mensajes de archivos corruptos, no encontrados, por lo general estos archivos se han dañado.",
-      href: "/globalSireCb/seguridad/error-cpe-ctg-ctcamb",
+      title: "¿Mensaje Error de Apertura de Archivo CTCIAS",
+      description: "Ingresa para que encuentres la solución,",
+      href: "/globalSireCb/seguridad/mensaje-error-apertura-archivo-ctcias",
     },
   ];
   return (
@@ -90,7 +89,7 @@ const page = () => {
         5. Los mensajes también podrían deberse a que alguno de los archivos de
         la base de datos está corrupto (Ver también Mensaje de archivo corrupto)
       </p>
-      <TablaDocumentosRelacionados />
+      <TablaDocumentosRelacionados items={data} />
     </div>
   );
 };

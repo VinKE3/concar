@@ -13,7 +13,8 @@ const page = () => {
   return (
     <div className="space-y-3">
       <p>
-        ARCHIVOS Y ENLACES DETALLE DESCARGA Restauración de Backup. Descargar
+        En el presente documento se detalla el procedimiento para restaurar una
+        copia de seguridad o backup.
       </p>
 
       <Table items={data} />
