@@ -21,7 +21,9 @@ const List = ({ id, title, href = "", items }: ListProps) => {
           {items.map(({ id, title, href }) => (
             <Link className="flex gap-2" key={id} href={href}>
               <span>{id}.</span>
-              <h1 className="text-sky-600 hover:text-sky-700">{title}</h1>
+              <h1 className="text-sky-600 hover:text-sky-700 hover:underline">
+                {title}
+              </h1>
             </Link>
           ))}
         </div>

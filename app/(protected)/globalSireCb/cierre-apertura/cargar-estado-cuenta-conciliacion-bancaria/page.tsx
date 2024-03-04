@@ -1,6 +1,16 @@
+import TablaDocumentosRelacionados from "@/components/TablaDocumentosRelacionados";
 import React from "react";
 
 const page = () => {
+  const data = [
+    {
+      id: 1,
+      title: "Registro Estado Cuenta",
+      description:
+        "Esta opción permite registrar y visualizar los movimientos bancarios reportados por el banco.",
+      href: "/globalSireCb/bancos/registrar-estados-cuenta",
+    },
+  ];
   return (
     <div className="space-y-3">
       <h1 className="font-bold">Caso</h1>
@@ -20,6 +30,7 @@ const page = () => {
         por la opción Conciliación Bancaria / Registro Estados Cuenta/ Registro
         Estado Cuenta.
       </p>
+      <TablaDocumentosRelacionados items={data} />
     </div>
   );
 };

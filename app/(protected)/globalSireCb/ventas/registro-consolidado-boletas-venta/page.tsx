@@ -51,7 +51,6 @@ const page = () => {
         width={400}
         height={400}
       />
-      <Table items={data} />
     </div>
   );
 };

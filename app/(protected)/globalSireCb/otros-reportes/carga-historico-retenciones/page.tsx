@@ -18,14 +18,16 @@ const page = () => {
         para que el sistema haga el cálculo correcto de la renta de quinta
         categoría en cualquiera de los siguientes casos:
       </p>
-      <p>
-        Para trabajadores con un historial de retenciones de quinta categoría
-        antes del inicio de la relación laboral.
-      </p>
-      <p>
-        Cuando el empleador aperturó la primera planilla, en el sistema PLACAR®,
-        en un mes posterior a enero.
-      </p>
+      <ul className="list-disc px-5">
+        <li>
+          Para trabajadores con un historial de retenciones de quinta categoría
+          antes del inicio de la relación laboral.
+        </li>
+        <li>
+          Cuando el empleador aperturó la primera planilla, en el sistema
+          PLACAR®, en un mes posterior a enero.
+        </li>
+      </ul>
       <Table items={data} />
     </div>
   );

@@ -27,8 +27,8 @@ const page = () => {
       <Image
         alt="Que contiene la Tabla General"
         src="https://miconcar.com/uploads/documentos/sispag_sql_boton_crear_1.jpg"
-        width={150}
-        height={150}
+        width={60}
+        height={60}
       />
       <Image
         alt="Que contiene la Tabla General"
@@ -52,8 +52,8 @@ const page = () => {
       <Image
         alt="Que contiene la Tabla General"
         src="https://miconcar.com/uploads/documentos/sispag_sql_boton_guardar_1.jpg"
-        width={150}
-        height={150}
+        width={60}
+        height={60}
       />
       <p>
         Si se desea llevar el presupuesto sólo por cuenta contable rellenar con
@@ -86,8 +86,8 @@ const page = () => {
       <Image
         alt="Que contiene la Tabla General"
         src="https://miconcar.com/uploads/documentos/sispag_sql_boton_guardar_1.jpg"
-        width={150}
-        height={150}
+        width={60}
+        height={60}
       />
       <p>
         Nota: En el Mantenimiento del presupuesto se irá guardando lo

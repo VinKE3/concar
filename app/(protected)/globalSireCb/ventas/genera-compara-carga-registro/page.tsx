@@ -12,7 +12,11 @@ const page = () => {
   ];
   return (
     <div className="space-y-3">
-      <h1></h1>
+      <h1>
+        Aqui podrás conocer la funcionalidad del sistema CONCAR SIRE respecto al
+        Registro de Ventas e Ingresos Electrónicos (RVIE) integrado con CONCAR
+        CB y SQL, para el correcto uso detallo las siguientes consideraciones:
+      </h1>
       <ul className="px-5 list-disc">
         <li>Validar entorno Windows UPDATE se encuentre actualizado.</li>
         <li>
@@ -52,7 +56,7 @@ const page = () => {
           SUNAT
         </li>
       </ul>
-      <h1>1. TEMA: ¿Cómo Genera archivo preliminar compras?</h1>
+      <h1>1. TEMA: ¿Cómo Genera archivo preliminar ventas?</h1>
       <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
         <div
           style={{
@@ -70,13 +74,13 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/BOy8gR8qMkU?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>
         </div>
       </div>
-      <h1>2. TEMA: ¿Cómo Genera el comparativo propuesta compras?</h1>
+      <h1>2. TEMA: ¿Cómo Genera el comparativo propuesta ventas?</h1>
       <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
         <div
           style={{
@@ -94,13 +98,13 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/4I6Jjvv-gSQ?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>
         </div>
       </div>
-      <h1>3. TEMA: ¿Cómo realizar el mantenimiento de Compras?</h1>
+      <h1>3. TEMA: ¿Cómo realizar el mantenimiento de ventas?</h1>
       <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
         <div
           style={{
@@ -118,7 +122,7 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/MLj0TZFNxHQ?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>

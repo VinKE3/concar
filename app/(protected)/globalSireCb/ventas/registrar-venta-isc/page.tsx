@@ -44,55 +44,7 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
-              id="widget2"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-      <h1>2. TEMA: ¿Cómo Genera el comparativo propuesta compras?</h1>
-      <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
-        <div
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-        >
-          <div
-            style={{
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            <iframe
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
-              id="widget2"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-      <h1>3. TEMA: ¿Cómo realizar el mantenimiento de Compras?</h1>
-      <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
-        <div
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-        >
-          <div
-            style={{
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            <iframe
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/ZLZsYTWB4-4?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>

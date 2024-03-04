@@ -12,7 +12,7 @@ const DuplicanVentasNetas = () => {
   ];
   return (
     <div className="space-y-4">
-      <h1>Descripción del problema</h1>
+      <h1 className="font-bold">Descripción del problema</h1>
       <p>
         Se duplican el total Ventas Netas y/o el Total Costo de Ventas en el
         Estado de Ganancias y Pérdidas por Función.

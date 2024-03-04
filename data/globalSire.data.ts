@@ -1425,7 +1425,7 @@ export const dataGlobal = [
     description:
       "¿Como se realiza la carga masiva de ventas en el e-CONCAR PRO?",
     href: "/globalSireCb/ventas/carga-masiva-ventas-concar-pro",
-    tipo: "Caso práctico",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Ventas",
     palabrasClave: ["comprobante", "ventas"],
@@ -1435,7 +1435,7 @@ export const dataGlobal = [
     name: "¿Qué debo configurar si no aparece el IGV en mi Liquidación de Impuesto de Ventas del módulo e Concar pro? - Incluye Video",
     description: "Se deberá activar en su Mantenimiento de Parámetros Ventas",
     href: "/globalSireCb/ventas/configurar-igv-liquidacion-impuesto-ventas",
-    tipo: "Caso práctico",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Ventas",
     palabrasClave: ["comprobante", "ventas"],
@@ -1446,7 +1446,7 @@ export const dataGlobal = [
     description:
       "Esta opción permite registrar los comprobantes de ventas en forma simplificada y automatizada.",
     href: "/globalSireCb/ventas/comprobante-ventas",
-    tipo: "Caso práctico",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Ventas",
     palabrasClave: ["comprobante", "ventas"],
@@ -1510,7 +1510,7 @@ export const dataGlobal = [
     name: "Registro de Consolidado de Boletas de Venta",
     description: "Cómo registrar un consolidado de boletas de venta.",
     href: "/globalSireCb/ventas/registro-consolidado-boletas-venta",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Ventas",
     palabrasClave: ["registro", "visualizacion", "ventas", "inafectas"],
@@ -1520,7 +1520,7 @@ export const dataGlobal = [
     name: "Registro de Ventas Afectas e Inafectas",
     description: "Registro de Ventas con porcentaje afecto e inafecto.",
     href: "/globalSireCb/ventas/registro-ventas-afectas-inafectas",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Ventas",
     palabrasClave: ["registro", "visualizacion", "ventas", "inafectas"],
@@ -1548,7 +1548,7 @@ export const dataGlobal = [
     name: "Ventas al Contado",
     description: "Cómo registrar ventas al contado.",
     href: "/globalSireCb/ventas/ventas-contado",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Ventas",
     palabrasClave: ["registro", "comisiones", "venta", "servicios"],
@@ -1814,25 +1814,25 @@ export const dataGlobal = [
   //*Inicio Presupuesto
   {
     id: 160,
-    name: "Presupuesto",
+    name: "Documentos Pendientes",
     description:
-      "Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable. El presupuesto se puede llevar por centro de costo y/o por cuenta de Ganancias y Pérdidas por Función o Naturaleza.",
-    href: "/globalSireCb/presupuesto/presupuesto",
-    tipo: "Artículo",
-    categorias: ["EXPOSICIONES", "CONCARCBVIRTUAL"],
-    tema: "Presupuesto",
-    palabrasClave: ["presupuesto"],
-  },
-  {
-    id: 161,
-    name: "Ejecución Presupuestal por Función o Naturaleza",
-    description:
-      "Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.",
-    href: "/globalSireCb/presupuesto/ejecucion-presupuestal",
+      "Permite sacar reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.",
+    href: "/globalSireCb/presupuesto/documentos-pendientes",
     tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Presupuesto",
-    palabrasClave: ["ejecucion", "presupuestal", "funcion", "naturaleza"],
+    palabrasClave: ["documentos", "pendientes"],
+  },
+  {
+    id: 161,
+    name: "Ejecución Presupuestal Analítica",
+    description:
+      "Este reporte nos muestra una comparación entre lo presupuestado y lo ejecutado seleccionando un rango de cuentas contables y permitiendo quiebres a 2, 3 y 4 dígitos. Funciona para la configuración de presupuesto por centro de costo como por cuenta contable.",
+    href: "/globalSireCb/presupuesto/ejecucion-presupuestal-analitica",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Presupuesto",
+    palabrasClave: ["ejecucion", "presupuestal"],
   },
   {
     id: 162,
@@ -1843,11 +1843,22 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Presupuesto",
-    palabrasClave: ["ejecucion", "presupuestal", "centro", "costo"],
+    palabrasClave: ["ejecucion", "presupuestal"],
   },
   {
     id: 163,
-    name: "Mantenimiento del Presupuesto (antiguo) -- DIFERENTE",
+    name: "Ejecución Presupuestal por Función o Naturaleza",
+    description:
+      "Muestra un comparativo entre lo presupuestado y el Estado de Ganancias y Pérdidas por Función o Naturaleza. Funciona para la configuración de presupuesto sólo por cuenta contable.",
+    href: "/globalSireCb/presupuesto/ejecucion-presupuestal",
+    tipo: "Artículo",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Presupuesto",
+    palabrasClave: ["ejecucion", "presupuestal"],
+  },
+  {
+    id: 164,
+    name: "Mantenimiento del Presupuesto (antiguo)",
     description:
       "Si se desea llevar el presupuesto por centro de costo ingresar por cada centro de costo: Cuenta contable e importe presupuestado para un mes seleccionado.",
     href: "/globalSireCb/presupuesto/mantenimiento-presupuesto-antiguo",
@@ -1857,7 +1868,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "presupuesto"],
   },
   {
-    id: 164,
+    id: 165,
     name: "Mantenimiento Presupuesto",
     description:
       "Proceso que registra en forma masiva los importes de la configuración de presupuesto para el ejercicio actual.",
@@ -1868,7 +1879,7 @@ export const dataGlobal = [
     palabrasClave: ["mantenimiento", "presupuesto"],
   },
   {
-    id: 165,
+    id: 166,
     name: "Mantenimiento Tipo pago por programa",
     description:
       "Se debe configurar los tipos de medio de pago que pueden ser utilizados para cada una de las opciones de generación de comprobantes contables. Este dato es requisito cuando se contabilizan operaciones de cobranzas o pagos.",
@@ -1876,10 +1887,10 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Presupuesto",
-    palabrasClave: ["mantenimiento", "presupuesto"],
+    palabrasClave: ["mantenimiento", "tipo", "pago", "programa"],
   },
   {
-    id: 166,
+    id: 167,
     name: "Presupuesto por Proyecto",
     description:
       "Permite llevar el control presupuestal por proyecto específico.",
@@ -1887,10 +1898,10 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Presupuesto",
-    palabrasClave: ["presupuesto", "ordinario"],
+    palabrasClave: ["presupuesto", "proyecto"],
   },
   {
-    id: 167,
+    id: 168,
     name: "Reporte de Presupuesto",
     description:
       "Imprime el reporte de lo presupuestado en el Mantenimiento de Presupuesto, pudiéndose generar en moneda nacional o extranjera.",
@@ -1901,7 +1912,7 @@ export const dataGlobal = [
     palabrasClave: ["reporte", "presupuesto"],
   },
   {
-    id: 168,
+    id: 169,
     name: "Reporte Ejecución Presupuesto",
     description:
       "Este reporte se utiliza para comparar lo presupuestado por centro de costo/cuenta contra lo ejecutado y luego ver la variación en términos absolutos o porcentuales.",
@@ -1912,26 +1923,15 @@ export const dataGlobal = [
     palabrasClave: ["reporte", "ejecucion", "presupuesto"],
   },
   {
-    id: 169,
-    name: "Documentos Pendientes",
-    description:
-      "Permite sacar reportes de los saldos de las cuentas 12X hasta la 47X. Las cuentas que pueden ser analizadas en este proceso son aquellas que han sido definidas con nivel de saldo en el Mantenimiento de Plan de Cuentas.",
-    href: "/globalSireCb/presupuesto/documentos-pendientes",
-    tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Presupuesto",
-    palabrasClave: ["reporte", "ejecucion", "presupuesto"],
-  },
-  {
     id: 170,
-    name: "Ejecución Presupuestal Analítica",
+    name: "Presupuesto",
     description:
-      "Este reporte nos muestra una comparación entre lo presupuestado y lo ejecutado seleccionando un rango de cuentas contables y permitiendo quiebres a 2, 3 y 4 dígitos. Funciona para la configuración de presupuesto por centro de costo como por cuenta contable.",
-    href: "/globalSireCb/presupuesto/ejecucion-presupuestal-analitica",
+      "Este módulo sirve para formular un presupuesto y compararlo con el movimiento contable. El presupuesto se puede llevar por centro de costo y/o por cuenta de Ganancias y Pérdidas por Función o Naturaleza.",
+    href: "/globalSireCb/presupuesto/presupuesto",
     tipo: "Artículo",
-    categorias: ["CONCARCBVIRTUAL"],
+    categorias: ["EXPOSICIONES", "CONCARCBVIRTUAL"],
     tema: "Presupuesto",
-    palabrasClave: ["reporte", "ejecucion", "presupuesto"],
+    palabrasClave: ["presupuesto"],
   },
   //* Fin Presupuesto
   //#endregion
@@ -3066,7 +3066,7 @@ export const dataGlobal = [
   },
   {
     id: 270,
-    name: "Carga de histórico de retenciones de quinta categoría -- DIFERENTE",
+    name: "Carga de histórico de retenciones de quinta categoría",
     description:
       "Procedimiento para cargar al sistema las retenciones de quinta categoría y remuneraciones históricas.",
     href: "/globalSireCb/otros-reportes/carga-historico-retenciones",
@@ -3099,7 +3099,7 @@ export const dataGlobal = [
   },
   {
     id: 273,
-    name: "Generación Archivo Saldo documento -- DIFERENTE",
+    name: "Generación Archivo Saldo documento",
     description:
       "El proceso actualiza los archivos de análisis hasta la fecha límite que se indique para emitir algunos reportes de Documentos Pendientes y Estados de Cuenta.",
     href: "/globalSireCb/otros-reportes/generacion-archivo-saldo",
@@ -3300,11 +3300,11 @@ export const dataGlobal = [
   },
   {
     id: 290,
-    name: "Cierre 2023 - ¿Proceso completo de Cierre 2023 y Apertura 2024? - Incluye Videos -- DIFERENTE",
+    name: "Cierre 2023 - ¿Proceso completo de Cierre 2023 y Apertura 2024? - Incluye Videos",
     description:
       "Hemos elaborado una guía para el correcto uso del proceso Cierre 2023 y el Asiento de Apertura 2024, con la finalidad de facilitar el uso del sistema contemplando todos los posibles casos.",
     href: "/globalSireCb/cierre-apertura/cierre-2023-apertura-2024",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Cierre y Apertura",
     palabrasClave: ["asientos", "automaticos"],
@@ -3315,7 +3315,7 @@ export const dataGlobal = [
     description:
       "Los procesos a realizar para configurar la Tabla de Cierre y la secuencia a tener presente",
     href: "/globalSireCb/cierre-apertura/configurar-17-asientos-cierre",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Cierre y Apertura",
     palabrasClave: ["asientos", "automaticos"],
@@ -4535,9 +4535,9 @@ export const dataGlobal = [
     description:
       "A continuación detallamos los pasos a realizar si se presenta el mensaje Archivo Corrupto – CTRUTR",
     href: "/globalSireCb/acceso/archivo-corrupto-ctrutr-copia-seguridad",
-    tipo: "Caso Práctico",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Creación de Compañías",
+    tema: "Acceso",
     palabrasClave: ["crear", "ejercicio", "concar", "sql"],
   },
   {
@@ -4546,9 +4546,9 @@ export const dataGlobal = [
     description:
       "A continuación detallamos los pasos a realizar si se presenta el mensaje Archivo Corrupto – CTRUTR",
     href: "/globalSireCb/acceso/configuracion-parametros-consulta-sunat",
-    tipo: "Caso Práctico",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
-    tema: "Creación de Compañías",
+    tema: "Acceso",
     palabrasClave: ["crear", "ejercicio", "concar", "sql"],
   },
   {
