@@ -1641,7 +1641,7 @@ export const dataGlobal = [
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compatibilidad",
-    palabrasClave: ["proceder", "mensaje", "error", "50003"],
+    palabrasClave: ["mensaje", "inconsistencia", "date", "time"],
   },
   {
     id: 145,
@@ -2782,7 +2782,7 @@ export const dataGlobal = [
     description:
       "A continuación detallamos el proceso para realizar la Transferencia de Comprobantes",
     href: "/globalSireCb/comprobantes/transferencia-comprobantes",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -2793,7 +2793,7 @@ export const dataGlobal = [
     description:
       "A continuación se detalla el proceso para transferir Plan de Cuentas y Anexos en el Concar CB",
     href: "/globalSireCb/comprobantes/transferencia-plan-cuentas-anexos",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -2804,7 +2804,7 @@ export const dataGlobal = [
     description:
       "Esta opción sirve para eliminar comprobantes en situación Pendiente (P) o Finalizados (F) 1x1 y grupos de 15.",
     href: "/globalSireCb/comprobantes/eliminacion-masiva-comprobantes",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -2815,7 +2815,7 @@ export const dataGlobal = [
     description:
       "Al ejecutar la opción de reindexado, el sistema arroja el mensaje Archivo Corrupto",
     href: "/globalSireCb/comprobantes/archivo-corrupto-cccxxaa",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -2826,7 +2826,7 @@ export const dataGlobal = [
     description:
       "Al ejecutar la opción de reindexado, el sistema arroja el mensaje Archivo Corrupto",
     href: "/globalSireCb/comprobantes/archivo-corrupto-ccdxxaa",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -2837,7 +2837,7 @@ export const dataGlobal = [
     description:
       "Procedimiento para superar mensaje al registrar comprobantes: “CC010.FECHA FUERA DE RANGO” en el sistema CONCAR®",
     href: "/globalSireCb/comprobantes/superar-mensaje-cc010-fecha-fuera-rango",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -2884,7 +2884,7 @@ export const dataGlobal = [
     tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
-    palabrasClave: ["comprobante", "estandar", "conversion"],
+    palabrasClave: ["comprobante", "mensual"],
   },
   {
     id: 254,
@@ -2914,7 +2914,7 @@ export const dataGlobal = [
     description:
       "Mensaje de error al realizar el proceso de consolidación mensual en el sistema CONCAR® detalle sin Cabecera",
     href: "/globalSireCb/comprobantes/detalle-sin-cabecera",
-    tipo: "Artículo",
+    tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Registro de Comprobantes",
     palabrasClave: ["comprobantes"],
@@ -4432,7 +4432,7 @@ export const dataGlobal = [
     name: "Desinstalación Concar® CodeBase Monousuario",
     description: "¿Cómo desinstalo mi Concar® CodeBase Monousuario?",
     href: "/globalSireCb/instalacion-actualizacion/desinstalacion-concar-codebase-monousuario",
-    tipo: "Pregunta Frecuente",
+    tipo: "Tip",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Instalación/Actualización",
     palabrasClave: ["instalar", "concar", "virtual"],
@@ -4441,7 +4441,7 @@ export const dataGlobal = [
     id: 393,
     name: "El sitio web al que vas a acceder es engañoso",
     description: "El sitio web al que vas a acceder es engañoso",
-    href: "/globalSireCb/instalacion-actualizacion/sitio-web-engañoso",
+    href: "/globalSireCb/instalacion-actualizacion/sitio-web",
     tipo: "Pregunta Frecuente",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Instalación/Actualización",
@@ -4453,7 +4453,7 @@ export const dataGlobal = [
     description:
       "Procedimiento a seguir cuando el sistema emite el mensaje No se ha encontrado el componente necesario para comunicación con el Servicio SUNAT.",
     href: "/globalSireCb/instalacion-actualizacion/error-automatizacion-no-encontrado-componente-sunat",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Instalación/Actualización",
     palabrasClave: ["instalar", "concar", "virtual"],

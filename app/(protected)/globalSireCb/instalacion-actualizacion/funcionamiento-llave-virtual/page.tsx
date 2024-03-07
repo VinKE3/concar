@@ -1,6 +1,30 @@
+import TablaDocumentosRelacionados from "@/components/TablaDocumentosRelacionados";
 import React from "react";
 
 const page = () => {
+  const data = [
+    {
+      id: 1,
+      title: "¿Activación del Real Key Virtual- RKV o Llave? - Incluye Video",
+      description:
+        "A continuación detallamos como proceder para activar su Real Key - Virtual",
+      href: "/globalSireCb/acceso/activacion-real-key-virtual",
+    },
+    {
+      id: 2,
+      title: "¿Actualización CONCAR CB - Virtual? - Incluye Video",
+      description:
+        "A continuación de detalla los pasos a realizar para el proceso de Actualización del Concar CB - Virtual",
+      href: "/globalSireCb/instalacion-actualizacion/instalar-concar-cb",
+    },
+    {
+      id: 3,
+      title: "¿Desactivar o Anular su Real Key Virtual- RKV?",
+      description:
+        "A continuación detallamos como Desactivar - Anular su Real Key Virtual",
+      href: "/globalSireCb/acceso/desactivar-anular-real-key-virtual",
+    },
+  ];
   return (
     <div className="space-y-3">
       <h1 className="font-bold">
@@ -41,6 +65,17 @@ const page = () => {
         - Al duplicar el archivo XXXXXXXXXXX.rkv ( donde XXXXXXXXXXX, es el ruc
         o dni del usuario)
       </p>
+      <p>En la parte inferior compartimos los procesos - manuales:</p>
+      <h1 className="font-bold">
+        ¿Como proceder para activar su real key - virtual ?
+      </h1>
+      <h1 className="font-bold">
+        ¿Como proceder para desactivar - anular su real key - virtual?
+      </h1>
+      <h1 className="font-bold">
+        ¿Como realizar el proceso de actualizacion del Concar CB - Virtual?
+      </h1>
+      <TablaDocumentosRelacionados items={data} />
     </div>
   );
 };

@@ -25,7 +25,7 @@ export default function Layout({ children }: LayoutProps) {
       <div className="mt-5">
         <Heading title={titulo} />
       </div>
-      <div className="flex gap-4 mt-2">
+      <div className="md:flex gap-4 mt-2">
         <h1>
           <span className="text-sky-600 font-semibold">Tipo: </span>
           {tipo}

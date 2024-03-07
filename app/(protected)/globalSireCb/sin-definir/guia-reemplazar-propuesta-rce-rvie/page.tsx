@@ -28,7 +28,7 @@ const page = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/kE1lQ1AM21Y?autoplay=0&amp;mute=0&amp;controls=0&"
+              src="https://www.youtube.com/embed/zsMqp23myHY?autoplay=0&amp;mute=0&amp;controls=0&"
               id="widget2"
             ></iframe>
           </div>

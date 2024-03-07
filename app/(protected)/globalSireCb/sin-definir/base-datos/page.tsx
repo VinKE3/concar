@@ -100,7 +100,9 @@ const page = () => {
         height={600}
       />
       <h1>A continuación el detalle de las opciones de este módulo:</h1>
+
       <List items={data} />
+      <Table items={dataTabla} />
     </div>
   );
 };
