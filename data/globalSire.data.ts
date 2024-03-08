@@ -2273,7 +2273,7 @@ export const dataGlobal = [
     description:
       "Imprime reporte que muestra los totales de ingresos y egresos por cada área, así como los totales generales.",
     href: "/globalSireCb/generalidades/areas",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2284,7 +2284,7 @@ export const dataGlobal = [
     description:
       "Se detallan principales características del sistema CONCAR® CB.",
     href: "/globalSireCb/generalidades/caracteristicas-sistema",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2295,7 +2295,7 @@ export const dataGlobal = [
     description:
       "Esta nueva funcionalidad permite realizar la cargar en Excel de manera masiva para la creación de Anexos..",
     href: "/globalSireCb/generalidades/carga-masiva-anexos-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2306,7 +2306,7 @@ export const dataGlobal = [
     description:
       "La plantilla Excel será exportado desde el mismo módulo e-CONCAR PRO y al importar se generará el asiento automático del comprobante de compra que podrá ser visualizado en el Sistema CONCAR CB de esta manera trabaja la carga masiva de compras.",
     href: "/globalSireCb/generalidades/carga-masiva-compras-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2317,7 +2317,7 @@ export const dataGlobal = [
     description:
       "La plantilla Excel será exportado desde el mismo módulo e-CONCAR PRO y al importar se generará el asiento automático del comprobante de ventas que podrá ser visualizado en el Sistema CONCAR CB de esta manera trabaja la carga masiva de ventas.",
     href: "/globalSireCb/generalidades/carga-masiva-ventas-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2339,7 +2339,7 @@ export const dataGlobal = [
     description:
       "Una de sus funcionalidades de este Módulo e-CONCAR PRO es que nos permite trabajar con los Comprobante Compras de Factura Electrónica, el cual permite contabilizar los comprobantes XML de las facturas electrónicas de Compras que reciba de su Proveedor.",
     href: "/globalSireCb/generalidades/configuracion-previa-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2350,7 +2350,7 @@ export const dataGlobal = [
     description:
       "Terminado la Parametrización Consulta Sunat, se podrá validar la conexión y comunicación del módulo e-CONCAR PRO con la SUNAT de la siguiente manera.",
     href: "/globalSireCb/generalidades/configuracion-facturacion-electronica-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2361,7 +2361,7 @@ export const dataGlobal = [
     description:
       "Esta opción se encarga de procesar los comprobantes de un mes contable para permitir consultar e imprimir los estados financieros y reportes actualizados a dicho mes.",
     href: "/globalSireCb/generalidades/consolidacion",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2372,7 +2372,7 @@ export const dataGlobal = [
     description:
       "Esta opción se utiliza para consultar si el mes se encuentra abierto (P) o cerrado (D)",
     href: "/globalSireCb/generalidades/consulta-consolidacion",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2383,7 +2383,7 @@ export const dataGlobal = [
     description:
       "Permite validar como realizaron el calculo que se ejecuta en una Pre Liquidación de Impuestos del e-CONCAR PRO",
     href: "/globalSireCb/generalidades/consulta-calculo-concar-pro",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2394,7 +2394,7 @@ export const dataGlobal = [
     description:
       "Esta opción nos va a permitir verificar los comprobantes y facturación electrónica registrado en el CONCAR CB y el modulo e-CONCAR PRO",
     href: "/globalSireCb/generalidades/consulta-situacion-comprobantes-concar-pro",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2405,7 +2405,7 @@ export const dataGlobal = [
     description:
       "Es el proceso de generar una nueva Pre-Liquidación de Impuestos para un periodo en el e-CONCAR PRO",
     href: "/globalSireCb/generalidades/elaboracion-liquidacion-impuestos-concar-pro",
-    tipo: "Pregunta Frecuente",
+    ttipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2438,7 +2438,7 @@ export const dataGlobal = [
     description:
       "El presente Manual tiene por finalidad servir como guía en la administración y operación del Modulo e-CONCAR PRO",
     href: "/globalSireCb/generalidades/finalidad-documento",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2449,7 +2449,7 @@ export const dataGlobal = [
     description:
       "El Módulo e-CONCAR PRO esta integrado con el Sistema de Contabilidad General Contable-Financiero CONCAR CB CodeBase® (CB), ya que migra su información a este ambiente",
     href: "/globalSireCb/generalidades/finalidad-descripcion-modulo-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2460,7 +2460,7 @@ export const dataGlobal = [
     description:
       "El Sistema Contable y Financiero CONCAR® CB ha sido desarrollado para ser utilizado por el área de Contabilidad, en la elaboración de los Libros contables, Balances y Estados Financieros, posibilitando de esta manera mejorar la oportunidad y confiabilidad de los resultados para la toma de decisiones por la Alta Dirección.",
     href: "/globalSireCb/generalidades/finalidad-descripcion-sistema-concar-cb",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2482,7 +2482,7 @@ export const dataGlobal = [
     description:
       "Esta opción inicializa los archivos de balance, centros de costos, cuentas automáticos y movimiento mensual. La ventana de la opción indica los casos en que se debe procesar y que se debe realizar después de este proceso.",
     href: "/globalSireCb/generalidades/inicializacion-balance",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2493,7 +2493,7 @@ export const dataGlobal = [
     description:
       "Estas opciones nos permiten realizar ediciones, consultas, reprocesos a los cálculos de Liquidaciones efectuadas en el modulo del e-CONCAR PRO",
     href: "/globalSireCb/generalidades/liquidacion-impuestos-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2536,7 +2536,7 @@ export const dataGlobal = [
     name: "Manual de Preguntas Frecuentes CONCAR CB",
     description: "Preguntas Frecuentes",
     href: "/globalSireCb/generalidades/manual-preguntas-frecuentes-concar-cb",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2547,7 +2547,7 @@ export const dataGlobal = [
     description:
       "Manual 2013 incluye las nuevas funcionalidades de los libros electrónicos PLE.",
     href: "/globalSireCb/generalidades/manual-usuario-concar-cb",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2558,7 +2558,7 @@ export const dataGlobal = [
     description:
       "Esta opción permite configurar parámetros del sistema los mismos que se guardan en el Mantenimiento de Tablas Generales - Tabla 93.",
     href: "/globalSireCb/generalidades/parametrizacion-general-sistema-concar-cb",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2569,7 +2569,7 @@ export const dataGlobal = [
     description:
       "Mediante este nuevo modulo hemos agregado la funcionalidad para elaborar una Pre-Liquidación de Impuestos",
     href: "/globalSireCb/generalidades/parametrizacion-liquidacion-impuestos-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2580,7 +2580,7 @@ export const dataGlobal = [
     description:
       "Para la ejecución correcta de la contabilización y consulta de los comprobantes de compras electrónicos, es necesario realizar los siguientes pasos previos",
     href: "/globalSireCb/generalidades/pasos-previo-configuracion-e-concar-pro",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2602,7 +2602,7 @@ export const dataGlobal = [
     description:
       "Este proceso realiza en forma específica lo siguiente: • Actualiza los saldos de las cuentas • Genera las cuentas automáticas de destinos • Revisa que todos los comprobantes estén finalizados en el mes",
     href: "/globalSireCb/generalidades/proceso-consolidacion",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2613,7 +2613,7 @@ export const dataGlobal = [
     description:
       "Esta opción se utiliza para reabrir un mes que se encuentra cerrado por haber realizado una Consolidación Definitiva; de este modo podrá ingresar o modificar comprobantes.",
     href: "/globalSireCb/generalidades/reapertura-mes-contable",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2624,7 +2624,7 @@ export const dataGlobal = [
     description:
       "Esta opción permite reordenar, entre otras, las siguientes bases de datos: • Tipos de Cambio • Tabla de Compañías • Tabla de Usuarios, Usuarios-Programas, Usuarios-Compañías",
     href: "/globalSireCb/generalidades/reindexar-bases-datos",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2635,7 +2635,7 @@ export const dataGlobal = [
     description:
       "Esta opción permite reordenar, entre otras, las siguientes bases de datos: • Movimiento Mensual • Conciliación Bancaria • Regularización y Ajuste por Diferencia de Cambio • Balances y Análisis de Cuenta",
     href: "/globalSireCb/generalidades/reindexar-bases-datos-mensuales",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2646,7 +2646,7 @@ export const dataGlobal = [
     description:
       "Esta opción permite reordenar, entre otras, las siguientes bases de datos: • Cabecera y Detalle de Comprobantes Contables • Numeración de Comprobantes • Estados de Cuenta • Cheques",
     href: "/globalSireCb/generalidades/reindexar-bases-datos-movimientos",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2657,7 +2657,7 @@ export const dataGlobal = [
     description:
       "Esta opción permite reordenar, entre otras, las siguientes bases de datos: • Plan de Cuentas • Tablas Generales • Anexos • Tabla de Transferencia • Tabla de Cierre • Cuentas Bancarias",
     href: "/globalSireCb/generalidades/reindexar-bases-datos-principales",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2701,7 +2701,7 @@ export const dataGlobal = [
     description:
       "El módulo de Utilitarios permite realizar procesos auxiliares asociados a la Administración del Sistema.",
     href: "/globalSireCb/generalidades/utilitarios",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2712,7 +2712,7 @@ export const dataGlobal = [
     description:
       "Esta opción es un medio de control para verificar la carga correcta de las ventas masivas del módulo e-CONCAR PRO al ambiente del CONCAR CB.",
     href: "/globalSireCb/generalidades/verificacion-carga-masiva-ventas",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2723,7 +2723,7 @@ export const dataGlobal = [
     description:
       "Esta opción es un medio de control para verificar la carga correcta de las compras masivas del modulo e-CONCAR PRO al ambiente del CONCAR CB.",
     href: "/globalSireCb/generalidades/verificacion-carga-masiva-compras",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
