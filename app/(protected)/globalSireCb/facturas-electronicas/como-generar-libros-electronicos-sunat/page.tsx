@@ -7,23 +7,44 @@ const page = () => {
     {
       id: 1,
       title:
-        "Como generar los libros electrónicos SUNAT de Libro Diario, Libro Diario de Formato Simplificado y Mayor",
-      href: "https://miconcar.com/uploads/documentos/689_CONCAR_CB_Como_generar_los_libros_electronicos_sunat_de_libro_diario_libro_diario_formato_simplificado_y_mayor.pdf",
+        "Cómo generar los libros electrónicos SUNAT de Libro Diario, Libro Diario de Formato Simplificado y Mayor",
+      href: "https://miconcar.com/uploads/documentos/1066_Cod.1066_Cod01053_c%C3%B3mo_generar_los_libros_electr%C3%B3nicos_sunat_de_libro_diario_libro_diario_de_formato_simplificado_y__mayor.pdf",
     },
   ];
   return (
     <div className="space-y-3">
-      <h1 className="font-bold">
-        Registro de Omisiones para Libro Diario y Mayor
-      </h1>
-
       <p>
-        Esta opción permite incluir asientos omitidos en meses anteriores en el
-        libro Diario y Mayor. Para poder incluir asientos en esta opción es
-        NECESARIO que el comprobante contable omitido se registre en el MES EN
-        QUE SE VA A REGUALIZAR su omisión.
+        A continuacion indicamos los pasos a realizar para la correcta emision
+        de sus Libros Electronicos Libro Diario - Diario Simplificado y Mayor,
+        adjuntamos el respectivo Manual para la emision.
       </p>
-
+      <p>
+        TEMA: Cómo generar los libros electrónicos SUNAT de Libro Diario, Libro
+        Diario de Formato Simplificado y Mayor
+      </p>
+      <div className="px-6 md:w-[45rem] h-96 lg:h-100%  mr-auto mb-10">
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+        >
+          <div
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/H5HyRmUXCuM?autoplay=0&amp;mute=0&amp;controls=0&"
+              id="widget2"
+            ></iframe>
+          </div>
+        </div>
+      </div>
       <Table items={data} />
     </div>
   );

@@ -2339,7 +2339,7 @@ export const dataGlobal = [
     description:
       "Una de sus funcionalidades de este Módulo e-CONCAR PRO es que nos permite trabajar con los Comprobante Compras de Factura Electrónica, el cual permite contabilizar los comprobantes XML de las facturas electrónicas de Compras que reciba de su Proveedor.",
     href: "/globalSireCb/generalidades/configuracion-previa-e-concar-pro",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2350,7 +2350,7 @@ export const dataGlobal = [
     description:
       "Terminado la Parametrización Consulta Sunat, se podrá validar la conexión y comunicación del módulo e-CONCAR PRO con la SUNAT de la siguiente manera.",
     href: "/globalSireCb/generalidades/configuracion-facturacion-electronica-e-concar-pro",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2361,7 +2361,7 @@ export const dataGlobal = [
     description:
       "Esta opción se encarga de procesar los comprobantes de un mes contable para permitir consultar e imprimir los estados financieros y reportes actualizados a dicho mes.",
     href: "/globalSireCb/generalidades/consolidacion",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2372,7 +2372,7 @@ export const dataGlobal = [
     description:
       "Esta opción se utiliza para consultar si el mes se encuentra abierto (P) o cerrado (D)",
     href: "/globalSireCb/generalidades/consulta-consolidacion",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2383,7 +2383,7 @@ export const dataGlobal = [
     description:
       "Permite validar como realizaron el calculo que se ejecuta en una Pre Liquidación de Impuestos del e-CONCAR PRO",
     href: "/globalSireCb/generalidades/consulta-calculo-concar-pro",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2394,7 +2394,7 @@ export const dataGlobal = [
     description:
       "Esta opción nos va a permitir verificar los comprobantes y facturación electrónica registrado en el CONCAR CB y el modulo e-CONCAR PRO",
     href: "/globalSireCb/generalidades/consulta-situacion-comprobantes-concar-pro",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
@@ -2405,7 +2405,7 @@ export const dataGlobal = [
     description:
       "Es el proceso de generar una nueva Pre-Liquidación de Impuestos para un periodo en el e-CONCAR PRO",
     href: "/globalSireCb/generalidades/elaboracion-liquidacion-impuestos-concar-pro",
-    ttipo: "Artículo",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Generalidades",
     palabrasClave: ["generalidades"],
