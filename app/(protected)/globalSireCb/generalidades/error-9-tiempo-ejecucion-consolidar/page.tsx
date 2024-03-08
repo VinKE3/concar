@@ -20,8 +20,8 @@ const page = () => {
       <Image
         alt="Error 9 en Tiempo de Ejecución al consolidar"
         src="https://miconcar.com/uploads/documentos/concar_cb_preguntas_frecuentes_error_9_en_tiempo_de_ejecucion_1_.jpg"
-        width={300}
-        height={300}
+        width={550}
+        height={550}
       />
       <Table items={data} />
     </div>

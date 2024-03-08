@@ -6,8 +6,8 @@ const page = () => {
     {
       id: 1,
       title:
-        "Como solucionar el mensaje de inconsistencia al presentar ple-compras columna 31 y 33",
-      href: "https://miconcar.com/uploads/documentos/1127_Cod.1127_D01114_como_solucionar_el_mensaje_de_inconsistencia_al_presentar_ple_compras_columna31_y_331.pdf",
+        "Como superar el mensaje error 9 - no coinciden los tipos al generar archivo mensual compras y/o ventas en concar sql",
+      href: "https://miconcar.com/uploads/documentos/1137_Cod.1137_D01124_como_superar-_el_mensaje_error_09_no_coinciden_los_tipos_al_generar_archivo_mensual_compras_y_ventas_en_concarsql.pdf",
     },
   ];
   return (

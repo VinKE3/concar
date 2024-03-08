@@ -2258,7 +2258,7 @@ export const dataGlobal = [
   },
   {
     id: 197,
-    name: "Archivos",
+    name: "Archivo (Base de datos)",
     description:
       "El módulo de Archivos permite efectuar el mantenimiento y consulta de las bases de datos del sistema.",
     href: "/globalSireCb/generalidades/archivos",
@@ -3834,7 +3834,7 @@ export const dataGlobal = [
     name: "Actualización de Tasas de Detracción",
     description: "Cómo actualizar las tasas de detracción.",
     href: "/globalSireCb/compras/actualizacion-tasas-detraccion",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -3856,7 +3856,7 @@ export const dataGlobal = [
     description:
       "Permite registrar los documentos de las operaciones de compras (sólo las provisiones). El sistema genera el asiento afectando la cuenta del impuesto y la provisión a la cuenta por pagar; debiendo el usuario afectar la cuenta de gastos, activos o compras de existencias.",
     href: "/globalSireCb/compras/comprobante-compras",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -3867,7 +3867,7 @@ export const dataGlobal = [
     description:
       "Para poder utilizar esta opción deberá tener el módulo de Almacenes de Real Systems integrado al Concar®.",
     href: "/globalSireCb/compras/comprobantes-compras-almacen-partes-entrada",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -3878,7 +3878,7 @@ export const dataGlobal = [
     description:
       "Se utiliza para registrar los documentos que sirven para sustentar la rendición de caja chica sin registrar por cada uno de ellos una cuenta 42XXXX o 43XXXX. En esta opción se realiza tanto la provisión como la cancelación en un mismo asiento, quedando a elección del usuario los documentos que se registrarán en el Registro de Compras.",
     href: "/globalSireCb/compras/comprobantes-compras-contado",
-    tipo: "Pregunta Frecuente",
+    tipo: "Artículo",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -3922,7 +3922,7 @@ export const dataGlobal = [
     description:
       "Como regularizar la diferencia de cambio generada en la cuenta de detracciones después del pago de la detracción.",
     href: "/globalSireCb/compras/diferencia-cambio-cuenta-detracciones",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso Práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -3977,7 +3977,7 @@ export const dataGlobal = [
     description:
       "Cómo registrar las percepciones de IGV en compras, a través de la opción Compras Contado, para que se muestren en el Formato 8.1 Registro de Compras.",
     href: "/globalSireCb/compras/registro-compras-percepcion-compras-contado",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -3999,7 +3999,7 @@ export const dataGlobal = [
     description:
       "Cómo registrar liquidaciones de compras (tipo 04 en registro de compras).",
     href: "/globalSireCb/compras/registro-liquidaciones-compra",
-    tipo: "Pregunta Frecuente",
+    tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",
     palabrasClave: ["compras"],
@@ -4284,7 +4284,7 @@ export const dataGlobal = [
     name: "Registro de una compra afecta al Impuesto Selectivo al Consumo (ISC) - Incluye Video",
     description:
       "Cómo registrar una compra afecta al impuesto selectivo al consumo (ISC)",
-    href: "/global/registro-compra-afecta-isc",
+    href: "/globalSireCb/compras/registro-compra-afecta-isc",
     tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Compras",

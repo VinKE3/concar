@@ -1,3 +1,4 @@
+import TablaDocumentosRelacionados from "@/components/TablaDocumentosRelacionados";
 import Table from "@/components/Table";
 import Image from "next/image";
 import React from "react";
@@ -6,8 +7,11 @@ const page = () => {
   const data = [
     {
       id: 1,
-      title: "Importaciones - Ingreso de la Factura del Agente de Aduana",
-      href: "https://miconcar.com/uploads/documentos/721_CONCAR_SQL_Importaciones_ingreso_de_la_factura_del_agente_aduana1.pdf",
+      title:
+        "IMPORTACION -¿Cómo contabilizar Compras No Domiciliadas de Servicios? - Invoice - Incluye Video",
+      description:
+        "A continuación detallamos los pasos para registrar Compras No Domiciliadas - Servicios en el sistema correctamente",
+      href: "/globalSireCb/compras/contabilizar-compras-no-domiciliadas-servicios",
     },
   ];
   return (
@@ -19,7 +23,7 @@ const page = () => {
         La secuencia es la misma que la explicada en Importaciones - Registro de
         Factura del Exterior (Invoice).
       </p>
-      <Table items={data} />
+      <TablaDocumentosRelacionados items={data} />
     </div>
   );
 };

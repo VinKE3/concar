@@ -14,15 +14,6 @@ const page = () => {
       </h1>
       <Image
         alt="proveedor-incompleto-registro-compras"
-        src="/proveedor-incompleto-registro-compras.png"
-        width={500}
-        height={500}
-      />
-      <h1 className="font-bold">
-        1. No se ve tipo, ni número de documento de identidad
-      </h1>
-      <Image
-        alt="proveedor-incompleto-registro-compras"
         src="https://miconcar.com/uploads/documentos/concar_cb_registro_compras_anexo_1_.jpg"
         width={500}
         height={500}

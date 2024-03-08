@@ -21,6 +21,7 @@ const page = () => {
         Para conocer el funcionamiento te invito que revises el documento
         adjunto líneas abajo
       </p>
+      <Table items={data} />
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import TablaDocumentosRelacionados from "@/components/TablaDocumentosRelacionados";
 import Table from "@/components/Table";
 import Image from "next/image";
 import React from "react";
@@ -6,8 +7,10 @@ const page = () => {
   const data = [
     {
       id: 1,
-      title: "Que contiene la Tabla General",
-      href: "https://miconcar.com/uploads/documentos/1062_Cod.1062_D01049_que_contiene_la_tabla_general.pdf",
+      title: "Saldos inconsistentes en cuentas del balance de comprobación",
+      description:
+        "Las cuentas del balance de comprobación muestran saldos inconsistentes.",
+      href: "/globalSireCb/otros-reportes/saldos-inconsistentes-cuentas-balance",
     },
   ];
   return (
@@ -48,6 +51,7 @@ const page = () => {
         Paso 4: Se va a Análisis de Cuenta/Generación de Archivo de Saldo por
         Documento/ Procesar, al último día del último mes consolidado.
       </p>
+      <TablaDocumentosRelacionados items={data} />
     </div>
   );
 };
