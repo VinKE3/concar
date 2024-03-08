@@ -6,7 +6,7 @@ const page = () => {
     {
       id: 1,
       title: "Manual PLE Inventarios y Balances",
-      href: "https://miconcar.com/uploads/documentos/1001_Manual_ple_5.0_Inventarios_y_Balances.pdf",
+      href: "https://miconcar.com/uploads/documentos/1002_Manual_ple_5.0_Inventarios_y_Balances_CB.pdf",
     },
     {
       id: 2,

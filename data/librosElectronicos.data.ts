@@ -184,7 +184,7 @@ export const dataSubLibros = [
           {
             id: 24,
             title:
-              " 1.1.4 Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
+              "1.1.4 Errores detectados en el PLE-SUNAT al validar el libro electrónico de compras",
             description:
               "El programa de libros electrónicos (PLE-SUNAT) emite una constancia con los errores detectados al validar el libro electrónico de compras. Se detallan los errores más comunes y como subsanarlos.",
             href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validar-libro-electronico-compras",

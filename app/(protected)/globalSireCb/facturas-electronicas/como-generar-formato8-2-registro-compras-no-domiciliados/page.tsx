@@ -6,7 +6,7 @@ const page = () => {
     {
       id: 1,
       title: "Manual PLE CONCAR SQL",
-      href: "https://miconcar.com/uploads/documentos/988_Manual_PLE_5_0_CONCAR_SQL(2)1.pdf",
+      href: "https://miconcar.com/uploads/documentos/987_Manual_PLE_5_0_CONCAR_CB_(2)1.pdf",
     },
   ];
   return (
@@ -56,6 +56,14 @@ const page = () => {
         Para ver el instructivo para ésta nueva opción vaya al documento adjunto
         Cómo generar Formato 8.2 Registro de Compras a No Domiciliados PLE 5.0.
       </p>
+      <h1 className="font-bold">Pasos a seguir:</h1>
+      <ul className="list-decimal px-5">
+        <li>Configure los parámetros de Compras de No Domiciliados.</li>
+        <li>Registre los comprobantes.</li>
+        <li>
+          Genere el archivo PLE Formato 8.2 Registro de compras no domiciliados.
+        </li>
+      </ul>
       <Table items={data} />
     </div>
   );

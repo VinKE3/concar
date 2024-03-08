@@ -74,7 +74,7 @@ export const dataGlobal = [
   },
   {
     id: 6,
-    name: "Cómo generar los libros electrónicos de Compras,Ventas",
+    name: "Cómo generar los libros electrónicos de Compras y Ventas",
     description:
       "Procedimiento para poder realizar el proceso de generación de los libros electrónicos de Compras, Ventas, Diario, Diario de Formato Simplificado y Mayor para SUNAT en el sistema CONCAR®",
     href: "/globalSireCb/facturas-electronicas/generar-libros-electronicos-compras-ventas",
@@ -131,16 +131,16 @@ export const dataGlobal = [
     tema: "Libros Electrónicos",
     palabrasClave: ["libro electronico", "ventas", "tipos"],
   },
-  {
-    id: 10,
-    name: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
-    description: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
-    href: "/globalSireCb/facturas-electronicas/error-no-coinciden-tipos-ventas",
-    tipo: "Pregunta Frecuente",
-    categorias: ["CONCARCBVIRTUAL"],
-    tema: "Libros Electrónicos",
-    palabrasClave: ["libro electronico", "compras", "documento de referencia"],
-  },
+  // {
+  //   id: 10,
+  //   name: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
+  //   description: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
+  //   href: "/globalSireCb/facturas-electronicas/error-no-coinciden-tipos-ventas",
+  //   tipo: "Pregunta Frecuente",
+  //   categorias: ["CONCARCBVIRTUAL"],
+  //   tema: "Libros Electrónicos",
+  //   palabrasClave: ["libro electronico", "compras", "documento de referencia"],
+  // },
   {
     id: 11,
     name: "Fecha de Vencimiento en Recibos de Servicios Públicos en el Registro de Compras Electrónico",
@@ -173,7 +173,7 @@ export const dataGlobal = [
     name: "Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Este tutorial contiene todo lo relacionado a la creación de los libros electrónicos Diario, Diario Simplificado y Mayor en el sistema CONCAR®.",
-    href: "/globalSireCb/facturas-electronicas/generacion-libro-diario-simplificado",
+    href: "/globalSireCb/facturas-electronicas/generacion-de-los-libros-electronicos-diario",
     tipo: "Tutorial",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Libros Electrónicos",
