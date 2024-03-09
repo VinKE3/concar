@@ -7,8 +7,15 @@ const page = () => {
   const data = [
     {
       id: 1,
-      title: "¿Se pueden crear ejercicios anteriores en la misma compañía?",
-      href: "https://miconcar.com/uploads/documentos/784_CONCAR_CB_Se_pueden_crear_ejercicios_anteriores_en_la_misma_compa%C3%B1ia.pdf",
+      title:
+        "Cómo Generar los Libros Electrónicos Diario, Diario Simplificado y Mayor.",
+      href: "/globalSireCb/facturas-electronicas/generacion-libro-diario-simplificado",
+    },
+    {
+      id: 2,
+      title:
+        "Registro de Omisiones en los Libros Electrónicos Diario, Diario Simplificado y Mayor.",
+      href: "/globalSireCb/facturas-electronicas/registro-omisiones-libro-diario-simplificado",
     },
   ];
   return (

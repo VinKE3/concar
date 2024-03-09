@@ -131,18 +131,8 @@ export const dataGlobal = [
     tema: "Libros Electrónicos",
     palabrasClave: ["libro electronico", "ventas", "tipos"],
   },
-  // {
-  //   id: 10,
-  //   name: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
-  //   description: "Error No Coinciden los Tipos en Libro Electrónico de Ventas.",
-  //   href: "/globalSireCb/facturas-electronicas/error-no-coinciden-tipos-ventas",
-  //   tipo: "Pregunta Frecuente",
-  //   categorias: ["CONCARCBVIRTUAL"],
-  //   tema: "Libros Electrónicos",
-  //   palabrasClave: ["libro electronico", "compras", "documento de referencia"],
-  // },
   {
-    id: 11,
+    id: 10,
     name: "Fecha de Vencimiento en Recibos de Servicios Públicos en el Registro de Compras Electrónico",
     description:
       "Al intentar generar el archivo electrónico de Registro de Compras sale error por no tener configurada y/o ingresada la fecha de vencimiento en los recibos de servicios públicos código de documento SUNAT 14.",
@@ -158,7 +148,7 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     name: "Formatos Inventarios y Balances PLE 5.0",
     description:
       "Configuración y emisión de Libros Electrónicos Inventarios y Balances",
@@ -169,7 +159,7 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "inventarios", "balances", "ple 5.0"],
   },
   {
-    id: 13,
+    id: 12,
     name: "Generación de los Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Este tutorial contiene todo lo relacionado a la creación de los libros electrónicos Diario, Diario Simplificado y Mayor en el sistema CONCAR®.",
@@ -185,8 +175,24 @@ export const dataGlobal = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     name: "Libros electrónicos del diario, mayor, y diario simplificado",
+    description:
+      "Se detalla el proceso para la generación, validación y carga óptima de los libros electrónicos Diario, Diario Simplificado y Mayor en el Programa de Libros Electrónicos (PLE-SUNAT).",
+    href: "/globalSireCb/facturas-electronicas/libro-electronico-del-diario-simplificado",
+    tipo: "Tutorial",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Electrónicos",
+    palabrasClave: [
+      "libro electronico",
+      "diario",
+      "diario simplificado",
+      "mayor",
+    ],
+  },
+  {
+    id: 14,
+    name: "Libros Electrónicos Diario, Diario Simplificado y Mayor",
     description:
       "Se detalla el proceso para la generación, validación y carga óptima de los libros electrónicos Diario, Diario Simplificado y Mayor en el Programa de Libros Electrónicos (PLE-SUNAT).",
     href: "/globalSireCb/facturas-electronicas/libro-electronico-diario-simplificado",
@@ -734,7 +740,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error en el número de serie para el documento de tipo 01 Factura",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie del documento tipo 01 factura.",
-    href: "/globalSireCb/facturas-electronicas/error-tipo01-factura",
+    href: "/globalSireCb/facturas-electronicas/error-tipo01-factura-ventas",
     tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Libros Electrónicos",
@@ -750,7 +756,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 03 Boleta de Venta",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 03 Boleta de Venta.",
-    href: "/globalSireCb/facturas-electronicas/error-documento03-boleta-venta",
+    href: "/globalSireCb/facturas-electronicas/error-documento03-boleta-venta-ventas",
     tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Libros Electrónicos",
@@ -814,7 +820,7 @@ export const dataGlobal = [
     name: "Validación de Libro Electrónico de Ventas - Error número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros",
     description:
       "Al intentar generar el libro electrónico de Registro de Ventas aparece una observación por no consignar correctamente el número de serie para el documento de tipo 55 BVME para transporte ferroviario de pasajeros.",
-    href: "/globalSireCb/facturas-electronicas/error-tipo55-transporte-ferroviario",
+    href: "/globalSireCb/facturas-electronicas/error-tipo55-transporte-ferroviario-ventas",
     tipo: "Caso práctico",
     categorias: ["CONCARCBVIRTUAL"],
     tema: "Libros Electrónicos",
