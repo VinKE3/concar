@@ -218,6 +218,16 @@ export const dataGlobal = [
     palabrasClave: ["libro electronico", "diario", "diario simplificado"],
   },
   {
+    id: 15.5,
+    name: "Registro de Ventas Electrónico",
+    description: "Ple de ventas",
+    href: "/globalSireCb/facturas-electronicas/registro-de-ventas-electronico",
+    tipo: "Caso práctico",
+    categorias: ["CONCARCBVIRTUAL"],
+    tema: "Libros Electrónicos",
+    palabrasClave: ["libro electronico", "diario", "diario simplificado"],
+  },
+  {
     id: 16,
     name: "Ventas a No Domiciliados en Libro Electrónico de Ventas",
     description:
