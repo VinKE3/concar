@@ -1,6 +1,6 @@
 "use client";
 import Heading from "@/components/Heading";
-import { data } from "@/data/libroElectronicoRegistroCompras.data";
+import { data } from "@/data/libroElectronicoRegistroComprasSireCB.data";
 import List from "@/components/List";
 
 const LibroElectronicoRegistroCompra = () => {

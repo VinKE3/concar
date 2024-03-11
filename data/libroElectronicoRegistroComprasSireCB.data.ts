@@ -83,7 +83,7 @@ export const data = [
         id: 10,
         title:
           "Falta documento de referencia para el documento tipo 07 Nota de Crédito.",
-        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/falta-documento07-nota-credito",
+        href: "/globalSireCb/facturas-electronicas/falta-documento07-nota-credito",
       },
       {
         id: 11,
@@ -95,7 +95,7 @@ export const data = [
         id: 12,
         title:
           "Error en número de serie para el documento de tipo 52 DUA Simplificada.",
-        href: "/tutoriales/libros-electronicos/libros-electronicos/libro-electronico-registro-compras/validacion-registro-compras-ple/error-documento52-dua-simplificada",
+        href: "/globalSireCb/facturas-electronicas/error-documento52-dua-simplificada",
       },
       {
         id: 13,
