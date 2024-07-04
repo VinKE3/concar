@@ -22,8 +22,8 @@ const page = () => {
       <Image
         alt="procesoRegularizacion.png"
         src="/compras/contabilizar.png"
-        width={200}
-        height={200}
+        width={350}
+        height={500}
       />
       <p>
         Nota: Para la version Concar SQL no es necesario Consolidar y ejecutar
