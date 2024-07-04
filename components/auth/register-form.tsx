@@ -30,11 +30,13 @@ import { ambiente, tipo, estado, UserRole } from "@prisma/client";
 import moment from "moment";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { useRouter } from "next/navigation";
 
 export const RegisterForm = () => {
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");
   const [isPending, startTransition] = useTransition();
+  const router = useRouter();
 
   const form = useForm<z.infer<typeof RegisterSchema>>({
     resolver: zodResolver(RegisterSchema),
@@ -63,6 +65,8 @@ export const RegisterForm = () => {
         setSuccess(data.success);
       });
     });
+    router.push("/client/admin");
+    router.refresh();
   };
 
   return (
