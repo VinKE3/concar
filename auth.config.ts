@@ -84,4 +84,9 @@ export default {
       return token;
     },
   },
+  session: {
+    strategy: "jwt",
+    maxAge: 1200, // Expira después de 20 minutos
+    updateAge: 600, // Se renueva cada 10 minutos de actividad
+  },
 } satisfies NextAuthConfig;

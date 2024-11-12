@@ -70,12 +70,7 @@ export const RegisterForm = () => {
   };
 
   return (
-    <CardWrapper
-      headerLabel="Crear una cuenta"
-      backButtonOn
-      backButtonLabel="Ya tienes una cuenta? Inicia sesión"
-      backButtonHref="/auth/login"
-    >
+    <CardWrapper headerLabel="Crear una cuenta">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
           <div className="space-y-4">

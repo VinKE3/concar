@@ -9,6 +9,7 @@ export default function Home() {
         <div className="py-5">
           <div className="grid grid-cols-1 md:grid-cols-2 mb-5">
             <Image src="/inicio/1.jpg" alt="logo" width={1200} height={1200} />
+
             <LoginForm />
           </div>
           <div className="space-y-10">

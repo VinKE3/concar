@@ -15,10 +15,7 @@ export default auth(async (req) => {
   const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);
   const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
   const isAuthRoute = authRoutes.includes(nextUrl.pathname);
-  const userStatus = req.auth?.user?.estado;
-  const isInactive = userStatus === "Inactivo";
-  const userId = req.auth?.user?.id;
-  const userNoExiste = userId === undefined || userId === null;
+
   if (isApiAuthRoute) {
     return null;
   }
@@ -31,9 +28,6 @@ export default auth(async (req) => {
   }
 
   if (!isLoggedIn && !isPublicRoute) {
-    // if (isInactive || userNoExiste) {
-    //   await signOut();
-    // }
     let callbackUrl = nextUrl.pathname;
     if (nextUrl.search) {
       callbackUrl += nextUrl.search;
@@ -49,7 +43,6 @@ export default auth(async (req) => {
   return null;
 });
 
-// Optionally, don't invoke Middleware on some paths
 export const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
 };
