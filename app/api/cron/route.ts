@@ -15,24 +15,18 @@ export async function GET(request: NextRequest) {
     });
   }
 
-  const hoy = new Date();
+  const today = new Date();
 
-  const usuariosVencidos = await db.user.findMany({
+  const updatedUsers = await db.user.updateMany({
     where: {
-      vencimiento: {
-        lt: hoy,
-      },
-      estado: "Vigente",
+      AND: [{ vencimiento: { lte: today } }, { estado: "Vigente" }],
+    },
+    data: {
+      estado: "Inactivo",
     },
   });
 
-  await Promise.all(
-    usuariosVencidos.map((usuario) =>
-      db.user.update({
-        where: { id: usuario.id },
-        data: { estado: "Inactivo" },
-      })
-    )
-  );
+  console.log(`${updatedUsers.count} usuarios actualizados con éxito`);
+
   return NextResponse.json({ message: "Usuarios actualizados con éxito" });
 }
