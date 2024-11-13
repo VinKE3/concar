@@ -148,7 +148,7 @@ export const RegisterForm = () => {
                 )}
               />
             </div>
-            <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
+            {/* <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
               <FormField
                 control={form.control}
                 name="ambiente"
@@ -203,8 +203,8 @@ export const RegisterForm = () => {
                   </FormItem>
                 )}
               />
-            </div>
-            <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
+            </div> */}
+            {/* <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
               <FormField
                 control={form.control}
                 name="estado"
@@ -249,7 +249,7 @@ export const RegisterForm = () => {
                   </FormItem>
                 )}
               />
-            </div>
+            </div> */}
             <div className="grid grid-cols1 md:grid-cols-2 md:space-x-2">
               <div className="mb-4">
                 <label
@@ -274,7 +274,7 @@ export const RegisterForm = () => {
                   )}
                 />
               </div>
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <label
                   className="block text-gray-600 font-semibold text-sm mb-2"
                   htmlFor="fechaNacimiento"
@@ -296,7 +296,7 @@ export const RegisterForm = () => {
                     />
                   )}
                 />
-              </div>
+              </div> */}
             </div>
             <FormField
               control={form.control}

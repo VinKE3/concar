@@ -59,5 +59,5 @@ export const register = async (values: z.infer<typeof RegisterSchema>) => {
   //   name
   // );
 
-  return { success: "Uusuario Creado!" };
+  return { success: "Usuario Creado!" };
 };
