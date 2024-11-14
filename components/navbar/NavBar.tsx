@@ -1,25 +1,48 @@
 "use client";
-import { Redressed } from "next/font/google";
 import Container from "../Container";
 import UserMenu from "./UserMenu";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
-import { signOut } from "next-auth/react";
 import { User } from "next-auth";
 import { UserRole } from "@prisma/client";
+import moment from "moment";
+import { useEffect } from "react";
+import { toast } from "sonner";
 
 interface NavBarProps {
-  currentUser: (User & { role: UserRole }) | null | undefined;
+  currentUser:
+    | (User & { role: UserRole; vencimiento: Date; estado: string })
+    | null
+    | undefined;
 }
-const redressed = Redressed({ subsets: ["latin"], weight: ["400"] });
 
 const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
-  // useEffect(() => {
-  //   if (window.location.pathname === "/" && currentUser) {
-  //     signOut();
-  //   }
-  // }, []);
+  console.log(currentUser?.estado);
+  function getDaysRemaining({ vencimiento }: { vencimiento: Date }) {
+    const now = moment();
+    const vencimientoMoment = moment(vencimiento);
+    const daysRemaining = vencimientoMoment.diff(now, "days");
+
+    return daysRemaining;
+  }
+  const daysRemaining = currentUser?.vencimiento
+    ? getDaysRemaining({ vencimiento: currentUser.vencimiento })
+    : undefined;
+
+  const shouldShowToast =
+    currentUser?.estado === "Vigente" &&
+    daysRemaining !== undefined &&
+    daysRemaining <= 7;
+
+  useEffect(() => {
+    if (shouldShowToast)
+      toast.warning("Vencimiento", {
+        description: `Tu membresía expira en ${daysRemaining} días. ¡Renueva ahora!`,
+        duration: 5000,
+        position: "bottom-right",
+      });
+  }, [currentUser, shouldShowToast]);
+
   return (
     <div
       className="
