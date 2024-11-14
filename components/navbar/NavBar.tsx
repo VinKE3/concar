@@ -17,7 +17,6 @@ interface NavBarProps {
 }
 
 const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
-  console.log(currentUser?.estado);
   function getDaysRemaining({ vencimiento }: { vencimiento: Date }) {
     const now = moment();
     const vencimientoMoment = moment(vencimiento);
