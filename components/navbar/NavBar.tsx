@@ -34,13 +34,22 @@ const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
     daysRemaining <= 7;
 
   useEffect(() => {
-    if (shouldShowToast)
-      toast.warning("Vencimiento", {
-        description: `Tu membresía expira en ${daysRemaining} días. ¡Renueva ahora!`,
-        duration: 5000,
-        position: "bottom-right",
-      });
-  }, [currentUser, shouldShowToast]);
+    if (shouldShowToast) {
+      if (daysRemaining === 1) {
+        toast.warning("Vencimiento", {
+          description: "¡Tu membresía vence mañana! Renueva ahora.",
+          duration: 5000,
+          position: "bottom-right",
+        });
+      } else {
+        toast.warning("Vencimiento", {
+          description: `Tu membresía expira en ${daysRemaining} días. ¡Renueva ahora!`,
+          duration: 5000,
+          position: "bottom-right",
+        });
+      }
+    }
+  }, [currentUser, shouldShowToast, daysRemaining]);
 
   return (
     <div
