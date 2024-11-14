@@ -7,13 +7,13 @@ export async function GET(request: NextRequest) {
   // ) {
   //   return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   // }
-  const authHeader = request.headers.get("Authorization");
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
-    return new NextResponse(JSON.stringify({ error: "Unauthorized" }), {
-      status: 401,
-      headers: { "Content-Type": "application/json" },
-    });
-  }
+  // const authHeader = request.headers.get("Authorization");
+  // if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+  //   return new NextResponse(JSON.stringify({ error: "Unauthorized" }), {
+  //     status: 401,
+  //     headers: { "Content-Type": "application/json" },
+  //   });
+  // }
 
   const today = new Date();
 
