@@ -20,10 +20,17 @@ export const authRoutes = [
 
 /**
  * The prefix for API authentication routes
- * Routes that start with this prefix are used for API authentication purposes
+ * Routes that start with this prefix are used for API authentication purposes.
  * @type {string}
  */
 export const apiAuthPrefix = "/api/auth";
+
+/**
+ * The prefix for API cron job routes
+ * Routes that start with this prefix are used for API cron job purposes.
+ * @type {string}
+ */
+export const apiCronPrefix = "/api/cron";
 
 /**
  * The default redirect path after logging in
