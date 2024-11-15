@@ -31,7 +31,7 @@ const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
   const shouldShowToast =
     currentUser?.estado === "Vigente" &&
     daysRemaining !== undefined &&
-    daysRemaining <= 7;
+    daysRemaining <= 3;
 
   useEffect(() => {
     if (shouldShowToast) {
