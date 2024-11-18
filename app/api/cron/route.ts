@@ -13,7 +13,19 @@ export async function GET(request: NextRequest) {
       )
     );
 
-    // Actualiza usuarios con vencimiento menor o igual a `nextDayMidnightUTC`
+    // Busca usuarios para depurar
+    const usersToUpdate = await db.user.findMany({
+      where: {
+        AND: [
+          { vencimiento: { lte: nextDayMidnightUTC } },
+          { estado: "Vigente" },
+        ],
+      },
+    });
+
+    console.log("Usuarios a actualizar:", usersToUpdate);
+
+    // Si hay usuarios, actualízalos
     const updatedUsers = await db.user.updateMany({
       where: {
         AND: [
