@@ -7,6 +7,7 @@ import {
   publicRoutes,
   apiCronPrefix,
 } from "@/routes";
+import { NextResponse } from "next/server";
 
 const { auth } = NextAuth(authConfig);
 
@@ -17,10 +18,12 @@ export default auth(async (req) => {
   const isApiCronRoute = nextUrl.pathname.startsWith(apiCronPrefix);
   const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
   const isAuthRoute = authRoutes.includes(nextUrl.pathname);
-  if (isApiAuthRoute || isApiCronRoute) {
+  if (isApiAuthRoute) {
     return null;
   }
-
+  if (isApiCronRoute) {
+    return NextResponse.next();
+  }
   if (isAuthRoute) {
     if (isLoggedIn) {
       return Response.redirect(new URL(DEFAULT_LOGIN_REDIRECT, nextUrl));
@@ -45,5 +48,5 @@ export default auth(async (req) => {
 });
 
 export const config = {
-  matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
+  matcher: ["/((?!.+\\.[\\w]+$|_next|api/cron).*)", "/", "/(api|trpc)(.*)"],
 };
