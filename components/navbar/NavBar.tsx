@@ -28,6 +28,8 @@ const NavBar: React.FC<NavBarProps> = ({ currentUser }) => {
     ? getDaysRemaining({ vencimiento: currentUser.vencimiento })
     : undefined;
 
+  console.log(currentUser?.vencimiento);
+
   const shouldShowToast =
     currentUser?.estado === "Vigente" &&
     daysRemaining !== undefined &&

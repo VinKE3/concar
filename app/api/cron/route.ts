@@ -1,23 +1,22 @@
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/db";
+
+// Extiende Day.js con el plugin UTC
+dayjs.extend(utc);
 
 export async function GET(request: NextRequest) {
   try {
     // Define la fecha actual y el día siguiente a medianoche en UTC
-    const today = new Date();
-    const nextDayMidnightUTC = new Date(
-      Date.UTC(
-        today.getUTCFullYear(),
-        today.getUTCMonth(),
-        today.getUTCDate() + 1
-      )
-    );
+    const today = dayjs().utc(); // Fecha actual en UTC
+    const nextDayMidnightUTC = today.add(1, "day").startOf("day"); // Próximo día a medianoche en UTC
 
-    // Busca usuarios para depurar
+    // Busca usuarios con vencimiento menor o igual a `nextDayMidnightUTC` y estado "Vigente"
     const usersToUpdate = await db.user.findMany({
       where: {
         AND: [
-          { vencimiento: { lte: nextDayMidnightUTC } },
+          { vencimiento: { lte: nextDayMidnightUTC.toDate() } }, // Convierte a Date para Prisma
           { estado: "Vigente" },
         ],
       },
@@ -25,11 +24,11 @@ export async function GET(request: NextRequest) {
 
     console.log("Usuarios a actualizar:", usersToUpdate);
 
-    // Si hay usuarios, actualízalos
+    // Actualiza el estado de los usuarios
     const updatedUsers = await db.user.updateMany({
       where: {
         AND: [
-          { vencimiento: { lte: nextDayMidnightUTC } },
+          { vencimiento: { lte: nextDayMidnightUTC.toDate() } },
           { estado: "Vigente" },
         ],
       },
@@ -39,10 +38,10 @@ export async function GET(request: NextRequest) {
     });
 
     // Registra información relevante
-    console.log("Hoy (UTC):", today.toISOString());
+    console.log("Hoy (UTC):", today.format());
     console.log(
       "Siguiente día a medianoche (UTC):",
-      nextDayMidnightUTC.toISOString()
+      nextDayMidnightUTC.format()
     );
     console.log(
       `${updatedUsers.count || 0} usuario(s) actualizado(s) con éxito`
